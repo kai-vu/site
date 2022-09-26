@@ -24,7 +24,7 @@ We combine foundational theory and applied methods such as computational logic, 
 <img src="images/ilaria.png" width="200" height="200">
 <img src="images/stefan.png" width="200" height="200">
 <img src="images/lise.png" width="200" height="200">
-<img src="images/benno.png" width="200" height="200">
+<img src="images/benno.jpg" width="200" height="200">
 <img src="images/mark.png" width="200" height="200">
 <img src="images/romana.png" width="200" height="200">
 <img src="images/loan.png" width="200" height="200">
