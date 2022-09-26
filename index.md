@@ -21,18 +21,18 @@ We combine foundational theory and applied methods such as computational logic, 
 
 
 ## People
-- <img source="ilaria.png" width="200">
-- <img source="stefan.png" width="200">
-- <img source="lise.png" width="200">
-- <img source="benno.png" width="200">
-- <img source="mark.png" width="200">
-- <img source="romana.png" width="200">
-- <img source="loan.png" width="200">
-- <img source="unmesh.png" width="200">
+<img source="images/ilaria.png" width="200" height="200">
+<img source="images/stefan.png" width="200" height="200">
+<img source="images/lise.png" width="200" height="200">
+<img source="images/benno.png" width="200" height="200">
+<img source="images/mark.png" width="200" height="200">
+<img source="images/romana.png" width="200" height="200">
+<img source="images/loan.png" width="200" height="200">
+<img source="images/unmesh.png" width="200" height="200">
 
 ## Projects
-- <img source="muhai.png" width="200">
-- <img source="hybrid.png" width="200">
-- <img source="discovery.png" width="200">
-- <img source="coda.png" width="200">
-- <img source="dreams.png" width="200">
+<img source="images/muhai.png" height="100">
+<img source="images/hybrid.png" height="100">
+<img source="images/discovery.png" height="100">
+<img source="images/coda.png" height="100">
+<img source="images/dreams.png" height="100">
