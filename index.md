@@ -30,7 +30,7 @@ We combine foundational theory and applied methods such as computational logic, 
 <div style="text-align: center; width:200px; display:inline-block;"><img src="images/romana.jpg" width="200" height="200"><br>Romana Pernisch</div>
 <div style="text-align: center; width:200px; display:inline-block;"><img src="images/loan.png" width="200" height="200"><br>Loadn Ho</div>
 <div style="text-align: center; width:200px; display:inline-block;"><img src="images/unmesh.png" width="200" height="200"><br>Unmesh Joshi</div>
-</p>
+</div>
 
 ## Projects
 <img src="images/muhai.png" height="100">
