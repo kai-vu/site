@@ -1,9 +1,9 @@
 <nav><ul>
-<li href="theses"><a href="/"><-- Theses</a></li>
+<li><a href="/theses"><-- Theses</a></li>
 </ul></nav>
 
 
-# ‘What to expect?’ -  MSc. & BSc. project supervision
+# What to expect? -  MSc. & BSc. project supervision
 
 #### Meetings
 * Be prepared when going into a meeting with a supervisor. Make a list of questions you had/where you got stuck, and show clear examples. 
