@@ -3,34 +3,35 @@ title: Student Theses at KAI
 ---
 
 <nav><ul>
-<li class="home"><a href="/">Student Theses at KAI</a></li>
-<li><a href="#ontology">Ontology Engineering and Ontology Evolution</a></li>
+<li class="home"><a href="/"><-- KAI</a></li>
+<li><a href="#internal">VU Theses</a></li>
 <li><a href="#internships">Internships</a></li>
 </ul></nav>
 
 
 
+## VU Theses
 
-## Ontology Engineering and Ontology Evolution
+#### Ontology Engineering and Ontology Evolution
 
-## Information Extraction
+#### Information Extraction
 
-## Argument Mining
+#### Argument Mining
 
-## Narratives
+#### Narratives
 
-## Question Answering
+#### Question Answering
 
-## Multi-lingual problems
+#### Multi-lingual problems
 
 ## Internships
 
-### Elsevier
+#### Elsevier
 
-### CFLW Cyber Strategies
+#### CFLW Cyber Strategies
 
-### Lareb
+#### Lareb
 
-### Accenture
+#### Accenture
 
-### Triply
+#### Triply
