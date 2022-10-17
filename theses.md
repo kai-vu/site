@@ -4,16 +4,15 @@ title: Student Theses at KAI
 
 <nav><ul>
 <li class="home"><a href="/"><-- KAI</a></li>
-<li><a href="#internal">VU Theses</a>
+<li><a href="#internal">VU Theses</a></li>
     <ul>
     <li><a href="#ontology">Multi-lingual problems</li>
     </ul>
-</li>
-<li><a href="#internships">Internships</a>
+
+<li><a href="#internships">Internships</a></li>
     <ul>
     <li><a href="#elsevier">Elsevier</li>
     </ul>
-</li>
 </ul></nav>
 
 # Expectations
