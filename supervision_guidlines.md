@@ -1,5 +1,5 @@
 <nav><ul>
-<li><a href="/theses"><-- Theses</a></li>
+<li><a href="theses"><-- Theses</a></li>
 </ul></nav>
 
 
