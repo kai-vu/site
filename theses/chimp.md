@@ -1,3 +1,12 @@
+---
+title: ChImp 2.0
+---
+
+<nav><ul>
+<li><a href="theses"><-- Theses</a></li>
+</ul></nav>
+
+
 Background:
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. At the moment, it displays a list of changes, materialisation impact measures and consistency, and lastly a list of ontology measures and how much these change during the editing process. However, there are still many ways to improve this plugin and make it easier to use and more comprehensive contentwise.
 
