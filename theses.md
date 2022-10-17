@@ -16,12 +16,12 @@ At KAI, we want to set clear expectations for students. At the same time we want
 
 Most of the topics below can be investigate by multiple students. We also welcome groups of students working on the same or similar topic. More specfics are given. If you are interested in one of the projects contact the supervisor(s) listed for the individual topics. Please steate clearly which topic you are interested and would like hear about more.
 
-##### Ontology Engineering and Ontology Evolution
+#### Ontology Engineering and Ontology Evolution
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
-Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes.
+Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain:
 
-- **ChImp 2.0**: he ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp:
+- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='theses/chimp'>here</a>.:
     -  Investigation of competency questions in the context of changing ontologies.
         - How can competency questions be updated as the ontology is edited?
         - How can we measure the impact of changes on the competency questions?
@@ -43,24 +43,34 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 
 
-##### Information Extraction
+#### Information Extraction
+*Supervisor: Benno Kruit, Ilaria Tiddi*
 
-##### Argument Mining
+#### Argument Mining
+*Supervisor: Loan Ho*
 
-##### Narratives
+#### Narratives
+*Supervisor: Lise Stork, Ilaria Tiddi*
 
-##### Question Answering
+#### Question Answering
+*Supervisor: Benno Kruit*
 
-##### Multi-lingual problems
+#### Multi-lingual problems
+*Supervisor: Benno Kruit*
 
 ## Internships
 
-##### Elsevier
+#### Elsevier
+*Supervisor: Romana Pernisch*
 
-##### CFLW Cyber Strategies
+#### CFLW Cyber Strategies
+*Supervisor: Romana Pernisch*
 
-##### Lareb
+#### Lareb
+*Supervisors: Romana Pernisch, Ilaria Tiddi*
 
-##### Accenture
+#### Accenture
+*Supervisor: Ilaria Tiddi*
 
-##### Triply
+#### Triply
+*Supervisor: Ilaria Tiddi*
