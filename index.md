@@ -30,6 +30,18 @@ We combine foundational theory and applied methods such as computational logic, 
 <img src="images/loan.png" width="200" height="200">
 <img src="images/unmesh.png" width="200" height="200">
 
+<svg class="CloseWithSpinner-close" x="0px" y="0px" width="250" height="250" viewBox="0 0 250 250">
+  <defs>
+    <clipPath id="clip">
+		<path id="curve" d="M 20, 135a 115,115 0 1,0 230,0a 115,115 0 1,0 -230,0"/>
+      </clipPath>
+  </defs>
+  <image xlink:href="images/benno.jpg" clip-path="url(#clip)" width="250" height="250"/>
+  <text class="name" style="font-family: cursive; font-size: 35px; font-weight:bold; fill: white; stroke-linejoin: round; stroke: black;">
+    <textPath xlink:href="#curve" text-anchor="middle" startOffset="25%">Benno Kruit</textPath></text>
+</svg>
+
+
 ## Projects
 <img src="images/muhai.png" height="100">
 <img src="images/hybrid.png" height="100">
