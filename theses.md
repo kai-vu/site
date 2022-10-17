@@ -4,34 +4,43 @@ title: Student Theses at KAI
 
 <nav><ul>
 <li class="home"><a href="/"><-- KAI</a></li>
-<li><a href="#internal">VU Theses</a></li>
-<li><a href="#internships">Internships</a></li>
+<li><a href="#internal">VU Theses</a>
+    <ul>
+    <li><a href="#ontology">Multi-lingual problems</li>
+    </ul>
+</li>
+<li><a href="#internships">Internships</a>
+    <ul>
+    <li><a href="#elsevier">Elsevier</li>
+    </ul>
+</li>
 </ul></nav>
 
+# Expectations
+At KAI, we want to set clear expectations for students. At the same time we want to make sure students know what to expect from us as their supervisors. We have prepared a <a href='https://docs.google.com/document/d/13sXH20STQQC7sfbIrIBiUz3fmaGkxRiNm2hIf2qXHyg/edit'>short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
+# VU Theses
 
-## VU Theses
+## Ontology Engineering and Ontology Evolution
 
-#### Ontology Engineering and Ontology Evolution
+## Information Extraction
 
-#### Information Extraction
+## Argument Mining
 
-#### Argument Mining
+## Narratives
 
-#### Narratives
+## Question Answering
 
-#### Question Answering
+## Multi-lingual problems
 
-#### Multi-lingual problems
+# Internships
 
-## Internships
+## Elsevier
 
-#### Elsevier
+## CFLW Cyber Strategies
 
-#### CFLW Cyber Strategies
+## Lareb
 
-#### Lareb
+## Accenture
 
-#### Accenture
-
-#### Triply
+## Triply
