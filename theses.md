@@ -6,12 +6,12 @@ title: Student Theses at KAI
 <li class="home"><a href="/"><-- KAI</a></li>
 <li><a href="#internal">VU Theses</a></li>
     <ul>
-    <li><a href="#ontology">Multi-lingual problems</li>
+    <li><a href="#ontology">Multi-lingual problems</a></li>
     </ul>
 
 <li><a href="#internships">Internships</a></li>
     <ul>
-    <li><a href="#elsevier">Elsevier</li>
+    <li><a href="#elsevier">Elsevier</a></li>
     </ul>
 </ul></nav>
 
