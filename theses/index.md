@@ -14,9 +14,11 @@ At KAI, we want to set clear expectations for students. At the same time we want
 
 ## VU Theses
 
-Most of the topics below can be investigate by multiple students. We also welcome groups of students working on the same or similar topic. More specfics are given. If you are interested in one of the projects contact the supervisor(s) listed for the individual topics. Please steate clearly which topic you are interested and would like hear about more.
+Most of the topics below can be investigate by either BSc or MSc AI student but also by multiple students. We also welcome groups of students working on the same or similar topic. 
 
-#### Ontology Engineering and Ontology Evolution
+If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available have a look at the detailed description first. Also, keep in mind that most if not all theses can be shaped to accomodate your interests.
+
+#### Ontology/Knowledge Graph Engineering and Evolution
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain:
@@ -65,6 +67,29 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 #### CFLW Cyber Strategies
 *Supervisor: Romana Pernisch*
+
+CFLW is a tech startup from the Netherlands, founded at the end of 2019, based in The Hague. They develop intelligence services for law enforcement agencies, cybersecurity agencies and financial/fintech organizations. Their core product is Dark Web Monitor, which is used by various agencies around the world. For more details on CFLW see their <a href="https://cflw.com">website</a>
+
+<details>
+<summary>Internship details</summary>
+<p>
+
+**Requirements:**
+- Students are expected to be at the office at least once a week on Thursdays. The CFLW office is at the Hague Security Delta, next to Laan van NOI railway station.
+- Students must be technically skilled in computer science, artificial intelligence, digital technologies, forensics or any other related background.
+- Students need to be intrinsically motivated to make cyberspace a little bit safer.
+
+**Benefits:**
+- Students will receive an internship fee.
+- Students will learn how a startup works as they will take part in the company operations.
+- They formulate student projects in a way so students can realize a real-world impact on security.
+
+</p>
+</details>
+
+CFWL is offering two theses, follow link for more details on the projects:
+- <a href="cflw_onto">Classifying the Dark Web: creating a robust Dark Web Ontology (BSc)</a>
+- <a href="cflw_activelearning">Active Learning - Improving the Dark Web Classifier based on expert input (MSc)</a>
 
 #### Lareb
 *Supervisors: Romana Pernisch, Ilaria Tiddi*
