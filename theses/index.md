@@ -3,7 +3,7 @@ title: Student Theses at KAI
 ---
 
 <nav><ul>
-<li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small.png" alt="KAI" /></a></li>
+<li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small.png" alt="KAI" width="50"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
 <li><a href="#internal">VU Theses</a></li>
  <li><a href="#internships">Internships</a></li>

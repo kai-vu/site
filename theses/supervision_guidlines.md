@@ -1,9 +1,12 @@
+---
+title: What to expect? -  MSc. & BSc. project supervision
+---
+
 <nav><ul>
-<li><a href="theses"><-- Theses</a></li>
+<li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small.png" alt="KAI" /></a></li>
+<li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
 </ul></nav>
 
-
-# What to expect? -  MSc. & BSc. project supervision
 
 #### Meetings
 * Be prepared when going into a meeting with a supervisor. Make a list of questions you had/where you got stuck, and show clear examples. 
