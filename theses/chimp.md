@@ -3,7 +3,7 @@ title: ChImp 2.0
 ---
 
 <nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small.png" alt="KAI" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" /></a></li>
     <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
 </ul></nav>
 
