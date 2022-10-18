@@ -21,7 +21,7 @@ Most of the topics below can be investigate by multiple students. We also welcom
 
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain:
 
-- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='theses/chimp'>here</a>.:
+- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='chimp'>here</a>.:
     -  Investigation of competency questions in the context of changing ontologies.
         - How can competency questions be updated as the ontology is edited?
         - How can we measure the impact of changes on the competency questions?
