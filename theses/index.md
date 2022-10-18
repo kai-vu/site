@@ -35,9 +35,9 @@ There are other related topics in collaboration with companies, that are centere
 
 We offe multiple projects under the umbrella of information extraction with varying focus.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
-- **Information extraction from Structured lists** (BSC, *Benno*)
-- **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*)
-- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*)
+- **Information extraction from Structured lists** (BSC, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.
+- **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found <a href="BK_relextract">here</a>.
+- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
 #### Argument Mining
