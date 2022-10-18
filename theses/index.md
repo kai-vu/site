@@ -33,22 +33,53 @@ There are other related topics in collaboration with companies, that are centere
 #### Information Extraction
 *Supervisor: Benno Kruit, Ilaria Tiddi*
 
+We offe multiple projects under the umbrella of information extraction with varying focus.
+- **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href=""http://ceur-ws.org/>CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
+- **Information extraction from Structured lists** (BSC, *Benno*)
+- **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*)
+- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*)
+
 #### Argument Mining
 *Supervisor: Loan Ho*
+There are multiple project in the domain of argument mining with different objectives:
+- **Argumentation-based explenation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
+- **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontolog (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
+
 
 #### Narratives
 *Supervisor: Lise Stork, Ilaria Tiddi*
 
+What are narratives?
+- **Identifying Formal Narrative from KGs**: The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
+- **A Benchmark for understanding Narratives**: Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>,<a href="https://zenodo.org/record/7118556">2</a>,<a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
+
+
 #### Question Answering
 *Supervisor: Benno Kruit*
 
+- **Playing "20 Questions" with a KG** (BSc)
+- **Multi-modal Question Answering** (MSc)
+- **Graph Queries on Relation Databases** (MSc CS)
+
+
 #### Multi-lingual problems
 *Supervisor: Benno Kruit*
+
+- **Multilingual entity Linking** (BSc)
+- **Multilingual Travel Knowledge Extraction** (MSc)
+
+
+#### Other
+- Shopping Data Schema Induction (MSc, Benno)
+- Analysing multi-task deep models with Graph Analysis: This is a collaboration with the Bioinformatics department.
+- Incorporating Semantics in Message Passing methods
 
 ## Internships
 
 #### Elsevier
 *Supervisor: Romana Pernisch*
+
+Elsevier is offering many theses, most of which are not listed here for now but will be added later.
 
 #### CFLW Cyber Strategies
 *Supervisor: Romana Pernisch*
@@ -77,8 +108,15 @@ CFWL is offering two theses, follow link for more details on the projects:
 #### Lareb
 *Supervisors: Romana Pernisch, Ilaria Tiddi*
 
+Lareb is ??
+The goal of this thesis is to extract and model the data of Lareb on drug reactions so that link prediction approach can be deployed over this data. Additionally there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs.
+
 #### Accenture
 *Supervisor: Ilaria Tiddi*
 
 #### Triply
 *Supervisor: Ilaria Tiddi*
+
+Triply is ??
+
+There are several project available in collaboration with Triply on using Machine Learning and NLP over large scale KGs. Group work is possible and projects can be either BSc or MSc.
