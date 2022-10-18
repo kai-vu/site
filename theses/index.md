@@ -24,7 +24,7 @@ If you are interested in one of the projects below, please contact the superviso
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain.
 - **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='RP_chimp'>here</a>.
 - **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole.
-- **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>here</a> is the thesis description.
+- **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
 
 There are other related topics in collaboration with companies, that are centered around ontology engineering or dealing with changing data (stream) in general. You can find more information further below on this page:
 - <a href='#elsevier'>Elsevier</a>
@@ -53,11 +53,11 @@ There are multiple project in the domain of argument mining with different objec
 
 What are narratives?
 - **Identifying Formal Narrative from KGs**: The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
-- **A Benchmark for understanding Narratives**: Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>,<a href="https://zenodo.org/record/7118556">2</a>,<a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
+- **A Benchmark for understanding Narratives**: Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
 
 
 #### Question Answering
-*Supervisor: Benno Kruit (b.b.kruit@vu.nl)*
+*Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl)*
 
 - **Playing "20 Questions" with a KG** (BSc): detailed description is located <a href="BK_20questions">here</a>.
 - **Multi-modal Question Answering** (MSc)
@@ -65,7 +65,7 @@ What are narratives?
 
 
 #### Multi-lingual problems
-*Supervisor: Benno Kruit (b.b.kruit@vu.nl)*
+*Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
 
 - **Multilingual Entity Linking** (BSc): Many names can refer to several different entities. In this project, we want to look at the problem of disambiguation and linking of entities.
 - **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deel learning techniques. More details can be found <a href="BK_travel">here</a>.
@@ -81,12 +81,12 @@ What are narratives?
 ## Internships
 
 #### Elsevier
-*Supervisor: Romana Pernisch*
+*Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
 Elsevier is offering many theses, most of which are not listed here for now but will be added at a later point in time.
 
 #### CFLW Cyber Strategies
-*Supervisor: Romana Pernisch*
+*Supervisors: Eljo Haspels (eljo.haspels@cflw.com), Romana Pernisch (r.pernisch@vu.nl)*
 
 CFLW is a tech startup from the Netherlands, founded at the end of 2019, based in The Hague. They develop intelligence services for law enforcement agencies, cybersecurity agencies and financial/fintech organizations. Their core product is Dark Web Monitor, which is used by various agencies around the world. For more details on CFLW see their <a href="https://cflw.com">website</a>
 
@@ -115,7 +115,7 @@ CFWL is offering two theses, follow link for more details on the projects:
 - <a href="cflw_activelearning">Active Learning - Improving the Dark Web Classifier based on expert input (MSc)</a>
 
 #### Lareb
-*Supervisors: Romana Pernisch, Ilaria Tiddi*
+*Supervisors: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 The goal of this thesis is to extract and model the data of Lareb on drug reactions so that link prediction approach can be deployed over this data. Additionally there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs.
 
