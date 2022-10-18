@@ -38,6 +38,7 @@ We offe multiple projects under the umbrella of information extraction with vary
 - **Information extraction from Structured lists** (BSC, *Benno*)
 - **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*)
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*)
+- **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
 #### Argument Mining
 *Supervisor: Loan Ho*
@@ -57,7 +58,7 @@ What are narratives?
 #### Question Answering
 *Supervisor: Benno Kruit*
 
-- **Playing "20 Questions" with a KG** (BSc)
+- **Playing "20 Questions" with a KG** (BSc): detailed description <a href="BK_20questions">here</a>.
 - **Multi-modal Question Answering** (MSc)
 - **Graph Queries on Relation Databases** (MSc CS)
 
@@ -69,10 +70,10 @@ What are narratives?
 - **Multilingual Travel Knowledge Extraction** (MSc)
 
 
-#### Other
-- Shopping Data Schema Induction (MSc, Benno)
-- Analysing multi-task deep models with Graph Analysis: This is a collaboration with the Bioinformatics department.
-- Incorporating Semantics in Message Passing methods
+#### Deep Learning and Semantics
+- **Analysing multi-task deep models with Graph Analysis** (*Ilaria*): This is a collaboration with the Bioinformatics department. The goal is to extend previous work (1,2) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explenation for its decisions. A combination of link prediction and graph summarisation will be used.
+- **Incorporating Semantics in Message Passing methods** (*Ilaria*): Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
+- **Extracting Semantics from neural co-activation graphs** (*Ilaria*): Here we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
 
 ## Internships
 
@@ -88,17 +89,22 @@ CFLW is a tech startup from the Netherlands, founded at the end of 2019, based i
 
 <details>
 <summary>Internship details</summary>
-
-**Requirements:**
-- Students are expected to be at the office at least once a week on Thursdays. The CFLW office is at the Hague Security Delta, next to Laan van NOI railway station.
-- Students must be technically skilled in computer science, artificial intelligence, digital technologies, forensics or any other related background.
-- Students need to be intrinsically motivated to make cyberspace a little bit safer.
-
-**Benefits:**
-- Students will receive an internship fee.
-- Students will learn how a startup works as they will take part in the company operations.
-- They formulate student projects in a way so students can realize a real-world impact on security.
-
+<p>
+Requirements:
+<ul>
+    <li>Students are expected to be at the office at least once a week on Thursdays. The CFLW office is at the Hague Security Delta, next to Laan van NOI railway station.</li>
+    <li>Students must be technically skilled in computer science, artificial intelligence, digital technologies, forensics or any other related background.</li>
+    <li>Students need to be intrinsically motivated to make cyberspace a little bit safer.</li>
+</ul>
+</p>
+<p>
+Benefits:
+<ul>
+    <li>Students will receive an internship fee.</li>
+    <li>Students will learn how a startup works as they will take part in the company operations.</li>
+    <li>They formulate student projects in a way so students can realize a real-world impact on security.</li>
+</ul>
+</p>
 </details>
 
 CFWL is offering two theses, follow link for more details on the projects:
