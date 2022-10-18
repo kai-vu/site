@@ -93,6 +93,10 @@ nav ul li.home a:hover {
 	color: #0089CF;
 }
 
-h1, h2, h3, h4, summary {
+h1, h2, h3, h4 {
 	font-family: Verdana, sans-serif;
+}
+
+summary {
+	font-weight: bold;
 }

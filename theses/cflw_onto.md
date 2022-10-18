@@ -26,8 +26,8 @@ Recently CFLW has begun the development of the Dark Web Ontology. This thesis re
 **Research Question:** Are state-of-the-art ontology engineering principles applicable in the domain of the dark web?
 
 #### Literature:
-- Cybercrime threat intelligence: A systematic multi-vocal literature review [paper]
-- Use of OWL and Semantic Web Technologies at Pinterest [paper]
-- Finding the Pattern You Need: The Design Pattern Intent Ontology [paper]
-- Ontology-Based Design Pattern Selection [paper]
-- The NeOn Methodology for Ontology Engineering [paper]
+- Cybercrime threat intelligence: A systematic multi-vocal literature review [<a href="https://doi.org/10.1016/j.cose.2021.102258">paper</a>]
+- Use of OWL and Semantic Web Technologies at Pinterest [<a href="https://link.springer.com/chapter/10.1007/978-3-030-30796-7_26">paper</a>]
+- Finding the Pattern You Need: The Design Pattern Intent Ontology [<a href="https://link.springer.com/chapter/10.1007/978-3-540-75209-7_15">paper</a>]
+- Ontology-Based Design Pattern Selection [<a href="https://ieeexplore.ieee.org/abstract/document/9420592/">paper</a>]
+- The NeOn Methodology for Ontology Engineering [<a href="https://link.springer.com/chapter/10.1007/978-3-642-24794-1_2">paper</a>]
