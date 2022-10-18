@@ -57,7 +57,6 @@ CFLW is a tech startup from the Netherlands, founded at the end of 2019, based i
 
 <details>
 <summary>Internship details</summary>
-<p>
 
 **Requirements:**
 - Students are expected to be at the office at least once a week on Thursdays. The CFLW office is at the Hague Security Delta, next to Laan van NOI railway station.
@@ -69,7 +68,6 @@ CFLW is a tech startup from the Netherlands, founded at the end of 2019, based i
 - Students will learn how a startup works as they will take part in the company operations.
 - They formulate student projects in a way so students can realize a real-world impact on security.
 
-</p>
 </details>
 
 CFWL is offering two theses, follow link for more details on the projects:
