@@ -25,7 +25,7 @@ body, html {
 		font-size: 4vw;
 	}
 	
-	p, h1, h2, h3, h4, ul, ol, table {
+	p, h1, h2, h3, h4, ul, ol, table, details, summary {
 		margin-left: 1em;
 		margin-right: 1em;
 	}
@@ -93,6 +93,6 @@ nav ul li.home a:hover {
 	color: #0089CF;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, summary {
 	font-family: Verdana, sans-serif;
 }
