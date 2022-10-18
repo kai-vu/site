@@ -8,7 +8,7 @@ body, html {
 }
 
 @media (min-width: 900px) {
-	p, h1, h2, h2, h4, ul, ol, table {
+	p, h1, h2, h2, h4, ul, ol, table, details, summary {
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
