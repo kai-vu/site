@@ -21,29 +21,14 @@ If you are interested in one of the projects below, please contact the superviso
 #### Ontology/Knowledge Graph Engineering and Evolution
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
-Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain:
+Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain.
+- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='RP_chimp'>here</a>.
+- **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole.
+- **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>here</a> is the thesis description.
 
-- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='chimp'>here</a>.:
-    -  Investigation of competency questions in the context of changing ontologies.
-        - How can competency questions be updated as the ontology is edited?
-        - How can we measure the impact of changes on the competency questions?
-    - Implementation of session continuity.
-    - Impact of importing ontologies within Protege:
-        - How can we quantify the impact of the import of an ontology?
-        - How can we quantify and display the impact of the changes of imported ontologies?
-
-- **Materialisation**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis in these directions:
-    - Investigate types of changes and their impact on the materialisation
-    - ...
-
-- **KG Embeddings**: We have previously evaluated the Embedding Resemblence Indicator using synthetically generated versions of two biomedical ontologies and the two benchmark datasets FB15k-237 and Wordnet-18-RR but only regarded deletions. With embeddings there are additional investigations to be made:
-    - In-depth analysis/investigation of the influence on embedding by different types of changes
-    - Evaluation of ERI on addition test cases (compared to deletion test cases) on synthetic data
-    - Evaluation of ERI on real world data
-    - Investigation of increment behaviour of ERI
-    - Investigation into the estimation or approximation of ERI
-
-
+There are other related topics in collaboration with companies, that are centered around ontology engineering or dealing with changing data (stream) in general. You can find more information further below on this page:
+- <a href='#elsevier'>Elsevier</a>
+- <a href='#cflw'>CFLW</a>
 
 #### Information Extraction
 *Supervisor: Benno Kruit, Ilaria Tiddi*
