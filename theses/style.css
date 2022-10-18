@@ -4,7 +4,7 @@ body, html {
 	
 	font-family: Georgia, serif;
 	font-size: 18px;
-	line-height: 1.22em;
+	line-height: 1.32em;
 }
 
 @media (min-width: 900px) {
@@ -40,10 +40,13 @@ nav {
 	
 	height: 8em;
 	
-	background: url('../images/ceiling.jpg');
-	background-size: cover;
-	background-position: left 90%;
+	/* background: url('../images/ceiling.jpg'); */
+	/* background-size: cover; */
+	/* background-position: left 90%; */
 	
+	background-color: #dadada;
+	color: #4b4b4b;
+
 	margin: 0;
 	padding: 0;
 }
@@ -72,24 +75,24 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #ffffffcc;
+	/* color: #777777cc; */
 	font-weight: bold;
 	text-decoration: none;
 }
 
 nav ul li a:hover {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 
 nav ul li.home a {
-	color: #ffffff;
+	color: #4b4b4b;
 }
 
 nav ul li.home a:hover {
 	color: #0089CF;
 }
 
-h1, h2, h2, h4 {
+h1, h2, h3, h4 {
 	font-family: Verdana, sans-serif;
 }
