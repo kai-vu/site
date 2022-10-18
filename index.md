@@ -3,7 +3,7 @@ title: Knowledge and AI
 ---
 
 <nav><ul>
-<li class="home"><a href="/"><img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="50"/></a></li>
+<li class="home"><a href="/"><img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="#contact">Contact</a></li>
 <li><a href="#people">People</a></li>
 <li><a href="#projects">Projects</a></li>
