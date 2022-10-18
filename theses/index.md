@@ -31,24 +31,25 @@ There are other related topics in collaboration with companies, that are centere
 - <a href='#cflw'>CFLW</a>
 
 #### Information Extraction
-*Supervisor: Benno Kruit, Ilaria Tiddi*
+*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 We offe multiple projects under the umbrella of information extraction with varying focus.
-- **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href=""http://ceur-ws.org/>CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
+- **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
 - **Information extraction from Structured lists** (BSC, *Benno*)
 - **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*)
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*)
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
 #### Argument Mining
-*Supervisor: Loan Ho*
+*Supervisor: Loan Ho (t.t.l.ho@vu.nl)*
+
 There are multiple project in the domain of argument mining with different objectives:
 - **Argumentation-based explenation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
 - **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontolog (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
 
 
 #### Narratives
-*Supervisor: Lise Stork, Ilaria Tiddi*
+*Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 What are narratives?
 - **Identifying Formal Narrative from KGs**: The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
@@ -56,31 +57,33 @@ What are narratives?
 
 
 #### Question Answering
-*Supervisor: Benno Kruit*
+*Supervisor: Benno Kruit (b.b.kruit@vu.nl)*
 
-- **Playing "20 Questions" with a KG** (BSc): detailed description <a href="BK_20questions">here</a>.
+- **Playing "20 Questions" with a KG** (BSc): detailed description is located <a href="BK_20questions">here</a>.
 - **Multi-modal Question Answering** (MSc)
 - **Graph Queries on Relation Databases** (MSc CS)
 
 
 #### Multi-lingual problems
-*Supervisor: Benno Kruit*
+*Supervisor: Benno Kruit (b.b.kruit@vu.nl)*
 
-- **Multilingual entity Linking** (BSc)
-- **Multilingual Travel Knowledge Extraction** (MSc)
+- **Multilingual Entity Linking** (BSc): Many names can refer to several different entities. In this project, we want to look at the problem of disambiguation and linking of entities.
+- **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deel learning techniques. More details can be found <a href="BK_travel">here</a>.
 
 
-#### Deep Learning and Semantics
-- **Analysing multi-task deep models with Graph Analysis** (*Ilaria*): This is a collaboration with the Bioinformatics department. The goal is to extend previous work (1,2) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explenation for its decisions. A combination of link prediction and graph summarisation will be used.
-- **Incorporating Semantics in Message Passing methods** (*Ilaria*): Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
-- **Extracting Semantics from neural co-activation graphs** (*Ilaria*): Here we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
+#### Semantics of Deep Learning Methods
+*Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
+
+- **Analysing multi-task deep models with Graph Analysis**: This is a collaboration with the Bioinformatics department. The goal is to extend previous work (1,2) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explenation for its decisions. A combination of link prediction and graph summarisation will be used.
+- **Incorporating Semantics in Message Passing methods**: Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
+- **Extracting Semantics from neural co-activation graphs**: Here we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
 
 ## Internships
 
 #### Elsevier
 *Supervisor: Romana Pernisch*
 
-Elsevier is offering many theses, most of which are not listed here for now but will be added later.
+Elsevier is offering many theses, most of which are not listed here for now but will be added at a later point in time.
 
 #### CFLW Cyber Strategies
 *Supervisor: Romana Pernisch*
@@ -114,15 +117,19 @@ CFWL is offering two theses, follow link for more details on the projects:
 #### Lareb
 *Supervisors: Romana Pernisch, Ilaria Tiddi*
 
-Lareb is ??
 The goal of this thesis is to extract and model the data of Lareb on drug reactions so that link prediction approach can be deployed over this data. Additionally there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs.
 
 #### Accenture
 *Supervisor: Ilaria Tiddi*
 
-#### Triply
-*Supervisor: Ilaria Tiddi*
+We will be offering projects around KGs, ML and Hybrid Intelligence in collaboration with Accenture.
 
-Triply is ??
+#### Triply DB
+*Supervisors: Kathrin Dentler (kathrin.dentler@triply.cc), Ilaria Tiddi (i.tiddi@vu.nl)*
 
-There are several project available in collaboration with Triply on using Machine Learning and NLP over large scale KGs. Group work is possible and projects can be either BSc or MSc.
+There are several project available in collaboration with <a href="https://triplydb.com/">Triply DB</a> on using Machine Learning and NLP over large scale KGs. Group work is possible and projects can be either BSc or MSc.
+
+- **Semantic Data Quality**: Develop a method to automatically detect common mistakes in ontologies. Examples can be: taxonomic loops, inconsistency, or redundancies in ontologies. Use these mistakes to identify, for instance, outdated knowledge.
+- **Semantic Explanations**: The goal here is to automatically generate natural language explanations from complex data structures (graphs). We will be looking at building explanations in the form of argumentative structure (cfr. Toulmin's model) for specific given facts.
+- **Semantic Search Engine**: The project aims at creating a search engine over several knowledge graphs, that can allow look up all IRIs in the Semantic Web. 
+- **Fair Semantics**: Here we aim at detecting discriminatory features in datasets such as most recurring classes or properties. We can then use them to create "prescriptions" or "manuals" for a datasets, to describe their biases and the underlying assumptions that may be found in the data. Could be extended to develop a method to overcome such bias.
