@@ -27,10 +27,11 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 - **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
 
 #### Information Extraction
-*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
+*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 We offe multiple projects under the umbrella of information extraction with varying focus.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
+- **Making social history research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on social history hypotheses from literature. Here is a more detailed <a href="LS_sochist">description</a>.
 - **Information extraction from Structured lists** (BSC, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.
 - **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found <a href="BK_relextract">here</a>.
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
@@ -44,12 +45,20 @@ There are multiple project in the domain of argument mining with different objec
 - **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontolog (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
 
 
-#### Narratives
+#### Narratives, Explenations and Annotations
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 What are narratives?
-- **Identifying Formal Narrative from KGs**: The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
-- **A Benchmark for understanding Narratives**: Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
+- **Identifying Formal Narrative from KGs**: (*Ilaria*) The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
+- **A Benchmark for understanding Narratives**: (*Ilaria*) Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
+- **Recipe variation using gastronomic recipe explanations**: (*Lise, Ilaria*) In this project the goal is to investigate recipe virability by finding explenations for why certain ingrediences taste better than others by using the Food Knowledge Graph. More details can be found <a href="LS_recipevar">here</a>.
+- **A tool for Publishing Social Inequality Hypotheses**: (*lise*) The goal of this project is to create a web interface to facilitate the semantic annotation of reasearch papers on inequality plus. More information is located <a href="LS_seman">here</a>.
+
+
+#### Rule Mining
+*Supervisors: Lise Stork (l.stork@vu.nl)*
+- **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
+- **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
 
 
 #### Question Answering

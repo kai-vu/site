@@ -7,7 +7,7 @@ title: A tool for Publishing Social Inequality Hypotheses
     <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
 </ul></nav>
 
-## A tool for Publishing Social Inequality Hypotheses
+## A Tool for Publishing Social Inequality Hypotheses
 
 *Supervisor: Lise Stork (l.stork@vu.nl)*
 
@@ -22,8 +22,5 @@ Creation of a simple web interface for the semantic annotation of research paper
 Using an ontology for social history hypotheses, the student should create a simple web application which allows social historians to turn their research papers into structured hypotheses. The student will run a user study to measure the effectiveness and usability of the tool, as well as the resulting knowledge graph. 
 
 #### Who 
-supervision will be by Lise Stork. We will collaborate with Richard Zijdemans from the International Institute for Social History (IISH). https://iisg.amsterdam/en
+We will collaborate with Richard Zijdemans from the International Institute for Social History (<a href="https://iisg.amsterdam/en">IISH</a>).
 
-#### Requirements
-
-#### Literature

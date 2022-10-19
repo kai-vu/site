@@ -28,8 +28,7 @@ The goal of this project is to (i) transform a dataset of restaurant purchases i
 
 #### How
 Using a temporal graph of purchasing data, with data in the form 
-(restaurant_id, bought, product_id, "2022-03-14"), and auxiliary data such as a food knowledge graph describing characteristics of products and recipes (https://foodkg.github.io/), 
-the aim is to predict which products should be sold in specific periods, and to try to do so in an explainable way using temporal rulemining (for example the TLogic framework mentioned below). 
+(restaurant_id, bought, product_id, "2022-03-14"), and auxiliary data such as a <a href="https://foodkg.github.io/">food knowledge graph</a> describing characteristics of products and recipes, the aim is to predict which products should be sold in specific periods, and to try to do so in an explainable way using temporal rulemining (for example the TLogic framework mentioned below). 
 
 So, from the statement: 
 (TAKE, bought, FritesBelges, “2022-03-14”) 
@@ -40,10 +39,10 @@ To predict what else should be bought:
 Example mined rule: customers that bought spaghetti (given a specific date) will also buy bolognese sauce. 
 
 #### Who 
-Supervision will be by Lise Stork. We will collaborate with Pieter Wellens from the company Apicbase (https://get.apicbase.com/), situated in Antwerp, who own the consumer sales data. 
+Supervision will be by Lise Stork. We will collaborate with Pieter Wellens from the company <a href="https://get.apicbase.com/">Apicbase</a>, situated in Antwerp, who own the consumer sales data. 
 
 #### Requirements
 - Some knowledge of graphs
 
 #### Literature
-- TLogic: Temporal Logical Rules for Explainable Link Forecasting on Temporal Knowledge Graphs. [paper]
+- TLogic: Temporal Logical Rules for Explainable Link Forecasting on Temporal Knowledge Graphs. [<a href="https://doi.org/10.1609/aaai.v36i4.20330">paper</a>]

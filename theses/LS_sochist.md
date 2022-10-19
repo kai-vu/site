@@ -29,7 +29,5 @@ supervision will be by Lise Stork. We will collaborate with a team in Brussels w
 #### Requirements
 - Some knowledge of graphs
 
-#### Literature
-
 
 

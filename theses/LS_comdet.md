@@ -17,23 +17,17 @@ title: Community Detection from a Species Interaction Network
 A lot of research in the biodiversity domain investigates the variety among different organisms that inhabit our planet, and how these are geologically distributed across our planet. However, mapping out species variations does not tell us all there is to know about ecology and life on our planet. Biologists have started gathering species-interaction data: e.g., which species eat one another, which species host which other species, who preys on who. By analysing these relationships, one can better understand and thereby better preserve our planet’s ecosystems. 
 
 #### How 
-The goal of this project is to extract interesting communities in species interaction networks using a clustering/community detection algorithm such as OSLOM:http://www.oslom.org/, and or detect interesting logic rules that relate to these communities. A (made-up) example: community: an organism that belongs to the suborder Pronocephalata, AND is from the Nicaraguan part of the Caribbean Sea, AND is a parasite of the species Pomacanthus arcuatus. Rule: a species from community 1 ​​is also likely a parasite of a species from the family of Cheloniidae. 
+The goal of this project is to extract interesting communities in species interaction networks using a clustering/community detection algorithm such as <a href="http://www.oslom.org/">OSLOM</a>:, and or detect interesting logic rules that relate to these communities. A (made-up) example: community: an organism that belongs to the suborder Pronocephalata, AND is from the Nicaraguan part of the Caribbean Sea, AND is a parasite of the species Pomacanthus arcuatus. Rule: a species from community 1 ​​is also likely a parasite of a species from the family of Cheloniidae. 
 
 #### Who 
-supervision will be by Lise Stork. We will collaborate with experts from the Naturalis Biodiversity Center. 
+We will collaborate with experts from the Naturalis Biodiversity Center. 
 
 #### Requirements
 - Knowledge about graphs 
 
 #### Data
-https://www.globalbioticinteractions.org/about
-https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Chelonia%20mydas
+- <a href="https://www.globalbioticinteractions.org/about">Global Bioticin Interactions</a>
+- <a href="https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Chelonia%20mydas">Global Bioticin Interactions: Sourse=Chelonia</a>
 
 #### Literature
 - Delmas, Eva, et al. "Analysing ecological networks of species interactions." Biological Reviews 94.1 (2019): 16-36.
-
-
-Who: this project will be supervised by Lise Stork 
-
-
-Further reading
