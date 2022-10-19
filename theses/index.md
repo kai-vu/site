@@ -15,19 +15,19 @@ At KAI, we want to set clear expectations for students. At the same time we want
 
 #### Table of contents
 - <a href="#vutheses">VU Theses</a>
-    - <a href="#information">Information Extraction</a>
-    - <a href="#ontology">Ontology/Knowledge Graph Engineering and Evolution</a>
-    - <a href="#argument">Argument and Rule Mining</a>
-    - <a href="#explenations">Explenations, Narratives and Annotations</a>
-    - <a href="#question">Question Answering</a>
-    - <a href="#multi">Multi-lingual problems</a>
-    - <a href="#semantics">Semantics of Deep Learning Methods</a>
+    - <a href="##informationextraction">Information Extraction</a>
+    - <a href="##ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a>
+    - <a href="##argumentandrulemining">Argument and Rule Mining</a>
+    - <a href="##explenationsnarrativesannotations">Explenations, Narratives and Annotations</a>
+    - <a href="##questionanswering">Question Answering</a>
+    - <a href="##multilingualproblems">Multi-lingual problems</a>
+    - <a href="##semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
 - <a href="#internships">Internships</a>
-    - <a href="#elsevier">Elsevier</a>
-    - <a href="#cflw">CFWL Cyberstrategies</a>
-    - <a href="#lareb">Lareb</a>
-    - <a href="#accenture">Accenture</a>
-    - <a href="#triply">Triply DB</a>
+    - <a href="##elsevier">Elsevier</a>
+    - <a href="##cflwcyberstrategies">CFWL Cyberstrategies</a>
+    - <a href="##lareb">Lareb</a>
+    - <a href="##accenture">Accenture</a>
+    - <a href="##triplydb">Triply DB</a>
 
 ## VU Theses
 
@@ -65,6 +65,10 @@ There are multiple project in the domain of argument mining with different objec
 - **Argumentation-based explenation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
 - **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontology (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
 
+Rule mining, similarly to information extraction, aims at finding structures. In this case we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
+- **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
+- **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
+
 
 #### Robotics and Knowledge Representation
 *Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
@@ -72,10 +76,6 @@ There are multiple project in the domain of argument mining with different objec
 These projects aim at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:
 - **Semantic mapping with a mobile service robot** (MSc): The goal of this project is to implement semantic mapping for an indoor mobile robot using knowledge graphs. More information about this project can be found <a href="AM_semmap">here</a>.
 - **Visual scene understanding for indoor mobile robots** (BSc): In this project you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a ref="AM_vsu">here</a>.
-
-Rule mining, similarly to information extraction, aims at finding structures. In this case we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
-- **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
-- **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
 
 
 #### Explenations, Narratives and Annotations
