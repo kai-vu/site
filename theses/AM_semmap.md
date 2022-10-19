@@ -19,10 +19,10 @@ Mobile robotics has been gaining more popularity in recent years. Localization a
 In this project, you will be using the LoCoBot, a mobile robot equipped with multiple sensors. Your task would be to integrate object recognition methods (e.g. YOLO), path planning (SLAM) and knowledge representation & reasoning methods to solve planning problems.
 
 #### How
-1) A literature review on the state-of-the-art methods integrating knowledge representation and reasoning with mobile robotics
-2) Familiarizing with the LoCoBot platform and ROS as well as the SLAM packages.
-3) Build a knowledge graph representing the chosen use-case and combine it with the map.
-4) Developing an integrated robot control system that is able to recognize and reason over objects.
+1. A literature review on the state-of-the-art methods integrating knowledge representation and reasoning with mobile robotics
+2. Familiarizing with the LoCoBot platform and ROS as well as the SLAM packages.
+3. Build a knowledge graph representing the chosen use-case and combine it with the map.
+4. Developing an integrated robot control system that is able to recognize and reason over objects.
 
 #### Who 
 Supervision will be by Mark Adamik and Ilaria Tiddi.  

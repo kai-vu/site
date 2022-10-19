@@ -22,10 +22,10 @@ Reason over the qualities of the object (e.g. a bottle that is transparent and l
 n this project, you will be using the LoCoBot, a mobile robot equipped with multiple sensors and a manipulator. Your task would be to integrate object recognition methods (e.g. YOLO) and knowledge representation & reasoning methods to solve pick and place problems representing trash collection.
 
 #### How
-1) A literature review on the state-of-the-art methods integrating knowledge representation and reasoning with mobile robotics
-2) Familiarizing with the LoCoBot platform and ROS.
-3) Build a knowledge graph depending on the chosen use-case
-4) Developing an integrated robot control system that is able to recognize and reason over objects.
+1. A literature review on the state-of-the-art methods integrating knowledge representation and reasoning with mobile robotics
+2. Familiarizing with the LoCoBot platform and ROS.
+3. Build a knowledge graph depending on the chosen use-case
+4. Developing an integrated robot control system that is able to recognize and reason over objects.
 
 
 #### Who 
