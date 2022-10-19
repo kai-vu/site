@@ -26,10 +26,6 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 - **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole. More details are given <a href="RP_mat">here</a>.
 - **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
 
-There are other related topics in collaboration with companies, that are centered around ontology engineering or dealing with changing data (stream) in general. You can find more information further below on this page:
-- <a href='#elsevier'>Elsevier</a>
-- <a href='#cflw'>CFLW</a>
-
 #### Information Extraction
 *Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
