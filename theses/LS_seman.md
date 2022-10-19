@@ -25,7 +25,5 @@ Using an ontology for social history hypotheses, the student should create a sim
 supervision will be by Lise Stork. We will collaborate with Richard Zijdemans from the International Institute for Social History (IISH). https://iisg.amsterdam/en
 
 #### Requirements
-- Some knowledge of graphs
 
 #### Literature
-- TLogic: Temporal Logical Rules for Explainable Link Forecasting on Temporal Knowledge Graphs. [paper]
