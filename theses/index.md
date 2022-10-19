@@ -75,7 +75,7 @@ Rule mining, similarly to information extraction, aims at finding structures. In
 
 These projects aim at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:
 - **Semantic mapping with a mobile service robot** (MSc): The goal of this project is to implement semantic mapping for an indoor mobile robot using knowledge graphs. More information about this project can be found <a href="AM_semmap">here</a>.
-- **Visual scene understanding for indoor mobile robots** (BSc): In this project you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a ref="AM_vsu">here</a>.
+- **Visual scene understanding for indoor mobile robots** (BSc): In this project you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a href="AM_vsu">here</a>.
 
 
 #### Explenations, Narratives and Annotations
