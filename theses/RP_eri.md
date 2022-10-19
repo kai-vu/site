@@ -24,4 +24,4 @@ This topic contains multiple thesis topics and these are the different parts tha
 - Investigation into the estimation or approximation of ERI
 
 #### Literature
-- Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies [<a href=""https://doi.org/10.1145/3460210.3493540>paper</a>]
+- Toward Measuring the Resemblance of Embedding Models for Evolving Ontologies [<a href="https://doi.org/10.1145/3460210.3493540">paper</a>]
