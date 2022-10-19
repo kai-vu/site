@@ -63,7 +63,15 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 There are multiple project in the domain of argument mining with different objectives:
 - **Argumentation-based explenation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
-- **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontolog (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
+- **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontology (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
+
+
+#### Robotics and Knowledge Representation
+*Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
+
+These projects aim at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:
+- **Semantic mapping with a mobile service robot** (MSc): The goal of this project is to implement semantic mapping for an indoor mobile robot using knowledge graphs. More information about this project can be found <a href="AM_semmap">here</a>.
+- **Visual scene understanding for indoor mobile robots** (BSc): In this project you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a ref="AM_vsu">here</a>.
 
 Rule mining, similarly to information extraction, aims at finding structures. In this case we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
 - **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
