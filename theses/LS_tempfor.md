@@ -20,8 +20,6 @@ Moreover, on a higher level, predicting future food demand helps governments for
 Time series sales forecasting models are often statistical models, exploiting the various indicators of food demand to forecast product demand, see Figure 1. 
 When predictions fail, it proves challenging to backtrack why a model failed, making such models less trustworthy for demand forecasting. 
 
-Figure 1. Quantity of sold Belgian Frites predicted for the future period july 2021 - march 2022, based on historical purchasing data. Courtesy of Pieter Wellens, Apicbase, Antwerp. https://get.apicbase.com/
-
 #### What 
 
 The goal of this project is to (i) transform a dataset of restaurant purchases into a temporal knowledge graph, 
