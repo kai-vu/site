@@ -15,19 +15,19 @@ At KAI, we want to set clear expectations for students. At the same time we want
 
 #### Table of contents
 - <a href="#vutheses">VU Theses</a>
-    - <a href="#informationextraction">Information Extraction</a>
-    - <a href="#ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a>
-    - <a href="#argumentandrulemining">Argument and Rule Mining</a>
-    - <a href="#explenationsnarrativesannotations">Explenations, Narratives and Annotations</a>
-    - <a href="#questionanswering">Question Answering</a>
-    - <a href="#multilingualproblems">Multi-lingual problems</a>
-    - <a href="#semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
+    - <a href="#information">Information Extraction</a>
+    - <a href="#ontology">Ontology/Knowledge Graph Engineering and Evolution</a>
+    - <a href="#argument">Argument and Rule Mining</a>
+    - <a href="#explenations">Explenations, Narratives and Annotations</a>
+    - <a href="#question">Question Answering</a>
+    - <a href="#multi">Multi-lingual problems</a>
+    - <a href="#semantics">Semantics of Deep Learning Methods</a>
 - <a href="#internships">Internships</a>
     - <a href="#elsevier">Elsevier</a>
-    - <a href="#cflwcyberstrategies">CFWL Cyberstrategies</a>
+    - <a href="#cflw">CFWL Cyberstrategies</a>
     - <a href="#lareb">Lareb</a>
     - <a href="#accenture">Accenture</a>
-    - <a href="#triplydb">Triply DB</a>
+    - <a href="#triply">Triply DB</a>
 
 ## VU Theses
 
