@@ -9,6 +9,7 @@ title: Student Theses at KAI
  <li><a href="#internships">Internships</a></li>
  </ul></nav>
 
+
 ## Expectations
 At KAI, we want to set clear expectations for students. At the same time we want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
@@ -18,18 +19,21 @@ Most of the topics below can be investigate by either BSc or MSc AI student but 
 
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available have a look at the detailed description first. Also, keep in mind that most if not all theses can be shaped to accomodate your interests.
 
-#### Ontology/Knowledge Graph Engineering and Evolution
-*Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
-
-Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain.
-- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='RP_chimp'>here</a>.
-- **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole. More details are given <a href="RP_mat">here</a>.
-- **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
+#### Table of contents
+<ul>
+<li><a href="#informationextraction">Information Extraction</a></li>
+<li><a href="#ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a></li>
+<li><a href="#argumentandrulemining">Argument and Rule Mining</a></li>
+<li><a href="#explenationsnarrativesannotations">Explenations, Narratives and Annotations</a></li>
+<li><a href="#questionanswering">Question Answering</a></li>
+<li><a href="#multilingualproblems">Multi-lingual problems</a></li>
+<li><a href="#semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a></li>
+</ul>
 
 #### Information Extraction
 *Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
 
-We offe multiple projects under the umbrella of information extraction with varying focus.
+We offe multiple projects under the umbrella of information extraction with varying focus. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
 - **Making social history research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on social history hypotheses from literature. Here is a more detailed <a href="LS_sochist">description</a>.
 - **Information extraction from Structured lists** (BSC, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.
@@ -37,33 +41,42 @@ We offe multiple projects under the umbrella of information extraction with vary
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
-#### Argument Mining
-*Supervisor: Loan Ho (t.t.l.ho@vu.nl)*
+
+#### Ontology/Knowledge Graph Engineering and Evolution
+*Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
+
+Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain. 
+- **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='RP_chimp'>here</a>.
+- **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole. More details are given <a href="RP_mat">here</a>.
+- **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
+
+
+#### Argument and Rule Mining
+*Supervisor: Loan Ho (t.t.l.ho@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 There are multiple project in the domain of argument mining with different objectives:
 - **Argumentation-based explenation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
 - **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontolog (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
 
+Rule mining, similarly to information extraction, aims at finding structures. In this case we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
+- **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
+- **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
 
-#### Narratives, Explenations and Annotations
+
+#### Explenations, Narratives and Annotations
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
-What are narratives?
+The following topics are all aimed at providing more understanding for humans using AI, by provising explenations, helping them annotate or creating narratives.
 - **Identifying Formal Narrative from KGs**: (*Ilaria*) The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
 - **A Benchmark for understanding Narratives**: (*Ilaria*) Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
 - **Recipe variation using gastronomic recipe explanations**: (*Lise, Ilaria*) In this project the goal is to investigate recipe virability by finding explenations for why certain ingrediences taste better than others by using the Food Knowledge Graph. More details can be found <a href="LS_recipevar">here</a>.
 - **A tool for Publishing Social Inequality Hypotheses**: (*lise*) The goal of this project is to create a web interface to facilitate the semantic annotation of reasearch papers on inequality plus. More information is located <a href="LS_seman">here</a>.
 
 
-#### Rule Mining
-*Supervisors: Lise Stork (l.stork@vu.nl)*
-- **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
-- **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
-
-
 #### Question Answering
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl)*
 
+QA is a very broad topic. We, however, focus on QA over structured data in various forms:
 - **Playing "20 Questions" with a KG** (BSc): detailed description is located <a href="BK_20questions">here</a>.
 - **Multi-modal Question Answering** (MSc)
 - **Graph Queries on Relation Databases** (MSc CS)
@@ -72,6 +85,7 @@ What are narratives?
 #### Multi-lingual problems
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
 
+Even though these topics would also fit under different topics already discribed above, we wanted to highlight them as they are both addressing the problem of multiple languages in different tasks:
 - **Multilingual Entity Linking** (BSc): Many names can refer to several different entities. In this project, we want to look at the problem of disambiguation and linking of entities.
 - **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deel learning techniques. More details can be found <a href="BK_travel">here</a>.
 
