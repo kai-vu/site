@@ -5,7 +5,7 @@ title: Student Theses at KAI
 <nav><ul>
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
-<li><a href="#internal">VU Theses</a></li>
+<li><a href="#vutheses">VU Theses</a></li>
  <li><a href="#internships">Internships</a></li>
  </ul></nav>
 
@@ -13,22 +13,29 @@ title: Student Theses at KAI
 ## Expectations
 At KAI, we want to set clear expectations for students. At the same time we want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
+#### Table of contents
+- <a href="#vutheses">VU Theses</a>
+    - <a href="##informationextraction">Information Extraction</a>
+    - <a href="##ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a>
+    - <a href="##argumentandrulemining">Argument and Rule Mining</a>
+    - <a href="##explenationsnarrativesannotations">Explenations, Narratives and Annotations</a>
+    - <a href="##questionanswering">Question Answering</a>
+    - <a href="##multilingualproblems">Multi-lingual problems</a>
+    - <a href="##semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
+- <a href="#internships">Internships</a>
+    - <a href="##elsevier">Elsevier</a>
+    - <a href="##cflwcyberstrategies">CFWL Cyberstrategies</a>
+    - <a href="##lareb">Lareb</a>
+    - <a href="##accenture">Accenture</a>
+    - <a href="##triplydb">Triply DB</a>
+
 ## VU Theses
 
 Most of the topics below can be investigate by either BSc or MSc AI student but also by multiple students. We also welcome groups of students working on the same or similar topic. 
 
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available have a look at the detailed description first. Also, keep in mind that most if not all theses can be shaped to accomodate your interests.
 
-#### Table of contents
-<ul>
-<li><a href="#informationextraction">Information Extraction</a></li>
-<li><a href="#ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a></li>
-<li><a href="#argumentandrulemining">Argument and Rule Mining</a></li>
-<li><a href="#explenationsnarrativesannotations">Explenations, Narratives and Annotations</a></li>
-<li><a href="#questionanswering">Question Answering</a></li>
-<li><a href="#multilingualproblems">Multi-lingual problems</a></li>
-<li><a href="#semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a></li>
-</ul>
+
 
 #### Information Extraction
 *Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
