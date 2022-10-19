@@ -27,9 +27,8 @@ Instead of first labeling a number of pages with the new labels and then learnin
 
 <!-- **Research Question:** tbd -->
 
-<!-- #### Literature:
+#### Literature:
 - Cybercrime threat intelligence: A systematic multi-vocal literature review [<a href="https://doi.org/10.1016/j.cose.2021.102258">paper</a>]
-- Use of OWL and Semantic Web Technologies at Pinterest [<a href="https://link.springer.com/chapter/10.1007/978-3-030-30796-7_26">paper</a>]
-- Finding the Pattern You Need: The Design Pattern Intent Ontology [<a href="https://link.springer.com/chapter/10.1007/978-3-540-75209-7_15">paper</a>]
-- Ontology-Based Design Pattern Selection [<a href="https://ieeexplore.ieee.org/abstract/document/9420592/">paper</a>]
-- The NeOn Methodology for Ontology Engineering [<a href="https://link.springer.com/chapter/10.1007/978-3-642-24794-1_2">paper</a>] -->
+- Active Learning Literature Survey [<a href="http://digital.library.wisc.edu/1793/60660">paper</a>]
+- A survey of human-in-the-loop for machine learning [<a href="https://doi.org/10.1016/j.future.2022.05.014">paper</a>]
+- An Analysis of Active Learning Strategies for Sequence Labeling Tasks [<a href="https://aclanthology.org/D08-1112.pdf">paper</a>]
