@@ -1,5 +1,5 @@
 ---
-title: Semantic Annotation of Inequality Literature
+title: A tool for Publishing Social Inequality Hypotheses
 ---
 
 <nav><ul>
@@ -7,7 +7,7 @@ title: Semantic Annotation of Inequality Literature
     <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
 </ul></nav>
 
-## Semantic Annotation of Inequality Literature
+## A tool for Publishing Social Inequality Hypotheses
 
 *Supervisor: Lise Stork (l.stork@vu.nl)*
 
