@@ -13,7 +13,25 @@ title: Student Theses at KAI
 ## Expectations
 At KAI, we set clear expectations for students. We want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
-## Theses
+#### Table of contents
+- <a href="#vu-theses">VU Theses</a>
+    - <a href="#information-extraction">Information Extraction</a>
+    - <a href="#ontology-knowledge-graph-engineering-and-evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
+    - <a href="#argument-and-rule-mining">Argument and Rule Mining</a>
+    - <a href="#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
+    - <a href="#explanations-and-narratives">Explanations and Narratives</a>
+    - <a href="#question-answering">Question Answering</a>
+    - <a href="#multi-lingual-problems">Multi-lingual problems</a>
+    - <a href="#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
+- <a href="#internships">Internships</a>
+    - <a href="#elsevier">Elsevier</a>
+    - <a href="#cfwl-cyber-strategies">CFWL Cyberstrategies</a>
+    - <a href="#lareb">Lareb</a>
+    - <a href="#accenture">Accenture</a>
+    - <a href="#triply-db">Triply DB</a>
+
+
+## VU Theses
 
 Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic. 
 
@@ -47,7 +65,7 @@ We offer multiple projects under the umbrella of information extraction with var
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
 
-#### Ontology/Knowledge Engineering
+#### Ontology, Knowledge Engineering
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain. 
