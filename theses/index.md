@@ -19,7 +19,7 @@ At KAI, we want to set clear expectations for students. At the same time we want
     - <a href="#ontology_knowledge_graph_engineering_and_evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
     - <a href="#argument_and_rule_mining">Argument and Rule Mining</a>
     - <a href="#robotics_and_knowledge_representation">Robotics and Knowledge Representation</a>
-    - <a href="#explenations_narratives_and_annotations">Explenations, Narratives and Annotations</a>
+    - <a href="#explanations_narratives_and_annotations">Explanations, Narratives and Annotations</a>
     - <a href="#question-answering">Question Answering</a>
     - <a href="#multi-lingual_problems">Multi-lingual problems</a>
     - <a href="#semantics_of_deep_learning_methods">Semantics of Deep Learning Methods</a>
