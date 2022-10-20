@@ -30,4 +30,4 @@ We will collaborate with experts from the Naturalis Biodiversity Center.
 - <a href="https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Chelonia%20mydas">Global Bioticin Interactions: Sourse=Chelonia</a>
 
 #### Literature
-- Delmas, Eva, et al. "Analysing ecological networks of species interactions." Biological Reviews 94.1 (2019): 16-36. [https://doi.org/10.1111/brv.12433]
+- Delmas, Eva, et al. "Analysing ecological networks of species interactions." Biological Reviews 94.1 (2019): 16-36. [<a href="https://doi.org/10.1111/brv.12433">paper</a>]
