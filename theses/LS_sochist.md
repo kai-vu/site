@@ -27,7 +27,7 @@ The second challenge would be to generate complete hypothesis graphs using the c
 supervision will be by Lise Stork. We will collaborate with a team in Brussels who built the construction grammar, and with social historians from the International Institute of Social History (<a href="https://iisg.amsterdam/en">IISG</a>). 
 
 #### Requirements
-- Knowledge of graph data recommended
+- Knowledge of semantic web technologies (e.g., <a href="https://www.w3.org/RDF/">RDF</a>) recommended
 
 
 
