@@ -15,19 +15,19 @@ At KAI, we want to set clear expectations for students. At the same time we want
 
 #### Table of contents
 - <a href="#vutheses">VU Theses</a>
-    - <a href="##informationextraction">Information Extraction</a>
-    - <a href="##ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a>
-    - <a href="##argumentandrulemining">Argument and Rule Mining</a>
-    - <a href="##explenationsnarrativesannotations">Explenations, Narratives and Annotations</a>
-    - <a href="##questionanswering">Question Answering</a>
-    - <a href="##multilingualproblems">Multi-lingual problems</a>
-    - <a href="##semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
+    - <a href="#informationextraction">Information Extraction</a>
+    - <a href="#ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a>
+    - <a href="#argumentandrulemining">Argument and Rule Mining</a>
+    - <a href="#explanationsnarrativesannotations">Explanations, Narratives and Annotations</a>
+    - <a href="#questionanswering">Question Answering</a>
+    - <a href="#multilingualproblems">Multi-lingual problems</a>
+    - <a href="#semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
 - <a href="#internships">Internships</a>
-    - <a href="##elsevier">Elsevier</a>
-    - <a href="##cflwcyberstrategies">CFWL Cyberstrategies</a>
-    - <a href="##lareb">Lareb</a>
-    - <a href="##accenture">Accenture</a>
-    - <a href="##triplydb">Triply DB</a>
+    - <a href="#elsevier">Elsevier</a>
+    - <a href="#cflwcyberstrategies">CFWL Cyberstrategies</a>
+    - <a href="#lareb">Lareb</a>
+    - <a href="#accenture">Accenture</a>
+    - <a href="#triplydb">Triply DB</a>
 
 ## VU Theses
 
@@ -62,7 +62,7 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 *Supervisor: Loan Ho (t.t.l.ho@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 There are multiple project in the domain of argument mining with different objectives:
-- **Argumentation-based explenation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
+- **Argumentation-based explanation from KGs** (MSc): the goal is to run Tableau on an DL-formalised ontology.
 - **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontology (DL-lite) for tabular data input and running the tableau algorithm to predict whether a case has a (non)violation. 
 
 Rule mining, similarly to information extraction, aims at finding structures. In this case we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
@@ -78,13 +78,13 @@ These projects aim at the intersection of robotics and knowledge graphs. Knowled
 - **Visual scene understanding for indoor mobile robots** (BSc): In this project you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a href="AM_vsu">here</a>.
 
 
-#### Explenations, Narratives and Annotations
+#### Explanations, Narratives and Annotations
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
-The following topics are all aimed at providing more understanding for humans using AI, by provising explenations, helping them annotate or creating narratives.
+The following topics are all aimed at providing more understanding for humans using AI, by provising explanations, helping them annotate or creating narratives.
 - **Identifying Formal Narrative from KGs**: (*Ilaria*) The goal of this project is to extract as many narrative as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
 - **A Benchmark for understanding Narratives**: (*Ilaria*) Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
-- **Recipe variation using gastronomic recipe explenations**: (*Lise, Ilaria*) In this project the goal is to investigate recipe virability by finding explenations for why certain ingrediences taste better than others by using the Food Knowledge Graph. More details can be found <a href="LS_recipevar">here</a>.
+- **Recipe variation using gastronomic recipe explanations**: (*Lise, Ilaria*) In this project the goal is to investigate recipe virability by finding explanations for why certain ingrediences taste better than others by using the Food Knowledge Graph. More details can be found <a href="LS_recipevar">here</a>.
 - **A tool for Publishing Social Inequality Hypotheses**: (*lise*) The goal of this project is to create a web interface to facilitate the semantic annotation of reasearch papers on inequality plus. More information is located <a href="LS_seman">here</a>.
 
 
@@ -108,7 +108,7 @@ Even though these topics would also fit under different topics already discribed
 #### Semantics of Deep Learning Methods
 *Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
 
-- **Analysing multi-task deep models with Graph Analysis**: This is a collaboration with the Bioinformatics department. The goal is to extend previous work (1,2) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explenation for its decisions. A combination of link prediction and graph summarisation will be used.
+- **Analysing multi-task deep models with Graph Analysis**: This is a collaboration with the Bioinformatics department. The goal is to extend previous work (1,2) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explanation for its decisions. A combination of link prediction and graph summarisation will be used.
 - **Incorporating Semantics in Message Passing methods**: Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
 - **Extracting Semantics from neural co-activation graphs**: Here we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
 
