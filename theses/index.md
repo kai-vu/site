@@ -5,8 +5,8 @@ title: Student Theses at KAI
 <nav><ul>
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
-<li><a href="#vutheses">VU Theses</a></li>
- <li><a href="#internships">Internships</a></li>
+<li><a href="#VU_Theses">VU Theses</a></li>
+ <li><a href="#Internships">Internships</a></li>
  </ul></nav>
 
 
@@ -14,20 +14,22 @@ title: Student Theses at KAI
 At KAI, we want to set clear expectations for students. At the same time we want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
 #### Table of contents
-- <a href="#vutheses">VU Theses</a>
-    - <a href="#informationextraction">Information Extraction</a>
-    - <a href="#ontology/knowledge">Ontology/Knowledge Graph Engineering and Evolution</a>
-    - <a href="#argumentandrulemining">Argument and Rule Mining</a>
-    - <a href="#explanationsnarrativesannotations">Explanations, Narratives and Annotations</a>
-    - <a href="#questionanswering">Question Answering</a>
-    - <a href="#multilingualproblems">Multi-lingual problems</a>
-    - <a href="#semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
-- <a href="#internships">Internships</a>
-    - <a href="#elsevier">Elsevier</a>
-    - <a href="#cflwcyberstrategies">CFWL Cyberstrategies</a>
-    - <a href="#lareb">Lareb</a>
-    - <a href="#accenture">Accenture</a>
-    - <a href="#triplydb">Triply DB</a>
+- <a href="#VU_Theses">VU Theses</a>
+    - <a href="#Information_Extraction">Information Extraction</a>
+    - <a href="#Ontology/Knowledge_Graph_Engineering_and_Evolution">Ontology/Knowledge Graph Engineering and Evolution</a>
+    - <a href="#Argument_and_Rule_Mining">Argument and Rule Mining</a>
+    - <a href="#Robotics_and_Knowledge_Representation">Robotics and Knowledge Representation</a>
+    - <a href="#Explenations_Narratives_and_Annotations">Explenations, Narratives and Annotations</a>
+    - <a href="#Question-Answering">Question Answering</a>
+    - <a href="#Multi-lingual_problems">Multi-lingual problems</a>
+    - <a href="#Semantics_of_Deep_Learning_Methods">Semantics of Deep Learning Methods</a>
+- <a href="#Internships">Internships</a>
+    - <a href="#Elsevier">Elsevier</a>
+    - <a href="#CFWL_Cyber_Strategies">CFWL Cyberstrategies</a>
+    - <a href="#Lareb">Lareb</a>
+    - <a href="#Accenture">Accenture</a>
+    - <a href="#Triply_DB">Triply DB</a>
+
 
 ## VU Theses
 
