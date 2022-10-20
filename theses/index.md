@@ -5,33 +5,33 @@ title: Student Theses at KAI
 <nav><ul>
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
-<li><a href="#VU_Theses">VU Theses</a></li>
- <li><a href="#Internships">Internships</a></li>
+<li><a href="#vu_theses">VU Theses</a></li>
+ <li><a href="#internships">Internships</a></li>
  </ul></nav>
 
 
-## Expectations
+# Expectations
 At KAI, we want to set clear expectations for students. At the same time we want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
-#### Table of contents
-- <a href="#VU_Theses">VU Theses</a>
-    - <a href="#Information_Extraction">Information Extraction</a>
-    - <a href="#Ontology/Knowledge_Graph_Engineering_and_Evolution">Ontology/Knowledge Graph Engineering and Evolution</a>
-    - <a href="#Argument_and_Rule_Mining">Argument and Rule Mining</a>
-    - <a href="#Robotics_and_Knowledge_Representation">Robotics and Knowledge Representation</a>
-    - <a href="#Explenations_Narratives_and_Annotations">Explenations, Narratives and Annotations</a>
-    - <a href="#Question-Answering">Question Answering</a>
-    - <a href="#Multi-lingual_problems">Multi-lingual problems</a>
-    - <a href="#Semantics_of_Deep_Learning_Methods">Semantics of Deep Learning Methods</a>
-- <a href="#Internships">Internships</a>
-    - <a href="#Elsevier">Elsevier</a>
-    - <a href="#CFWL_Cyber_Strategies">CFWL Cyberstrategies</a>
-    - <a href="#Lareb">Lareb</a>
-    - <a href="#Accenture">Accenture</a>
-    - <a href="#Triply_DB">Triply DB</a>
+### Table of contents
+- <a href="#vu_theses">VU Theses</a>
+    - <a href="#information_extraction">Information Extraction</a>
+    - <a href="#ontology_knowledge_graph_engineering_and_evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
+    - <a href="#argument_and_rule_mining">Argument and Rule Mining</a>
+    - <a href="#robotics_and_knowledge_representation">Robotics and Knowledge Representation</a>
+    - <a href="#explenations_narratives_and_annotations">Explenations, Narratives and Annotations</a>
+    - <a href="#question-answering">Question Answering</a>
+    - <a href="#multi-lingual_problems">Multi-lingual problems</a>
+    - <a href="#semantics_of_deep_learning_methods">Semantics of Deep Learning Methods</a>
+- <a href="#internships">Internships</a>
+    - <a href="#elsevier">Elsevier</a>
+    - <a href="#cfwl_cyber_strategies">CFWL Cyberstrategies</a>
+    - <a href="#lareb">Lareb</a>
+    - <a href="#accenture">Accenture</a>
+    - <a href="#triply_db">Triply DB</a>
 
 
-## VU Theses
+# VU Theses
 
 Most of the topics below can be investigate by either BSc or MSc AI student but also by multiple students. We also welcome groups of students working on the same or similar topic. 
 
@@ -39,7 +39,7 @@ If you are interested in one of the projects below, please contact the superviso
 
 
 
-#### Information Extraction
+### Information Extraction
 *Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 We offe multiple projects under the umbrella of information extraction with varying focus. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.
@@ -51,7 +51,7 @@ We offe multiple projects under the umbrella of information extraction with vary
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
 
-#### Ontology/Knowledge Graph Engineering and Evolution
+### Ontology, Knowledge Graph Engineering and Evolution
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain. 
@@ -60,7 +60,7 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 - **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
 
 
-#### Argument and Rule Mining
+### Argument and Rule Mining
 *Supervisor: Loan Ho (t.t.l.ho@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 There are multiple project in the domain of argument mining with different objectives:
@@ -72,7 +72,7 @@ Rule mining, similarly to information extraction, aims at finding structures. In
 - **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
 
 
-#### Robotics and Knowledge Representation
+### Robotics and Knowledge Representation
 *Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 These projects aim at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:
@@ -80,7 +80,7 @@ These projects aim at the intersection of robotics and knowledge graphs. Knowled
 - **Visual scene understanding for indoor mobile robots** (BSc): In this project you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a href="AM_vsu">here</a>.
 
 
-#### Explanations, Narratives and Annotations
+### Explanations, Narratives and Annotations
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 The following topics are all aimed at providing more understanding for humans using AI, by provising explanations, helping them annotate or creating narratives.
@@ -90,7 +90,7 @@ The following topics are all aimed at providing more understanding for humans us
 - **A tool for Publishing Social Inequality Hypotheses**: (*lise*) The goal of this project is to create a web interface to facilitate the semantic annotation of reasearch papers on inequality plus. More information is located <a href="LS_seman">here</a>.
 
 
-#### Question Answering
+### Question Answering
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl)*
 
 QA is a very broad topic. We, however, focus on QA over structured data in various forms:
@@ -99,7 +99,7 @@ QA is a very broad topic. We, however, focus on QA over structured data in vario
 - **Graph Queries on Relation Databases** (MSc CS)
 
 
-#### Multi-lingual problems
+### Multi-lingual problems
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
 
 Even though these topics would also fit under different topics already discribed above, we wanted to highlight them as they are both addressing the problem of multiple languages in different tasks:
@@ -107,21 +107,21 @@ Even though these topics would also fit under different topics already discribed
 - **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deel learning techniques. More details can be found <a href="BK_travel">here</a>.
 
 
-#### Semantics of Deep Learning Methods
+### Semantics of Deep Learning Methods
 *Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
 
 - **Analysing multi-task deep models with Graph Analysis**: This is a collaboration with the Bioinformatics department. The goal is to extend previous work (1,2) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explanation for its decisions. A combination of link prediction and graph summarisation will be used.
 - **Incorporating Semantics in Message Passing methods**: Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
 - **Extracting Semantics from neural co-activation graphs**: Here we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
 
-## Internships
+# Internships
 
-#### Elsevier
+### Elsevier
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
 Elsevier is offering many theses, most of which are not listed here for now but will be added at a later point in time.
 
-#### CFLW Cyber Strategies
+### CFLW Cyber Strategies
 *Supervisors: Eljo Haspels (eljo.haspels@cflw.com), Romana Pernisch (r.pernisch@vu.nl)*
 
 CFLW is a tech startup from the Netherlands, founded at the end of 2019, based in The Hague. They develop intelligence services for law enforcement agencies, cybersecurity agencies and financial/fintech organizations. Their core product is Dark Web Monitor, which is used by various agencies around the world. For more details on CFLW see their <a href="https://cflw.com">website</a>
@@ -150,17 +150,17 @@ CFWL is offering two theses, follow link for more details on the projects:
 - <a href="cflw_onto">Classifying the Dark Web: creating a robust Dark Web Ontology (BSc)</a>
 - <a href="cflw_activelearning">Active Learning - Improving the Dark Web Classifier based on expert input (MSc)</a>
 
-#### Lareb
+### Lareb
 *Supervisors: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 The goal of this thesis is to extract and model the data of Lareb on drug reactions so that link prediction approach can be deployed over this data. Additionally there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs.
 
-#### Accenture
+### Accenture
 *Supervisor: Ilaria Tiddi*
 
 We will be offering projects around KGs, ML and Hybrid Intelligence in collaboration with Accenture.
 
-#### Triply DB
+### Triply DB
 *Supervisors: Kathrin Dentler (kathrin.dentler@triply.cc), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 There are several project available in collaboration with <a href="https://triplydb.com/">Triply DB</a> on using Machine Learning and NLP over large scale KGs. Group work is possible and projects can be either BSc or MSc.
