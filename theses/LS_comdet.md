@@ -23,7 +23,7 @@ The goal of this project is to extract interesting communities in species intera
 We will collaborate with experts from the Naturalis Biodiversity Center. 
 
 #### Requirements
-- Knowledge about graphs 
+- Knowledge about graph data _recommended_
 
 #### Data
 - <a href="https://www.globalbioticinteractions.org/about">Global Bioticin Interactions</a>
