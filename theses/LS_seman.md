@@ -19,7 +19,7 @@ Transparency and clarity of theories on which we build is paramount. Natural lan
 Creation of a simple web interface for the authoring of research papers on inequality, evaluated through a user evaluation study. 
 
 #### How 
-Using an (existing) ontology for social history hypotheses, the student should create a simple web application allowing social historians to turn their research questions into structured hypotheses (structured in the form of triples of the form <subject><predicate><object>, using the Resource Description Framework (RDF)). The student will run a user study to measure the effectiveness and usability of the tool, as well as the resulting knowledge graph. 
+Using an (existing) ontology for social history hypotheses, the student should create a simple web application allowing social historians to turn their research questions into structured hypotheses (structured in the form of triples of the form <subject><predicate><object>, using the Resource Description Framework ([<a href="https://www.w3.org/RDF/">RDF</a>])). The student will run a user study to measure the effectiveness and usability of the tool, as well as the resulting knowledge graph. 
 
 #### Who 
 The supervisor of this project will be Lise Stork, and the student is expected to work with a user group from a social science institute such as the [<a href="https://iisg.amsterdam/en">IISG</a>]. 
