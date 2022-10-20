@@ -5,7 +5,7 @@ title: Student Theses at KAI
 <nav><ul>
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
-<li><a href="#vu_theses">VU Theses</a></li>
+<li><a href="#vu-theses">VU Theses</a></li>
  <li><a href="#internships">Internships</a></li>
  </ul></nav>
 
@@ -14,21 +14,21 @@ title: Student Theses at KAI
 At KAI, we want to set clear expectations for students. At the same time we want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
 ### Table of contents
-- <a href="#vu_theses">VU Theses</a>
-    - <a href="#information_extraction">Information Extraction</a>
-    - <a href="#ontology_knowledge_graph_engineering_and_evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
-    - <a href="#argument_and_rule_mining">Argument and Rule Mining</a>
-    - <a href="#robotics_and_knowledge_representation">Robotics and Knowledge Representation</a>
-    - <a href="#explanations_narratives_and_annotations">Explanations, Narratives and Annotations</a>
+- <a href="#vu-theses">VU Theses</a>
+    - <a href="#information-extraction">Information Extraction</a>
+    - <a href="#ontology-knowledge-graph-engineering-and-evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
+    - <a href="#argument-and-rule-mining">Argument and Rule Mining</a>
+    - <a href="#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
+    - <a href="#explanations-narratives-and-annotations">Explanations, Narratives and Annotations</a>
     - <a href="#question-answering">Question Answering</a>
     - <a href="#multi-lingual_problems">Multi-lingual problems</a>
-    - <a href="#semantics_of_deep_learning_methods">Semantics of Deep Learning Methods</a>
+    - <a href="#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
 - <a href="#internships">Internships</a>
     - <a href="#elsevier">Elsevier</a>
-    - <a href="#cfwl_cyber_strategies">CFWL Cyberstrategies</a>
+    - <a href="#cfwl-cyber-strategies">CFWL Cyberstrategies</a>
     - <a href="#lareb">Lareb</a>
     - <a href="#accenture">Accenture</a>
-    - <a href="#triply_db">Triply DB</a>
+    - <a href="#triply-db">Triply DB</a>
 
 
 # VU Theses
