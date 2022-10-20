@@ -21,7 +21,7 @@ At KAI, we want to set clear expectations for students. At the same time we want
     - <a href="#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
     - <a href="#explanations-narratives-and-annotations">Explanations, Narratives and Annotations</a>
     - <a href="#question-answering">Question Answering</a>
-    - <a href="#multi-lingual_problems">Multi-lingual problems</a>
+    - <a href="#multi-lingual-problems">Multi-lingual problems</a>
     - <a href="#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
 - <a href="#internships">Internships</a>
     - <a href="#elsevier">Elsevier</a>
