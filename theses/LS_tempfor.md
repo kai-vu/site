@@ -42,7 +42,7 @@ Example mined rule: customers that bought spaghetti (given a specific date) will
 Supervision will be by Lise Stork. We will collaborate with Pieter Wellens from the company <a href="https://get.apicbase.com/">Apicbase</a>, situated in Antwerp, who own the consumer sales data. 
 
 #### Requirements
-- Some knowledge of graphs
+- Knowledge of graph data recommmended
 
 #### Literature
 - TLogic: Temporal Logical Rules for Explainable Link Forecasting on Temporal Knowledge Graphs. [<a href="https://doi.org/10.1609/aaai.v36i4.20330">paper</a>]
