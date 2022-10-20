@@ -27,7 +27,7 @@ title: Expectations
 
 #### Method/experimentation
 * If you want to communicate your idea with your supervisor, use figures/process diagrams to explain the workflow. This helps your supervisor understand what you are doing, and you can use these for your thesis too. 
-* Start programming early on, and document everying you do!
+* Start programming early on, and document everything you do!
 
 #### Thesis writing
 * Before you start writing, have a look at the writing tips document that you can find on the canvas page. 
