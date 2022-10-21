@@ -65,7 +65,7 @@ We offer multiple projects under the umbrella of information extraction with var
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
 
-#### Ontology, Knowledge Engineering
+#### Ontologies, Knowledge Engineering
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain. 
@@ -93,9 +93,9 @@ Rule mining, similarly to information extraction, aims at finding structures. In
 These projects look at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:
 - **Semantic Mapping with a mobile service robot** (MSc): The goal of this project is to implement semantic mapping for an indoor mobile robot using knowledge graphs. More information about this project can be found <a href="AM_semmap">here</a>.
 - **Visual Scene Understanding for Indoor Mobile Robots** (BSc): In this project, you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a href="AM_vsu">here</a>.
+- **Energy-efficient robots through knowledge-awareness**. (BSc, MSc): We have an ontology representing the capabilities of the robots (picking objects, moving, scanning surroundings, etc.). The ontology needs to be expanded with energy budgets so the robot can choose the actions to performed based on its capabilities and energy-efficiency. Collaboration with the Software Engineering group.
 
-
-#### Explenations and Narratives 
+#### Explanations and Narratives 
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
 The following topics are aimed at providing a more human-like AI, by creating explanations or creating narratives.
