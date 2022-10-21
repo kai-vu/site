@@ -168,7 +168,7 @@ CFWL is offering two theses, follow link for more details on the projects:
 #### Lareb
 *Supervisors: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
 
-The goal of this thesis is to extract and model the data of Lareb on drug reactions so that link prediction approach can be deployed over this data. Additionally there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs.
+Lareb is a Pharmacovigilance Research Lab studying the effects of drugs over human bodies. The goal of this thesis is to extract and model some domain data on drug reactions so that link prediction approaches can be deployed over this data. Additionally, there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs. BSc or MSc. 
 
 #### Accenture
 *Supervisor: Ilaria Tiddi*
