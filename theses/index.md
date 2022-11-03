@@ -37,22 +37,6 @@ Most of the topics below can be investigated by either BSc or MSc AI students. W
 
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available, have a look at the detailed description first. Also, keep in mind that all theses can be shaped to accomodate your interests.
 
-#### Table of contents
-- <a href="#vutheses">KAI Theses</a>
-    - <a href="##informationextraction">Information Extraction</a>
-    - <a href="##ontology/knowledge">Ontology/Knowledge Engineering</a>
-    - <a href="##argumentandrulemining">Argument and Rule Mining</a>
-    - <a href="##explenationsnarrativesannotations">Explenations, Narratives and Annotations</a>
-    - <a href="##questionanswering">Question Answering</a>
-    - <a href="##multilingualproblems">Multi-lingual problems</a>
-    - <a href="##semanticsofdeeplearningmethods">Semantics of Deep Learning Methods</a>
-- <a href="#internships">Internships</a>
-    - <a href="##elsevier">Elsevier</a>
-    - <a href="##cflwcyberstrategies">CFWL Cyberstrategies</a>
-    - <a href="##lareb">Lareb</a>
-    - <a href="##accenture">Accenture</a>
-    - <a href="##triplydb">Triply DB</a>
-
 #### Information Extraction
 *Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
 
