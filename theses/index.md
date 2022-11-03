@@ -5,7 +5,7 @@ title: Student Theses at KAI
 <nav><ul>
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
-<li><a href="#vutheses">VU Theses</a></li>
+<li><a href="#KAI-theses">Theses</a></li>
  <li><a href="#internships">Internships</a></li>
  </ul></nav>
 
@@ -14,7 +14,7 @@ title: Student Theses at KAI
 At KAI, we set clear expectations for students. We want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
 #### Table of contents
-- <a href="#vu-theses">VU Theses</a>
+- <a href="#KAI-theses">VU Theses</a>
     - <a href="#information-extraction">Information Extraction</a>
     - <a href="#ontology-knowledge-graph-engineering-and-evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
     - <a href="#argument-and-rule-mining">Argument and Rule Mining</a>
@@ -31,7 +31,7 @@ At KAI, we set clear expectations for students. We want to make sure students kn
     - <a href="#triply-db">Triply DB</a>
 
 
-## VU Theses
+## KAI Theses
 
 Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic. 
 
@@ -118,7 +118,8 @@ Even though these topics would also fit under different topics already discribed
 #### Elsevier
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
-Elsevier is offering many theses, most of which are not listed here for now but will be added at a later point in time.
+Elsevier is offering many theses, which will be presented at the VU Theses Fair on the 11th November. Stop by to talk about possibilities to do a thesis with Elseiver and KAI.
+Example thesis: Investigation of the impact of ontology changes (in OmniScience) on document annotation for Scopus.
 
 #### CFLW Cyber Strategies
 *Supervisors: Eljo Haspels (eljo.haspels@cflw.com), Romana Pernisch (r.pernisch@vu.nl)*
