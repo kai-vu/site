@@ -12,6 +12,8 @@ title: CFWL Ontology
 - *CFLW: Eljo Haspels (eljo.haspels@cflw.com)*
 - *KAI: Romana Pernisch (r.pernisch@vu.nl)*
 
+**The selection process for this thesis has started and we do not accept any more applications.**
+
 #### Background:
 Gaining insights starts with clear definitions. And although a lot of research has been done already on Open Source information on the Dark Web, a clear Ontology/Taxonomy is lacking in this domain. Some research has been done, for example: <a href="https://doi.org/10.1016/j.cose.2021.102258">link</a>. But more is needed to come to a well-defined way to classify the dark web which is needed to streamline collaboration and interoperability of systems.
 

@@ -11,6 +11,9 @@ title: CFWL Active Learning
 *Supervisors:* 
 - *CFLW: Eljo Haspels (eljo.haspels@cflw.com)*
 - *KAI: Romana Pernisch (r.pernisch@vu.nl)*
+- *L&R: Taraneh Younesian*
+
+**The selection process for this thesis has started and we do not accept any more applications.**
 
 #### Background:
 Dark Web pages are classified along different dimensions hence every page has more than one label, making this a multi label problem. At the moment pages are labeled by humans and a (static) pretrained AI classifier. 

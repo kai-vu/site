@@ -7,7 +7,7 @@ title: ChImp 2.0
     <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
 </ul></nav>
 
-## ChImp 2.0: Estending Protege and its ability to provide change impact information (multiple projects)
+## ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects)
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
 #### Background

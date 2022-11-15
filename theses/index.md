@@ -118,8 +118,15 @@ Even though these topics would also fit under different topics already discribed
 #### Elsevier
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
-Elsevier is offering many theses, which will be presented at the VU Theses Fair on the 11th November. Stop by to talk about possibilities to do a thesis with Elseiver and KAI.
-Example thesis: Investigation of the impact of ontology changes (in OmniScience) on document annotation for Scopus.
+Elsevier is offering many theses, which were presented at the VU Theses Fair on the 11th November. The list can be found <a href="https://drive.google.com/file/d/1nscVWYflQBCpQZ2rqBQytjf0sLx9AiCM/view?usp=share_link">here</a>. 
+Following theses from the list would potentially supervised by Romana:
+<ul>
+    <li>Automatic Taxonomy Construction</li>
+    <li>Quality Metrics for Knowledge Graphs</li>
+    <li>Distributional Bias and Drift in Biomedical embeddings ND Corpora</li>
+    <li>Impact of Ontology Changes on Document Annotations</li>
+</ul>
+
 
 #### CFLW Cyber Strategies
 *Supervisors: Eljo Haspels (eljo.haspels@cflw.com), Romana Pernisch (r.pernisch@vu.nl)*
