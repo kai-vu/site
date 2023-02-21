@@ -23,7 +23,7 @@ We combine foundational theory and applied methods such as computational logic, 
 
 ## People
 <div style="width: 800px; margin-left: auto; margin-right: auto;">
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br>Stefan Schlobach<br><span style="font-size:18pt">Associate Professor</span><br></div>
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br>Stefan Schlobach<br><span style="font-size:12pt">Associate Professor</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/ilaria.png" width="200" height="200"><br>Ilaria Tiddi<br>Assistant Professor<br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/lise.png" width="200" height="200"><br>Lise Stork<br>Postdoc<br><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/benno.jpg" width="200" height="200"><br>Benno Kruit<br>Postdoc<br></div>
