@@ -35,6 +35,10 @@ body, html {
 	}
 }
 
+#div {
+	vertical-align:top;
+}
+
 nav {
 	width: 100%;
 	
