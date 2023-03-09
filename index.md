@@ -39,10 +39,9 @@ T(central): 020 59 89898
 </div>
 
 ## Projects
-<img src="images/muhai.png" height="100">
-<a href="https://muhai.org/">MUHAI</a>
-<img src="images/hybrid.png" height="100">
-<img src="images/discovery.png" height="100">
-<img src="images/coda.png" height="100">
-<a href="https://cooperationdatabank.org/">CODA</a>
-<img src="images/dreams.png" height="100">
+
+<a href="https://muhai.org/"><img src="images/muhai.png" height="100"></a>
+<a href="https://discoverylab.ai/"><img src="images/discovery.png" height="100"></a>
+<a href="https://cooperationdatabank.org/"><img src="images/coda.png" height="100"></a>
+<a href="https://krr.cs.vu.nl/dreams-lab/"><img src="images/dreams.png" height="100"></a>
+<a href="https://www.hybrid-intelligence-centre.nl/"><img src="images/hybrid.png" height="100"></a>
