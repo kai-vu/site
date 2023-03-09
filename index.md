@@ -17,30 +17,13 @@ We do this by combining research from the fields of Knowledge Engineering and Kn
 
 We combine foundational theory and applied methods such as computational logic, emergent semantics, narrative representation, abstract argumentation, knowledge engineering (at scale), knowledge graph management, semantic techniques, data integration as well as machine learning. Our research addresses a variety of types of knowledge, which can be heterogeneous, contextualised, dynamic, common-sense, process-dependent, personal, tribal, conflicting or biased, and often large-scale.
 
+## News
+<ul>
+    <li> (1 mar 2023) We have <a href="/people">two new additions</a> to our group: welcome Atefeh and Ritten!
+</ul>
+
 ## Contact
 <a href="https://vu.nl/nl/over-de-vu/meer-over/nieuwe-universiteitsgebouw">Nieuwe Universiteitsgebouw</a>, 10th floor<br>
 De Boelelaan 1111<br>
 1081 HV Amsterdam<br>
 T(central): 020 59 89898
-
-## People
-<div style="width: 800px; margin-left: auto; margin-right: auto;">
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br><a href="https://www.few.vu.nl/~schlobac/">Stefan Schlobach</a><br><span style="font-size:14pt">Associate Professor</span><br></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/ilaria.png" width="200" height="200"><br><a href="https://kmitd.github.io/ilaria/">Ilaria Tiddi</a><br><span style="font-size:14pt">Assistant Professor</span><br></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/lise.png" width="200" height="200"><br><a href="https://lisestork.github.io/">Lise Stork</a><br><span style="font-size:14pt">Postdoc</span><br><br></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/benno.jpg" width="200" height="200"><br><a href="http://bennokruit.nl">Benno Kruit</a><br><span style="font-size:14pt">Postdoc</span><br><br></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/romana.jpg" width="200" height="200"><br><a href="https://pernisch.ch">Romana Pernisch</a><br><span style="font-size:14pt">Postdoc</span><br></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/atefeh.jpg" width="200" height="200"><br>Atefeh Keshavarzi Zafarghandi<br><span style="font-size:14pt">Postdoc</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/mark.png" width="200" height="200"><br>Márk Adamik<br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/loan.png" width="200" height="200"><br>Loan Ho<br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/ritten.jpeg" width="200" height="200"><br>Ritten Roothaert<br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/unmesh.png" width="200" height="200"><br>Unmesh Joshi<br><span style="font-size:14pt">Guest</span></div>
-</div>
-
-## Projects
-
-<a href="https://muhai.org/"><img src="images/muhai.png" height="100"></a>
-<a href="https://discoverylab.ai/"><img src="images/discovery.png" height="100"></a>
-<a href="https://cooperationdatabank.org/"><img src="images/coda.png" height="100"></a>
-<a href="https://krr.cs.vu.nl/dreams-lab/"><img src="images/dreams.png" height="100"></a>
-<a href="https://www.hybrid-intelligence-centre.nl/"><img src="images/hybrid.png" height="100"></a>
