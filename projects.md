@@ -1,5 +1,5 @@
 ---
-title: Knowledge and AI: Projects
+title: Knowledge and AI Projects
 ---
 
 ## Projects
