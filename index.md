@@ -19,6 +19,9 @@ We do this by combining research from the fields of Knowledge Engineering and Kn
 We combine foundational theory and applied methods such as computational logic, emergent semantics, narrative representation, abstract argumentation, knowledge engineering (at scale), knowledge graph management, semantic techniques, data integration as well as machine learning. Our research addresses a variety of types of knowledge, which can be heterogeneous, contextualised, dynamic, common-sense, process-dependent, personal, tribal, conflicting or biased, and often large-scale.
 
 ## Contact
+Bezoekadres<br>
+De Boelelaan 1111<br>
+1081 HV Amsterdam<br>
 
 
 ## People
