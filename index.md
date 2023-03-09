@@ -19,16 +19,15 @@ We do this by combining research from the fields of Knowledge Engineering and Kn
 We combine foundational theory and applied methods such as computational logic, emergent semantics, narrative representation, abstract argumentation, knowledge engineering (at scale), knowledge graph management, semantic techniques, data integration as well as machine learning. Our research addresses a variety of types of knowledge, which can be heterogeneous, contextualised, dynamic, common-sense, process-dependent, personal, tribal, conflicting or biased, and often large-scale.
 
 ## Contact
-Bezoekadres<br>
 De Boelelaan 1111<br>
 1081 HV Amsterdam<br>
-
+T(central): 020 59 89898
 
 ## People
 <div style="width: 800px; margin-left: auto; margin-right: auto;">
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br>Stefan Schlobach<br><span style="font-size:14pt">Associate Professor</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/ilaria.png" width="200" height="200"><br>Ilaria Tiddi<br><span style="font-size:14pt">Assistant Professor</span><br></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/lise.png" width="200" height="200"><br>Lise Stork<br><span style="font-size:14pt">Postdoc</span><br><br></div>
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/lise.png" width="200" height="200"><br><a href="https://lisestork.github.io/">Lise Stork</a><br><span style="font-size:14pt">Postdoc</span><br><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/benno.jpg" width="200" height="200"><br>Benno Kruit<br><span style="font-size:14pt">Postdoc</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/romana.jpg" width="200" height="200"><br>Romana Pernisch<br><span style="font-size:14pt">Postdoc</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/atefeh.jpg" width="200" height="200"><br>Atefeh Keshavarzi Zafarghandi<br><span style="font-size:14pt">Postdoc</span></div>
