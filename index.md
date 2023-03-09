@@ -19,7 +19,7 @@ We combine foundational theory and applied methods such as computational logic, 
 
 ## News
 <ul>
-    <li> (1 mar 2023) We have <a href="/people">two new additions</a> to our group: welcome Atefeh and Ritten!
+    <li> (1 mar 2023) We have <a href="/people">two new additions</a> to our group: welcome Atefeh and Ritten!</li>
 </ul>
 
 ## Contact
