@@ -1,5 +1,5 @@
 ---
-title: Knowledge and AI: People
+title: Knowledge and AI People
 ---
 ## People
 <div style="width: 100%; margin-left: auto; margin-right: auto;">
