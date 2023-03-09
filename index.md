@@ -40,6 +40,7 @@ T(central): 020 59 89898
 
 ## Projects
 <img src="images/muhai.png" height="100">
+<a href="https://muhai.org/">MUHAI</a>
 <img src="images/hybrid.png" height="100">
 <img src="images/discovery.png" height="100">
 <img src="images/coda.png" height="100">
