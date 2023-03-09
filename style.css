@@ -44,9 +44,11 @@ nav {
 	
 	height: 8em;
 	
-	background: url('/images/ceiling.jpg');
+/* 	background: url('/images/ceiling.jpg');
 	background-size: cover;
-	background-position: left 90%;
+	background-position: left 90%; */
+	
+	border-bottom: 1px solid gray;
 	
 	margin: 0;
 	padding: 0;
