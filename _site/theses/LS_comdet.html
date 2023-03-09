@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Community Detection from a Species Interaction Network</title>
+
+  
+
+  <meta name="description" content="Theses ## Community Detection from a Species Interaction Network *Supervisor: Lise Stork (l.stork@vu.nl)* *&quot;Biodiversity researchers have focused on diversity at the cost of ignoring the networks of interactions between organisms that characterize ecosystems.”* - Kevin McCann, 2007 #### Why A lot of research in the biodiversity domain investigates the variety...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="Community Detection from a Species Interaction Network">
+  <meta property="og:description" content="Theses ## Community Detection from a Species Interaction Network *Supervisor: Lise Stork (l.stork@vu.nl)* *&quot;Biodiversity researchers have focused on diversity at the cost of ignoring the networks of interactions between organisms that characterize ecosystems.”* - Kevin McCann, 2007 #### Why A lot of research in the biodiversity domain investigates the variety...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/LS_comdet.html">
+  <link rel="canonical" href="http://localhost:4000/theses/LS_comdet.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="Community Detection from a Species Interaction Network">
+  <meta property="twitter:description" content="Theses ## Community Detection from a Species Interaction Network *Supervisor: Lise Stork (l.stork@vu.nl)* *&quot;Biodiversity researchers have focused on diversity at the cost of ignoring the networks of interactions between organisms that characterize ecosystems.”* - Kevin McCann, 2007 #### Why A lot of research in the biodiversity domain investigates the variety...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Community Detection from a Species Interaction Network</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="community-detection-from-a-species-interaction-network">Community Detection from a Species Interaction Network</h2>
+
+<p><em>Supervisor: Lise Stork (l.stork@vu.nl)</em></p>
+
+<p><em>“Biodiversity researchers have focused on diversity at the cost of ignoring the networks of interactions between organisms that characterize ecosystems.”</em> - Kevin McCann, 2007</p>
+
+<h4 id="why">Why</h4>
+<p>A lot of research in the biodiversity domain investigates the variety among different organisms that inhabit our planet, and how these are geologically distributed across our planet. However, mapping out species variations does not tell us all there is to know about ecology and life on our planet. Biologists have started gathering species-interaction data: e.g., which species eat one another, which species host which other species, who preys on who. By analysing these relationships, one can better understand and thereby better preserve our planet’s ecosystems.</p>
+
+<h4 id="how">How</h4>
+<p>The goal of this project is to extract interesting communities in species interaction networks using a clustering/community detection algorithm such as <a href="http://www.oslom.org/">OSLOM</a>:, and or detect interesting logic rules that relate to these communities. A (made-up) example: community: an organism that belongs to the suborder Pronocephalata, AND is from the Nicaraguan part of the Caribbean Sea, AND is a parasite of the species Pomacanthus arcuatus. Rule: a species from community 1 ​​is also likely a parasite of a species from the family of Cheloniidae.</p>
+
+<h4 id="who">Who</h4>
+<p>We will collaborate with experts from the Naturalis Biodiversity Center.</p>
+
+<h4 id="requirements">Requirements</h4>
+<ul>
+  <li>Knowledge about graph data <em>recommended</em></li>
+</ul>
+
+<h4 id="data">Data</h4>
+<ul>
+  <li><a href="https://www.globalbioticinteractions.org/about">Global Bioticin Interactions</a></li>
+  <li><a href="https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&amp;resultType=json&amp;sourceTaxon=Chelonia%20mydas">Global Bioticin Interactions: Sourse=Chelonia</a></li>
+</ul>
+
+<h4 id="literature">Literature</h4>
+<ul>
+  <li>Delmas, Eva, et al. “Analysing ecological networks of species interactions.” Biological Reviews 94.1 (2019): 16-36. [<a href="https://doi.org/10.1111/brv.12433">paper</a>]</li>
+</ul>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

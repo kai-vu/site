@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Higher-arity Relation Extraction with Qualifiers</title>
+
+  
+
+  <meta name="description" content="Theses ## Higher-arity Relation Extraction with Qualifiers (MSc) *Supervisor: Benno Kruit (b.b.kruit@vu.nl)* **Keywords**: Weak Supervision, Higher-ary relations, Relation Extraction #### Why Modern Knowledge Graphs (KGs) such as Wikidata contain millions of statements about real-world entities. Crucially, they also contain meta-information about at what time, in which circumstances, and according to...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="Higher-arity Relation Extraction with Qualifiers">
+  <meta property="og:description" content="Theses ## Higher-arity Relation Extraction with Qualifiers (MSc) *Supervisor: Benno Kruit (b.b.kruit@vu.nl)* **Keywords**: Weak Supervision, Higher-ary relations, Relation Extraction #### Why Modern Knowledge Graphs (KGs) such as Wikidata contain millions of statements about real-world entities. Crucially, they also contain meta-information about at what time, in which circumstances, and according to...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/BK_relextract.html">
+  <link rel="canonical" href="http://localhost:4000/theses/BK_relextract.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="Higher-arity Relation Extraction with Qualifiers">
+  <meta property="twitter:description" content="Theses ## Higher-arity Relation Extraction with Qualifiers (MSc) *Supervisor: Benno Kruit (b.b.kruit@vu.nl)* **Keywords**: Weak Supervision, Higher-ary relations, Relation Extraction #### Why Modern Knowledge Graphs (KGs) such as Wikidata contain millions of statements about real-world entities. Crucially, they also contain meta-information about at what time, in which circumstances, and according to...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Higher-arity Relation Extraction with Qualifiers</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="higher-arity-relation-extraction-with-qualifiers-msc">Higher-arity Relation Extraction with Qualifiers (MSc)</h2>
+<p><em>Supervisor: Benno Kruit (b.b.kruit@vu.nl)</em></p>
+
+<p><strong>Keywords</strong>: Weak Supervision, Higher-ary relations, Relation Extraction</p>
+
+<h4 id="why">Why</h4>
+<p>Modern Knowledge Graphs (KGs) such as Wikidata contain millions of statements about real-world entities. Crucially, they also contain meta-information about at what time, in which circumstances, and according to which source those statements are true. There has been much work on automatically extending KGs from text using Relation Extraction, but such meta-information has rarely been taken into account. The result is that extracted statements are often incorrect without the right context. One main challenge for solving this problem is the fact that such context is typically only described incompletely, both in the KG and in text. For example, a statement may describe that the song “Imagine” charted in the Dutch Top 40, without including that this happened in 1971.</p>
+
+<h4 id="what">What</h4>
+<p>This project aims to investigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem.</p>
+
+<h4 id="how">How</h4>
+<p>The starting point is a study of how Wikidata statements with meta-information in the form of qualifiers (pictured above) may be expressed in the text and tables of Wikipedia articles. This results in a set of noisy matches that can be used for supervision. Then, it will incorporate information about qualifier constraints to filter out the noise in these matches, and train a Relation Extraction model using Weak Supervision.</p>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

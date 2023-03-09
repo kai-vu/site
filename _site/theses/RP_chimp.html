@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>ChImp 2.0</title>
+
+  
+
+  <meta name="description" content="Theses ## ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects) *Supervisor: Romana Pernisch (r.pernisch@vu.nl)* #### Background Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. The ChImp Protégé plugin helps ontology engineers during this process by summarising...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="ChImp 2.0">
+  <meta property="og:description" content="Theses ## ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects) *Supervisor: Romana Pernisch (r.pernisch@vu.nl)* #### Background Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. The ChImp Protégé plugin helps ontology engineers during this process by summarising...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/RP_chimp.html">
+  <link rel="canonical" href="http://localhost:4000/theses/RP_chimp.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="ChImp 2.0">
+  <meta property="twitter:description" content="Theses ## ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects) *Supervisor: Romana Pernisch (r.pernisch@vu.nl)* #### Background Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. The ChImp Protégé plugin helps ontology engineers during this process by summarising...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>ChImp 2.0</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="chimp-20-extending-protege-and-its-ability-to-provide-change-impact-information-multiple-projects">ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects)</h2>
+<p><em>Supervisor: Romana Pernisch (r.pernisch@vu.nl)</em></p>
+
+<h4 id="background">Background</h4>
+<p>Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. At the moment, it displays a list of changes, materialisation impact measures and consistency, and lastly a list of ontology measures and how much these change during the editing process. However, there are still many ways to improve this plugin and make it easier to use and more comprehensive contentwise.</p>
+
+<h4 id="description">Description</h4>
+<p>We want to provide the functionality of adding and evaluating competency questions to the ChImp Protégé plugin. Ontology engineers use competency questions to test their ontologies and their compliance to questions which cover necessary functionality for downstream tasks. Hence, the questions need to be updated together with the ontology as well as tested on the go, when appropriate.
+Additionally, we want to be able to update these questions based on the applied changes in the background. The challenge is to do this task without breaking, crashing, or stalling Protégé. 
+Further, it is vital the ontology engineers can continue to work on the ontology across multiple sessions and between releases. This requires them to be able to store the changes applied and reapply them to the ontology. 
+Lastly, the import of other ontologies is a very useful way of extending ones own ontology and at the same time make use of the information that somebody else has already provided and curated. Protege already handles imports however, without proving the engineer with additional information about them. Hence, it is necessary to provide information about the imports themselves but also if and how important ontologies changed and influences the ontology currently being edited</p>
+
+<p>This description includes multiple projects. Students can work on one (or more) of these:</p>
+<ul>
+  <li>Investigation of competency questions in the context of changing ontologies.
+    <ul>
+      <li>How can competency questions be updated as the ontology is edited?</li>
+      <li>How can we measure the impact of changes on the competency questions?</li>
+    </ul>
+  </li>
+  <li>Implementation of session continuity.</li>
+  <li>Impact of importing ontologies within Protege:
+    <ul>
+      <li>How can we quantify the impact of the import of an ontology?</li>
+      <li>How can we quantify and display the impact of the changes of imported ontologies?</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="requirements">Requirements</h4>
+<ul>
+  <li>Programming in Java</li>
+  <li>Some knowledge of ontology engineering and Protege helpful</li>
+</ul>
+
+<h4 id="literature">Literature</h4>
+<ul>
+  <li>Presentation of the ChImp plugin [video]</li>
+  <li>Visualising the effects of ontology changes and studying their understanding with ChImp [paper]</li>
+  <li>Observing the Impact and Adaptation to the Evolution of an Imported Ontology [paper]</li>
+</ul>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

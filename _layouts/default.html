@@ -1,30 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: base
+---
 
-    <link rel="stylesheet" href="style.css">
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    
-	<link rel="icon" type="image/png" href="/favicon.png">
-		
-	<!-- Twitter cards -->
-	<meta name="twitter:site"    content="@{{ site.twitter_username }}">
-	<meta name="twitter:title"   content="{{ page.title }}">
+<div class="intro-header"></div>
 
-	<meta name="twitter:description" content="{{ site.description }}">
-	<meta name="twitter:card"  content="summary_large_image">
-	<meta name="twitter:image" content="{{ site.title_image }}">
-	<!-- end of Twitter cards -->
-			
-  </head>
-  <body id="body">
+<div role="main" class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
   {{ content }}
-  
-  </body>
-</html>
+
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

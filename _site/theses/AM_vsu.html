@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Visual scene understanding for indoor mobile robots</title>
+
+  
+
+  <meta name="description" content="Theses ## Visual scene understanding for indoor mobile robots (with the use case of trash picking) *Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)* #### Why Pollution is one of the greatest challenges of our time. It is however a task that is both unpleasant and potentially dangerous for humans to...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="Visual scene understanding for indoor mobile robots">
+  <meta property="og:description" content="Theses ## Visual scene understanding for indoor mobile robots (with the use case of trash picking) *Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)* #### Why Pollution is one of the greatest challenges of our time. It is however a task that is both unpleasant and potentially dangerous for humans to...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/AM_vsu.html">
+  <link rel="canonical" href="http://localhost:4000/theses/AM_vsu.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="Visual scene understanding for indoor mobile robots">
+  <meta property="twitter:description" content="Theses ## Visual scene understanding for indoor mobile robots (with the use case of trash picking) *Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)* #### Why Pollution is one of the greatest challenges of our time. It is however a task that is both unpleasant and potentially dangerous for humans to...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Visual scene understanding for indoor mobile robots</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="visual-scene-understanding-for-indoor-mobile-robots-with-the-use-case-of-trash-picking">Visual scene understanding for indoor mobile robots (with the use case of trash picking)</h2>
+
+<p><em>Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)</em></p>
+
+<h4 id="why">Why</h4>
+<p>Pollution is one of the greatest challenges of our time. It is however a task that is both unpleasant and potentially dangerous for humans to perform (especially when the waste is contaminated), therefore an automated robotic solution is highly desired. A solution could be using a mobile robot equipped with a manipulator and to integrate knowledge representation and reasoning methods over the potential categories of trash, for example:</p>
+<ul>
+  <li>Differentiate between trash and non-trash (what are the most likely waste in an office environment?)</li>
+  <li>Reason over the qualities of the object (e.g. a bottle that is transparent and light is usually made of plastic, whereas a heavy one might be glass)</li>
+</ul>
+
+<h4 id="what">What</h4>
+<p>In this project, you will be using the LoCoBot, a mobile robot equipped with multiple sensors and a manipulator. Your task would be to integrate object recognition methods (e.g. YOLO) and knowledge representation &amp; reasoning methods to solve pick and place problems representing trash collection.</p>
+
+<h4 id="how">How</h4>
+<ol>
+  <li>A literature review on the state-of-the-art methods integrating knowledge representation and reasoning with mobile robotics</li>
+  <li>Familiarizing with the LoCoBot platform and ROS.</li>
+  <li>Build a knowledge graph depending on the chosen use-case (trash picking is optional)</li>
+  <li>Developing an integrated robot control system that is able to recognize and reason over objects.</li>
+</ol>
+
+<h4 id="who">Who</h4>
+<p>Supervision will be by Mark Adamik and Ilaria Tiddi.</p>
+
+<h4 id="requirements">Requirements</h4>
+<ul>
+  <li>Some knowledge of graphs</li>
+  <li>Knowledge of Robotic Operating System (ROS) is a nice to have, willingness to learn it is a must</li>
+  <li>Image processing techniques is a nice to have but not essential</li>
+</ul>
+
+<h4 id="literature">Literature</h4>
+<ul>
+  <li>Wu, Y., Shen, X., Liu, Q., Xiao, F., Li, C., 2021. A Garbage Detection and Classification Method Based on Visual Scene Understanding in the Home Environment. Complexity 2021, e1055604. https://doi.org/10.1155/2021/1055604</li>
+  <li>Zareian, A., Karaman, S., Chang, S.-F., 2020. Bridging Knowledge Graphs to Generate Scene Graphs, in: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (Eds.), Computer Vision – ECCV 2020, Lecture Notes in Computer Science. Springer International Publishing, Cham, pp. 606–623. https://doi.org/10.1007/978-3-030-58592-1_36</li>
+</ul>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

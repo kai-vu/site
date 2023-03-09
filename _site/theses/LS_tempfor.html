@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Rule Mining on Hypergraphs to Forecast Recipe Popularity</title>
+
+  
+
+  <meta name="description" content="Theses ## Rule Mining on Hypergraphs to Forecast Recipe Popularity *Supervisor: Lise Stork (l.stork@vu.nl)* #### Why Most restaurants use spreadsheets to maintain inventory, in order to plan purchasing, spendings, and to avoid food waste. However, demand changes due to many external factors that contribute to the popularity of recipes and...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="Rule Mining on Hypergraphs to Forecast Recipe Popularity">
+  <meta property="og:description" content="Theses ## Rule Mining on Hypergraphs to Forecast Recipe Popularity *Supervisor: Lise Stork (l.stork@vu.nl)* #### Why Most restaurants use spreadsheets to maintain inventory, in order to plan purchasing, spendings, and to avoid food waste. However, demand changes due to many external factors that contribute to the popularity of recipes and...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/LS_tempfor.html">
+  <link rel="canonical" href="http://localhost:4000/theses/LS_tempfor.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="Rule Mining on Hypergraphs to Forecast Recipe Popularity">
+  <meta property="twitter:description" content="Theses ## Rule Mining on Hypergraphs to Forecast Recipe Popularity *Supervisor: Lise Stork (l.stork@vu.nl)* #### Why Most restaurants use spreadsheets to maintain inventory, in order to plan purchasing, spendings, and to avoid food waste. However, demand changes due to many external factors that contribute to the popularity of recipes and...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Rule Mining on Hypergraphs to Forecast Recipe Popularity</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="rule-mining-on-hypergraphs-to-forecast-recipe-popularity">Rule Mining on Hypergraphs to Forecast Recipe Popularity</h2>
+<p><em>Supervisor: Lise Stork (l.stork@vu.nl)</em></p>
+
+<h4 id="why">Why</h4>
+<p>Most restaurants use spreadsheets to maintain inventory, in order to plan purchasing, spendings, and to avoid food waste. 
+However, demand changes due to many external factors that contribute to the popularity of recipes and ingredients: e.g., temperature, general weather, and culture.</p>
+
+<p>Demand forecasting - predicting which dishes restaurants sell on a given day in future - helps restaurants consider these demand changes, further minimising spendings and food waste. 
+Moreover, on a higher level, predicting future food demand helps governments formulate agricultural, economic and conservation policies that are necessary to sustain the increasing world population - UN estimates have put the total population at 8.6 billion by mid-2030.</p>
+
+<p>Time series sales forecasting models are often statistical models, exploiting the various indicators of food demand to forecast product demand, see Figure 1. 
+When predictions fail, it proves challenging to backtrack why a model failed, making such models less trustworthy for demand forecasting.</p>
+
+<h4 id="what">What</h4>
+
+<p>The goal of this project is to (i) transform a dataset of restaurant purchases into a temporal knowledge graph, 
+(ii) add auxiliary data, such as ingredient data or even weather data (more challenging), and 
+(iii) run a temporal rule mining algorithm to predict future purchases.</p>
+
+<h4 id="how">How</h4>
+<p>Using a temporal graph of purchasing data, with data in the form 
+(restaurant_id, bought, product_id, “2022-03-14”), and auxiliary data such as a <a href="https://foodkg.github.io/">food knowledge graph</a> describing characteristics of products and recipes, the aim is to predict which products should be sold in specific periods, and to try to do so in an explainable way using temporal rulemining (for example the TLogic framework mentioned below).</p>
+
+<p>So, from the statement: 
+(TAKE, bought, FritesBelges, “2022-03-14”)</p>
+
+<p>To predict what else should be bought: 
+(TAKE, bought, ?, “2022-03-14”)</p>
+
+<p>Example mined rule: customers that bought spaghetti (given a specific date) will also buy bolognese sauce.</p>
+
+<h4 id="who">Who</h4>
+<p>Supervision will be by Lise Stork. We will collaborate with Pieter Wellens from the company <a href="https://get.apicbase.com/">Apicbase</a>, situated in Antwerp, who own the consumer sales data.</p>
+
+<h4 id="requirements">Requirements</h4>
+<ul>
+  <li>Knowledge of graph data recommmended</li>
+</ul>
+
+<h4 id="literature">Literature</h4>
+<ul>
+  <li>TLogic: Temporal Logical Rules for Explainable Link Forecasting on Temporal Knowledge Graphs. [<a href="https://doi.org/10.1609/aaai.v36i4.20330">paper</a>]</li>
+</ul>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Shopping Data Schema Induction</title>
+
+  
+
+  <meta name="description" content="Theses ## Shopping Data Schema Induction (MSc) *Supervisor: Benno Kruit (b.b.kruit@vu.nl)* **Keywords**: Ontology Induction, Rule Learning, Attribute Extraction, Clustering #### Why Online shopping can be fun, but it can be pretty hard to find exactly what you want. To support product search, many e-commerce websites don’t only support text queries,...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="Shopping Data Schema Induction">
+  <meta property="og:description" content="Theses ## Shopping Data Schema Induction (MSc) *Supervisor: Benno Kruit (b.b.kruit@vu.nl)* **Keywords**: Ontology Induction, Rule Learning, Attribute Extraction, Clustering #### Why Online shopping can be fun, but it can be pretty hard to find exactly what you want. To support product search, many e-commerce websites don’t only support text queries,...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/BK_shopping.html">
+  <link rel="canonical" href="http://localhost:4000/theses/BK_shopping.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="Shopping Data Schema Induction">
+  <meta property="twitter:description" content="Theses ## Shopping Data Schema Induction (MSc) *Supervisor: Benno Kruit (b.b.kruit@vu.nl)* **Keywords**: Ontology Induction, Rule Learning, Attribute Extraction, Clustering #### Why Online shopping can be fun, but it can be pretty hard to find exactly what you want. To support product search, many e-commerce websites don’t only support text queries,...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Shopping Data Schema Induction</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="shopping-data-schema-induction-msc">Shopping Data Schema Induction (MSc)</h2>
+<p><em>Supervisor: Benno Kruit (b.b.kruit@vu.nl)</em></p>
+
+<p><strong>Keywords</strong>: Ontology Induction, Rule Learning, Attribute Extraction, Clustering</p>
+
+<h4 id="why">Why</h4>
+<p>Online shopping can be fun, but it can be pretty hard to find exactly what you want. To support product search, many e-commerce websites don’t only support text queries, but also provide filters on specific product attributes such as color, size, material, or features, which is known as faceted search. However, for large product catalogues from many vendors, it is infeasible to standardize the attributes that vendors should use to describe their products. In order to support effective faceted search, it is therefore necessary to integrate the provided attributes into a coherent data model that can be used for filtering.</p>
+
+<h4 id="what">What</h4>
+<p>This project aims to examine approaches for inducing a coherent ontology for product descriptions, which describes a set of product types and attributes, how those are related, and what kind of values the attributes may have. The starting point is an analysis of the Multimodal Attribute Extraction dataset, and various attribute clustering approaches. Then, the project may incorporate association rule learning to find useful structures for faceted search.</p>
+
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>CFWL Active Learning</title>
+
+  
+
+  <meta name="description" content="Theses ## Active Learning - Improving the Dark Web Classifier based on expert input *Supervisors:* - *CFLW: Eljo Haspels (eljo.haspels@cflw.com)* - *KAI: Romana Pernisch (r.pernisch@vu.nl)* - *L&amp;R: Taraneh Younesian* **The selection process for this thesis has started and we do not accept any more applications.** #### Background: Dark Web pages...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="KAI">
+  <meta property="og:title" content="CFWL Active Learning">
+  <meta property="og:description" content="Theses ## Active Learning - Improving the Dark Web Classifier based on expert input *Supervisors:* - *CFLW: Eljo Haspels (eljo.haspels@cflw.com)* - *KAI: Romana Pernisch (r.pernisch@vu.nl)* - *L&amp;R: Taraneh Younesian* **The selection process for this thesis has started and we do not accept any more applications.** #### Background: Dark Web pages...">
+
+  
+
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/theses/cflw_activelearning.html">
+  <link rel="canonical" href="http://localhost:4000/theses/cflw_activelearning.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  <meta property="twitter:title" content="CFWL Active Learning">
+  <meta property="twitter:description" content="Theses ## Active Learning - Improving the Dark Web Classifier based on expert input *Supervisors:* - *CFLW: Eljo Haspels (eljo.haspels@cflw.com)* - *KAI: Romana Pernisch (r.pernisch@vu.nl)* - *L&amp;R: Taraneh Younesian* **The selection process for this thesis has started and we do not accept any more applications.** #### Background: Dark Web pages...">
+
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">KAI</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto"></ul>
+  </div>
+
+  
+
+  
+
+</nav>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>CFWL Active Learning</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <nav><ul>
+    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100" /></a></li>
+    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
+</ul></nav>
+
+<h2 id="active-learning---improving-the-dark-web-classifier-based-on-expert-input">Active Learning - Improving the Dark Web Classifier based on expert input</h2>
+<p><em>Supervisors:</em></p>
+<ul>
+  <li><em>CFLW: Eljo Haspels (eljo.haspels@cflw.com)</em></li>
+  <li><em>KAI: Romana Pernisch (r.pernisch@vu.nl)</em></li>
+  <li><em>L&amp;R: Taraneh Younesian</em></li>
+</ul>
+
+<p><strong>The selection process for this thesis has started and we do not accept any more applications.</strong></p>
+
+<h4 id="background">Background:</h4>
+<p>Dark Web pages are classified along different dimensions hence every page has more than one label, making this a multi label problem. At the moment pages are labeled by humans and a (static) pretrained AI classifier.</p>
+
+<h4 id="description">Description:</h4>
+<p>Although precision and recall scores are good, it would be highly beneficial to update the classifier as new data arrives. Labels can change over time as well, as new crimes are defined. 
+Instead of first labeling a number of pages with the new labels and then learning a new classifier, it would be beneficial to be able to update the model on the go. We envision this to be done with the help of human experts that would collaborate with the AI by accepting/rejecting or even modifying labels assigned by the model. The model would then take these inputs and contineu to learn as new examples are given to the human expert to annotate.</p>
+
+<h4 id="tasks">Tasks:</h4>
+<ol>
+  <li>What are best practices with regards to updating AI models?</li>
+  <li>What can we learn from the stream community?</li>
+  <li>How can expert confirmation or rejection of AI based annotations be used to retrain the classifier (in a continuous way)?</li>
+  <li>What infrastructure is required for such a setup at CFLW?</li>
+</ol>
+
+<!-- **Research Question:** tbd -->
+
+<h4 id="literature">Literature:</h4>
+<ul>
+  <li>Cybercrime threat intelligence: A systematic multi-vocal literature review [<a href="https://doi.org/10.1016/j.cose.2021.102258">paper</a>]</li>
+  <li>Active Learning Literature Survey [<a href="http://digital.library.wisc.edu/1793/60660">paper</a>]</li>
+  <li>A survey of human-in-the-loop for machine learning [<a href="https://doi.org/10.1016/j.future.2022.05.014">paper</a>]</li>
+  <li>An Analysis of Active Learning Strategies for Sequence Labeling Tasks [<a href="https://aclanthology.org/D08-1112.pdf">paper</a>]</li>
+</ul>
+
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"></ul>
+
+      
+      <p class="copyright text-muted">
+      
+      2023
+
+      
+
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>
