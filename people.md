@@ -1,3 +1,6 @@
+---
+title: Knowledge and AI: People
+---
 ## People
 <div style="width: 100%; margin-left: auto; margin-right: auto;">
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br><a href="https://www.few.vu.nl/~schlobac/">Stefan Schlobach</a><br><span style="font-size:14pt">Associate Professor</span><br></div>
