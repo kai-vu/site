@@ -78,18 +78,18 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #ffffffcc;
+	color: #4b4b4b;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 nav ul li a:hover {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 }
 
 nav ul li.home a {
-	color: #ffffff;
+	color: #4b4b4b;
 }
 
 nav ul li.home a:hover {
