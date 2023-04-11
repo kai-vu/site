@@ -7,6 +7,7 @@ title: Knowledge and AI
 <li><a href="#news">News</a></li>
 <li><a href="people">People</a></li>
 <li><a href="projects">Projects</a></li>
+<li><a href="/theses">Theses</a></li>
 </ul></nav>
 
 The Knowledge in Artificial Intelligence (KAI) group studies the role of symbolic (formal/declarative) knowledge in Artificial Intelligence/AI-based systems. 

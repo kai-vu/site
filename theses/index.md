@@ -6,8 +6,8 @@ title: Student Theses at KAI
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
 <li><a href="#KAI-theses">Theses</a></li>
- <li><a href="#internships">Internships</a></li>
- </ul></nav>
+<li><a href="#internships">Internships</a></li>
+</ul></nav>
 
 
 ## Expectations
