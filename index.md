@@ -20,7 +20,7 @@ We combine foundational theory and applied methods such as computational logic, 
 
 ## News
 <ul>
-    <li> (1 may 2023) We have <a href="/people">a new additions</a> to our group: welcome Patrick!</li>
+    <li> (1 may 2023) We have <a href="/people">a new addition</a> to our group: welcome Patrick!</li>
     <li> (13 apr 2023) Great news! KAI will be represented by a research paper from Lise Stork and a poster by Romana Pernisch at ESWC 2023! </li>
     <li> (1 mar 2023) We have <a href="/people">two new additions</a> to our group: welcome Atefeh and Ritten!</li>
 </ul>
