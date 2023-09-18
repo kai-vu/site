@@ -22,9 +22,6 @@ title: Knowledge and AI Projects
 <a href="https://cooperationdatabank.org/"><img src="images/coda.png" height="100"></a>
 
 
-<a href="https://krr.cs.vu.nl/dreams-lab/"><img src="images/dreams.png" height="100"></a>
-
-
 <a href="https://www.hybrid-intelligence-centre.nl/"><img src="images/hybrid.png" height="100"></a>
 
 
