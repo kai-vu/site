@@ -1,4 +1,5 @@
 ---
+redirect_to: https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit?usp=sharing
 title: Student Theses at KAI
 ---
 
