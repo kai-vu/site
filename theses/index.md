@@ -26,8 +26,6 @@ At KAI, we set clear expectations for students. We want to make sure students kn
     - <a href="#multi-lingual-problems">Multi-lingual problems</a>
     - <a href="#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
 - <a href="#internships">Internships</a>
-    - <a href="#elsevier">Elsevier</a>
-    - <a href="#cfwl-cyber-strategies">CFWL Cyberstrategies</a>
     - <a href="#lareb">Lareb</a>
     - <a href="#accenture">Accenture</a>
     - <a href="#triply-db">Triply DB</a>
