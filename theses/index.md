@@ -17,7 +17,8 @@ At KAI, we set clear expectations for students. We want to make sure students kn
 #### Table of contents
 - <a href="#KAI-theses">VU Theses</a>
     - <a href="#information-extraction">Information Extraction</a>
-    - <a href="#ontology-knowledge-graph-engineering-and-evolution">Ontology, Knowledge Graph Engineering and Evolution</a>
+    - <a href="#ontology-evolution">Ontology Evolution</a>
+    - <a href="#knowledge-engineering">Knowledge Engineering</a>
     - <a href="#argument-and-rule-mining">Argument and Rule Mining</a>
     - <a href="#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
     - <a href="#explanations-and-narratives">Explanations and Narratives</a>
@@ -49,14 +50,18 @@ We offer multiple projects under the umbrella of information extraction with var
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 
-
-#### Ontologies, Knowledge Engineering
-*Supervisor: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
+#### Ontology Evolution
+*Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
 
 Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain. 
+- **Evolution Process**: The process of ontology evolution is relatively long and complex. In your thesis you can investigate and compare tools for supporting this process or investigate automations options within this process. Multiple projects within this area are possible and some ideas and details are given <a href='RP_evo'>here</a>.
 - **ChImp 2.0**: The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp. More information is <a href='RP_chimp'>here</a>.
 - **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole. More details are given <a href="RP_mat">here</a>.
-- **Embeddings**: We have previously developed a methon to compare embeddings as the underlying knowledge graph changes. We want to further this method and analyse its capabilities in more detail. <a href='RP_eri'>Here</a> is the thesis description.
+
+
+#### Knowledge Engineering
+*Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
+
 - **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.   
 
 
@@ -79,6 +84,7 @@ These projects look at the intersection of robotics and knowledge graphs. Knowle
 - **Semantic Mapping with a mobile service robot** (MSc): The goal of this project is to implement semantic mapping for an indoor mobile robot using knowledge graphs. More information about this project can be found <a href="AM_semmap">here</a>.
 - **Visual Scene Understanding for Indoor Mobile Robots** (BSc): In this project, you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a href="AM_vsu">here</a>.
 - **Energy-efficient robots through knowledge-awareness**. (BSc, MSc): We have an ontology representing the capabilities of the robots (picking objects, moving, scanning surroundings, etc.). The ontology needs to be expanded with energy budgets so the robot can choose the actions to performed based on its capabilities and energy-efficiency. Collaboration with the Software Engineering group.
+
 
 #### Explanations and Narratives 
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
@@ -115,51 +121,10 @@ Even though these topics would also fit under different topics already discribed
 - **Extracting Semantics from neural co-activation graphs**: Here, we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
 
 ## Internships
-
-#### Elsevier
-*Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
-
-Elsevier is offering many theses, which were presented at the VU Theses Fair on the 11th November. The list can be found <a href="https://drive.google.com/file/d/1nscVWYflQBCpQZ2rqBQytjf0sLx9AiCM/view?usp=share_link">here</a>. 
-Following theses from the list would potentially supervised by Romana:
-<ul>
-    <li>Automatic Taxonomy Construction</li>
-    <li>Quality Metrics for Knowledge Graphs</li>
-    <li>Distributional Bias and Drift in Biomedical embeddings ND Corpora</li>
-    <li>Impact of Ontology Changes on Document Annotations</li>
-</ul>
-
-
-#### CFLW Cyber Strategies
-*Supervisors: Eljo Haspels (eljo.haspels@cflw.com), Romana Pernisch (r.pernisch@vu.nl)*
-
-CFLW is a tech startup from the Netherlands, founded at the end of 2019, based in The Hague. They develop intelligence services for law enforcement agencies, cybersecurity agencies and financial/fintech organizations. Their core product is Dark Web Monitor, which is used by various agencies around the world. For more details on CFLW see their <a href="https://cflw.com">website</a>
-
-<details>
-<summary>Internship details</summary>
-<p>
-Requirements:
-<ul>
-    <li>Students are expected to be at the office at least once a week on Thursdays. The CFLW office is at the Hague Security Delta, next to Laan van NOI railway station.</li>
-    <li>Students must be technically skilled in computer science, artificial intelligence, digital technologies, forensics or any other related background.</li>
-    <li>Students need to be intrinsically motivated to make cyberspace a little bit safer.</li>
-</ul>
-</p>
-<p>
-Benefits:
-<ul>
-    <li>Students will receive an internship fee.</li>
-    <li>Students will learn how a startup works as they will take part in the company operations.</li>
-    <li>They formulate student projects in a way so students can realize a real-world impact on security.</li>
-</ul>
-</p>
-</details>
-
-CFWL is offering two theses, follow link for more details on the projects:
-- <a href="cflw_onto">Classifying the Dark Web: creating a robust Dark Web Ontology (BSc)</a>
-- <a href="cflw_activelearning">Active Learning - Improving the Dark Web Classifier based on expert input (MSc)</a>
+Make sure to first check out the official internship process!
 
 #### Lareb
-*Supervisors: Romana Pernisch (r.pernisch@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
+*Supervisors: Ilaria Tiddi (i.tiddi@vu.nl)*
 
 Lareb is a Pharmacovigilance Research Lab studying the effects of drugs over human bodies. The goal of this thesis is to extract and model some domain data on drug reactions so that link prediction approaches can be deployed over this data. Additionally, there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs. BSc or MSc. 
 
