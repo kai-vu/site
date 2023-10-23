@@ -22,6 +22,8 @@ We combine foundational theory and applied methods such as computational logic, 
 
 ## News
 <ul>
+    <li> (03 oct 2023) 3 paper from KAI members have been accepted to the KCAP conference for publication and presentations, well done to all the authors: Ilaria, Lise, Ritten, Romana, Stefan as well as co-others from other groups! 
+    <li> (01 oct 2023) Giacomo Zamprogno has joined the group! Welcome! 
     <li> (30 may 2023) Benno Kruit will be presenting his paper titeled "Minimalist Entity Disambiguation for Mid-Resource Languages" at the <a href="https://sites.google.com/view/sustainlp2023">Sustainlp2023</a> workshop! Congrats on the acceptance! </li>
     <li> (1 may 2023) We have <a href="/people">a new addition</a> to our group: welcome Patrick!</li>
     <li> (13 apr 2023) Great news! KAI will be represented by a research paper from Lise Stork and a poster by Romana Pernisch at ESWC 2023! </li>
