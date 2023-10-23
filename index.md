@@ -17,8 +17,9 @@ We do this by combining research from the fields of Knowledge Engineering and Kn
 
 We combine foundational theory and applied methods such as computational logic, emergent semantics, narrative representation, abstract argumentation, knowledge engineering (at scale), knowledge graph management, semantic techniques, data integration as well as machine learning. Our research addresses a variety of types of knowledge, which can be heterogeneous, contextualised, dynamic, common-sense, process-dependent, personal, tribal, conflicting or biased, and often large-scale.
 
-<img src="../../images/group_oct2023.jpg" alt="KAI_group" style="width:50%; position:center; top:6px;"/>
-
+<center>
+<img src="../../images/group_oct2023.jpg" alt="KAI_group" style="width:80%; position:relative; top:6px;"/>
+</center>
 
 ## News
 <ul>
