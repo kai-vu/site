@@ -25,7 +25,13 @@ We combine foundational theory and applied methods such as computational logic, 
 
 ## News
 <ul>
-    <li> (03 oct 2023) 3 paper from KAI members have been accepted to the KCAP conference for publication and presentations, well done to all the authors: Ilaria, Lise, Ritten, Romana, Stefan as well as co-others from other groups! </li>
+    <li> (03 oct 2023) 3 paper from KAI members have been accepted to the KCAP conference for publication and presentations, well done to all the authors: Ilaria, Lise, Ritten, Romana, Stefan as well as co-others from other groups! 
+    <ul>
+        <li>Knowledge Engineering for Hybrid Intelligence by Ilaria Tiddi, Victor de Boer, Stefan Schlobach</li>
+        <li>OKG: A Knolwedge Graph for Fine-grained Understanding of Social Media Discourse on Inequality by Inès Blin, Lise Stork, Laura Spillner, Carlo R.M.A. Santagiustina</li>
+        <li>Do you catch my drift? On the Usage of Embedding Methods to Measure Concept Shift in Knowledge Graphs by Stella Verkijk, Ritten Roothaert, Romana Pernisch, Stefan Schlobach</li>
+    </ul>
+    </li>
     <li> (01 oct 2023) Giacomo Zamprogno has joined the group! Welcome! </li>
     <li> (30 may 2023) Benno Kruit will be presenting his paper titeled "Minimalist Entity Disambiguation for Mid-Resource Languages" at the <a href="https://sites.google.com/view/sustainlp2023">Sustainlp2023</a> workshop! Congrats on the acceptance! </li>
     <li> (1 may 2023) We have <a href="/people">a new addition</a> to our group: welcome Patrick!</li>
