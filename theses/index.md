@@ -1,5 +1,5 @@
 ---
-redirect_to: https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit?usp=sharing
+# redirect_to: https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit?usp=sharing
 title: Student Theses at KAI
 ---
 
@@ -33,6 +33,7 @@ At KAI, we set clear expectations for students. We want to make sure students kn
 
 ## KAI Theses
 
+You can find the slides presented at the MSc AI Thesis event <a href='https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit#slide=id.p'>here</a>.
 Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic. 
 
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available, have a look at the detailed description first. Also, keep in mind that all theses can be shaped to accomodate your interests.
