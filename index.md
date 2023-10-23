@@ -17,6 +17,9 @@ We do this by combining research from the fields of Knowledge Engineering and Kn
 
 We combine foundational theory and applied methods such as computational logic, emergent semantics, narrative representation, abstract argumentation, knowledge engineering (at scale), knowledge graph management, semantic techniques, data integration as well as machine learning. Our research addresses a variety of types of knowledge, which can be heterogeneous, contextualised, dynamic, common-sense, process-dependent, personal, tribal, conflicting or biased, and often large-scale.
 
+<img src="../../images/group_oct2023.jpg" alt="KAI_group" style="height:50px; position:relative; top:6px;"/>
+
+
 ## News
 <ul>
     <li> (30 may 2023) Benno Kruit will be presenting his paper titeled "Minimalist Entity Disambiguation for Mid-Resource Languages" at the <a href="https://sites.google.com/view/sustainlp2023">Sustainlp2023</a> workshop! Congrats on the acceptance! </li>
