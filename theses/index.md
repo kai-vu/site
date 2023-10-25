@@ -62,7 +62,7 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 *Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
 
 - **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.
-- <text id="hi_nh_ma">**Embodied Instructable Agents** (MSc): The goal of this project is to integrate a Reinforment Learning model trsined for trajectory/segmentation learning on an embodied  Hybrid Intelligent agent (a ROS-operting robot). Knowledge of one between ROS, Reinforcement Learning and simulation environments is required</text>.
+- <b id="hi_nh_ma">**Embodied Instructable Agents**</b> (MSc): The goal of this project is to integrate a Reinforment Learning model trsined for trajectory/segmentation learning on an embodied  Hybrid Intelligent agent (a ROS-operting robot). Knowledge of one between ROS, Reinforcement Learning and simulation environments is required.
 
 
 #### Argument and Rule Mining
@@ -120,7 +120,7 @@ Even though these topics would also fit under different topics already discribed
 
 - **Incorporating Semantics in Message Passing methods**: Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
 - **Extracting Semantics from neural co-activation graphs**: Here, we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
-- <text id="causalinf-kg">**Semantic robustness of Language Models with causal inference**</text>: We will adapt the approach <a href="https://arxiv.org/pdf/2306.04347.pdf">in this paper</a> to test how robut language models are toward different semantics (description logics, OWL, etc.) The idea is to build a causal model for graph2text tasks and compare its prections with the ones of a language model. Understanding of probability theory, statistics and graph theory is necessary.
+- <b id="causalinf-kg">**Semantic robustness of Language Models with causal inference**</b>: We will adapt the approach <a href="https://arxiv.org/pdf/2306.04347.pdf">in this paper</a> to test how robut language models are toward different semantics (description logics, OWL, etc.) The idea is to build a causal model for graph2text tasks and compare its prections with the ones of a language model. Understanding of probability theory, statistics and graph theory is necessary.
 
 ## Internships and Erasmus Programmes
 Make sure to first check out the official internship process!
