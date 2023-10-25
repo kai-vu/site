@@ -18,7 +18,7 @@ At KAI, we set clear expectations for students. We want to make sure students kn
 - <a href="#KAI-theses">VU Theses</a>
     - <a href="#information-extraction">Information Extraction</a>
     - <a href="#ontology-evolution">Ontology Evolution</a>
-    - <a href="#knowledge-engineering">Knowledge Engineering</a>
+    - <a href="#knowledge-engineering">Hybrid Intelligence</a>
     - <a href="#argument-and-rule-mining">Argument and Rule Mining</a>
     - <a href="#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
     - <a href="#explanations-and-narratives">Explanations and Narratives</a>
@@ -58,10 +58,11 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 - **Materialisation/Reasoning**: We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole. More details are given <a href="RP_mat">here</a>.
 
 
-#### Knowledge Engineering
+#### Hybrid Intelligence 
 *Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
 
-- **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.   
+- **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.
+- <text id="hi_nh_ma">**Embodied Instructable Agents** (MSc): The goal of this project is to integrate a Reinforment Learning model trsined for trajectory/segmentation learning on an embodied  Hybrid Intelligent agent (a ROS-operting robot). Knowledge of one between ROS, Reinforcement Learning and simulation environments is required</text>.
 
 
 #### Argument and Rule Mining
@@ -77,13 +78,14 @@ Rule mining, similarly to information extraction, aims at finding structures. In
 
 
 #### Robotics and Knowledge Representation
-*Supervisor: Mark Adamik (m.adamik@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
+*Supervisor: Ilaria Tiddi (i.tiddi@vu.nl),  Mark Adamik (m.adamik@vu.nl)*
 
 These projects look at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:
 - **Semantic Mapping with a mobile service robot** (MSc): The goal of this project is to implement semantic mapping for an indoor mobile robot using knowledge graphs. More information about this project can be found <a href="AM_semmap">here</a>.
 - **Visual Scene Understanding for Indoor Mobile Robots** (BSc): In this project, you will use the camera feed of the robot and off-the-shelf image recognition algorithms to understand the environment by generating knowledge graphs. More information about this project can be found <a href="AM_vsu">here</a>.
 - **Energy-efficient robots through knowledge-awareness**. (BSc, MSc): We have an ontology representing the capabilities of the robots (picking objects, moving, scanning surroundings, etc.). The ontology needs to be expanded with energy budgets so the robot can choose the actions to performed based on its capabilities and energy-efficiency. Collaboration with the Software Engineering group.
-
+- **Embodied Instructable Agents** (MSc): See <a href="HI_nh_ma">above</a>.
+- **Impact of ontology changes in robotic tasks**. (MSc): Based on a robot operating with an ontology in the background, the goal here is to study how changes in such ontology can positively/negatively impact the tasks the robot has to perform. Knowledge of one between ROS, RDFlib and simulation environments is required.
 
 #### Explanations and Narratives 
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
@@ -91,6 +93,7 @@ These projects look at the intersection of robotics and knowledge graphs. Knowle
 The following topics are aimed at providing a more human-like AI, by creating explanations or creating narratives.
 - **Identifying Formal Narratives from KGs**: (*Ilaria*) The goal of this project is to extract as many narratives as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
 - **A Benchmark for understanding Narratives**: (*Ilaria*) Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
+- **Semantic robustness of Language Models with causal inference**. See <a href="causalinf-kg">below</a>. 
 - **Recipe variation using gastronomic recipe explanations**: (*Lise*) In this project, the goal is to investigate recipe variability by finding explanations for why certain ingredients taste better than others by using the Food Knowledge Graph. More details can be found <a href="LS_recipevar">here</a>.
 - **A tool for Publishing Social Inequality Hypotheses**: (*Lise*) The goal of this project is to create a web interface to facilitate the semantic annotation of social history research papers. More information is located <a href="LS_seman">here</a>.
 
@@ -115,29 +118,11 @@ Even though these topics would also fit under different topics already discribed
 #### Semantics of Deep Learning Methods
 *Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
 
-- **Analysing multi-task deep models with Graph Analysis**: This is a collaboration with the Bioinformatics department. The goal is to extend previous work (<a href="https://www.sciencedirect.com/science/article/pii/S0167739X21000613">1</a>,<a href="https://dl.acm.org/doi/pdf/10.1145/3460210.3493571">2</a>) to include knowledge about the data inputs of a multi-task, multi-class classifier for bioinformatics data using a KG. We will then use this information to elicit the model's inner workings and generate textual explenation for its decisions. A combination of link prediction and graph summarisation will be used.
 - **Incorporating Semantics in Message Passing methods**: Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
 - **Extracting Semantics from neural co-activation graphs**: Here, we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
+- <text id="causalinf-kg">**Semantic robustness of Language Models with causal inference**</text>: We will adapt the approach <a href="https://arxiv.org/pdf/2306.04347.pdf">in this paper</a> to test how robut language models are toward different semantics (description logics, OWL, etc.) The idea is to build a causal model for graph2text tasks and compare its prections with the ones of a language model. Understanding of probability theory, statistics and graph theory is necessary.
 
-## Internships
+## Internships and Erasmus Programmes
 Make sure to first check out the official internship process!
 
-#### Lareb
-*Supervisors: Ilaria Tiddi (i.tiddi@vu.nl)*
-
-Lareb is a Pharmacovigilance Research Lab studying the effects of drugs over human bodies. The goal of this thesis is to extract and model some domain data on drug reactions so that link prediction approaches can be deployed over this data. Additionally, there is also interest in aligning the extracted model with existing Knowledge Graphs on drugs. BSc or MSc. 
-
-#### Accenture
-*Supervisor: Ilaria Tiddi*
-
-We will be offering projects around KGs, ML and Hybrid Intelligence in collaboration with Accenture.
-
-#### Triply DB
-*Supervisors: Kathrin Dentler (kathrin.dentler@triply.cc), Ilaria Tiddi (i.tiddi@vu.nl)*
-
-Triply is a company offering infrastructure solutions for knowledge graph-based data. There are several project available in collaboration with <a href="https://triplydb.com/">Triply DB</a> on using Machine Learning and NLP over large scale KGs. Group work is possible and projects can be either BSc or MSc.
-
-- **Semantic Data Quality**: Develop a method to automatically detect common mistakes in ontologies. Examples can be: taxonomic loops, inconsistency, or redundancies in ontologies. Use these mistakes to identify, for instance, outdated knowledge.
-- **Semantic Explanations**: The goal here is to automatically generate natural language explanations from complex data structures (graphs). We will be looking at building explanations in the form of argumentative structure (cfr. Toulmin's model) for specific given facts.
-- **Semantic Search Engine**: The project aims at creating a search engine over several knowledge graphs, that can allow look up all IRIs in the Semantic Web. 
-- **Fair Semantics**: Here, we aim at detecting discriminatory features in datasets such as most recurring classes or properties. We can then use them to create "prescriptions" or "manuals" for a datasets, to describe their biases and the underlying assumptions that may be found in the data. Could be extended to develop a method to overcome such bias.
+We suggest you to pick a topic from the ones above, and adapt it to the company needs in agreement with your supervisors (both from the company and from the group). We do have contacts in several companies and research centres to do experiences abroad. For more information, contact Ilaria Tiddi (i.tiddi@vu.nl)*
