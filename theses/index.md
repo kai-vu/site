@@ -39,7 +39,7 @@ Most of the topics below can be investigated by either BSc or MSc AI students. W
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available, have a look at the detailed description first. Also, keep in mind that all theses can be shaped to accomodate your interests.
 
 #### Information Extraction
-*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
+*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl), Ritten Roothaert (h.m.roothaert@vu.nl)*
 
 We offer multiple projects under the umbrella of information extraction with varying foci. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
@@ -48,6 +48,7 @@ We offer multiple projects under the umbrella of information extraction with var
 - **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found <a href="BK_relextract">here</a>.
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
+- **Automated data-provenance extraction** (BSc): In a world where linked data and data-mining is omnipresent, determining which data was used for training a ML-model becomes increasingly more difficult and tedious. This project revolves around automating the process of extracting the provenance information of data used in a ML-pipeline. More details are given <a href="RR_prov">here</a>.
 
 #### Ontology Evolution
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
@@ -63,8 +64,6 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 - **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.
 - **Embodied Instructable Agents** (MSc): <text id="hi_nh_ma">The goal of this project is to integrate a Reinforment Learning model trained for trajectory/segmentation learning on an embodied  Hybrid Intelligent agent (a ROS-operting robot). Knowledge of one between ROS, Reinforcement Learning and simulation environments is required</text>.
-
-- **Automated data-provenance extraction** (BSc): In a world where linked data and data-mining is omnipresent, determining which data was used for training a ML-model becomes increasingly more difficult and tedious. This project revolves around automating the process of extracting the provenance information of data used in a ML-pipeline. More details are given <a href="RR_prov">here</a>.
 
 
 #### Argument and Rule Mining
