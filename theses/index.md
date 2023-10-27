@@ -43,7 +43,7 @@ If you are interested in one of the projects below, please contact the superviso
 
 We offer multiple projects under the umbrella of information extraction with varying foci. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
-- **Making social history research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on social history hypotheses from the literature. Here is a more detailed <a href="LS_sochist">description</a>.
+- **Making research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on hypotheses from the literature. Here is a more detailed <a href="LS_SciKG">description</a>.
 - **Information extraction from Structured lists** (BSc, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.
 - **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found <a href="BK_relextract">here</a>.
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
@@ -60,11 +60,11 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 
 #### Hybrid Intelligence 
-*Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
+*Supervisor: Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 - **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.
 - **Embodied Instructable Agents** (MSc): <text id="hi_nh_ma">The goal of this project is to integrate a Reinforment Learning model trained for trajectory/segmentation learning on an embodied  Hybrid Intelligent agent (a ROS-operting robot). Knowledge of one between ROS, Reinforcement Learning and simulation environments is required</text>.
-
+- **Researching human-in-the-loop workflows for research assistants using KGs**: (*MSc, Lise*) The goal of this project is to research human-in-the-loop workflows for digital assistants for scientific discovery. Here is a more detailed <a href="LS_SciKG">description</a>.
 
 #### Argument and Rule Mining
 *Supervisor: Loan Ho (t.t.l.ho@vu.nl), Lise Stork (l.stork@vu.nl), Atefeh Keshavarzi(a.keshavarzi.zafarghandi@vu.nl)*
@@ -76,7 +76,6 @@ There are multiple projects in the domain of argument mining with different obje
 - **Orange3 Argument Mining Widget Based on a Formalism of Argumentation** (MSc, Atefeh): This project aims to bridge the gap between argumentation theory and data analysis and visualization by developing an argument mining widget for Orange3, an open-source data mining and machine learning software. <a href="AK_argOrg">Here</a> are more details.
 
 Rule mining, similarly to information extraction, aims at finding structures. In this case, we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
-- **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
 - **Community Detection from a Species Interaction Network**: The goal of this project is to extract interesting communities in species interaction networks and or detect interesting logic rules that relate to these communities. More details are given <a href="LS_comdet">here</a>
 
 
@@ -98,18 +97,17 @@ The following topics are aimed at providing a more human-like AI, by creating ex
 - **Identifying Formal Narratives from KGs**: (*Ilaria*) The goal of this project is to extract as many narratives as possible (in terms of set of facts) from existing KGs such as DBpedia or Wikidata. In order collect these facts, we will use the narrative formal structure as presented in this <a href="http://ceur-ws.org/Vol-2969/paper31-CAOS.pdf">paper</a>.
 - **A Benchmark for understanding Narratives**: (*Ilaria*) Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
 - **Semantic robustness of Language Models with causal inference**. See <a href="causalinf-kg">below</a>. 
-- **Recipe variation using gastronomic recipe explanations**: (*Lise*) In this project, the goal is to investigate recipe variability by finding explanations for why certain ingredients taste better than others by using the Food Knowledge Graph. More details can be found <a href="LS_recipevar">here</a>.
-- **A tool for Publishing Social Inequality Hypotheses**: (*Lise*) The goal of this project is to create a web interface to facilitate the semantic annotation of social history research papers. More information is located <a href="LS_seman">here</a>.
 
+- **SHACL-forms for publishing scientific findings**: (*MSc, Lise*) The goal of this project is building a form from SHACL shapes for the publication of scientific findings. Here is a more detailed <a href="LS_SciKG">description</a>.
 
 #### Question Answering
-*Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl)*
+*Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 QA is a very broad topic. We, however, focus on QA over structured data in various forms:
 - **Playing "20 Questions" with a KG** (BSc): detailed description is located <a href="BK_20questions">here</a>.
 - **Multi-modal Question Answering** (MSc): Description <a href="https://drive.google.com/open?id=1QwcTusbM85KmK1HiGFZJWSK4AYYWwlB9rG6AeR_jv8w">here</a>.
 - **Graph Queries on Relation Databases** (MSc CS): Description <a href="https://drive.google.com/open?id=1HByPxhswvGy8EGPjHuEOXBzwktGNXhN4brsZ2q-t1mc">here</a>.
-
+- **Answering Research Questions over Data Cubes as SQA (MSc., Lise): Description <a href="LS_SciKG">here</a>.
 
 #### Multi-lingual problems
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
