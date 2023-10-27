@@ -71,7 +71,8 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 There are multiple projects in the domain of argument mining with different objectives:
 - **Argumentation-based explanation from KGs** (MSc): the goal is to run a Tableau reasoner on an DL-formalised ontology.
-- **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontology (DL-lite) for tabular data input and running the Tableau algorithm to predict whether a case has a (non)violation. 
+- **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontology (DL-lite) for tabular data input and running the Tableau algorithm to predict whether a case has a (non)violation.
+- **Leveraging Argumentation Frameworks for Local Explainability of Black-Box Models** (MSc, Atefeh): This project aims to leverage the formalisms of argumentation to provide local explainability for black-box models, enabling non-experts to understand the reasons behind the system's decisions.<a href="AK_argbox">Here</a> are more details.
 
 Rule mining, similarly to information extraction, aims at finding structures. In this case, we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:
 - **Rule Mining on Hypergraphs to Forecast Recipe Popularity**: The goal of this project is to use a temporal knowledge graph and some auxilary data to run temporal rule mining algorithms to predict future purchases at restaurants. <a href="LS_tempfor">Here</a> are more details.
