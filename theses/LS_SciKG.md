@@ -44,7 +44,7 @@ Relevant literature:
 - Ermilov, Ivan, et al. "kOre: Using Linked Data for OpenScience Information Integration." SEMANTiCS (Posters & Demos). 2015.
 - https://datashapes.org/forms.html
 
-Understanding (and towards automation of) the scientific process 
+Understanding (and towards automation of) the scientific process: 
 - research how process ontologies of the scientific cycle can aid researchers
 - a comparison of (RDF) vocabularies for describing the scientific process (supervisors: Lise & Ilaria) 
 - a comparison of human-in-the-loop workflows of the scientific cycle that make use of Knowledge Graphs 
@@ -53,12 +53,12 @@ N-ary relation extraction from unstructured text using LLMs is often error-prone
 Relevant literature: 
 Guo, Kunpeng, et al. "WikidataComplete–An Easy-to-Use Method for Rapid Validation of Text-Extracted New Facts Applied to the Wikidata Knowledge Graph." European Semantic Web Conference. Cham: Springer International Publishing, 2022.
 
-Hypothesis testing as question answering over statistical data
+Hypothesis testing as question answering over statistical data:
 
 - hypothesis testing as question answering over RDF data cubes 
 
 Relevant literature: 
 - Höffner, Konrad, Jens Lehmann, and Ricardo Usbeck. "CubeQA—question answering on RDF data cubes." International semantic web conference. Cham: Springer International Publishing, 2016.
   
-Requirements
+Requirements:
 - Experience with Knowledge Graphs  _recommended_
