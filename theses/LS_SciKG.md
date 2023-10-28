@@ -10,12 +10,11 @@ title: Scientific Discovery and Knowledge Graphs
 
 ## Scientific Discovery and Knowledge Graphs
 
-Hypotheses generation and testing in scientific research is often a time-intensive process, depending on the precise execution of a few steps that are similar within (and sometimes across) research domains. Researchers are now looking into how to make the process more reproducible, with the end goal of machine actionability – the ability of machines to discover knowledge with no or little human intervention. 
+Hypotheses generation and testing in scientific research is often a time-intensive process. Researchers are now looking into making the process more reproducible and trustworthy, with the end goal of machine actionability – the ability of machines to discover knowledge with little human intervention. 
 
-### What 
-For this project, a MSc. student can focus on addressing one (or more) of the steps of hypothesis generation and testing for humanities or social science research (e.g., demographic research on health inequality, or scientific discovery in biodiversity heritage): 
+For this project, a MSc. student can focus on addressing one (or more) of the steps of hypothesis generation and testing for humanities or social science research: 
 
-### Dealing with observational data (as RDF Data Cubes): 
+#### Dealing with observational data (as RDF Data Cubes): 
 
 https://www.who.int/data/inequality-monitor/data
 
@@ -23,14 +22,14 @@ https://www.who.int/data/inequality-monitor/data
 
 Content gaps or bias in Scientific Knowledge Graphs (KGs) impact downstream applications, which is undesirable when used, for instance, for the discovery of novel facts or theories. In this project, the student would research methods for framing or measuring these gaps on an existing scientific KG in the context of user needs, for instance through user's natural language queries. 
 
-#### Relevant literature: 
+Relevant literature: 
 Abián, D., Merono Penuela, A., & Simperl, E. (2022). An Analysis of Content Gaps versus User Needs in the Wikidata Knowledge Graph. In The Semantic Web – ISWC 2022 21st International Semantic Web Conference, ISWC 2022, Virtual Event, October 23–27, 2022, Proceedings
 
-### Automatically discovering interesting patterns (descriptive statistics) and their comparisons in RDF Data Cubes:  
+#### Automatically discovering interesting patterns (descriptive statistics) and their comparisons in RDF Data Cubes:  
 
 - automated discovery of interesting aggregations (descriptive statistics) of observational data (RDF Data cubes)
   
-#### Relevant literature: 
+Relevant literature: 
 Diao, Yanlei, et al. "Efficient exploration of interesting aggregates in RDF graphs." Proceedings of the 2021 International Conference on Management of Data. 2021.
 
 ### Describing components of theories, and formalising theories from the literature
