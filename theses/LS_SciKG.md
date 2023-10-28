@@ -21,7 +21,7 @@ https://www.who.int/data/inequality-monitor/data
 
 - data and knowledge integration (discovering bias, automatically discovering ‘content gaps’)
 
-Content gaps or bias in Scientific Knowledge Graphs (KGs) impact downstream applications, which is undesirable when used, for instance, for the discovery of novel facts or theories. In this project, the student would research methods for framing and measuring these gaps in the context of user needs. 
+Content gaps or bias in Scientific Knowledge Graphs (KGs) impact downstream applications, which is undesirable when used, for instance, for the discovery of novel facts or theories. In this project, the student would research methods for framing or measuring these gaps on an existing scientific KG in the context of user needs, for instance through user's natural language queries. 
 
 #### Relevant literature: 
 Abián, D., Merono Penuela, A., & Simperl, E. (2022). An Analysis of Content Gaps versus User Needs in the Wikidata Knowledge Graph. In The Semantic Web – ISWC 2022 21st International Semantic Web Conference, ISWC 2022, Virtual Event, October 23–27, 2022, Proceedings
@@ -34,9 +34,9 @@ Abián, D., Merono Penuela, A., & Simperl, E. (2022). An Analysis of Content Gap
 Diao, Yanlei, et al. "Efficient exploration of interesting aggregates in RDF graphs." Proceedings of the 2021 International Conference on Management of Data. 2021.
 
 ### Describing components of theories, and formalising theories from the literature
-- n-ary relation extraction from articles (human in the loop workflows?)
-N-ary relation extraction from unstructured text using LLMs is often error-prone, but can mitigate the labour of domain experts. In this project, the student is required to compare human-in-the-loop workflows for _curation_ of machine generated triples from unstructured text, or come up with a novel workflow themselves to be tested in a user study. 
-
+- n-ary relation extraction from articles: coming up with curation workflows or tools
+N-ary relation extraction from unstructured text using LLMs is often error-prone, but can mitigate the labour of domain experts. In this project, the student is required to compare human-in-the-loop workflows for _curation_ of machine generated triples from unstructured text, or come up with a novel workflow themselves to be tested in a user study.
+- n-ary relation extraction from articles: Using GPT and knowledge graphs to automatically annotate research papers.  Making the hypotheses, research questions, methods or results described in an academic paper machine readable is now mainly manual work.  Can we use smart prompt engineering and ask GPT to do this for us? (In collaboration with ODISSEI and Jacco van Ossenbruggen)
 - integration of types of scientific knowledge, or cross-domain scientific data and knowledge integration 
 - SHACL-forms: domain-agnostic automated creation of user forms from SHACL shapes for publishing structured research questions as RDF
   
