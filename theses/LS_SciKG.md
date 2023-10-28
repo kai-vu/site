@@ -12,10 +12,10 @@ title: Scientific Discovery and Knowledge Graphs
 
 Hypotheses generation and testing in scientific research is often a time-intensive process, depending on the precise execution of a few steps that are similar within (and sometimes across) research domains. Researchers are now looking into how to make the process more reproducible, with the end goal of machine actionability – the ability of machines to discover knowledge with no or little human intervention. 
 
-#### What 
+### What 
 For this project, a MSc. student can focus on addressing one (or more) of the steps of hypothesis generation and testing for humanities or social science research (e.g., demographic research on health inequality, or scientific discovery in biodiversity heritage): 
 
-#### Dealing with observational data (as RDF Data Cubes): 
+### Dealing with observational data (as RDF Data Cubes): 
 
 https://www.who.int/data/inequality-monitor/data
 
@@ -23,43 +23,43 @@ https://www.who.int/data/inequality-monitor/data
 
 Content gaps or bias in Scientific Knowledge Graphs (KGs) impact downstream applications, which is undesirable when used, for instance, for the discovery of novel facts or theories. In this project, the student would research methods for framing and measuring these gaps in the context of user needs. 
 
-###### Relevant literature: 
+#### Relevant literature: 
 Abián, D., Merono Penuela, A., & Simperl, E. (2022). An Analysis of Content Gaps versus User Needs in the Wikidata Knowledge Graph. In The Semantic Web – ISWC 2022 21st International Semantic Web Conference, ISWC 2022, Virtual Event, October 23–27, 2022, Proceedings
 
-#### Automatically discovering interesting patterns (descriptive statistics) and their comparisons in RDF Data Cubes:  
+### Automatically discovering interesting patterns (descriptive statistics) and their comparisons in RDF Data Cubes:  
 
 - automated discovery of interesting aggregations (descriptive statistics) of observational data (RDF Data cubes)
   
-###### Relevant literature: 
+#### Relevant literature: 
 Diao, Yanlei, et al. "Efficient exploration of interesting aggregates in RDF graphs." Proceedings of the 2021 International Conference on Management of Data. 2021.
 
-#### Describing components of theories, and formalising theories from the literature
+### Describing components of theories, and formalising theories from the literature
 - n-ary relation extraction from articles (human in the loop workflows?)
 N-ary relation extraction from unstructured text using LLMs is often error-prone, but can mitigate the labour of domain experts. In this project, the student is required to compare human-in-the-loop workflows for _curation_ of machine generated triples from unstructured text, or come up with a novel workflow themselves to be tested in a user study. 
 
 - integration of types of scientific knowledge, or cross-domain scientific data and knowledge integration 
 - SHACL-forms: domain-agnostic automated creation of user forms from SHACL shapes for publishing structured research questions as RDF
   
-###### Relevant literature: 
+#### Relevant literature: 
 - Guo, Kunpeng, et al. "WikidataComplete–An Easy-to-Use Method for Rapid Validation of Text-Extracted New Facts Applied to the Wikidata Knowledge Graph." European Semantic Web Conference. Cham: Springer International Publishing, 2022.
 - Ermilov, Ivan, et al. "kOre: Using Linked Data for OpenScience Information Integration." SEMANTiCS (Posters & Demos). 2015.
 - https://datashapes.org/forms.html
 
-#### Understanding (and towards automation of) the scientific process 
+### Understanding (and towards automation of) the scientific process 
 - research how process ontologies of the scientific cycle can aid researchers
 - a comparison of (RDF) vocabularies for describing the scientific process (supervisors: Lise & Ilaria) 
 - a comparison of human-in-the-loop workflows of the scientific cycle that make use of Knowledge Graphs 
 N-ary relation extraction from unstructured text using LLMs is often error-prone, but can mitigate the labour of domain experts. In this project, the student is required to compare human-in-the-loop workflows for _curation_ of machine generated triples from unstructured text, or come up with a novel workflow themselves to be tested in a user study.
 
-###### Relevant literature: 
+#### Relevant literature: 
 Guo, Kunpeng, et al. "WikidataComplete–An Easy-to-Use Method for Rapid Validation of Text-Extracted New Facts Applied to the Wikidata Knowledge Graph." European Semantic Web Conference. Cham: Springer International Publishing, 2022.
 
-##### Hypothesis testing as question answering over statistical data
+### Hypothesis testing as question answering over statistical data
 
 - hypothesis testing as question answering over RDF data cubes 
 
-###### Relevant literature: 
+#### Relevant literature: 
 - Höffner, Konrad, Jens Lehmann, and Ricardo Usbeck. "CubeQA—question answering on RDF data cubes." International semantic web conference. Cham: Springer International Publishing, 2016.
   
-#### Requirements
+### Requirements
 - Experience with Knowledge Graphs  _recommended_
