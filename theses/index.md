@@ -89,6 +89,7 @@ These projects look at the intersection of robotics and knowledge graphs. Knowle
 - **Energy-efficient robots through knowledge-awareness**. (BSc, MSc): We have an ontology representing the capabilities of the robots (picking objects, moving, scanning surroundings, etc.). The ontology needs to be expanded with energy budgets so the robot can choose the actions to performed based on its capabilities and energy-efficiency. Collaboration with the Software Engineering group.
 - **Embodied Instructable Agents** (MSc): See <a href="HI_nh_ma">above</a>.
 - **Impact of ontology changes in robotic tasks**. (MSc): Based on a robot operating with an ontology in the background, the goal here is to study how changes in such ontology can positively/negatively impact the tasks the robot has to perform. Knowledge of one between ROS, RDFlib and simulation environments is required.
+- **Explaining Yolo Predictions with Argumentations**. (BSc,MSc): The goal of this project is to explain the predictions of an object recognition model in the form of argumentations. Knowledge of one between ROS, RDFlib and Yolo/Object recognition algorithms is required.
 
 #### Explanations and Narratives 
 *Supervisors: Lise Stork (l.stork@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl)*
