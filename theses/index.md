@@ -130,3 +130,6 @@ Even though these topics would also fit under different topics already discribed
 Make sure to first check out the official internship process!
 
 We suggest you to pick a topic from the ones above, and adapt it to the company needs in agreement with your supervisors (both from the company and from the group). We do have contacts in several companies and research centres to do experiences abroad. For more information, contact Ilaria Tiddi (i.tiddi@vu.nl)*
+
+
+[def]: H_ar
