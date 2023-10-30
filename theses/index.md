@@ -70,8 +70,9 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 *Supervisor: Loan Ho (t.t.l.ho@vu.nl), Lise Stork (l.stork@vu.nl), Atefeh Keshavarzi(a.keshavarzi.zafarghandi@vu.nl)*
 
 There are multiple projects in the domain of argument mining with different objectives:
-- **Argumentation-based explanation from KGs** (MSc): the goal is to run a Tableau reasoner on an DL-formalised ontology.
-- **Case-based reasoning in the legal domain** (BSc): the goal is to create an ontology (DL-lite) for tabular data input and running the Tableau algorithm to predict whether a case has a (non)violation.
+- **Computing extensions for argumentation with collective attacks** (BSc): In this project, we will build a tool to calculate extensions for argumentation with collective attacks. The inputs are a set of arguments and collective attacks. The output returns different (stable, preferred, complete, grounded) extensions. <a href="LH_com">Here</a> are more details.
+- **Explaining query answers in prioritized databases** (BSc): This project aims to provide explanation of how the query answer was reached in consistent database. <a href="LH-exp">Here</a> are more details.
+- **Handling inconsistencies in argumentation knowledge**: In the project, we will address inconsistencies in argumentation data by using logic-based reasoning. <a href="LH_arg">Here</a> are more details.
 - **Leveraging Argumentation Frameworks for Local Explainability of Black-Box Models** (MSc, Atefeh): This project aims to leverage the formalisms of argumentation to provide local explainability for black-box models, enabling non-experts to understand the reasons behind the system's decisions. <a href="AK_argbox">Here</a> are more details.
 - **Orange3 Argument Mining Widget Based on a Formalism of Argumentation** (MSc, Atefeh): This project aims to bridge the gap between argumentation theory and data analysis and visualization by developing an argument mining widget for Orange3, an open-source data mining and machine learning software. <a href="AK_argOrg">Here</a> are more details.
 
