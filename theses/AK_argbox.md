@@ -1,11 +1,7 @@
 ---
 title: Leveraging Argumentation Frameworks for Local Explainability of Black-Box Models
+layout: default
 ---
-
-<nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## Thesis title:  Leveraging Argumentation Frameworks for Local Explainability of Black-Box Models
 *Supervisor: Atefeh Keshavarzi(a.keshavarzi.zafarghandi@vu.nl)*

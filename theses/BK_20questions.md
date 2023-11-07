@@ -1,11 +1,7 @@
 ---
 title: Playing “20 Questions” with a Knowledge Graph
+layout: default
 ---
-
-<nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## Playing “20 Questions” with a Knowledge Graph (BSc)
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl) and Stefan Schlobach (k.s.schlobach@vu.nl)*

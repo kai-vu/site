@@ -7,29 +7,69 @@ body, html {
 	line-height: 1.72em;
 }
 
+nav ul.mainMenu{
+	
+  padding: 0;
+  display:flex;
+  flex-direction:row;
+}
+
+
+nav {
+		height: 4em;
+		width: 100%;
+		background: #eee;
+		border-bottom: 3px solid #00adefff;
+	}
+
+
+ul.dropdwn{
+	width: 100%;
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+input#home {
+}
+
+input:checked + ul.dropdwn {
+    background: #000;
+}
+
+input:checked ~ ul.dropdwn {
+    background: #eee;
+}
+
+input:checked ~ ul.dropdwn {
+    max-height: 100%;
+}
+
 @media (min-width: 900px) {
 	p, h1, h2, h2, h4, ul, ol, table, .people {
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	nav {
-		height: 5em;
-	}
+	
 	nav ul {
-		width: 800px;
 		
-
+		width: 800px;
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: flex-start;
 
 		align-items: end;	
 	}
+
+	img {
+		max-width: 800px;
+	}
 }
 
 @media (max-width: 899px) {
-	
+	/*
 	body, html {
 		margin: 0;
 		padding: 0;
@@ -37,43 +77,65 @@ body, html {
 		font-family: Georgia, serif;
 		font-size: 4vw;
 	}
-	
-	p, h1, h2, h3, h4, ul, ol, table, .people {
+	*/
+	p, h1, h2, h3, h4, ul, ol, table, img, .people {
 		margin-left: 1em;
 		margin-right: 1em;
+	}
+
+	img {
+		max-width: 100%;
 	}
 	
 	body nav ul {
 		margin-left: 1em;
 	}
+
+	nav ul {
+		
+		margin-left: 1em;
+		margin-right: 1em;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+
+		align-items: end;	
+	}
+
+	navbar-toggler{
+		display: None;
+	}
 }
 
-/* #div {
-	vertical-align:top;
-} */
 
-nav {
-	width: 100%;
-	
-	background: #eee;
-	border-bottom: 3px solid #00adefff;
-	
-	margin: 0;
-	padding: 0;
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
 }
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + * {
+  padding-top: 165px;
+}
+
+
+
 
 nav ul {
 	font-family: Verdana, sans-serif;
 	margin: auto auto 0 auto;
-	height: 100%;
 	padding: 0;
 	list-style: none;
+	z-order: 9999;
 }
 
 nav ul li {
 	display: block;
 	padding: 0;
-	margin: 0 2em 0.5em 0;	
+	margin: 0 2em 0.0em 0;	
 }
 
 nav ul li a {
@@ -87,6 +149,7 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+
 nav ul li.home a {
 	color: #4b4b4b;
 }
@@ -95,6 +158,25 @@ nav ul li.home a:hover {
 	color: #0089CF;
 }
 
+.nav-link{
+	color: inherit;
+}
+
 h1, h2, h2, h4 {
 	font-family: Verdana, sans-serif;
+	padding: 0.5em;
 }
+
+@media (min-width: 768px) { 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+}
+@media (max-width: 767px) { 
+.dropdown:hover .dropdown-menu
+    display: none;
+    margin-top: auto; 
+}
+
+

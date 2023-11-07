@@ -1,11 +1,7 @@
 ---
 title: Expectations
+layout: default
 ---
-
-<nav><ul>
-<li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-<li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## What to expect? -  MSc. & BSc. project supervision
 

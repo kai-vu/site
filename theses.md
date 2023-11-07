@@ -1,18 +1,18 @@
 ---
-# redirect_to: https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit?usp=sharing
 title: Student Theses at KAI
+layout: default
 ---
-
+<!--
 <nav><ul>
 <li class="home"><a href="/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
 <li><a href="supervision_guidlines">Expectations</a></li>
 <li><a href="#KAI-theses">Theses</a></li>
 <li><a href="#internships">Internships</a></li>
 </ul></nav>
-
+-->
 
 ## Expectations
-At KAI, we set clear expectations for students. We want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="supervision_guidlines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
+At KAI, we set clear expectations for students. We want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="/supervision_guidelines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
 #### Table of contents
 - <a href="#KAI-theses">VU Theses</a>
@@ -109,8 +109,7 @@ QA is a very broad topic. We, however, focus on QA over structured data in vario
 - **Playing "20 Questions" with a KG** (BSc): detailed description is located <a href="BK_20questions">here</a>.
 - **Multi-modal Question Answering** (MSc): Description <a href="https://drive.google.com/open?id=1QwcTusbM85KmK1HiGFZJWSK4AYYWwlB9rG6AeR_jv8w">here</a>.
 - **Graph Queries on Relation Databases** (MSc CS): Description <a href="https://drive.google.com/open?id=1HByPxhswvGy8EGPjHuEOXBzwktGNXhN4brsZ2q-t1mc">here</a>.
-- **Answering Research Questions over Data Cubes as SQA (MSc., Lise): Description <a href="LS_SciKG">here</a>.
-
+- **Answering Research Questions over Data Cubes as SQA (MSc., Lise)** : Description <a href="LS_SciKG">here</a>.
 #### Multi-lingual problems
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
 
@@ -130,6 +129,3 @@ Even though these topics would also fit under different topics already discribed
 Make sure to first check out the official internship process!
 
 We suggest you to pick a topic from the ones above, and adapt it to the company needs in agreement with your supervisors (both from the company and from the group). We do have contacts in several companies and research centres to do experiences abroad. For more information, contact Ilaria Tiddi (i.tiddi@vu.nl)*
-
-
-[def]: H_ar

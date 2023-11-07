@@ -1,11 +1,8 @@
 ---
 title: Higher-arity Relation Extraction with Qualifiers
+layout: default
 ---
 
-<nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## Higher-arity Relation Extraction with Qualifiers (MSc)
 *Supervisor: Benno Kruit (b.b.kruit@vu.nl)*

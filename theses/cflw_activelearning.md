@@ -1,11 +1,8 @@
 ---
 title: CFWL Active Learning
+layout: default
 ---
 
-<nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## Active Learning - Improving the Dark Web Classifier based on expert input
 *Supervisors:* 

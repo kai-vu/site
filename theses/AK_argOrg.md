@@ -1,11 +1,8 @@
 ---
 title: Orange3 Argument Mining Widget Based on a Formalism of Argumentation
+layout: default
 ---
 
-<nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## Thesis title:  Orange3 Argument Mining Widget Based on a Formalism of Argumentation
 *Supervisor: Atefeh Keshavarzi(a.keshavarzi.zafarghandi@vu.nl)*

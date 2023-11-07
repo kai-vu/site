@@ -1,13 +1,7 @@
 ---
 title: Knowledge and AI People
+layout: default
 ---
-
-<nav><ul>
-<li class="home"><a href="/"><img src="../../images/logos/KAI_logo_noborder.png" alt="KAI" style="height:50px; position:relative; top:6px;"/></a></li>
-<li><a href="/#news">News</a></li>
-<li><a href="people">People</a></li>
-<li><a href="projects">Projects</a></li>
-</ul></nav>
 
 ## People
 <div class="people">

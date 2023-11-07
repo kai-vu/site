@@ -1,15 +1,9 @@
 ---
 title: Knowledge and AI
+layout: default
 ---
-<a href="/"><img src="../../images/logos/KAI_logo_noborder.png" alt="KAI" style="height:50px; position:relative; top:6px;"/></a>
 
-<nav><ul>
-<!-- <li class="home"></li> -->
-<li><a href="#news">News</a></li>
-<li><a href="people">People</a></li>
-<li><a href="projects">Projects</a></li>
-<li><a href="theses">Theses</a></li>
-</ul></nav>
+## About us
 
 The Knowledge in Artificial Intelligence (KAI) group studies the role of symbolic (formal/declarative) knowledge in Artificial Intelligence/AI-based systems. 
 
@@ -20,7 +14,7 @@ We do this by combining research from the fields of Knowledge Engineering and Kn
 We combine foundational theory and applied methods such as computational logic, emergent semantics, narrative representation, abstract argumentation, knowledge engineering (at scale), knowledge graph management, semantic techniques, data integration as well as machine learning. Our research addresses a variety of types of knowledge, which can be heterogeneous, contextualised, dynamic, common-sense, process-dependent, personal, tribal, conflicting or biased, and often large-scale.
 
 <center>
-<img src="../../images/group_oct2023.jpg" alt="KAI_group" style="width:50%; position:relative; top:6px;"/>
+<img src="../../images/group_oct2023.jpg" alt="KAI_group" style="top:6px;"/>
 </center>
 
 ## News

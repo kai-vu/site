@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+
+
   <head>
     <title>{{ page.title }}</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/style.css"> <!-- Custom CSS -->
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -24,7 +27,9 @@
 			
   </head>
   <body id="body">
-  {{ content }}
-  
+  	{% include nav_test.html %}
+  	{{ content }}
+  	<script src="/assets/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+  	<script src="/assets/js/main.js"></script> <!-- Custom JS -->
   </body>
 </html>

@@ -1,12 +1,8 @@
 ---
 title: Visual scene understanding for indoor mobile robots
+layout: default
 
 ---
-
-<nav><ul>
-    <li><a href="https://kai.cs.vu.nl/"> <img src="../../images/logos/KAI_logo_small_transp.png" alt="KAI" width="100"/></a></li>
-    <li><a href="https://kai.cs.vu.nl/theses/">Theses</a></li>
-</ul></nav>
 
 ## Visual scene understanding for indoor mobile robots (with the use case of trash picking)
 
