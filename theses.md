@@ -43,11 +43,11 @@ If you are interested in one of the projects below, please contact the superviso
 
 We offer multiple projects under the umbrella of information extraction with varying foci. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
-- **Making research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on hypotheses from the literature. Here is a more detailed <a href="LS_SciKG">description</a>.
-- **Information extraction from Structured lists** (BSc, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.
-- **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found <a href="BK_relextract">here</a>.
-- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and information together within the application of travel. More details are given <a href="BK_travel">here</a>.
-- **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
+- **Making research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on hypotheses from the literature. Here is a more detailed <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">description</a>.
+- **Information extraction from Structured lists** (BSc, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items. More info [here](https://docs.google.com/document/d/1L98Lm9KdY5lEjLFgpZdVLTlAS2J4gv3MZMzezuvg0yQ/edit?usp=drive_link).
+- **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text, in particular Wikipedia. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found [here](https://docs.google.com/document/d/1sII_wirv6PhCnUjPmOWFdiXtVVh-TmS_1KgkumTMKUo/edit?usp=drive_link).
+- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given [here](https://docs.google.com/document/d/12RkjOOTuNsRQiRSNv83dwYXoMLAUXuujHZC3L4f922U/edit?usp=sharing).
+- **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available [here](https://docs.google.com/document/d/1xgTUFRIQ9GLXTH9dyTrw9sac2T6oT50o6Oxvds4kLXs/edit?usp=drive_link).
 - **Automated Data-provenance Extraction** (BSc, *Ritten*): In a world where linked data and data-mining is omnipresent, determining which data was used for training a ML-model becomes increasingly more difficult and tedious. This project revolves around automating the process of extracting the provenance information of data used in a ML-pipeline. More details are given <a href="RR_prov">here</a>.
 
 #### Ontology Evolution
@@ -64,7 +64,7 @@ Ontologies model specific domains. As domains evolve over time, ontologies have 
 
 - **Knowledge Engineering for Hybrid Intelligence** (Bsc, MSc): Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.
 - **Embodied Instructable Agents** (MSc): <text id="hi_nh_ma">The goal of this project is to integrate a Reinforment Learning model trained for trajectory/segmentation learning on an embodied  Hybrid Intelligent agent (a ROS-operting robot). Knowledge of one between ROS, Reinforcement Learning and simulation environments is required</text>.
-- **Researching human-in-the-loop workflows for research assistants using KGs**: (*MSc, Lise*) The goal of this project is to research human-in-the-loop workflows for digital assistants for scientific discovery. Here is a more detailed <a href="LS_SciKG">description</a>.
+- **Researching human-in-the-loop workflows for research assistants using KGs**: (*MSc, Lise*) The goal of this project is to research human-in-the-loop workflows for digital assistants for scientific discovery. Here is a more detailed <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">description</a>.
 
 #### Argument and Rule Mining
 *Supervisor: Loan Ho (t.t.l.ho@vu.nl), Lise Stork (l.stork@vu.nl), Atefeh Keshavarzi(a.keshavarzi.zafarghandi@vu.nl)*
@@ -100,22 +100,22 @@ The following topics are aimed at providing a more human-like AI, by creating ex
 - **A Benchmark for understanding Narratives**: (*Ilaria*) Language Models and KGs. Work on extending the three existing benchmarks (<a href="https://doi.org/10.5281/zenodo.7081522">1</a>, <a href="https://zenodo.org/record/7118556">2</a>, <a href="https://zenodo.org/record/7120502">3</a>) for understanding narratives.
 - **Semantic robustness of Language Models with causal inference**. See <a href="causalinf-kg">below</a>. 
 
-- **SHACL-forms for publishing scientific findings**: (*MSc, Lise*) The goal of this project is building a form from SHACL shapes for the publication of scientific findings. Here is a more detailed <a href="LS_SciKG">description</a>.
+- **SHACL-forms for publishing scientific findings**: (*MSc, Lise*) The goal of this project is building a form from SHACL shapes for the publication of scientific findings. Here is a more detailed <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">description</a>.
 
 #### Question Answering
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl), Lise Stork (l.stork@vu.nl)*
 
 QA is a very broad topic. We, however, focus on QA over structured data in various forms:
-- **Playing "20 Questions" with a KG** (BSc): detailed description is located <a href="BK_20questions">here</a>.
+- **Playing "20 Questions" with a KG** (BSc): detailed description is located [here](https://docs.google.com/document/d/1YFj_9upyD_TpCRdErZ2K5zCeB1bBA5zVm6AwYJ38Fu4/edit?usp=drive_link).
 - **Multi-modal Question Answering** (MSc): Description <a href="https://drive.google.com/open?id=1QwcTusbM85KmK1HiGFZJWSK4AYYWwlB9rG6AeR_jv8w">here</a>.
 - **Graph Queries on Relation Databases** (MSc CS): Description <a href="https://drive.google.com/open?id=1HByPxhswvGy8EGPjHuEOXBzwktGNXhN4brsZ2q-t1mc">here</a>.
-- **Answering Research Questions over Data Cubes as SQA (MSc., Lise)** : Description <a href="LS_SciKG">here</a>.
+- **Answering Research Questions over Data Cubes as SQA (MSc., Lise)** : Description <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">here</a>.
 #### Multi-lingual problems
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
 
 Even though these topics would also fit under different topics already discribed above, we wanted to highlight them as they are both addressing the problem of multiple languages in different tasks:
-- **Multilingual Entity Linking** (BSc): Many names can refer to several different entities. In this project, we want to look at the problem of disambiguation and linking of entities.
-- **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deep learning techniques. More details can be found <a href="BK_travel">here</a>.
+- **Multilingual Entity Linking** (BSc): Many names can refer to several different entities. In this project, we want to look at the problem of disambiguation and linking of entities. More info [here](https://docs.google.com/document/d/1ER0ITQsn7gLenSXno2ol-vDWt6XNqKAK9hrG_mC08F4/edit?usp=drive_link).
+- **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deep learning techniques. More details can be found [here](https://docs.google.com/document/d/12RkjOOTuNsRQiRSNv83dwYXoMLAUXuujHZC3L4f922U/edit?usp=sharing).
 
 
 #### Semantics of Deep Learning Methods
