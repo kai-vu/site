@@ -46,7 +46,7 @@ We offer multiple projects under the umbrella of information extraction with var
 - **Making research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on hypotheses from the literature. Here is a more detailed <a href="LS_SciKG">description</a>.
 - **Information extraction from Structured lists** (BSc, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.
 - **Higher-arty Relation Extraction with Qualifiers** (MSc, *Benno*): This projects aims to inverstigate new techniques for extracting complex statements with meta-information from text. The goal is to leverage ontology/schema-level information about types, relations, and meta-relations to overcome the incompleteness problem. More information can be found <a href="BK_relextract">here</a>.
-- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given <a href="BK_travel">here</a>.
+- **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and inforamtion together within the applciation of travel. More details are given [here](https://docs.google.com/document/d/12RkjOOTuNsRQiRSNv83dwYXoMLAUXuujHZC3L4f922U/edit?usp=sharing).
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available <a href="BK_shopping">here</a>.
 - **Automated Data-provenance Extraction** (BSc, *Ritten*): In a world where linked data and data-mining is omnipresent, determining which data was used for training a ML-model becomes increasingly more difficult and tedious. This project revolves around automating the process of extracting the provenance information of data used in a ML-pipeline. More details are given <a href="RR_prov">here</a>.
 
@@ -115,7 +115,7 @@ QA is a very broad topic. We, however, focus on QA over structured data in vario
 
 Even though these topics would also fit under different topics already discribed above, we wanted to highlight them as they are both addressing the problem of multiple languages in different tasks:
 - **Multilingual Entity Linking** (BSc): Many names can refer to several different entities. In this project, we want to look at the problem of disambiguation and linking of entities.
-- **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deep learning techniques. More details can be found <a href="BK_travel">here</a>.
+- **Multilingual Travel Knowledge Extraction** (MSc): This project is about integrating Wikivoyage location data with data from OpenStreetMap. The approach will leverage distant supervision, relation extraction, data integration and deep learning techniques. More details can be found [here](https://docs.google.com/document/d/12RkjOOTuNsRQiRSNv83dwYXoMLAUXuujHZC3L4f922U/edit?usp=sharing).
 
 
 #### Semantics of Deep Learning Methods
