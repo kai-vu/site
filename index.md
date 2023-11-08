@@ -19,6 +19,8 @@ We combine foundational theory and applied methods such as computational logic, 
 
 ## News
 <ul>
+    <li> (05 nov 2023) Vera Stebletsova has joined the group! Welcome! </li>
+    <li> (01 nov 2023) Kai Obendrauf has joined the group! Welcome! </li>
     <li> (03 oct 2023) 3 paper from KAI members have been accepted to the KCAP conference for publication and presentations, well done to all authors: Ilaria, Lise, Ritten, Romana, Stefan as well as co-authors from other groups! 
     <ul>
         <li><b>Knowledge Engineering for Hybrid Intelligence</b> by Ilaria Tiddi, Victor de Boer, Stefan Schlobach</li>
