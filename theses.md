@@ -49,6 +49,8 @@ We offer multiple projects under the umbrella of information extraction with var
 - **Multilingual Travel Knowledge Extraction** (MSc, *Benno*): In this project, we want to explore approaches for linking geographical location and information together within the application of travel. More details are given [here](https://docs.google.com/document/d/12RkjOOTuNsRQiRSNv83dwYXoMLAUXuujHZC3L4f922U/edit?usp=sharing).
 - **Data Schema Induction for Shopping** (MSc, *Benno*): The goal is to investigate approaches for inducing a ceherent ontology for product descriptions. More information is available [here](https://docs.google.com/document/d/1xgTUFRIQ9GLXTH9dyTrw9sac2T6oT50o6Oxvds4kLXs/edit?usp=drive_link).
 - **Automated Data-provenance Extraction** (BSc, *Ritten*): In a world where linked data and data-mining is omnipresent, determining which data was used for training a ML-model becomes increasingly more difficult and tedious. This project revolves around automating the process of extracting the provenance information of data used in a ML-pipeline. More details are given <a href="RR_prov">here</a>.
+- **Creating knowledge graphs for olfactory dysfunction and mental disorders (MSc, *Lise*, *Halima*)**
+Biomedical text mining has emerged as a powerful tool to build up knowledge graphs and guide us through the vast plethora of available scientific literature and medical records. In this MSc. project, we primarily aim at the construction of a knowledge graph for the understanding of the link between olfactory dysfunction and mental diseases. Project together with Halima Mouhib from Bioinformatics. 
 
 #### Ontology Evolution
 *Supervisor: Romana Pernisch (r.pernisch@vu.nl)*
