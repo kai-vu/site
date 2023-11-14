@@ -14,7 +14,7 @@ Here, the main webpages are located in the root directory. Webpages for thesis p
 Once you are done, there should be a notification in the `source controle menu`, as indicated here:
 ![updated file notification](/images/readme/updated_file.png)
 
-From there you go through the regular steps of making a commit to the main branch: write a descriptive update message (just "_update_" is not enough...), press `commit&push`, and hope there are no merge conflicts.  
+Click on it, and from there you go through the regular steps of making a commit to the main branch: write a descriptive update message (just "_update_" is not enough...), press `commit&push`, and hope there are no merge conflicts.  
 
 
 ## Design updates
