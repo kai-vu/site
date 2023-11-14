@@ -7,12 +7,12 @@ Essentially, there are two options; one for quick content updates and another fo
 
 ## Quick content updates
 This one is really easy. First, make sure to be logged into a github account that has access to the KAI repository (if you are looking at this text from github, this should be covered). Aftwards, go to `https://github.dev/kai-vu/site` to access the github development environment. This should get you in an environment that looks like this:
-![github developement environment](/images/readme/github_dev_env.png)
+![github developement environment](images/readme/github_dev_env.png)
 
 Here, the main webpages are located in the root directory. Webpages for thesis projects are located in the `/theses` folder. Changes are made by navigating to the `.html` or `.md` file of the page that is to be adjusted and simply editing the file while in your webbrowser. 
 
 Once you are done, there should be a notification in the `source controle menu`, as indicated here:
-![updated file notification](/images/readme/updated_file.png)
+![updated file notification](images/readme/updated_file.png)
 
 From there you go through the regular steps of making a commit to the main branch: write a descriptive update message (just "_update_" is not enough...), press `commit&push`, and hope there are no merge conflicts.  
 
