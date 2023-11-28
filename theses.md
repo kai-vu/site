@@ -127,7 +127,7 @@ Even though these topics would also fit under different topics already discribed
 - **Extracting Semantics from neural co-activation graphs**: Here, we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
 - **Semantic robustness of Language Models with causal inference**: <text id="causalinf-kg">We will adapt the approach <a href="https://arxiv.org/pdf/2306.04347.pdf">in this paper</a> to test how robut language models are toward different semantics (description logics, OWL, etc.) The idea is to build a causal model for graph2text tasks and compare its prections with the ones of a language model. Understanding of probability theory, statistics and graph theory is necessary</text>.
 
-### Explanations for Ontologies
+#### Explanations for Ontologies
 *Supervisor: Patrick Koopmann (p.k.koopmann@vu.nl)*
 
 
@@ -202,7 +202,7 @@ currently up to the user. The goal of this project is to investigate
 and compare heuristics for selecting signatures for computing a nice
 sequence of explanations.
 
-### Other Topics for Ontologies and Description Logics
+#### Other Topics for Ontologies and Description Logics
 
 We offer a range of further theses topics from the areas of ontologies
 and ontology languages. These topics are particularly interesting for
