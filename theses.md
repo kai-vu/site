@@ -202,7 +202,7 @@ currently up to the user. The goal of this project is to investigate
 and compare heuristics for selecting signatures for computing a nice
 sequence of explanations.
 
-#### Other Topics for Ontologies and Description Logics
+#### Other Topics on Ontologies and Description Logics
 
 We offer a range of further theses topics from the areas of ontologies
 and ontology languages. These topics are particularly interesting for
