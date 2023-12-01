@@ -4,4 +4,12 @@ description: Knowledge and AI research group at Vrije Universiteit Amsterdam
 plugins:
   - jekyll-redirect-from
 
+collections:
+  news:
+    date: true
+    summary: true
+    extra_content: true
+    output: true
+
+
 baseurl: /
