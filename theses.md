@@ -24,11 +24,13 @@ At KAI, we set clear expectations for students. We want to make sure students kn
     - <a href="/theses#explanations-and-narratives">Explanations and Narratives</a>
     - <a href="/theses#question-answering">Question Answering</a>
     - <a href="/theses#multi-lingual-problems">Multi-lingual problems</a>
-    - <a href="/theses#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
+    - <a href="/theses#explanations-for-ontologies">Explanations for Ontologies</a>
+    - <a href="/theses#other-topics-on-description-logics-and-ontologies">Other Topics on Ontologies and Description Logics</a>
+	    
 - <a href="/theses#internships">Internships</a>
-    - <a href="/theses#lareb">Lareb</a>
-    - <a href="/theses#accenture">Accenture</a>
-    - <a href="/theses#triply-db">Triply DB</a>
+<!--    - <a href="/theses#lareb">Lareb</a>-->
+<!--    - <a href="/theses#accenture">Accenture</a>-->
+<!--    - <a href="/theses#triply-db">Triply DB</a>-->
 
 
 ## KAI Theses
@@ -203,6 +205,7 @@ and compare heuristics for selecting signatures for computing a nice
 sequence of explanations.
 
 #### Other Topics on Ontologies and Description Logics
+*Supervisor: Patrick Koopmann (p.k.koopmann@vu.nl)*
 
 We offer a range of further theses topics from the areas of ontologies
 and ontology languages. These topics are particularly interesting for
