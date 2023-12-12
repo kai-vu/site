@@ -26,10 +26,9 @@ At KAI, we set clear expectations for students. We want to make sure students kn
     - <a href="/theses#multi-lingual-problems">Multi-lingual problems</a>
     - <a href="/theses#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
     - <a href="/theses#explanations-for-ontologies">Explanations for Ontologies</a>
+    - <a href="/theses#systems-of-artificial-intelligent-agents">Systems of artificial intelligent agents</a>
     - <a href="/theses#other-topics-on-ontologies-and-description-logics">Other Topics on Ontologies and Description Logics</a>
 - <a href="/theses#internships-and-erasmus-programmes">Internships</a>
-
-
 
 ## KAI Theses
 
