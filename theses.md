@@ -15,22 +15,14 @@ layout: default
 At KAI, we set clear expectations for students. We want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="/supervision_guidelines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
 #### Table of contents
-- <a href="/theses#kai-theses">VU Theses</a>
-    - <a href="/theses#information-extraction">Information Extraction</a>
-    - <a href="/theses#ontology-evolution">Ontology Evolution</a>
-    - <a href="/theses#knowledge-engineering">Hybrid Intelligence</a>
-    - <a href="/theses#argument-and-rule-mining">Argument and Rule Mining</a>
-    - <a href="/theses#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
-    - <a href="/theses#explanations-and-narratives">Explanations and Narratives</a>
-    - <a href="/theses#question-answering">Question Answering</a>
-    - <a href="/theses#multi-lingual-problems">Multi-lingual problems</a>
-    - <a href="/theses#semantics-of-deep-learning-methods">Semantics of Deep Learning Methods</a>
-    - <a href="/theses#explanations-for-ontologies">Explanations for Ontologies</a>
-    - <a href="/theses#systems-of-artificial-intelligent-agents">Systems of artificial intelligent agents</a>
-    - <a href="/theses#other-topics-on-ontologies-and-description-logics">Other Topics on Ontologies and Description Logics</a>
-- <a href="/theses#internships-and-erasmus-programmes">Internships</a>
+* TOC
+{:toc}
 
 ## KAI Theses
+
+
+
+
 
 You can find the slides presented at the MSc AI Thesis event <a href='https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit#slide=id.p'>here</a>.
 Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic. 
