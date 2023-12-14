@@ -11,7 +11,8 @@ collections:
     name: true
     position: true
     image: true
-    link: true
+    link: true 
+    output: false
 
 
 
