@@ -18,27 +18,15 @@ We combine foundational theory and applied methods such as computational logic, 
 </center>
 
 ## News
-<ul>
-    <li> (05 nov 2023) Vera Stebletsova has joined the group! Welcome! </li>
-    <li> (01 nov 2023) Kai Obendrauf has joined the group! Welcome! </li>
-    <li> (03 oct 2023) 3 paper from KAI members have been accepted to the KCAP conference for publication and presentations, well done to all authors: Ilaria, Lise, Ritten, Romana, Stefan as well as co-authors from other groups! 
-    <ul>
-        <li><b>Knowledge Engineering for Hybrid Intelligence</b> by Ilaria Tiddi, Victor de Boer, Stefan Schlobach</li>
-        <li><b>OKG: A Knolwedge Graph for Fine-grained Understanding of Social Media Discourse on Inequality</b> by Inès Blin, Lise Stork, Laura Spillner, Carlo R.M.A. Santagiustina</li>
-        <li><b>Do you catch my drift? On the Usage of Embedding Methods to Measure Concept Shift in Knowledge Graphs</b> by Stella Verkijk, Ritten Roothaert, Romana Pernisch, Stefan Schlobach</li>
-    </ul>
-    </li>
-    <li> (01 oct 2023) Giacomo Zamprogno has joined the group! Welcome! </li>
-    <li> (18 sep 2023) One of our papers received the distinguished paper award at RuleML+RR:
-    <ul>
-	<li><b>Combining Proofs for Description Logics and Concrete Domain Reasoning</b> by Christian Alrabbaa, Franz Baader, Stefan Borgwardt, Patrick Koopmann, Alisa Kovtunova</li> 
-    </ul>
 
-Giacomo Zamprogno has joined the group! Welcome! </li>
-    <li> (30 may 2023) Benno Kruit will be presenting his paper titeled "Minimalist Entity Disambiguation for Mid-Resource Languages" at the <a href="https://sites.google.com/view/sustainlp2023">Sustainlp2023</a> workshop! Congrats on the acceptance! </li>
-    <li> (1 may 2023) We have <a href="/people">a new addition</a> to our group: welcome Patrick!</li>
-    <li> (13 apr 2023) Great news! KAI will be represented by a research paper from Lise Stork and a poster by Romana Pernisch at ESWC 2023! </li>
-    <li> (1 mar 2023) We have <a href="/people">two new additions</a> to our group: welcome Atefeh and Ritten!</li>
+<ul>
+    {% for news_item in site.news reversed%}
+  <li>({{ news_item.date | date: "%-d %B %Y" }}) - {{ news_item.summary }}
+    {% if news_item.extra_content == "true" %}
+    (<a href="{{news_item.url}}">continue reading</a>)
+    {% endif %}
+  </li>
+    {% endfor %}
 </ul>
 
 ## Contact
