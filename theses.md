@@ -15,25 +15,14 @@ layout: default
 At KAI, we set clear expectations for students. We want to make sure students know what to expect from us as their supervisors. We have prepared a <a href="/supervision_guidelines">short document</a> which touches upon some important points like meetings, planning and writing of your thesis. 
 
 #### Table of contents
-- <a href="/theses#kai-theses">VU Theses</a>
-    - <a href="/theses#information-extraction">Information Extraction</a>
-    - <a href="/theses#ontology-evolution">Ontology Evolution</a>
-    - <a href="/theses#knowledge-engineering">Hybrid Intelligence</a>
-    - <a href="/theses#argument-and-rule-mining">Argument and Rule Mining</a>
-    - <a href="/theses#robotics-and-knowledge-representation">Robotics and Knowledge Representation</a>
-    - <a href="/theses#explanations-and-narratives">Explanations and Narratives</a>
-    - <a href="/theses#question-answering">Question Answering</a>
-    - <a href="/theses#multi-lingual-problems">Multi-lingual problems</a>
-    - <a href="/theses#explanations-for-ontologies">Explanations for Ontologies</a>
-    - <a href="/theses#other-topics-on-description-logics-and-ontologies">Other Topics on Ontologies and Description Logics</a>
-	    
-- <a href="/theses#internships">Internships</a>
-<!--    - <a href="/theses#lareb">Lareb</a>-->
-<!--    - <a href="/theses#accenture">Accenture</a>-->
-<!--    - <a href="/theses#triply-db">Triply DB</a>-->
-
+* TOC
+{:toc}
 
 ## KAI Theses
+
+
+
+
 
 You can find the slides presented at the MSc AI Thesis event <a href='https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit#slide=id.p'>here</a>.
 Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic. 
@@ -144,7 +133,7 @@ entailments). Motivated by this, different methods have been developed
 to provide explanations for positive and negative entailments. 
 
 
-- **Explaining Entailments using New Inference Rules** (Bsc):
+- **Explaining Entailments using New Inference Rules** (BSc):
 One way of explaining why something follows from an ontology
 is by providing a proof tree, that shows in small steps how the
 positive entailment is derived from the statements in the
@@ -157,7 +146,7 @@ provide an evaluation and comparion with existing explanation methods
 based on realistic ontologies. 
 
 
-- **Explaining Positive Entailments using Universal Models** (Bsc,Msc): 
+- **Explaining Positive Entailments using Universal Models** (BSc,MSc): 
 The topic of this project is to explain queries to data that is used
 together with an ontology. Specifically, the user asks for instances
 of a concept C, and he would like to understand why individual name
@@ -166,7 +155,7 @@ this can be explained using a special type of models called universal
 models. The aim of this project is to develop a method to
 generate explanations based on such models. 
 
-- **Explaining Missing Entailments using Counter-Examples** (Bsc,Msc):
+- **Explaining Missing Entailments using Counter-Examples** (BSc,MSc):
 One way to explain a missing entailment is by providing an counter
 example. For example, a counterexample for the statement
 "every pizza is vegetarian" 
@@ -178,7 +167,7 @@ version is towards developing a new method based on existing reasoning
 procedures. The Bachelor version will be about improving and extending
 an existing method.
 
-- **Explaining Missing Entailments using Connection-Minimal Abduction** (Bsc,Msc):
+- **Explaining Missing Entailments using Connection-Minimal Abduction** (BSc,MSc):
 Abduction is an approach to explain missing entailments by stating
 "what is missing" - namely, suggesting statements that, when added to
 the ontology, would make the entailment positive. There are many
@@ -193,7 +182,7 @@ implementations, the project would be to develop a new criterion based
 on connection-minimality, which overcomes some of the limitations of
 the existing one. 
 
-- **Explaining Missing Entailments using Signature-Based Abduction** (Bsc):
+- **Explaining Missing Entailments using Signature-Based Abduction** (BSc):
 Abduction is an approach to explain missing entailments by stating
 "what is missing" - namely, suggesting statements that, when added to
 the ontology, would make the entailment positive. There is an
@@ -204,14 +193,34 @@ currently up to the user. The goal of this project is to investigate
 and compare heuristics for selecting signatures for computing a nice
 sequence of explanations.
 
+
+#### Systems of artificial intelligent agents
+*Supervisor: dr. Vera Stebletsova (v.n.stebletsova@vu.nl)*
+- **Possible applications of Alternating-time Temporal Epistemic Logic in AI** (BSc, MSc):
+    - What ATEL is (syntax, semantics, main features of its formal theory)
+    - Review applications of ATEL known in the relevant literature 
+    - Construct an intelligent system (Multi-Agent System) which requires an extension of ATEL in order to specify and verify correctness properties of the constructed MAS. 
+
+- **Doxastic Logic in AI** (*adv.* BSc): 
+    - What Doxastic Logic is (syntax, semantics, main features of its formal theory)
+    - Review applications of DL known in the relevant literature 
+    - Model Checking in DL.
+
+- **Finding an AI field for which you can construct a new applicable modal logic** (*adv.* MSc)
+
+- **Modeling Multi-Agent Systems with incomple information** (*adv.* MSc): 
+Logics for specification of MAS with perfect information are relatively well studied. However, many issues regarding modeling, analysis, and reasoning about systems with incomplete information are barely touched. This regards e.g. axiomatisation of ATL with imperfect information. Moreover, to our best knowledge, no satisfiability-checking algorithms for any variant of ATL with imperfect information have been proposed. It is not even known whether the problem is decidable at all. 
+
+
+
 #### Other Topics on Ontologies and Description Logics
 *Supervisor: Patrick Koopmann (p.k.koopmann@vu.nl)*
 
-We offer a range of further theses topics from the areas of ontologies
-and ontology languages. These topics are particularly interesting for
-students who like ontologies and/or logics.
+We also offer some further thesis topics on ontologies
+and description logics. These topics are particularly interesting for
+students with an interest in ontologies and/or logics.
 
-- **Learning Concept Descriptions From Examples** (Bsc,Msc):
+- **Learning Concept Descriptions From Examples** (BSc,MSc):
 The aim of this project is to implement and evaluate a new method for
 learning concept descriptions from examples, based
 on recent advancements on non-classical reasoning. In this
@@ -222,7 +231,7 @@ learning procedure will be based on logical reasoning, that is, will
 use logical reasoning (with the help of existing tools) to compute the
 concept.
 
-- **Extracting Subontologies** (Bsc)
+- **Extracting Subontologies** (BSc)
 Existing ontologies are often very large and complex, while
 applications are often only need a fragment of the information
 provided by the ontology. A subontology is a smaller and ideally
@@ -236,7 +245,7 @@ with the aim of obtaining simpler ontologies and/or shorter
 computation times.   
 
 
-- **Optimizing Concept Expressions** (Bsc,Msc):
+- **Optimizing Concept Expressions** (BSc,MSc):
 Ontologies often contain expressions that are more complex than
 necessary. This is even more a problem with ontology content that is
 automatically generated, which appears in many applications. The aim
@@ -246,7 +255,7 @@ size. We recently developed a method that can do this for a language
 of rather limited expressivity. The student will extend this
 framework, possibly using techniques from concept learning.
 
-- **Automated Hypothesis Generation using ABox abduction** (Msc):
+- **Automated Hypothesis Generation using ABox abduction** (MSc):
 This project looks at the following problem: we have an ontology, as
 well as some data in the form of a knowledge graph of ABox. This
 contains our background knowledge about some domain such as medicine,
@@ -263,7 +272,6 @@ may refer also to unknown objects. This problem is called
 signature-based ABox abduction. The aim of this project is to develop
 a new method for signature-based ABox abduction based on some recent
 theoretical results of this problem.
-
 
 
 

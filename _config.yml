@@ -4,6 +4,8 @@ description: Knowledge and AI research group at Vrije Universiteit Amsterdam
 plugins:
   - jekyll-redirect-from
 
+markdown: kramdown
+
 collections:
   news:
     date: true
