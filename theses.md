@@ -18,7 +18,7 @@ At KAI, we set clear expectations for students. We want to make sure students kn
 * TOC
 {:toc}
 
-## KAI Theses
+## KAI Thesis Topics
 
 
 
