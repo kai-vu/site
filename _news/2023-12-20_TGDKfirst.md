@@ -10,7 +10,7 @@ extra_content: "true"
 <div style="text-align: center; display:inline-block; vertical-align:top;"><img src="/images/news/tgdk_logo.png" width="1191" height="351"></div>
 </center>
 
-# The first issue of the TGDK journal is out with 2 articles where KAI members contributed!
+## The first issue of the TGDK journal is out with 2 articles where KAI members contributed!
 
 The Transactions on Graph Data and Knowledge (<a href="https://tgdk.org">TGDK</a>) released its first issue, and our members Lise Stork and Romana Pernisch contributed in two of the articles:
 * <b>"Knowledge Engineering using Large Language Models"</b>, by Bradley P. Allen, Lise Stork, and Paul Groth (<a href="https://doi.org/10.4230/TGDK.1.1.3">doi</a>)
