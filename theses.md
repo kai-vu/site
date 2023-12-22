@@ -30,9 +30,12 @@ Most of the topics below can be investigated by either BSc or MSc AI students. W
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available, have a look at the detailed description first. Also, keep in mind that all theses can be shaped to accomodate your interests.
 
 #### Information Extraction
-*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl), Ritten Roothaert (h.m.roothaert@vu.nl)*
+*Supervisor: Benno Kruit (b.b.kruit@vu.nl), Ilaria Tiddi (i.tiddi@vu.nl), Lise Stork (l.stork@vu.nl), Ritten Roothaert (h.m.roothaert@vu.nl), Jieying Chen (jieying.chenchen@gmail.com)*
 
 We offer multiple projects under the umbrella of information extraction with varying foci. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.
+- **Designing a Benchmark and Auto-Evaluator for Extracting Relevant Axioms from User Input**: *(Jieying)* Description <a href="/theses/JC_auto-evaluator">here</a>.
+- **Extraction of Relevant Axioms Using Ontology Embedding**: *(Jieying)* Description <a href="/theses/JC_axiom_extraction">here</a>.
+- **Ontology Embedding using the BERT Model** (*Jieying*): Description <a href="/theses/JC_onto_embedding">here</a>.
 - **Automated Processing of Scholarly Data**: *(Ilaria)* The goal of this project is to support the automatisation of processing the <a href="http://ceur-ws.org">CEUR-WS proceedings</a> data. For a BSc thesis, the objective is to extract an ontology of CEUR knowledge. For a MSc thesis, this would be extended with analysing abstracts or creating an interface for data input and knowledge graph population.
 - **Making research papers machine interpretable**: (*Lise*) The goal of this project is to see if we can partially automate or support the construction of knowledge graph on hypotheses from the literature. Here is a more detailed <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">description</a>.
 - **Information extraction from Structured lists** (BSc, *Benno*): Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items. More info [here](https://docs.google.com/document/d/1L98Lm9KdY5lEjLFgpZdVLTlAS2J4gv3MZMzezuvg0yQ/edit?usp=drive_link).
@@ -96,13 +99,16 @@ The following topics are aimed at providing a more human-like AI, by creating ex
 - **SHACL-forms for publishing scientific findings**: (*MSc, Lise*) The goal of this project is building a form from SHACL shapes for the publication of scientific findings. Here is a more detailed <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">description</a>.
 
 #### Question Answering
-*Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl), Lise Stork (l.stork@vu.nl)*
+*Supervisors: Benno Kruit (b.b.kruit@vu.nl), Stefan Schlobach (k.s.schlobach@vu.nl), Lise Stork (l.stork@vu.nl), Jieying Chen (jieying.chenchen@gmail.com)*
 
 QA is a very broad topic. We, however, focus on QA over structured data in various forms:
-- **Playing "20 Questions" with a KG** (BSc): detailed description is located [here](https://docs.google.com/document/d/1YFj_9upyD_TpCRdErZ2K5zCeB1bBA5zVm6AwYJ38Fu4/edit?usp=drive_link).
-- **Multi-modal Question Answering** (MSc): Description <a href="https://drive.google.com/open?id=1QwcTusbM85KmK1HiGFZJWSK4AYYWwlB9rG6AeR_jv8w">here</a>.
-- **Graph Queries on Relation Databases** (MSc CS): Description <a href="https://drive.google.com/open?id=1HByPxhswvGy8EGPjHuEOXBzwktGNXhN4brsZ2q-t1mc">here</a>.
-- **Answering Research Questions over Data Cubes as SQA (MSc., Lise)** : Description <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">here</a>.
+
+- **Benchmarking Ontology Modularity and QA Using Real-world Ontologies** (*Jieying*): Description <a href="/theses/JC_modularity_QA">here</a>.
+- **Playing "20 Questions" with a KG** *(BSc)*: detailed description is located [here](https://docs.google.com/document/d/1YFj_9upyD_TpCRdErZ2K5zCeB1bBA5zVm6AwYJ38Fu4/edit?usp=drive_link).
+- **Multi-modal Question Answering** *(MSc)*: Description <a href="https://drive.google.com/open?id=1QwcTusbM85KmK1HiGFZJWSK4AYYWwlB9rG6AeR_jv8w">here</a>.
+- **Graph Queries on Relation Databases** *(MSc CS)*: Description <a href="https://drive.google.com/open?id=1HByPxhswvGy8EGPjHuEOXBzwktGNXhN4brsZ2q-t1mc">here</a>.
+- **Answering Research Questions over Data Cubes as SQA** *(MSc., Lise)*: Description <a href="https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing">here</a>.
+
 #### Multi-lingual problems
 *Supervisors: Benno Kruit (b.b.kruit@vu.nl)*
 
@@ -112,11 +118,31 @@ Even though these topics would also fit under different topics already discribed
 
 
 #### Semantics of Deep Learning Methods
-*Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
+*Supervisors: Ilaria Tiddi (i.tiddi@vu.nl), Jieying Chen (jieying.chenchen@gmail.com)*
 
-- **Incorporating Semantics in Message Passing methods**: Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
-- **Extracting Semantics from neural co-activation graphs**: Here, we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
-- **Semantic robustness of Language Models with causal inference**: <text id="causalinf-kg">We will adapt the approach <a href="https://arxiv.org/pdf/2306.04347.pdf">in this paper</a> to test how robut language models are toward different semantics (description logics, OWL, etc.) The idea is to build a causal model for graph2text tasks and compare its prections with the ones of a language model. Understanding of probability theory, statistics and graph theory is necessary</text>.
+- **Ontology Embedding using the BERT Model** (*Jieying*): Description <a href="/theses/JC_onto_embedding">here</a>.
+- **Ethnic AI: Bias Detection and Mitigation in Large Language Models** (*Jieying*): Description <a href="/theses/JC_bias">here</a>.
+- **Enhancing Language Models with Ontology Subsumption Inference** (*Jieying*): Description <a href="/theses/JC_LM_onto">here</a>.
+- **Incorporating Semantics in Message Passing methods** (*Ilaria*): Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario. 
+- **Extracting Semantics from neural co-activation graphs** (*Ilaria*): Here, we will look at extracting taxonomical or ontological information using the analysis of the co-activation graph (CoAG) of a neural network architecture. We will use community analysis incrementally to analyse different knowledge granularities (CoAG alone, CoAG with rdfs:subClassOf, CoAG with other relationships). The taxonomy will help understand what the neural representation has learned, and it will be compared with a ground-truth KG to see how correct the neural representation is.
+- **Semantic robustness of Language Models with causal inference** (*Ilaria*): <text id="causalinf-kg">We will adapt the approach <a href="https://arxiv.org/pdf/2306.04347.pdf">in this paper</a> to test how robut language models are toward different semantics (description logics, OWL, etc.) The idea is to build a causal model for graph2text tasks and compare its prections with the ones of a language model. Understanding of probability theory, statistics and graph theory is necessary</text>.
+
+#### Systems of artificial intelligent agents
+*Supervisor: dr. Vera Stebletsova (v.n.stebletsova@vu.nl)*
+- **Possible applications of Alternating-time Temporal Epistemic Logic in AI** (BSc, MSc):
+    - What ATEL is (syntax, semantics, main features of its formal theory)
+    - Review applications of ATEL known in the relevant literature 
+    - Construct an intelligent system (Multi-Agent System) which requires an extension of ATEL in order to specify and verify correctness properties of the constructed MAS. 
+
+- **Doxastic Logic in AI** (*adv.* BSc): 
+    - What Doxastic Logic is (syntax, semantics, main features of its formal theory)
+    - Review applications of DL known in the relevant literature 
+    - Model Checking in DL.
+
+- **Finding an AI field for which you can construct a new applicable modal logic** (*adv.* MSc)
+
+- **Modeling Multi-Agent Systems with incomple information** (*adv.* MSc): 
+Logics for specification of MAS with perfect information are relatively well studied. However, many issues regarding modeling, analysis, and reasoning about systems with incomplete information are barely touched. This regards e.g. axiomatisation of ATL with imperfect information. Moreover, to our best knowledge, no satisfiability-checking algorithms for any variant of ATL with imperfect information have been proposed. It is not even known whether the problem is decidable at all. 
 
 #### Explanations for Ontologies
 *Supervisor: Patrick Koopmann (p.k.koopmann@vu.nl)*
@@ -194,33 +220,14 @@ and compare heuristics for selecting signatures for computing a nice
 sequence of explanations.
 
 
-#### Systems of artificial intelligent agents
-*Supervisor: dr. Vera Stebletsova (v.n.stebletsova@vu.nl)*
-- **Possible applications of Alternating-time Temporal Epistemic Logic in AI** (BSc, MSc):
-    - What ATEL is (syntax, semantics, main features of its formal theory)
-    - Review applications of ATEL known in the relevant literature 
-    - Construct an intelligent system (Multi-Agent System) which requires an extension of ATEL in order to specify and verify correctness properties of the constructed MAS. 
-
-- **Doxastic Logic in AI** (*adv.* BSc): 
-    - What Doxastic Logic is (syntax, semantics, main features of its formal theory)
-    - Review applications of DL known in the relevant literature 
-    - Model Checking in DL.
-
-- **Finding an AI field for which you can construct a new applicable modal logic** (*adv.* MSc)
-
-- **Modeling Multi-Agent Systems with incomple information** (*adv.* MSc): 
-Logics for specification of MAS with perfect information are relatively well studied. However, many issues regarding modeling, analysis, and reasoning about systems with incomplete information are barely touched. This regards e.g. axiomatisation of ATL with imperfect information. Moreover, to our best knowledge, no satisfiability-checking algorithms for any variant of ATL with imperfect information have been proposed. It is not even known whether the problem is decidable at all. 
-
-
-
 #### Other Topics on Ontologies and Description Logics
-*Supervisor: Patrick Koopmann (p.k.koopmann@vu.nl)*
+*Supervisor: Patrick Koopmann (p.k.koopmann@vu.nl), Jieying Chen (jieying.chenchen@gmail.com)*
 
 We also offer some further thesis topics on ontologies
 and description logics. These topics are particularly interesting for
 students with an interest in ontologies and/or logics.
 
-- **Learning Concept Descriptions From Examples** (BSc,MSc):
+- **Learning Concept Descriptions From Examples** *(BSc/MSc, Patrick)*:
 The aim of this project is to implement and evaluate a new method for
 learning concept descriptions from examples, based
 on recent advancements on non-classical reasoning. In this
@@ -231,7 +238,7 @@ learning procedure will be based on logical reasoning, that is, will
 use logical reasoning (with the help of existing tools) to compute the
 concept.
 
-- **Extracting Subontologies** (BSc)
+- **Extracting Subontologies** *(BSc, Patrick)*
 Existing ontologies are often very large and complex, while
 applications are often only need a fragment of the information
 provided by the ontology. A subontology is a smaller and ideally
@@ -245,7 +252,7 @@ with the aim of obtaining simpler ontologies and/or shorter
 computation times.   
 
 
-- **Optimizing Concept Expressions** (BSc,MSc):
+- **Optimizing Concept Expressions** *(BSc/MSc, Patrick)*:
 Ontologies often contain expressions that are more complex than
 necessary. This is even more a problem with ontology content that is
 automatically generated, which appears in many applications. The aim
@@ -255,7 +262,7 @@ size. We recently developed a method that can do this for a language
 of rather limited expressivity. The student will extend this
 framework, possibly using techniques from concept learning.
 
-- **Automated Hypothesis Generation using ABox abduction** (MSc):
+- **Automated Hypothesis Generation using ABox abduction** *(MSc, Patrick)*:
 This project looks at the following problem: we have an ontology, as
 well as some data in the form of a knowledge graph of ABox. This
 contains our background knowledge about some domain such as medicine,
@@ -273,7 +280,7 @@ signature-based ABox abduction. The aim of this project is to develop
 a new method for signature-based ABox abduction based on some recent
 theoretical results of this problem.
 
-
+- **Python-based Implementation of Ontology Modularity Tools** (*Jieying*): Description <a href="/theses/JC_onto_tool">here</a>.
 
 ## Internships and Erasmus Programmes
 Make sure to first check out the official internship process!
