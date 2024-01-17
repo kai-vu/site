@@ -21,32 +21,24 @@ body, html {
 	margin: 0;
 	padding: 0;
 	
-	font-family: Georgia, serif;
+	font-family: ububtu, sans-serif;
 	font-size: 20px;
 	line-height: 1.52em;
 }
 
 
-nav {
-		height: 4em;
+.navbar {
 		background: #eee;
 		border-bottom: 3px solid #00adefff;
+		z-index: 9999;
 	}
 
 
 @media (min-width: 992px) {
-	p, h1, h2, h2, h4, ul, ol, table, .people, nav-wrapper {
+	.content, .nav-wrapper, .project_nav, .navbar ul{
 		width: calc(var(--min-size-md) - 2em);
 		margin-left: auto;
 		margin-right: auto;
-	}
-	
-	body nav ul {
-		
-		width: calc(var(--min-size-md) - 2em);
-		margin-left: auto;
-		margin-right: auto;
-
 	}
 
 	img {
@@ -55,16 +47,8 @@ nav {
 }
 
 @media (max-width: 991px) {
-	/*
-	body, html {
-		margin: 0;
-		padding: 0;
-	
-		font-family: Georgia, serif;
-		font-size: 4vw;
-	}
-	*/
-	p, h1, h2, h3, h4, ul, ol, table, .people {
+
+	.content .project_nav {
 		margin-left: 1em;
 		margin-right: 1em;
 	}
@@ -106,36 +90,36 @@ nav {
 	font-size: 19px;
 }
 
-nav ul {
+.navbar ul {
 	font-family: Verdana, sans-serif;
 	margin: auto auto auto auto;
 	padding: 0;
 	list-style: none;
 }
 
-nav ul li {
+.navbar ul li {
 	display: block;
 	padding: 0 1em 0 1em;
 	background-color: #eee;	
 }
 
-nav ul li a {
+.navbar ul li a {
 	color: #000;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
 	color: #000;
 	text-decoration: none;
 }
 
 
-nav ul li.home a {
+.navbar ul li.home a {
 	color: #4b4b4b;
 }
 
-nav ul li.home a:hover {
+.navbar ul li.home a:hover {
 	color: #0089CF;
 }
 
@@ -144,8 +128,14 @@ nav ul li.home a:hover {
 }
 
 h1, h2, h2, h4 {
+	font-weight: 600;
 	font-family: Verdana, sans-serif;
 	padding: 0.5em;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 0;
 }
 
 @media (min-width: 768px) { 
@@ -154,7 +144,7 @@ h1, h2, h2, h4 {
     margin-top: 0; 
     background-color: inherit; 
  }
- nav ul {
+ .navbar ul {
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: flex-start;
@@ -171,7 +161,7 @@ h1, h2, h2, h4 {
     border: 0px;
   }
 
-  nav ul {
+  .navbar ul {
 
 		display: flex;
 		flex-flow: column nowrap;
@@ -191,4 +181,118 @@ h1, h2, h2, h4 {
   }
 }
 
+button.link {
+    background: none;
+    border: none;
+    padding: 0;
+}
 
+/*
+Everything related to the 'publication' navigation menu of the theses page
+*/
+
+.hidden {
+    display: none;
+}
+
+ul.projects {
+	list-style: circle;
+}
+
+ul.projects li {
+    position: relative;
+}
+
+ul.projects li::before {
+    content: none;
+}
+
+ul.projects li a {
+    font-style: italic;
+}
+
+.projects ul.keywords, ul.keywords li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects ul.keywords {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.projects ul.keywords li {
+    display: inline;
+
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.projects ul.keywords li::before {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: black;
+}
+
+.projects ul.keywords li::after {
+    content: ', ';
+    margin-right: 0.4em;
+}
+
+.projects ul.keywords li:last-child::after {
+    content: none;
+}
+
+nav.project_nav {
+    min-height: 27px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    margin-bottom: 27px;
+}
+
+nav.project_nav, nav.project_nav button.link{
+    font-size: 14px;
+
+}
+
+nav.project_nav span {
+    display: block;
+    margin-right: 0.4em;
+}
+
+nav.project_nav ul, nav.project_nav ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.project_nav ul li::before {
+    content: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: black;
+}
+
+nav.project_nav ul {
+    flex-grow: 1;
+}
+
+nav.project_nav li {
+    display: inline;
+}
+
+nav.project_nav li + li::before {
+    content: ' | ';
+    font-weight: normal;
+}
+
+span.supervisor {
+	font-weight: normal;
+	font-style: italic;
+}

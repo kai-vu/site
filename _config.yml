@@ -1,4 +1,3 @@
-twitter_username: pbloemesquire
 title_image: "kai.cs.vu.nl/images/ceiling.jpg"
 description: Knowledge and AI research group at Vrije Universiteit Amsterdam
 plugins:
@@ -12,6 +11,26 @@ collections:
     summary: true
     extra_content: true
     output: true
+  theses_demo:
+    title: true
+    description: true
+    layout: default
+    topic: true
+    keywords: true
+    supervisor: true
+    contact: true
+    degree: true
+    description_link: true
 
+theses_keywords: >
+    ML,
+    LLM,
+    Ontology engineering,
+    KG embeddings,
+    Knowledge representation,
+    Description logic,
+    User testing,
+    Validity testing,
+    Decision analysis
 
 baseurl: /
