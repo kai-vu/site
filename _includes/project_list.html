@@ -1,0 +1,24 @@
+<ul class="projects">
+{% for project in include.projects %}
+    <li>
+        <h4>
+        {{project.title}}       
+        <span class='supervisor'>
+            (
+            {% if project.degree != '' %}
+                {{project.degree}},  
+            {% endif %}    
+            {{project.supervisor}}
+            )
+        </span>
+        </h4>
+        {{ project.description | truncatewords: 40, '...'}} <span> (<a href="{{ project.description_link }}">continue reading</a>) </span>
+        {% if project.keywords %}
+        <ul class="keywords">
+            {% assign keys = project.keywords %}
+            {% for key in keys %}<li>{{key}}</li>{% endfor %}
+        </ul>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
