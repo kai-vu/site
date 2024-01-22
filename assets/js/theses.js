@@ -86,15 +86,15 @@ function filterClick(event)
 
     let all = keyword == 'show all';
 
-    let pubs = document.querySelectorAll('ul.projects > li')
-    pubs = [...pubs];
+    let projects = document.querySelectorAll('ul.projects > li')
+    projects = [...projects];
 
-    pubs.forEach(pub =>
+    projects.forEach(project =>
     {
-        pub.classList.remove('hidden');
-        if ( ! ( all || isIn(keyword, pub['keywords'])) )
+        project.classList.remove('hidden');
+        if ( ! ( all || isIn(keyword, project['keywords'])) )
         {
-            pub.classList.add('hidden');
+            project.classList.add('hidden');
         }
     });
 
@@ -108,25 +108,20 @@ function filterClick(event)
 
     event.target.disabled = true;
 
-    // * Reset the years so that only the top pub for a given year has it as non-hidden.
+    // * Go over all topics. If all projects in the topic are hiiden, hide the entire topic
 
-    let lastYear = -1;
+    let topics = document.querySelectorAll('ul.topics > li')
 
-    // * loop over all non-hidden publications
-    pubs.forEach(pub => {
-        if ( ! pub.classList.contains('hidden') )
-        {
-            let yearNode = pub.querySelector('.issued')
-            if (yearNode)
-            {
-                yearNode.classList.remove('hidden');
-
-                if (yearNode.innerHTML == lastYear)
-                    yearNode.classList.add('hidden')
-
-                lastYear = yearNode.innerHTML
+    // * loop over all non-hidden projects
+    topics.forEach(topic => {
+        topic.classList.add('hidden')
+        let projects = topic.querySelectorAll('ul.projects > li')
+        projects.forEach(project => {
+            if ( ! project.classList.contains('hidden'))
+            {   
+                topic.classList.remove('hidden')
             }
-        }
+        });
     });
 
 }

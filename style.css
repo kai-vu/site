@@ -35,10 +35,12 @@ body, html {
 
 
 @media (min-width: 992px) {
-	.content, .nav-wrapper, .project_nav, .navbar ul{
+	.content, .nav-wrapper, .navbar ul{
 		width: calc(var(--min-size-md) - 2em);
 		margin-left: auto;
 		margin-right: auto;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 	img {
@@ -48,9 +50,12 @@ body, html {
 
 @media (max-width: 991px) {
 
-	.content .project_nav {
+	.content{
 		margin-left: 1em;
 		margin-right: 1em;
+
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 	img {
@@ -188,7 +193,7 @@ button.link {
 }
 
 /*
-Everything related to the 'publication' navigation menu of the theses page
+Everything related to the 'projects' navigation menu of the theses page
 */
 
 .hidden {
@@ -295,4 +300,10 @@ nav.project_nav li + li::before {
 span.supervisor {
 	font-weight: normal;
 	font-style: italic;
+}
+
+ul.topics {
+	list-style: none;
+	padding-inline-start: 0px;
+	box-sizing: border-box;
 }
