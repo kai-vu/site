@@ -14,7 +14,12 @@ Here, the main webpages are located in the root directory. Webpages for thesis p
 Once you are done, there should be a notification in the `source controle menu`, as indicated here:
 ![updated file notification](/images/readme/updated_file.png)
 
-Click on it, and from there you go through the regular steps of making a commit to the main branch: write a descriptive update message (just "_update_" is not enough...), press `commit&push`, and hope there are no merge conflicts.  
+Click on it, and from there you go through the regular steps of making a commit to the main branch: write a descriptive update message (just "_update_" is not enough...), press `commit&push`, and hope there are no merge conflicts. 
+
+### Updating the thesis project descriptions
+Recently, we decided to restructure out thesis page to improve its navigation. Unfortunatly, this part of the website is not yet online, so you cannot check it out for yourself. It would however be very much appreciated if you could include your projects accoding to the format provided in the `_theses_demo/[supervisor-abbreviation]_[project-abbreviation].md` file. Please ensure that frontmatter has the exact same structure when creating your project. Otherwise unexpected behaviour could occur when the theses page is rendered.
+
+For more information/inspiration on how to format your webpage, see [this page](https://itopaloglu83.github.io/Jekyll-Markdown-Cheat-Sheet/).
 
 
 ## Design updates
