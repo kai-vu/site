@@ -21,6 +21,7 @@ collections:
     contact: true
     degree: true
     description_link: true
+    output: true
 
 theses_keywords: >
     ML,

@@ -5,18 +5,19 @@ description: 'In a world where linked data and data-mining is omnipresent, deter
 topic: 'Information Extraction' 
 keywords: 
     - 'LLM'
+    - 'Implementation'
     - 'Provenance'
-    - 'Programming'
+    - 'Knowledge extraction'
     - 'Knowledge representation'
-supervisor: 'Ritten'
+supervisor: 'Ritten Roothaert'
 contact: 'h.m.roothaert@vu.nl'
 degree: 'BSc./MSc.'
-description_link: '/theses/RR_prov'
+description_link: '/theses_demo/RR_prov'
 ---
 
 
 ## Automated Data-provenance Extraction (multiple projects)
-*Supervisor: Ritten Roothaert (h.m.roothaert@vu.nl)*
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
 Machine learning pipelines have become increasingly more complex with the rise of big data and the increase in computational resources. While this has revolutionized the field of AI, it also made determining which data was used in which part of the process increasingly more difficult. This is a problem, as it adds to the 'black-box' behaviour of the resulting models. The recent push for eXplainable AI (XAI) aims to demistify this 'black-box' behaviour. This project fall under the larger umbrella of XAI, where the aim is to represent the data transformations within the machine learning pipeline such that the provenance of the used data is easily extracted. The final product is what we will refer to as a _'data journey'_. For an example, see [<a href='https://content.iospress.com/articles/semantic-web/sw233407'>Daga and Groth (2023)</a>]
