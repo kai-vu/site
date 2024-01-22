@@ -18,7 +18,9 @@ description_link: 'either "/theses/[file_name]", or a link to a google doc or ot
 ---
 
 
-## Easy (potential) template
+# Easy (potential) template
+<!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
+## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
