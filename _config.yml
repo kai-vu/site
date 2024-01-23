@@ -34,4 +34,18 @@ theses_keywords: >
     Validity testing,
     Decision analysis
 
+theses_topics: >
+    Information Extraction,
+    Ontology Evolution,
+    Hybrid Intelligence,
+    Argument and Rule Mining,
+    Robotics and Knowledge Representation,
+    Explanations and Narratives,
+    Question Answering,
+    Multi-lingual problems,
+    Semantics of Deep Learning Methods,
+    Systems of artificial intelligent agents,
+    Explanations for Ontologies,
+    Other Topics on Ontologies and Description Logics
+
 baseurl: /
