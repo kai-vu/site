@@ -1,8 +1,21 @@
 ---
-title: Visual scene understanding for indoor mobile robots
+title: 'Visual scene understanding for indoor mobile robots (with the use case of trash picking)'
 layout: default
-
+description: 'In this project, you will be using the LoCoBot, a mobile robot equipped with multiple sensors and a manipulator. Your task would be to integrate object recognition methods (e.g. YOLO) and knowledge representation & reasoning methods to solve pick and place problems representing trash collection.'
+topic: 'Robotics and Knowledge Representation' 
+keywords: 
+    - 'Robotics'
+    - 'Computer Vision'
+    - 'Python'
+    - 'Robotic Operating System'
+    - 'Knowledge Representation'
+    - 'Machine Learning'
+supervisor: 'Mark Adamik'
+contact: 'm.adamik@vu.nl'
+degree: 'B.Sc./M.Sc.'
+description_link: '/theses/AM_vsu.md'
 ---
+
 
 ## Visual scene understanding for indoor mobile robots (with the use case of trash picking)
 
