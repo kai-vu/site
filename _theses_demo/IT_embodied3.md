@@ -2,7 +2,7 @@
 title: 'Impact of ontology changes in robotic tasks'
 description: 'Based on a robot operating with an ontology in the background, the goal here is to study how changes in such ontology can positively/negatively impact the tasks the robot has to perform.'
 layout: default
-topic: 'Ontology Engineering'
+topic: 'Robotics and Knowledge Representation'
 keywords:
     - "Robotics"
     - "Knowledge Engineering"
