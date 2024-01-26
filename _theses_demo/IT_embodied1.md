@@ -13,7 +13,7 @@ degree: 'MSc.'
 description_link: ''
 ---
 
-## Knowledge Engineering for Hybrid Intelligence 
+## Embodied Instructable Agents 
 *Supervisor: Ilaria Tiddi (i.tiddi@vu.nl)*
 
 #### Description
