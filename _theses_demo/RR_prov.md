@@ -13,7 +13,7 @@ supervisor: "Ritten Roothaert"
 # contact: 'h.m.roothaert@vu.nl'
 degree: 'BSc./MSc.'
 description_link: '/theses_demo/RR_prov'
----
+--- 
 
 {% assign supervisor = site.data.members | where_exp: "item", "item.name contains page.supervisor" | first %}
 
