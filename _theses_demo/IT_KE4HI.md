@@ -23,4 +23,4 @@ Inspired by Software Design and Engineering, Knowledge Engineering deals with th
 - Knowledge of ontologies and ontology engineering
 
 #### Literature
-- [https://dl.acm.org/doi/pdf/10.1145/3587259.3627541][Knowledge Engineering for Hybrid Intelligence]
+- [Knowledge Engineering for Hybrid Intelligence](https://dl.acm.org/doi/pdf/10.1145/3587259.3627541)
