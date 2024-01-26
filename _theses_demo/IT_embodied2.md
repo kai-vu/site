@@ -2,7 +2,7 @@
 title: 'Energy-efficient robots through knowledge-awareness'
 description: 'We have an ontology representing the capabilities of the robots (picking objects, moving, scanning surroundings, etc.). The ontology needs to be expanded with energy budgets so the robot can choose the actions to performed based on its capabilities and energy-efficiency.'
 layout: default
-topic: 'Knowledge Engineering'
+topic: 'Robotics and Knowledge Representation'
 keywords:
     - "Robotics"
     - "Knowledge Engineering"
