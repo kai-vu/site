@@ -6,7 +6,7 @@ topic: 'Knowledge Engineering'
 keywords:
     - "Robotics"
     - "Knowledge Engineering"
-    - "Hybrid Intelligence Engineering"
+    - "Hybrid Intelligence"
 supervisor: 'Ilaria'
 contact: 'i.tiddi@vu.nl'
 degree: 'BSc./MSc.'
