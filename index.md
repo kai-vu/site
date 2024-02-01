@@ -20,7 +20,7 @@ We combine foundational theory and applied methods such as computational logic, 
 ## News
 
 <ul>
-    {% for news_item in site.news limit:10 reversed %}
+    {% for news_item in site.news reversed %}
   <li>({{ news_item.date | date: "%-d %B %Y" }}) - {{ news_item.summary }}
     {% if news_item.extra_content == "true" %}
     (<a href="{{news_item.url}}">continue reading</a>)
