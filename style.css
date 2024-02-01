@@ -192,3 +192,10 @@ h1, h2, h2, h4 {
 }
 
 
+
+.projectgrid {
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	gap: 10px;
+  	grid-auto-rows: 100px;
+  }
