@@ -10,6 +10,7 @@ layout: default
   <div><a href="https://discoverylab.ai/"><img src="images/discovery.png" height="100"></a></div>
   <div><a href="https://cooperationdatabank.org/"><img src="images/coda.png" height="100"></a></div>
   <div><a href="https://www.hybrid-intelligence-centre.nl/"><img src="images/hybrid.png" height="100"></a></div>
+  <div><a href="https://www.perspicuous-computing.science"><img src="images/cpec.png" height="100"></a></div>
 </div>
 
 
