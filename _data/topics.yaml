@@ -22,3 +22,7 @@
   description: 'We offer a range of projects around the topic of explanations for ontologies. We focus on ontologies based on description logics or OWL. A main advantage of formulating knowledge in such a formalism is that one can use a reasoner to derive implicit information. However, not always is the result of this reasoning process easy to understand: users might wonder why something was derived (explain positive entailment), or why something was not derived (explain negative entailments). Motivated by this, different methods have been developed to provide explanations for positive and negative entailments.'
 - name: Other Topics on Ontologies and Description Logics
   description: 'We also offer some further thesis topics on ontologies and description logics. These topics are particularly interesting for students with an interest in ontologies and/or logics.'
+- name: Ontologies and Reasoning
+  description:
+- name: Knowledge Extraction
+  description:

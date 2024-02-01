@@ -307,3 +307,16 @@ ul.topics {
 	padding-inline-start: 0px;
 	box-sizing: border-box;
 }
+
+ul.supervisors li {
+  display:inline;
+}
+
+ul.supervisors {
+	padding: 0;
+	font-style: italic;
+}
+
+ul.supervisors li + li::before {
+  content: ', ';
+}

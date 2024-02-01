@@ -58,6 +58,8 @@ addEventListener('DOMContentLoaded', (event) =>
         ul.append(li);
     });
 
+    redrawTopics()
+
 });
 
 function isIn(term, list) {
@@ -73,6 +75,37 @@ function isIn(term, list) {
     }
 
     return false;
+}
+
+function redrawTopics() {
+    // * Go over all topics. If all projects in the topic are hiiden, hide the entire topic
+    let topics = document.querySelectorAll('ul.topics > li')
+
+    // * loop over all non-hidden projects
+    topics.forEach(topic => {
+        topic.classList.add('hidden')
+        let projects = topic.querySelectorAll('ul.projects > li');
+        let supervisors = [];
+        projects.forEach(project => {
+            if ( ! project.classList.contains('hidden'))
+            {   
+                let supervisor = project.querySelector('span.contact');
+                console.log(supervisor)
+                supervisors.push(supervisor.innerHTML);
+                topic.classList.remove('hidden');
+            }
+        });
+        // * clearing the previous supervisor list and only adding those that have projects that are currently presented
+        let sup_list = topic.querySelector('ul.supervisors');
+        sup_list.innerHTML = '';
+        let unique_supervisor = new Set(supervisors)
+        unique_supervisor.forEach(value => {
+            let li = document.createElement('li');
+            li.innerHTML = value
+            sup_list.append(li)
+            console.log(value)
+        });
+    });
 }
 
 /**
@@ -108,20 +141,6 @@ function filterClick(event)
 
     event.target.disabled = true;
 
-    // * Go over all topics. If all projects in the topic are hiiden, hide the entire topic
-
-    let topics = document.querySelectorAll('ul.topics > li')
-
-    // * loop over all non-hidden projects
-    topics.forEach(topic => {
-        topic.classList.add('hidden')
-        let projects = topic.querySelectorAll('ul.projects > li')
-        projects.forEach(project => {
-            if ( ! project.classList.contains('hidden'))
-            {   
-                topic.classList.remove('hidden')
-            }
-        });
-    });
+    redrawTopics()
 
 }
