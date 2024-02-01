@@ -10,7 +10,7 @@ keywords:
 supervisor: 'Ilaria'
 contact: 'i.tiddi@vu.nl'
 degree: 'BSc./MSc.'
-description_link: ''
+description_link: '/theses_dir/IT_KE4HI'
 ---
 
 ## Knowledge Engineering for Hybrid Intelligence 

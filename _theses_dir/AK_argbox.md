@@ -10,7 +10,7 @@ keywords:
 supervisor: 'Atefeh Keshavarzi'
 contact: 'a.keshavarzi.zafarghandi@vu.nl'
 degree: 'M.Sc.'
-description_link: '/theses_demo/AK_argbox'
+description_link: '/theses_dir/AK_argbox'
 ---
 
 ## Thesis title:  Leveraging Argumentation Frameworks for Local Explainability of Black-Box Models

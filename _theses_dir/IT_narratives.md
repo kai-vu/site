@@ -10,7 +10,7 @@ keywords:
 supervisor: 'Ilaria'
 contact: 'i.tiddi@vu.nl'
 degree: 'MSc.'
-description_link: ''
+description_link: '/theses_dir/IT_narratives'
 ---
 
 ## Benchmarks and Methods for understanding Narratives

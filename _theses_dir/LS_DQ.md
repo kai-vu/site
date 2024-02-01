@@ -1,6 +1,6 @@
 ---
 title: 'Answering Research Questions over Data Cubes as SQA'
-description: 'We focus on focus on answer scientific questions over structured data (SQA).'
+description: 'Hypotheses generation and testing in scientific research is often a time-intensive process. This project revolves around making the process more reproducible and trustworthy, with the end goal of machine actionability – the ability of machines to discover knowledge with little human intervention. '
 layout: default
 topic: 'Question Answering'
 keywords:

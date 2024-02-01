@@ -6,7 +6,8 @@
     <p>
     {{include.topic.description}}
     </p>
-    {% assign projects = site.theses_demo | where:"topic", include.topic.name %}
+    {% assign projects = site.theses_dir | where:"topic", include.topic.name %}
+    <p> {{site.theses}} </p>
     <ul class="projects">
     {% for project in projects %}
         <li>

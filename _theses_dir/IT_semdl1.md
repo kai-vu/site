@@ -9,7 +9,7 @@ keywords:
 supervisor: 'Ilaria'
 contact: 'i.tiddi@vu.nl'
 degree: 'MSc.'
-description_link: ''
+description_link: '/theses_dir/IT_semdl1'
 ---
 
 ## Incorporating Semantics in Message Passing methods
@@ -18,7 +18,7 @@ description_link: ''
 #### Description
 Message passing models are neural network architectures that operate by propagating information along the structure of a graph over which they are trained end-to-end. Currently, these methods treat all relationships in the same way, while in knowledge graphs some edges carry more semantics than others (e.g. entity type or subclass hierarchies). Here, we will look at feeding such information in a message passing model such as R-GCN and test it in a node labelling or link prediction scenario.
  
- #### Requirements
+#### Requirements
 -  Knowledge of R-GCN or message passing methods
  
 

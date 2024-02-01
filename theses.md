@@ -11,11 +11,31 @@ to these links.
 {% endcomment %}
 </nav>
 
+<!-- <ul>
+{% for project in site.theses_dir %}
+    <li>
+        {{project.topic}}
+    </li>
+{% endfor %}
+</ul>
+
+<ul style="list-style: None;">
+{% for project in site.theses_dir %}
+            {% for keyword in project.keywords %} 
+            <li>
+            {{keyword}}
+            </li>
+            {% endfor %}
+{% endfor %}
+</ul> -->
+
+
 <ul class="topics">
-{% for topic in site.data.topics%}
+{% for topic in site.data.topics %}
     {% include project_list.html topic=topic %}
 {% endfor %}
 </ul>
+
 
 
 <script src="/assets/js/theses.js"></script> <!-- Custom JS -->

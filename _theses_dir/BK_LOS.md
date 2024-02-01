@@ -1,6 +1,5 @@
 ---
-title: 'Detecting Entity-Attribute Tables in Wikipedia
-'
+title: 'Detecting Entity-Attribute Tables in Wikipedia'
 layout: default
 description: 'System Dynamics models describe the behaviour of complex dynamical systems such as the climate. InsightMaker is a website for sharing such models. This project aims to formally describe the data sources of these models using RDF.'
 topic: 'Data Integration' 

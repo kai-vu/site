@@ -13,8 +13,8 @@ keywords:
     - 'Skills'
 supervisor: '-- your name --'
 contact: '-- your email --'
-degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.)'
-description_link: 'either "/theses_dir/[file_name]", or a link to a google doc or other external resource.'
+degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.). Please pick only 1 --'
+description_link: 'Either "/theses_dir/[file_name]" if you with to link this document, or a link to a google doc or other external resource. Do not remove or leave it empty'
 ---
 
 

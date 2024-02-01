@@ -10,7 +10,7 @@ keywords:
 supervisor: 'Ilaria Tiddi'
 contact: 'i.tiddi@vu.nl'
 degree: 'BSc./MSc.'
-description_link: '/theses_demo/IT_ceur'
+description_link: '/theses_dir/IT_ceur'
 ---
 
 ## Automated Processing of Scholarly CEUR-WS Data

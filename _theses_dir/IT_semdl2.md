@@ -9,7 +9,7 @@ keywords:
 supervisor: 'Ilaria'
 contact: 'i.tiddi@vu.nl'
 degree: 'MSc.'
-description_link: ''
+description_link: '/theses_dir/IT_semdl2'
 ---
 
 ## Solving Math Word Problems with LLMs

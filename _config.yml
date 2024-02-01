@@ -11,7 +11,7 @@ collections:
     summary: true
     extra_content: true
     output: true
-  theses_demo:
+  theses_dir:
     title: true
     description: true
     layout: default
