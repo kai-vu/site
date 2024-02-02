@@ -3,7 +3,7 @@
 - name: Knowledge Graph Construction   
   description : 'Knowledge Extraction aims at generating structured knowledge (knowledge graphs) from unstructured data (usually, text). These projects focus on the population task of a  Knowledge Graph.'
 - name: Knowledge and Ontology Engineering
-  description: 'These projects focus on the design, evolution and consomption of ontologies and ontology-based systems.  
+  description: 'These projects focus on the design, evolution and consomption of ontologies and ontology-based systems.'  
 - name: Argument Mining
   description: 'These projects aim at finding argumentation structures from different types of data (structured, unstructured, semi-structured).'
 - name: Knowledge-based Robotics
