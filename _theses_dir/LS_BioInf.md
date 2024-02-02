@@ -7,7 +7,7 @@ keywords:
     - "Ontology Engineering"
     - "Knowledge Graphs"
     - "Bioinformatics"
-supervisor: 'Lise'
+supervisor: 'Lise Stork'
 contact: 'l.stork@vu.nl'
 degree: 'MSc.'
 description_link: '/theses_dir/LS_BioInf'

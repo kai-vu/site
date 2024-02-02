@@ -12,7 +12,7 @@ keywords:
 supervisor: 'Jieying Chen'
 contact: 'jieying.chenchen@gmail.com'
 degree: 'M.Sc.'
-description_link: '/theses_dir/modularity_QA'
+description_link: '/theses_dir/JC_modularity_QA'
 ---
 
 ## Benchmarking Ontology Modularity and QA Using Real-world Ontologies

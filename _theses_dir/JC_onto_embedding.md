@@ -11,7 +11,7 @@ keywords:
 supervisor: 'Jieying Chen'
 contact: 'jieying.chenchen@gmail.com'
 degree: 'B.Sc./M.Sc.'
-description_link: '/theses_dir/onto_embedding'
+description_link: '/theses_dir/JC_onto_embedding'
 ---
 
 ## Ontology Embedding using the BERT Model

@@ -7,7 +7,7 @@ keywords:
     - "Knowledge Engineering"
     - "Knowledge Graphs"
     - "Hybrid Intelligence"
-supervisor: 'Lise'
+supervisor: 'Lise Stork'
 contact: 'l.stork@vu.nl'
 degree: 'MSc.'
 description_link: 'https://docs.google.com/document/d/1v5cqB1o__glgJU_9HbvyGVfIQrhfggiZSq3DLffOx2k/edit?usp=sharing'

@@ -7,7 +7,7 @@ keywords:
     - "Rule Mining"
     - "Knowledge Graphs"
     - "Community Detection"
-supervisor: 'Lise'
+supervisor: 'Lise Stork'
 contact: 'l.stork@vu.nl'
 degree: 'BSc./MSc.'
 description_link: '/theses_dir/LS_comdet'

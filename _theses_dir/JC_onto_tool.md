@@ -11,7 +11,7 @@ keywords:
 supervisor: 'Jieying Chen'
 contact: 'jieying.chenchen@gmail.com'
 degree: 'B.Sc./M.Sc.'
-description_link: '/theses_dir/onto_tool'
+description_link: '/theses_dir/JC_onto_tool'
 ---
 
 ## Python-based Implementation of Ontology Modularity Tools
