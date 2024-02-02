@@ -9,7 +9,7 @@ keywords:
  - 'Knowledge Representation'
  - 'Inference Enhancement'
 supervisor: 'Jieying Chen'
-contact: 'jieying.chenchen@gmail.com'
+contact: 'j.chen2@vu.nl'
 degree: 'M.Sc.'
 description_link: '/theses_dir/JC_LM_onto'
 ---

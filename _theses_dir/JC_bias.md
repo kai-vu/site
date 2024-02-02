@@ -9,7 +9,7 @@ keywords:
  - Knowledge Representation
  - LLM
 supervisor: 'Jieying Chen'
-contact: 'jieying.chenchen@gmail.com'
+contact: 'j.chen2@vu.nl'
 degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/JC_bias'
 ---

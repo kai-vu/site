@@ -8,7 +8,7 @@ keywords:
  - 'Data validation'
  - 'Ontology Engineering'
 supervisor: 'Jieying Chen'
-contact: 'jieying.chenchen@gmail.com'
+contact: 'j.chen2@vu.nl'
 degree: 'M.Sc.'
 description_link: '/theses_dir/JC_auto-evaluator'
 ---
