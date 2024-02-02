@@ -12,7 +12,7 @@ keywords:
 supervisor: 'Romana Pernisch'
 contact: 'r.pernisch@vu.nl'
 degree: 'BSc./MSc.'
-description_link: 'http://where.ever.you/want_it_to_be'
+description_link: '/theses_dir/RP_evo'
 ---
 
 ## Investigating Support for Ontology Evolution (multiple projects)
