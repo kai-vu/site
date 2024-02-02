@@ -15,7 +15,8 @@ description_link: '/theses_dir/JC_LM_onto'
 ---
 
 ## Enhancing Language Models with Ontology Subsumption Inference
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 The aim of this master's thesis is to further investigate the potential of pre-trained language models (LMs) in encoding and reasoning with ontology subsumptions. The existing work on LMs as knowledge bases has primarily focused on simple, triple-based relational knowledge bases, neglecting more sophisticated and conceptualized knowledge bases such as OWL ontologies. This thesis explores how LMs can be enhanced to better understand and infer subsumption relationships between ontology concepts.

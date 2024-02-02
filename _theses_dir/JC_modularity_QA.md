@@ -17,7 +17,7 @@ description_link: '/theses_dir/JC_modularity_QA'
 
 ## Benchmarking Ontology Modularity and QA Using Real-world Ontologies
 
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 Modularity within ontologies—creating smaller, purpose-specific ontology modules—enhances their maintainability, usability, and integration. On the other hand, the use of Question-Answering (QA) systems to interact with these ontologies has surged, necessitating the establishment of benchmarks to evaluate their performance. The incorporation of real-world data into such benchmarks is crucial for understanding the practical utility and scalability of ontology modularity and associated QA systems.

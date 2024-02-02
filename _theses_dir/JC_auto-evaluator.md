@@ -15,7 +15,7 @@ description_link: '/theses_dir/JC_auto-evaluator'
 
 ## Designing a Benchmark and Auto-Evaluator for Extracting Relevant Axioms from User Input
 
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 Ontology extraction is a cornerstone in processes for ontology construction, semantic reasoning, and the augmentation of knowledge bases. With the burgeoning volume of user-contributed content and the intricate variance in knowledge representations, there's an emergent requirement for refined tools capable of extracting and validating the relevancy of axioms derived from user inputs. 

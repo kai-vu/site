@@ -15,7 +15,8 @@ description_link: '/theses_dir/JC_bias'
 ---
 
 ## Ethnic AI: Bias Detection and Mitigation in Large Language Models
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 Large Language Models (LLMs) are widely used in diverse applications ranging from information retrieval to content creation has underscored the importance of their reliability and neutrality. While LLMs have proven to be valuable tools, their training on vast and varied datasets may inadvertently introduce or perpetuate biases present in the data. Employing ontologies, structured representations of knowledge with predefined relationships, can serve as a unique way to validate and rectify biased outputs by benchmarking generated answers against a standardized knowledge base

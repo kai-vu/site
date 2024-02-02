@@ -15,7 +15,8 @@ description_link: '/theses_dir/JC_onto_embedding'
 ---
 
 ## Ontology Embedding using the BERT Model
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 Ontologies have become an indispensable tool for the semantic web, knowledge graph generation, and intelligent systems. Traditionally, ontologies are expressed in symbolic forms, which sometimes lack the ability to capture latent semantics or support tasks such as similarity computation. Recent advances in neural embeddings, particularly the Bidirectional Encoder Representations from Transformers (BERT) model, have shown significant potential in capturing contextual nuances in textual data. Embedding ontologies using the BERT model could bridge the gap between symbolic representations and continuous vector spaces, offering richer semantic interpretations and enabling a host of downstream applications.

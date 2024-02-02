@@ -16,7 +16,7 @@ description_link: '/theses_dir/JC_onto_tool'
 
 ## Python-based Implementation of Ontology Modularity Tools
 
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 Ontology modularity plays a crucial role in large-scale knowledge representation and management, enabling users to extract relevant sub-ontologies and facilitating efficient reasoning, updating, and maintenance. Despite its importance, there's a noticeable gap in the market for high-speed, Python-based tools tailored to ontology modularity. This research aims to fill that gap by leveraging Python's versatile ecosystem and designing tools that are not only accurate but also significantly faster.

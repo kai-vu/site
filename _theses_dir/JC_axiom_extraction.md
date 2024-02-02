@@ -17,7 +17,8 @@ description_link: '/theses_dir/JC_axiom_extraction'
 
 
 ## Extraction of Relevant Axioms Using Ontology Embedding
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 As the complexity and volume of ontologies grow, ensuring efficient access to the embedded knowledge emerges as a pressing challenge. Many real-world ontologies have grown to sizes that are cumbersome for users to navigate, making comprehension and reasoning a formidable task. The purpose of the thesis is to extract the most relevant axioms w.r.t. users’ interests. Through this approach, we aim to enhance usability and understanding, making vast knowledge maps more digestible for human users.

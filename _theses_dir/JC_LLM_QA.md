@@ -15,7 +15,8 @@ description_link: '/theses_dir/JC_LLM_QA'
 ---
 
 ## Leveraging Large Language Models for Ontology Extraction through Question-Answering
-*Supervisor: Jieying Chen (jieying.chenchen@gmail.com)*
+
+*Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Abstract 
 The aim of the thesis is to explore the potential of automating and refining the ontology extraction process using advanced Large Language Models (LLMs). Ontologies, which offer a structured representation of concepts and their relationships within a specific domain, are fundamental to semantic web applications, knowledge portrayal, and smart systems. Historically, the creation and updating of these ontologies have necessitated considerable manual intervention by domain specialists. However, the emergence of LLMs, known for their adeptness in context comprehension, meaningful response generation, and structured information extraction, hints at a transformative approach. By harnessing LLMs via a Question-Answering (QA) mechanism, the thesis seeks to foster more agile and real-time ontology development and modifications, addressing the continually changing landscape of knowledge domains.
