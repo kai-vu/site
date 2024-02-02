@@ -24,28 +24,24 @@ collections:
     output: true
 
 theses_keywords: >
-    ML,
+    Knowledge Representation,
+    Knowledge Graphs,
+    Reasoning,
+    Ontologies,
+    Robotics,
+    Logics,
+    Knowledge Engineering,
+    Ontology Engineering,
     LLM,
-    Ontology engineering,
-    KG embeddings,
-    Knowledge representation,
-    Description logic,
-    User testing,
-    Validity testing,
-    Decision analysis
-
-theses_topics: >
-    Information Extraction,
-    Ontology Evolution,
     Hybrid Intelligence,
-    Argument and Rule Mining,
-    Robotics and Knowledge Representation,
-    Explanations and Narratives,
-    Question Answering,
-    Multi-lingual problems,
-    Semantics of Deep Learning Methods,
-    Systems of artificial intelligent agents,
-    Explanations for Ontologies,
-    Other Topics on Ontologies and Description Logics
+    Wikipedia,
+    Semantic Web,
+    Python,
+    Machine Learning,
+    Logic-Based Argumentation,
+    Java,
+    Explainability,
+    Description Logics,
+    Change Management,
 
 baseurl: /
