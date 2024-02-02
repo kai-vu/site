@@ -12,7 +12,7 @@ keywords:
 supervisor: 'Romana Pernisch'
 contact: 'r.pernisch@vu.nl'
 degree: 'BSc./MSc.'
-description_link: '/theses_dir/RR_chimp'
+description_link: '/theses_dir/RP_chimp'
 ---
 
 ## ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects)
