@@ -1,28 +1,18 @@
-- name: Information Extraction
-  description: 'We offer multiple projects under the umbrella of information extraction with varying foci. Information extraction focuses on generating structured data from unstructured inputs in an automated manner. The input as well as the output can vary based on the application or end usage of the extracted data.'
-- name: Ontology Evolution
-  description: 'Ontologies model specific domains. As domains evolve over time, ontologies have to be changed as well. Not only are the ontologies themsevels affected but also applications using those ontologies for various purposes. We have multiple theses in this domain.'   
-- name: Hybrid Intelligence
-  description:
-- name: Argument and Rule Mining
-  description: 'Rule mining, similarly to information extraction, aims at finding structures. In this case, we want to learn rules that describe the data best to help us understand it better. There are multiple projects that involve rule mining:'
-- name: Robotics and Knowledge Representation
-  description: 'These projects look at the intersection of robotics and knowledge graphs. Knowledge of Robotic Operating System (ROS) is a plus:'
-- name: Explanations and Narratives
-  description: 'The following topics are aimed at providing a more human-like AI, by creating explanations or creating narratives.'
-- name: Question Answering
-  description: 'QA is a very broad topic. We, however, focus on QA over structured data in various forms:'
-- name: Multi-lingual problems
-  description: 'Even though these topics would also fit under different topics already discribed above, we wanted to highlight them as they are both addressing the problem of multiple languages in different tasks:'
-- name: Semantics of Deep Learning Methods
-  description:
-- name: Systems of artificial intelligent agents
-  description: 
-- name: Explanations for Ontologies
-  description: 'We offer a range of projects around the topic of explanations for ontologies. We focus on ontologies based on description logics or OWL. A main advantage of formulating knowledge in such a formalism is that one can use a reasoner to derive implicit information. However, not always is the result of this reasoning process easy to understand: users might wonder why something was derived (explain positive entailment), or why something was not derived (explain negative entailments). Motivated by this, different methods have been developed to provide explanations for positive and negative entailments.'
-- name: Other Topics on Ontologies and Description Logics
-  description: 'We also offer some further thesis topics on ontologies and description logics. These topics are particularly interesting for students with an interest in ontologies and/or logics.'
-- name: Ontologies and Reasoning
-  description:
 - name: Knowledge Extraction
-  description:
+  description: 'Knowledge Extraction aims at generating structured knowledge (knowledge graphs) from unstructured data (usually, text). These projects focus on the methods to extract knoweldge.'
+- name: Knowledge Graph Construction   
+  description : 'Knowledge Extraction aims at generating structured knowledge (knowledge graphs) from unstructured data (usually, text). These projects focus on the population task of a  Knowledge Graph.'
+- name: Knowledge and Ontology Engineering
+  description: 'These projects focus on the design, evolution and consomption of ontologies and ontology-based systems.  
+- name: Argument Mining
+  description: 'These projects aim at finding argumentation structures from different types of data (structured, unstructured, semi-structured).'
+- name: Knowledge-based Robotics
+  description: 'These projects look at how ontologies and knowledge graphs can support robotics applications.'
+- name: Knowledge Graph-based Question Answering 
+  description: 'These projects focus on the Question Answering task over data structured in the form of KGs.'
+- name: Knowledge Graphs and Deep Learning
+  description: 'These projects study how to deep learning models can capture different types of semantics represented in the data.'
+- name: Formal Logics, Modal Logics
+  description: 'Projects looking into the application of differe kind of logics in AI (multi-agent) systems.'
+- name: Ontologies and Reasoning
+  description: 'These projects focus on reasoning over OWL or description logic-based ontologies.'
