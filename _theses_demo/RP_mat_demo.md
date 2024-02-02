@@ -4,14 +4,14 @@ description: 'We have previously investigated the impact on the materialisation 
 layout: default
 topic: 'Ontology Evolution' 
 keywords: 
-    - 'ML'
-    - 'User testing'
-    - 'Programming'
+    - 'Change Management'
+    - 'Onology Materialisation'
+    - 'Ontologies'
     - 'Knowledge representation'
-supervisor: 'Romana'
-contact: 'h.m.roothaert@vu.nl'
+supervisor: 'Romana Pernisch'
+contact: 'r.pernisch@vu.nl'
 degree: 'BSc./MSc.'
-description_link: 'http://where.ever.you/want_it_to_be'
+description_link: '/theses_dir/RP_mat'
 ---
 
 

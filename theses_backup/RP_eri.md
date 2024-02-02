@@ -1,6 +1,18 @@
 ---
-title: ERI
+title: 'Investigating the Impact of Changes on Embeddings using the Embedding Resemblance Indicator (multiple projects)'
+description: "This project revolves around the Embedding Resemblance Indicator (ERI) that is used to measure ontology updates' impact through embeddings, aiming for real-time application by expanding evaluations with real data."
 layout: default
+topic: 'Ontology Evolution' 
+keywords: 
+    - 'KG Embeddings'
+    - 'Change Management'
+    - 'Sub-symbolic Semantics'
+    - 'Knowledge Representation'
+    - 'Knowledge Graphs'
+supervisor: 'Romana Pernisch'
+contact: 'r.pernisch@vu.nl'
+degree: 'BSc./MSc.'
+description_link: '/thesis_dir/RP_eri'
 ---
 
 ## Investigating the Impact of Changes on Embeddings using the Embedding Resemblance Indicator (multiple projects)

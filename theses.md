@@ -11,7 +11,11 @@ to these links.
 {% endcomment %}
 </nav>
 
+<!-- The code below is for easy parting of thesis data. Very ugly, but it works. -->
 <!-- <ul>
+<p>
+Topic list
+</p>
 {% for project in site.theses_dir %}
     <li>
         {{project.topic}}
@@ -19,6 +23,9 @@ to these links.
 {% endfor %}
 </ul>
 
+<p>
+Keyword list
+</p>
 <ul style="list-style: None;">
 {% for project in site.theses_dir %}
             {% for keyword in project.keywords %} 

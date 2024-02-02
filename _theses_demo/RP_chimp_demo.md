@@ -4,14 +4,15 @@ description: 'The ChImp Protégé plugin helps ontology engineers during this pr
 layout: default
 topic: 'Ontology Evolution'
 keywords:
-    - "ML"
-    - "Description logic"
-    - "Programming"
-    - "Knowledge representation"
-supervisor: 'Romana'
-contact: 'h.m.roothaert@vu.nl'
+    - "Java"
+    - "Protégé"
+    - "Change Management"
+    - "Ontology Engineering"
+    - 'User testing'
+supervisor: 'Romana Pernisch'
+contact: 'r.pernisch@vu.nl'
 degree: 'BSc./MSc.'
-description_link: 'http://where.ever.you/want_it_to_be'
+description_link: '/theses_dir/RR_chimp'
 ---
 
 ## ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects)

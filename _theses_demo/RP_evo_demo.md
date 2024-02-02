@@ -4,13 +4,13 @@ description: 'The process of ontology evolution is relatively long and complex. 
 layout: default
 topic: 'Ontology Evolution' 
 keywords: 
-    - 'Prolog'
-    - 'LLM'
-    - 'User testing'
-    - 'Programming'
-    - 'Epistemic logic'
-supervisor: 'Romana'
-contact: 'h.m.roothaert@vu.nl'
+    - 'Change Management'
+    - 'User Testing'
+    - 'Process Automation'
+    - 'Python'
+    - 'Java'
+supervisor: 'Romana Pernisch'
+contact: 'r.pernisch@vu.nl'
 degree: 'BSc./MSc.'
 description_link: 'http://where.ever.you/want_it_to_be'
 ---
