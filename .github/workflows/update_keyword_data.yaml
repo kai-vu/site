@@ -1,0 +1,54 @@
+# workflow to update the keyword usage of the theses projects
+
+name: Check for updates the keywords used in the project descriptions
+
+on:
+  push:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  # The following permissions are needed by the pages call if a change occured.
+  pages: write
+  id-token: write
+
+jobs:
+  update_wordlist:
+    runs-on: ubuntu-latest
+    outputs:
+      keyword_changes: ${{ env.KEYWORD_CHANGES }}
+    steps:
+      - name: clone
+        uses: actions/checkout@v1
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: run keyword counting script
+        id: count_and_sort
+        run: |
+          pip install python-frontmatter==1.1.0 PyYAML==6.0
+          python asserts/python/update_keywords.py
+          echo "KEYWORD_CHANGES=$(git diff --name-only | wc -l)" >> $GITHUB_ENV
+      - name: print_env
+        run: |
+          env
+      - name: push_if_updated
+        if: env.KEYWORD_CHANGES != '0'
+        run: |
+          git add _data/keywords.yaml
+          git config --local user.email "keyword_change@github.org"
+          git config --local user.name "GitHub Action"
+          git commit -m "Updated keyword list"
+      - name: Push changes
+        if: env.KEYWORD_CHANGES != '0'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  update_pages:
+    needs: [update_wordlist]
+    if: needs.update_bibliography.outputs.keyword_changes != '0'
+    uses: ./.github/workflows/jekyll.yml
