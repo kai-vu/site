@@ -5,7 +5,7 @@ description: "In the project, we will address inconsistencies in argumentation d
 topic: 'Argument and Rule Mining'
 keywords: 
  - 'Logic-Based Argumentation'
- - 'Database Explanation'
+ - 'Inconsistency Checking'
  - 'Explainable AI'
 supervisor: 'Loan Ho'
 contact: 't.t.l.ho@vu.nl'
