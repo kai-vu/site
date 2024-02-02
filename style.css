@@ -196,10 +196,6 @@ button.link {
 Everything related to the 'projects' navigation menu of the theses page
 */
 
-.hidden {
-    display: none;
-}
-
 ul.projects {
 	list-style: circle;
 }
@@ -319,4 +315,9 @@ ul.supervisors {
 
 ul.supervisors li + li::before {
   content: ', ';
+}
+
+
+.hidden {
+    display: none !important;
 }

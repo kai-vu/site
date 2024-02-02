@@ -5,14 +5,14 @@
 addEventListener('DOMContentLoaded', (event) =>
 {
     // * These keywords are used in the filter menu
-    let kwWhitelist = {{ site.theses_keywords | jsonify }}.replace("\n", "").split(", ");
-    // * Collect all keywords
-    let pubs = document.querySelectorAll('ul.projects li');
-    pubs = [...pubs];
+    let keywords = {{site.data.keywords | jsonify }}
 
-    pubs.forEach((pub) =>
+    let projects = document.querySelectorAll('ul.projects li');
+    projects = [...projects];
+
+    projects.forEach((project) =>
     {
-        let kws = pub.querySelectorAll('ul.keywords li');
+        let kws = project.querySelectorAll('ul.keywords li');
         kws = [...kws];
 
         let myKeywords = new Set();
@@ -21,7 +21,7 @@ addEventListener('DOMContentLoaded', (event) =>
             myKeywords.add(kw.innerHTML);
         });
 
-        pub['keywords'] = myKeywords;
+        project['keywords'] = myKeywords;
     });
 
     // * Generate filter menu
@@ -44,23 +44,71 @@ addEventListener('DOMContentLoaded', (event) =>
     li0.append(button0);
     ul.append(li0);
 
-    kwWhitelist.forEach(keyword =>
-    {
-        let li = document.createElement('li');
-        let button = document.createElement('button');
+    let min_keyword_count = {{site.theses_keywords.extended_list_min_occurences}}
+    keywords.forEach(item => {
+        if (item['count'] >= min_keyword_count) {
+            let li = document.createElement('li');
+            let button = document.createElement('button');
 
-        button.innerHTML = keyword;
-        button.className = 'link'
+            button.innerHTML = item['keyword'];
+            button.className = 'link';
 
-        button.addEventListener('click', filterClick)
+            button.addEventListener('click', filterClick);
 
-        li.append(button);
-        ul.append(li);
+            li.append(button);
+            ul.append(li);
+        }
     });
 
+    let li_more = document.createElement('li');
+    li_more.setAttribute('id','moreKeywords');
+
+    let button_more = document.createElement('button');
+
+    button_more.innerHTML = '... (show more keywords)';
+    button_more.className = 'link';
+    button_more.disabled = false;
+    button_more.addEventListener('click', showMore);
+
+    li_more.append(button_more); 
+    ul.append(li_more);
+
+    let li_less = document.createElement('li');
+    li_less.setAttribute('id','lessKeywords');
+    li_less.classList.add('hidden');
+    let button_less = document.createElement('button');
+
+    button_less.innerHTML = '(show less keywords)';
+    button_less.className = 'link';
+    button_less.disabled = false;
+    button_less.addEventListener('click', showLess);
+
+    li_less.append(button_less);
+    ul.append(li_less);
+
+    showLess()
     redrawTopics()
 
 });
+
+function showMore() {
+    let keywords = document.querySelectorAll('nav.project_nav ul li')
+    keywords.forEach(keyword => {
+        keyword.classList.remove('hidden');
+        });
+    let li_more = keywords[keywords.length-2];
+    li_more.classList.add('hidden');
+}
+
+function showLess() {
+    let keywords = [...document.querySelectorAll('nav.project_nav ul li')]
+    let max_keywords = {{ site.theses_keywords.shortlist_size }} + 2
+    keywords.slice(max_keywords).forEach(keyword => {
+        keyword.classList.add('hidden');
+        });
+    let li_more = keywords[keywords.length-2];
+    li_more.classList.remove('hidden');
+}
 
 function isIn(term, list) {
     /**
@@ -90,7 +138,6 @@ function redrawTopics() {
             if ( ! project.classList.contains('hidden'))
             {   
                 let supervisor = project.querySelector('span.contact');
-                console.log(supervisor)
                 supervisors.push(supervisor.innerHTML);
                 topic.classList.remove('hidden');
             }
@@ -103,7 +150,6 @@ function redrawTopics() {
             let li = document.createElement('li');
             li.innerHTML = value
             sup_list.append(li)
-            console.log(value)
         });
     });
 }
@@ -121,7 +167,7 @@ function filterClick(event)
 
     let projects = document.querySelectorAll('ul.projects > li')
     projects = [...projects];
-
+    console.log(projects)
     projects.forEach(project =>
     {
         project.classList.remove('hidden');

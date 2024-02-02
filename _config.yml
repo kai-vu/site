@@ -23,25 +23,8 @@ collections:
     description_link: true
     output: true
 
-theses_keywords: >
-    Knowledge Representation,
-    Knowledge Graphs,
-    Reasoning,
-    Ontologies,
-    Robotics,
-    Logics,
-    Knowledge Engineering,
-    Ontology Engineering,
-    LLM,
-    Hybrid Intelligence,
-    Wikipedia,
-    Semantic Web,
-    Python,
-    Machine Learning,
-    Logic-Based Argumentation,
-    Java,
-    Explainability,
-    Description Logics,
-    Change Management,
+theses_keywords:
+  shortlist_size: 10
+  extended_list_min_occurences: 3
 
 baseurl: /
