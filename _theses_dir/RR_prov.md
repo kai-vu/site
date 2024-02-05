@@ -6,7 +6,7 @@ topic: 'Knowledge Extraction'
 keywords: 
     - 'LLM'
     - 'Implementation'
-    - 'Provenance'
+    - 'Data-mining'
     - 'Python'
     - 'Knowledge representation'
 supervisor: "Ritten Roothaert" 
