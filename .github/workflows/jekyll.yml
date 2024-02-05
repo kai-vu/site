@@ -38,6 +38,8 @@ jobs:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
       - name: Check keywords
         uses: ./.github/workflows/update_keyword_data.yaml
+        with:
+          token: ${{ secrets.GITHUB_MACHINE_TOKEN }}
       - name: Checkout
         uses: actions/checkout@v4
         with:
