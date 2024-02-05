@@ -27,10 +27,10 @@ jobs:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
 
       - name: Get changed files in the theses directory
-            id: changed-files-specific
-            uses: tj-actions/changed-files@v42
-            with:
-              files: _theses_dir/** # Alternatively using: `docs/**`
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v42
+        with:
+          files: _theses_dir/** # Alternatively using: `docs/**`
 
       - name: Run step if any file(s) in the docs folder change
         env:
