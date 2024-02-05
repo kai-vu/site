@@ -16,7 +16,32 @@ permissions:
   id-token: write
 
 jobs:
+  changed_files:
+  runs-on: ubuntu-latest  # windows-latest || macos-latest
+  name: Test changed-files
+  outputs:
+      project_changes: ${{ env.PROJECT_CHANGES }}
+  steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+
+    - name: Get changed files in the _theses_dir_folder folder
+          id: changed-files-specific
+          uses: tj-actions/changed-files@v42
+          with:
+            files: _theses_dir/** # Alternatively using: `docs/**`
+
+    - name: Run step if any file(s) in the docs folder change
+      env:
+        ALL_CHANGED_FILES: ${{ steps.changed-files-specific.outputs.all_changed_files }}
+      run: |
+        echo "One or more files in the _theses_dir folder has changed."
+        echo "List all the files that have changed: $ALL_CHANGED_FILES"
+        echo "PROJECT_CHANGES=$(env.ALL_CHANGED_FILES | wc -l)" >> $GITHUB_ENV
   update_wordlist:
+    needs: [changed_files]
+    if: needs.changed-files.outputs.project_changes != '0'
     runs-on: ubuntu-latest
     outputs:
       keyword_changes: ${{ env.KEYWORD_CHANGES }}
@@ -49,6 +74,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
   update_pages:
-    # needs: [update_wordlist]
-    # if: needs.update_wordlist.outputs.keyword_changes != '0'
+    needs: [update_wordlist]
+    if: needs.update_wordlist.outputs.keyword_changes != '0'
     uses: ./.github/workflows/jekyll.yml
