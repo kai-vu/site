@@ -18,6 +18,8 @@
     count: 4
 -   keyword: Ontology Engineering
     count: 4
+-   keyword: Python
+    count: 4
 -   keyword: Change Management
     count: 3
 -   keyword: Description Logics
@@ -29,8 +31,6 @@
 -   keyword: Logic-Based Argumentation
     count: 3
 -   keyword: Machine Learning
-    count: 3
--   keyword: Python
     count: 3
 -   keyword: Semantic Web
     count: 3
@@ -91,8 +91,6 @@
 -   keyword: Inference Enhancement
     count: 1
 -   keyword: Knowledge Accessibility
-    count: 1
--   keyword: Knowledge extraction
     count: 1
 -   keyword: Learning
     count: 1
