@@ -17,28 +17,28 @@ permissions:
 
 jobs:
   changed_files:
-  runs-on: ubuntu-latest  # windows-latest || macos-latest
-  name: Test changed-files
-  outputs:
-      project_changes: ${{ env.PROJECT_CHANGES }}
-  steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+    runs-on: ubuntu-latest  # windows-latest || macos-latest
+    name: Test changed-files
+    outputs:
+        project_changes: ${{ env.PROJECT_CHANGES }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
 
-    - name: Get changed files in the theses directory
-          id: changed-files-specific
-          uses: tj-actions/changed-files@v42
-          with:
-            files: _theses_dir/** # Alternatively using: `docs/**`
+      - name: Get changed files in the theses directory
+            id: changed-files-specific
+            uses: tj-actions/changed-files@v42
+            with:
+              files: _theses_dir/** # Alternatively using: `docs/**`
 
-    - name: Run step if any file(s) in the docs folder change
-      env:
-        ALL_CHANGED_FILES: ${{ steps.changed-files-specific.outputs.all_changed_files }}
-      run: |
-        echo "One or more files in the _theses_dir folder has changed."
-        echo "List all the files that have changed: $ALL_CHANGED_FILES"
-        echo "PROJECT_CHANGES=$(env.ALL_CHANGED_FILES | wc -l)" >> $GITHUB_ENV
+      - name: Run step if any file(s) in the docs folder change
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files-specific.outputs.all_changed_files }}
+        run: |
+          echo "One or more files in the _theses_dir folder has changed."
+          echo "List all the files that have changed: $ALL_CHANGED_FILES"
+          echo "PROJECT_CHANGES=$(env.ALL_CHANGED_FILES | wc -l)" >> $GITHUB_ENV
   update_wordlist:
     needs: [changed_files]
     if: needs.changed-files.outputs.project_changes != '0'
