@@ -26,7 +26,7 @@ jobs:
       with:
         fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
 
-    - name: Get changed files in the _theses_dir_folder folder
+    - name: Get changed files in the theses directory
           id: changed-files-specific
           uses: tj-actions/changed-files@v42
           with:
