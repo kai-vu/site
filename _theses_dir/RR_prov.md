@@ -7,7 +7,7 @@ keywords:
     - 'LLM'
     - 'Implementation'
     - 'Provenance'
-    - 'Knowledge extraction'
+    - 'Python'
     - 'Knowledge representation'
 supervisor: "Ritten Roothaert" 
 contact: 'h.m.roothaert@vu.nl'
