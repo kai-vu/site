@@ -2,7 +2,7 @@
 title: 'Community Detection from a Species Interaction Network'
 description: 'We will extract interesting communities in species interaction networks, or detect interesting logic rules that relate to these communitiess.'
 layout: default
-topic: 'Argument and Rule Mining'
+topic: 'Knowledge and Ontology Engineering'
 keywords:
     - "Rule Mining"
     - "Knowledge Graphs"

@@ -2,7 +2,7 @@
 title: 'Investigating Support for Ontology Evolution (multiple projects)'
 description: 'The process of ontology evolution is relatively long and complex. In your thesis you can investigate and compare tools for supporting this process or investigate automations options within this process.'
 layout: default
-topic: 'Ontology Evolution' 
+topic: 'Knowledge and Ontology Engineering' 
 keywords: 
     - 'Change Management'
     - 'User Testing'

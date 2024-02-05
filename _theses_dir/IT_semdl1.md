@@ -2,7 +2,7 @@
 title: 'Incorporating Semantics in Message Passing methods'
 description: 'We will look at feeding semantics in a message passing models such as R-GCN, and test it in a node labelling or link prediction scenario.'
 layout: default
-topic: 'Semantics of Deep Learning Methods'
+topic: 'Knowledge Graphs and Deep Learning'
 keywords:
     - "Deep Learning"
     - "Knowledge Engineering"

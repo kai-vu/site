@@ -2,7 +2,7 @@
 title: 'Modal logic for AI'
 description: 'Finding an AI field for which you can construct a new applicable modal logic.'
 layout: default
-topic: 'Systems of artificial intelligent agents'
+topic: 'Formal Logics, Modal Logics'
 keywords:
     - "Modal Logics"
     - "Reasoning"

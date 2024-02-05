@@ -2,7 +2,7 @@
 title: Explaining query answers in prioritized databases 
 layout: default
 description: "This project aims to provide explanation of how the query answer was reached in consistent database."
-topic: 'Argument and Rule Mining'
+topic: 'Argument Mining'
 keywords: 
  - 'Logic-Based Argumentation'
  - 'Database Explanation'

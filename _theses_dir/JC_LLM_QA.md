@@ -2,7 +2,7 @@
 title: Leveraging Large Language Models for Ontology Extraction through Question-Answering
 layout: default
 description: "This thesis explores automating ontology extraction using Large Language Models (LLMs). By leveraging LLMs' capabilities in context understanding and information extraction, this project aims to enable agile, real-time ontology development through a QA mechanism." 
-topic: 'Question Answering'
+topic: 'Knowledge Graph-based Question Answering'
 keywords: 
  - Ontology Extraction
  - LLM

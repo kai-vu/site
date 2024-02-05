@@ -2,7 +2,7 @@
 title: 'ChImp 2.0: Extending Protege and its ability to provide change impact information (multiple projects)'
 description: 'The ChImp Protégé plugin helps ontology engineers during this process by summarising and displaying changes and the effects of changes on the ontology as a whole. We have multiple possible projects with ChImp.'
 layout: default
-topic: 'Ontology Evolution'
+topic: 'Knowledge and Ontology Engineering'
 keywords:
     - "Java"
     - "Protégé"

@@ -2,7 +2,7 @@
 title: 'SHACL-forms for publishing scientific findings'
 description: 'The goal of this project is to see if we can partially automate or support the construction of knowledge graph on hypotheses from the literature.'
 layout: default
-topic: 'Explanations and Narratives'
+topic: 'Knowledge and Ontology Engineering'
 keywords:
     - "SHACL"
     - "Knowledge Graphs"

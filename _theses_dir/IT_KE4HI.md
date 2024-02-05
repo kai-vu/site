@@ -2,7 +2,7 @@
 title: 'Knowledge Engineering for Hybrid Intelligence'
 description: 'Inspired by Software Design and Engineering, Knowledge Engineering deals with the formal design, maintainance and usage of knowledge-based systems. In this project, we will look at modelling Hybrid Intelligent systems using knowledge engineering techniques.'
 layout: default
-topic: 'Hybrid Intelligence'
+topic: 'Knowledge and Ontology Engineering'
 keywords:
     - "Hybrid Intelligence"
     - "Knowledge Engineering"

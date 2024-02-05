@@ -2,7 +2,7 @@
 title: 'Leveraging Argumentation Frameworks for Local Explainability of Black-Box Models'
 layout: default
 description: 'This project aims to leverage the formalisms of argumentation to provide local explainability for black-box models, enabling non-experts to understand the reasons behind the system’s decisions.'
-topic: 'Argument and Rule Mining' 
+topic: 'Argument Mining' 
 keywords: 
     - 'Computational Argumentation'
     - 'Machine Learning'

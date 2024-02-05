@@ -2,7 +2,7 @@
 title: 'Investigating the Impact of Changes on the Materialisation (multiple projects)'
 description: 'We have previously investigated the impact on the materialisation (making implicit knowledge explicit) and want to further the analysis by diving into more depth. This means that we want to investigate the types of changes in more detail but also the effect of the changes more localized in the materialisation, rather then looking at the materialisation as a whole.'
 layout: default
-topic: 'Ontology Evolution' 
+topic: 'Knowledge and Ontology Engineering' 
 keywords: 
     - 'Change Management'
     - 'Onology Materialisation'

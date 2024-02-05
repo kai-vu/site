@@ -2,7 +2,7 @@
 title: 'Designing a Benchmark and Auto-Evaluator for Extracting Relevant Axioms from User Input'
 layout: default
 description: "This project focuses on enhancing ontology extraction, a key component in semantic reasoning and knowledge base expansion. It addresses the challenges of processing vast, varied user-contributed content by proposing an innovative auto-evaluator."
-topic: 'Information Extraction' 
+topic: 'Knowledge Graphs and Deep Learning' 
 keywords: 
  - 'Semantic Web'
  - 'Data validation'

@@ -2,7 +2,7 @@
 title: 'Ontology Embedding using the BERT Model'
 layout: default
 description: "This project explores embedding ontologies with the BERT model to enhance semantic web and intelligent systems, bridging symbolic and vector space representations. It aims to capture latent semantics, improving similarity computations and enabling richer downstream applications."
-topic: 'Semantics of Deep Learning Methods'
+topic: 'Knowledge Graphs and Deep Learning'
 keywords: 
  - Ontology Embeddings
  - LLM

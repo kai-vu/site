@@ -2,7 +2,7 @@
 title: 'Explaining Yolo Predictions with Argumentations'
 description: ' The goal of this project is to explain the predictions of an object recognition model in the form of argumentations.'
 layout: default
-topic: 'Robotics and Knowledge Representation'
+topic: 'Knowledge-based Robotics'
 keywords:
     - "Robotics"
     - "Object Recognition"

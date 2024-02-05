@@ -2,7 +2,7 @@
 title: 'Benchmarks and Methods for understanding Narratives'
 description: 'The project will look at using Knowledge Graphs to build and understand Narratives.'
 layout: default
-topic: 'Explanations and Narratives'
+topic: 'Knowledge Graph Construction'
 keywords:
     - "Explanations"
     - "Language Models"

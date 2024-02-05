@@ -2,7 +2,7 @@
 title: 'Researching human-in-the-loop workflows for research assistants using Knowledge Graphs'
 description: 'The goal of this project is to research human-in-the-loop workflows for digital assistants for scientific discovery.'
 layout: default
-topic: 'Hybrid Intelligence'
+topic: 'Knowledge and Ontology Engineering'
 keywords:
     - "Knowledge Engineering"
     - "Knowledge Graphs"

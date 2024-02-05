@@ -3,7 +3,7 @@ title: 'Detecting Entity-Attribute Tables in Wikipedia
 '
 layout: default
 description: 'Tables on web pages contain a wide variety of interesting information, which could be useful for web search or question answering applications. This projects aims to create a program that detects when each row of a table is about a different entity.'
-topic: 'Information Extraction' 
+topic: 'Knowledge Extraction' 
 keywords: 
     - 'Wikipedia'
     - 'Knowledge Graphs'

@@ -2,7 +2,7 @@
 title: 'Modeling Multi-Agent Systems with incomple information'
 description: 'We will look into the problem of modeling, analysis, and reasoning about systems with incomplete information.'
 layout: default
-topic: 'Systems of artificial intelligent agents'
+topic: 'Formal Logics, Modal Logics'
 keywords:
     - "Multi Agent Systems"
     - "Reasoning"

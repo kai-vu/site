@@ -2,7 +2,7 @@
 title: 'Possible applications of Alternating-time Temporal Epistemic Logic in AI'
 description: 'Different topics on applicing of Temporal Epistemic Logic in AI'
 layout: default
-topic: 'Systems of artificial intelligent agents'
+topic: 'Formal Logics, Modal Logics'
 keywords:
     - "Reasoning"
     - "Temporal Logics"

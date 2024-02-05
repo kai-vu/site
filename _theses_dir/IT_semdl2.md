@@ -2,7 +2,7 @@
 title: 'Solving Math Word Problems with LLMs'
 description: 'The project will look at creating a KG-based benchmark for solving Math World Problems.'
 layout: default
-topic: 'Semantics of Deep Learning Methods'
+topic: 'Knowledge Graphs and Deep Learning'
 keywords:
     - "Deep Learning"
     - "Knowledge Engineering"

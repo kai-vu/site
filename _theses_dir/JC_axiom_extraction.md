@@ -2,7 +2,7 @@
 title: Extraction of Relevant Axioms Using Ontology Embedding
 layout: default
 description: "This project tackles the challenge of navigating large ontologies by extracting axioms most relevant to user interests. It aims to enhance usability and comprehension, making complex knowledge structures more accessible and digestible for human users, thereby improving interaction with vast knowledge domains."
-topic: 'Information Extraction' 
+topic: 'Knowledge Graphs and Deep Learning' 
 keywords: 
  - Ontology Navigation
  - Axiom Extraction

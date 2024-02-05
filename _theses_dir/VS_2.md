@@ -2,7 +2,7 @@
 title: 'Doxastic Logic in AI'
 description: 'Different topics on Doxastic Logics'
 layout: default
-topic: 'Systems of artificial intelligent agents'
+topic: 'Formal Logics, Modal Logics'
 keywords:
     - "Reasoning"
     - "Doxastic Logics"

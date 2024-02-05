@@ -2,7 +2,7 @@
 title: Handling inconsistencies in argumentation knowledge 
 layout: default
 description: "In the project, we will address inconsistencies in argumentation data by using logic-based reasoning."
-topic: 'Argument and Rule Mining'
+topic: 'Argument Mining'
 keywords: 
  - 'Logic-Based Argumentation'
  - 'Inconsistency Checking'

@@ -2,7 +2,7 @@
 title: 'Visual scene understanding for indoor mobile robots (with the use case of trash picking)'
 layout: default
 description: 'In this project, you will be using the LoCoBot, a mobile robot equipped with multiple sensors and a manipulator. Your task would be to integrate object recognition methods (e.g. YOLO) and knowledge representation & reasoning methods to solve pick and place problems representing trash collection.'
-topic: 'Robotics and Knowledge Representation' 
+topic: 'Knowledge-based Robotics' 
 keywords: 
     - 'Robotics'
     - 'Computer Vision'

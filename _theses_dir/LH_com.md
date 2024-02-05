@@ -1,19 +1,19 @@
 ---
-title: Computing extensions for argumentation with collective attacks (BSc) 
+title: Computing extensions for argumentation with collective attacks
 layout: default
 description: "In this project, we will build a tool to calculate extensions for argumentation with collective attacks. The inputs are a set of arguments and collective attacks. The output returns different (stable, preferred, complete, grounded) extensions."
-topic: 'Argument and Rule Mining'
+topic: 'Argument Mining'
 keywords: 
  - 'Logic-Based Argumentation'
  - 'Java'
  - 'Implementation'
 supervisor: 'Loan Ho'
 contact: 't.t.l.ho@vu.nl'
-degree: 'B.Sc./M.Sc.'
+degree: 'B.Sc.'
 description_link: '/theses_dir/LH_com'
 ---
 
-## Computing extensions for argumentation with collective attacks (Bsc) 
+## Computing extensions for argumentation with collective attacks
 
 *Supervisor: Loan Ho (t.t.l.ho@vu.nl)*
 

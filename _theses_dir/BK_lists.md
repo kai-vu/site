@@ -2,7 +2,7 @@
 title: 'Information extraction from Structured lists'
 layout: default
 description: 'Many different kinds of documents contain lists because they are a simiple way of enumerating several related items. We want to investigate ways of extracting the information from the lists and retaining the inherent relationship between list items.'
-topic: 'Information Extraction' 
+topic: 'Knowledge Extraction' 
 keywords: 
     - 'Wikipedia'
     - 'NLP'

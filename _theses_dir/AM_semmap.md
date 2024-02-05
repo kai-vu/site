@@ -2,7 +2,7 @@
 title: 'Semantic mapping with a mobile service robot '
 layout: default
 description: 'In this project, you will be using the LoCoBot, a mobile robot equipped with multiple sensors. Your task would be to integrate object recognition methods (e.g. YOLO), path planning (SLAM) and knowledge representation & reasoning methods to solve planning problems.'
-topic: 'Robotics and Knowledge Representation' 
+topic: 'Knowledge-based Robotics' 
 keywords: 
     - 'Robotics'
     - 'Computer Vision'

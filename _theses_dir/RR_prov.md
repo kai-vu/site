@@ -2,7 +2,7 @@
 title: 'Automated Data-provenance Extraction'
 layout: default
 description: 'In a world where linked data and data-mining is omnipresent, determining which data was used for training a ML-model becomes increasingly more difficult and tedious. This project revolves around automating the process of extracting the provenance information of data used in a ML-pipeline.'
-topic: 'Information Extraction' 
+topic: 'Knowledge Extraction' 
 keywords: 
     - 'LLM'
     - 'Implementation'

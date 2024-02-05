@@ -2,7 +2,7 @@
 title: 'Embodied Instructable Agents'
 description: 'The goal of this project is to integrate a Reinforment Learning model trained for trajectory/segmentation learning on an embodied Hybrid Intelligent agent (a ROS-operting robot).'
 layout: default
-topic: 'Robotics and Knowledge Representation'
+topic: 'Knowledge-based Robotics'
 keywords:
     - "Hybrid Intelligence"
     - "Robotics"
