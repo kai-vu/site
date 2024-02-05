@@ -3,11 +3,13 @@
 name: Check for updates the keywords used in the project descriptions
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  # allow calling from another workflow (jekyll.yaml)
+  workflow_call:
 
 permissions:
   contents: write
@@ -73,7 +75,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-  update_pages:
-    needs: [update_wordlist]
-    if: needs.update_wordlist.outputs.keyword_changes != '0'
-    uses: ./.github/workflows/jekyll.yml
+  # update_pages:
+  #   needs: [update_wordlist]
+  #   if: needs.update_wordlist.outputs.keyword_changes != '0'
+  #   uses: ./.github/workflows/jekyll.yml

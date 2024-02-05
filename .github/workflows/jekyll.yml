@@ -33,6 +33,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: check keywords
+        uses: ./.github/workflows/update_keyword_data.yaml
       - name: Checkout
         uses: actions/checkout@v3
         with:
