@@ -31,7 +31,7 @@ jobs:
         id: count_and_sort
         run: |
           pip install python-frontmatter==1.1.0 PyYAML==6.0
-          python asserts/python/update_keywords.py
+          python assets/python/update_keywords.py
           echo "KEYWORD_CHANGES=$(git diff --name-only | wc -l)" >> $GITHUB_ENV
       - name: print_env
         run: |
