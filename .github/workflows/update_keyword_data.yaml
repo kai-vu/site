@@ -49,6 +49,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
   update_pages:
-    needs: [update_wordlist]
-    if: needs.update_wordlist.outputs.keyword_changes != '0'
+    # needs: [update_wordlist]
+    # if: needs.update_wordlist.outputs.keyword_changes != '0'
     uses: ./.github/workflows/jekyll.yml
