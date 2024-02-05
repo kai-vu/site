@@ -58,6 +58,8 @@
     count: 2
 -   keyword: Algorithm Optimization
     count: 1
+-   keyword: Argument mining
+    count: 1
 -   keyword: Axiom Extraction
     count: 1
 -   keyword: Benchmarks
@@ -71,6 +73,8 @@
 -   keyword: Computational Argumentation
     count: 1
 -   keyword: Computational Efficiency
+    count: 1
+-   keyword: Computational argumentation
     count: 1
 -   keyword: Data validation
     count: 1
@@ -121,6 +125,8 @@
 -   keyword: Ontology Subsumption
     count: 1
 -   keyword: Or
+    count: 1
+-   keyword: Orange3
     count: 1
 -   keyword: Pattern learning
     count: 1
