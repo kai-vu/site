@@ -33,17 +33,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
+          ref: 'main'
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
       - name: Check keywords
         uses: ./.github/workflows/update_keyword_data.yaml
         with:
           token: ${{ secrets.GITHUB_MACHINE_TOKEN }}
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: 'main' # we explicitly let it point to main, so that if this gets triggered by the bibliography update workflow it still doest the right thing.
+      # - name: Checkout
+      #   uses: actions/checkout@v4
+      #   with:
+      #     ref: 'main' # we explicitly let it point to main, so that if this gets triggered by the bibliography update workflow it still doest the right thing.
       - name: Setup Ruby
         uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
         with:
