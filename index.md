@@ -20,7 +20,8 @@ We combine foundational theory and applied methods such as computational logic, 
 ## News
 
 <ul>
-    {% for news_item in site.news reversed limit:10%}
+    {% assign items = site.news | reverse | slice: 0,10%}
+    {% for news_item in items %}
   <li>({{ news_item.date | date: "%-d %B %Y" }}) - {{ news_item.summary }}
     {% if news_item.extra_content == "true" %}
     (<a href="{{news_item.url}}">continue reading</a>)
