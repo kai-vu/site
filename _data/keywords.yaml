@@ -74,6 +74,8 @@
     count: 1
 -   keyword: Data validation
     count: 1
+-   keyword: Data-mining
+    count: 1
 -   keyword: Database Explanation
     count: 1
 -   keyword: Doxastic Logics
@@ -127,8 +129,6 @@
 -   keyword: Promt Engineering
     count: 1
 -   keyword: Protégé
-    count: 1
--   keyword: Provenance
     count: 1
 -   keyword: Put
     count: 1
