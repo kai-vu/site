@@ -50,7 +50,7 @@ addEventListener('DOMContentLoaded', (event) =>
             let li = document.createElement('li');
             let button = document.createElement('button');
 
-            button.innerHTML = item['keyword'].concat(' (', item['count'], ')') ;
+            button.innerHTML = item['keyword']; 
             button.className = 'link';
 
             button.addEventListener('click', filterClick);
