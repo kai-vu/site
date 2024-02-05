@@ -317,6 +317,11 @@ ul.supervisors li + li::before {
   content: ', ';
 }
 
+li.topic h3 {
+	border-bottom: 3px solid #00adefff;
+	padding-top: 0.5em;
+}
+
 
 .hidden {
     display: none !important;

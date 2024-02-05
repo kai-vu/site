@@ -24,7 +24,7 @@ collections:
     output: true
 
 theses_keywords:
-  shortlist_size: 10
-  extended_list_min_occurences: 3
+  shortlist_size: 15
+  extended_list_min_occurences: 2
 
 baseurl: /

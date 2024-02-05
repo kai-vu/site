@@ -50,7 +50,7 @@ addEventListener('DOMContentLoaded', (event) =>
             let li = document.createElement('li');
             let button = document.createElement('button');
 
-            button.innerHTML = item['keyword']; 
+            button.innerHTML = item['keyword'].concat(' (', item['count'], ')') ;
             button.className = 'link';
 
             button.addEventListener('click', filterClick);
@@ -160,7 +160,7 @@ function redrawTopics() {
 function filterClick(event)
 {
 
-    let keyword = event.target.innerHTML;
+    let keyword = event.target.innerHTML.split(" (")[0];
 
 
     let all = keyword == 'show all';
