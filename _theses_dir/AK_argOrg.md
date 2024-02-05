@@ -2,7 +2,7 @@
 title: ' Orange3 Argument Mining Widget Based on a Formalism of Argumentation'
 layout: default
 description: 'This project aims to bridge the gap between argumentation theory and data analysis and visualization by developing an argument mining widget for Orange3, an open-source data mining and machine learning software.'
-topic: 'Argument and Rule Mining' 
+topic: 'Argument Mining' 
 keywords: 
     - 'Computational argumentation'
     - 'Argument mining'
