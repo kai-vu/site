@@ -165,9 +165,8 @@ function filterClick(event)
 
     let all = keyword == 'show all';
 
-    let projects = document.querySelectorAll('ul.projects > li')
+    let projects = document.querySelectorAll('ul.projects > li');
     projects = [...projects];
-    console.log(projects)
     projects.forEach(project =>
     {
         project.classList.remove('hidden');
@@ -178,7 +177,7 @@ function filterClick(event)
     });
 
     // * Reset all links to active, and disable the one that was clicked
-    let links = document.querySelectorAll('nav.project_nav ul li button')
+    let links = document.querySelectorAll('nav.project_nav ul li button');
     links = [...links];
 
     links.forEach(link => {
