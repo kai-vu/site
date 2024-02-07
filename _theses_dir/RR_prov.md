@@ -9,6 +9,7 @@ keywords:
     - 'Data-mining'
     - 'Python'
     - 'Knowledge representation'
+    - 'Explainability'
 supervisor: "Ritten Roothaert" 
 contact: 'h.m.roothaert@vu.nl'
 degree: 'BSc./MSc.'
