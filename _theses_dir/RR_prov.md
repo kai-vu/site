@@ -7,7 +7,7 @@ keywords:
     - 'LLM'
     - 'Implementation'
     - 'Data-mining'
-    - 'Python'
+    - 'Machine Learning'
     - 'Knowledge representation'
     - 'Explainability'
 supervisor: "Ritten Roothaert" 
