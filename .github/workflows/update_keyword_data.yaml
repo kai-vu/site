@@ -47,7 +47,7 @@ jobs:
     if: needs.changed-files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 
     runs-on: ubuntu-latest
     outputs:
-      keyword_changes: ${{ env.KEYWORD_CHANGES }}
+      keyword_changes: env.KEYWORD_CHANGES
     steps:
       - name: clone
         uses: actions/checkout@v1
