@@ -191,11 +191,35 @@ h1, h2, h2, h4 {
   }
 }
 
+.container{
+	max-width: 1335px;
+	margin: 0 auto;
+	
+}
 
+.grid-row {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
 
-.projectgrid {
-	display: grid;
-  	grid-template-columns: repeat(2, 1fr);
-  	gap: 10px;
-  	grid-auto-rows: 100px;
-  }
+.grid-item {
+	
+	flex-basis: 300px;
+	width: 300px;
+	aspect-ratio: 3/1;
+	
+	-ms-flex: auto;
+	position: relative;
+	padding: 10px;
+	background-color: whitesmoke;
+	border: solid 1px;
+	margin: 1em;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	align-self: center;
+flex: 0 0 auto;
+}
