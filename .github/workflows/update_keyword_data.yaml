@@ -40,7 +40,7 @@ jobs:
           echo "List all the files that have changed: $ALL_CHANGED_FILES"
           echo "PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}" >> $GITHUB_ENV
           echo "number of changed projects: ${#ALL_CHANGED_FILES[@]}"
-          echo "number of changed projects: $PROJECT_CHANGES"
+          echo "number of changed projects: ${{ env.PROJECT_CHANGES }}"
   update_wordlist:
     needs: [changed_files]
     if: needs.changed-files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 
