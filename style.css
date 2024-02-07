@@ -44,15 +44,16 @@ body, html {
 	}
 
 	img {
-		max-width: calc(var(--min-size-md) - 2em);
+		max-width: 100%;
 	}
 }
 
 @media (max-width: 991px) {
 
 	.content{
-		margin-left: 1em;
-		margin-right: 1em;
+		
+		margin-left: auto;
+		margin-right: auto;
 
 		padding-left: 40px;
 		padding-right: 40px;
@@ -60,8 +61,6 @@ body, html {
 
 	img {
 		max-width: 100%;
-		padding-left: 1em;
-		padding-right: 1em;
 	}
 
 	.people img {
