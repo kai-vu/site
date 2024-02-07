@@ -38,7 +38,7 @@ jobs:
         run: |
           echo "One or more files in the _theses_dir folder has changed."
           echo "List all the files that have changed: $ALL_CHANGED_FILES"
-          echo "PROJECT_CHANGES=$(#ALL_CHANGED_FILES[@])" >> $GITHUB_ENV
+          echo "PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}" >> $GITHUB_ENV
   update_wordlist:
     needs: [changed_files]
     if: needs.changed-files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 
