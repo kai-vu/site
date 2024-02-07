@@ -8,7 +8,6 @@ keywords:
     - 'Implementation'
     - 'Data-mining'
     - 'Machine Learning'
-    - 'Python'
     - 'Knowledge representation'
     - 'Explainability'
 supervisor: "Ritten Roothaert" 
