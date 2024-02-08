@@ -329,7 +329,7 @@ li.topic h3 {
 
 /* related to the group projects-collaborations page */
 .container{
-	max-width: 1335px;
+	/* max-width: 1335px; */
 	margin: 0 auto;
 	
 }
@@ -343,9 +343,9 @@ li.topic h3 {
 
 .grid-item {
 	
-	flex-basis: 300px;
-	width: 300px;
-	aspect-ratio: 3/1;
+	flex-basis: 220px;
+	width: 220px;
+	aspect-ratio: 2.5/1;
 	
 	-ms-flex: auto;
 	position: relative;
