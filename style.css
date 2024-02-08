@@ -326,6 +326,8 @@ li.topic h3 {
     display: none !important;
 }
 
+
+/* related to the group projects-collaborations page */
 .container{
 	max-width: 1335px;
 	margin: 0 auto;
@@ -356,5 +358,5 @@ li.topic h3 {
 	border-bottom-right-radius: 12px;
 	border-bottom-left-radius: 12px;
 	align-self: center;
-flex: 0 0 auto;
+	flex: 0 0 auto;
 }
