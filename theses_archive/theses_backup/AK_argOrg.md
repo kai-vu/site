@@ -1,21 +1,21 @@
 ---
-title: ' Orange3 Argument Mining Widget Based on a Formalism of Argumentation'
+title: ' Discussion Games for Abstract Dialectical Frameworks'
 layout: default
-description: 'This project aims to bridge the gap between argumentation theory and data analysis and visualization by developing an argument mining widget for Orange3, an open-source data mining and machine learning software.'
-topic: 'Argument and Rule Mining' 
+description: 'The initial aim of this project is to implement an efficient two-player discussion game for abstract dialectical frameworks, recently developed for preferred semantics.'
+topic: 'Discussion Games' 
 keywords: 
     - 'Computational argumentation'
-    - 'Argument mining'
-    - 'Orange3'
+    - 'Discussion Games'
+    - 'Preferred Semantics'
+    - 'Implementation'
 supervisor: 'Atefeh Keshavarzi'
 contact: 'a.keshavarzi.zafarghandi@vu.nl'
 degree: 'M.Sc.'
 description_link: '/theses/AK_argOrg'
 ---
 
-## Thesis title:  Orange3 Argument Mining Widget Based on a Formalism of Argumentation
+## Thesis title:  Discussion Games for Abstract Dialectical Frameworks
 *Supervisor: Atefeh Keshavarzi(a.keshavarzi.zafarghandi@vu.nl)*
 
-In the era of data-driven decision-making, the extraction of valuable insights from data is a critical necessity. 
-Formal argumentation offer a structured method for reasoning with uncertain information and conflicts. This project aims to bridge the gap between argumentation theory and data analysis and visualization by developing an argument mining widget for Orange3, an open-source data mining and machine learning software. At the end of this project, we anticipate delivering an Orange3 widget that enables users to: 1-Visualize argument structures and relationships. 2- Construct abstract argumentation frameworks and use solvers to automatically evaluate argument acceptability. 3- Provide explanations to users about the structure of arguments and the accepted arguments.
+Abstract argumentation frameworks (AFs) are a widely used mathematical tool in non-monotonic reasoning. AFs are directed graphs where nodes represent arguments and edges represent a binary relation of attack between arguments. The question of which argument in an AF is believable (i.e., which arguments "win the discussion") can be answered by winning a two-player discussion game for a given argument. However, some applications involve additional relationships between arguments, such as one argument supporting another or attacks among sets of arguments. Abstract Dialectical Frameworks (ADFs) generalize AFs and can represent these relationships. We have recently developed two-player discussion games for ADFs. Several open problems remain, such as: How can they be implemented efficiently? What is their time complexity, i.e., how fast does the solver work? How do they perform on specific subclasses of ADFs? These are the focus of this project.
 
