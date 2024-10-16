@@ -43,7 +43,8 @@ jobs:
           echo "number of changed projects: ${#ALL_CHANGED_FILES[@]}"
           echo "number of changed projects: $PROJECT_CHANGES"
   update_wordlist:
-    if: env.PROJECT_CHANGES != '0' # if one ore more files have changed, recalculate the keyword useage. 
+    needs: changed_files
+    if: needs.changed-files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 
     runs-on: ubuntu-latest
     outputs:
       keyword_changes: env.KEYWORD_CHANGES
