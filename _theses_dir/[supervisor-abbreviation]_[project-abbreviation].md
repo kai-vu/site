@@ -2,7 +2,7 @@
 title: '-- Title of the Project --'
 layout: default
 description: '-- Give a short description of the project (max 50 words) --'
-topic: 'Template' 
+topic: '-- Pick one of the predifined topics in `_data/topics.yaml`' 
 keywords: 
     - 'Here'
     - 'You'
