@@ -14,7 +14,7 @@ keywords:
 supervisor: '-- your name --'
 contact: '-- your email --'
 degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.). Please pick only 1 --'
-description_link: 'Either "/theses_dir/[file_name]" if you with to link this document, or a link to a google doc or other external resource. Do not remove or leave it empty'
+description_link: 'Either link to a google doc or another external resource, or use this document by putting down "/theses_dir/[file_name]" where the [file_name] EXCLUDES the filename extension (i.e. use "/theses_dir/RR_prov" if the file itself is called "RR_prov.md"). Do NOT leave it empty'
 ---
 
 
