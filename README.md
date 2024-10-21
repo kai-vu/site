@@ -17,7 +17,7 @@ Once you are done, there should be a notification in the `source controle menu`,
 Click on it, and from there you go through the regular steps of making a commit to the main branch: write a descriptive update message (just "_update_" is not enough...), press `commit&push`, and hope there are no merge conflicts. 
 
 ### Updating the thesis project descriptions
-Recently, we decided to restructure out thesis page to improve its navigation. Unfortunatly, this part of the website is not yet online, so you cannot check it out for yourself. It would however be very much appreciated if you could include your projects accoding to the format provided in the `theses_archive/[supervisor-abbreviation]_[project-abbreviation].md` file. Please ensure that frontmatter has the exact same structure when creating your project. Otherwise unexpected behaviour could occur when the theses page is rendered.
+Starting from 2024, all the thesis project from the KAI group are published on our website. To add your project to the website, copy the format provided in the `theses_archive/[supervisor-abbreviation]_[project-abbreviation].md` file into a new `.md` file placed in the `_theses_dir` directory and adjust the content as needed. Please **read the instructions carefully** when creating your project. Deviating from these intructions will likely result in **your project not showing up** on the website. Also, please check yourself whether the project is included on the website and whether all links are working properly. 
 
 For more information/inspiration on how to format your webpage, see [this page](https://itopaloglu83.github.io/Jekyll-Markdown-Cheat-Sheet/).
 
