@@ -28,7 +28,6 @@ Topic list
     </li>
 {% endfor %}
 </ul>
-
 <p>
 Keyword list
 </p>
