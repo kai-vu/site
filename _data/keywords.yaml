@@ -1,18 +1,26 @@
--   keyword: Argument classification
-    count: 2
--   keyword: Argumentation Framework
-    count: 2
--   keyword: LLM
-    count: 2
--   keyword: Scholarly Knowledge Graph
-    count: 2
 -   keyword: Domain Coverage
+    count: 2
+-   keyword: Reproducibility
+    count: 2
+-   keyword: Argument classification
+    count: 1
+-   keyword: Argumentation Framework
+    count: 1
+-   keyword: Deep Learning/Language Model
+    count: 1
+-   keyword: Human-in-the-Loop
+    count: 1
+-   keyword: LLM
     count: 1
 -   keyword: Language Model
     count: 1
 -   keyword: Ontology
     count: 1
+-   keyword: Ontology/KG
+    count: 1
+-   keyword: Ontology/KG update
+    count: 1
 -   keyword: Quality Assessment
     count: 1
--   keyword: Reproducibility
+-   keyword: Scholarly Knowledge Graph
     count: 1
