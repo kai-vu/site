@@ -15,6 +15,7 @@ supervisor: '-- your name --'
 contact: '-- your email --'
 degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.). Please pick only 1 --'
 description_link: 'Either link to a google doc or another external resource, or use this document by putting down "/theses_dir/[file_name]" where the [file_name] EXCLUDES the filename extension (i.e. use "/theses_dir/RR_prov" if the file itself is called "RR_prov.md"). Do NOT leave it empty'
+taken: 'Indicate whether the project is already taken. If set to `True`, the title of the project will be crossed-out on the website'
 ---
 
 
