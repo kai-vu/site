@@ -1,7 +1,7 @@
 ---
 title: 'Improving Gaze Detection for Robotics'
 layout: default
-description: 'Improving the robot's gaze detection abilities.'
+description: "Improving the robot's gaze detection abilities."
 topic: 'Knowledge-based Robotics'
 keywords: 
     - 'Knowledge Representation'
