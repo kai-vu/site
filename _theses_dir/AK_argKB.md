@@ -11,7 +11,7 @@ keywords:
 supervisor: 'Atefeh Keshavarzi'
 contact: 'a.keshavarzi.zafarghandi@vu.nl'
 degree: 'M.Sc.'
-description_link: '/theses/AK_argKB'
+description_link: '/theses_dir/AK_argKB'
 ---
 
 ## Thesis title:  Using Abstract Dialectical Frameworks for Inconsistency-Tolerant Query
