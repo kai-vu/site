@@ -1,4 +1,8 @@
+-   keyword: Computational argumentation
+    count: 2
 -   keyword: Domain Coverage
+    count: 2
+-   keyword: Implementation
     count: 2
 -   keyword: Reproducibility
     count: 2
@@ -7,6 +11,8 @@
 -   keyword: Argumentation Framework
     count: 1
 -   keyword: Deep Learning/Language Model
+    count: 1
+-   keyword: Discussion Games
     count: 1
 -   keyword: Human-in-the-Loop
     count: 1
@@ -20,7 +26,13 @@
     count: 1
 -   keyword: Ontology/KG update
     count: 1
+-   keyword: Preferred Semantics
+    count: 1
 -   keyword: Quality Assessment
     count: 1
 -   keyword: Scholarly Knowledge Graph
+    count: 1
+-   keyword: Scientific Assistants
+    count: 1
+-   keyword: Semantics
     count: 1
