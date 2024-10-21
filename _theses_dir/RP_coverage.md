@@ -5,9 +5,9 @@ description: 'In this project you will make use of an existing pipeline to inves
 topic: 'Kowledge Extraction'
 keywords: 
     - 'Domain Coverage'
-    - 'Ontology/KG'
+    - 'Ontology'
     - 'Quality Assessment'
-    - 'Deep Learning/Language Model'
+    - 'Language Model'
     - 'Reproducibility'
 supervisor: 'Romana Pernisch'
 contact: 'r.pernisch@vu.nl'
