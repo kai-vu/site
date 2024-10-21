@@ -1,8 +1,8 @@
 ---
-title: 'Detecting attacking arguments on the Computer Science Knowledge Graphs (CSKG)'
+title: 'Exploring attacking arguments on the Computer Science Knowledge Graphs (CSKG)'
 layout: default
 description: 'To build an interactive scientific assistant, we want it to be able to provide sensible argument to the user. To this aim, we plan to use an automatically generated KG to understand which related papers could provide contrasting informations '
-topic: 'Argumentation from Knowledge Graphs' 
+topic: 'Argument and Rule Mining' 
 keywords: 
     - 'Scientific Assistants'
     - 'Scholarly Knowledge Graph'
@@ -12,32 +12,31 @@ keywords:
 supervisor: 'Giacomo Zamprogno'  
 contact: 'g.zamprogno@vu.nl'
 degree: 'B.Sc.'
-description_link: '/theses_dir/AK_argbox.md'
+description_link: '/theses_dir/GZ_scientificArguments'
 ---
 
 
-# Easy (potential) template
 <!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
 ## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
 
-CSKG is an automatically generated Knowledge Graph that include
-*Give some background information*
+<a href='https://scholkg.kmi.open.ac.uk/cskg/documentation.php'>CSKG</a> is an automatically generated Knowledge Graph that include Statements from Computer Science papers. Among the properties defined in the <a href='https://scholkg.kmi.open.ac.uk/cskg/ontology'>schema</a> a few exist that possibly map argumentative interactions: 'discuss', 'discussedBy' are such an example. These are obtained by crawling the papers for a variety of terms like 'debate', 'argue', 'discuss'.
 
-Machine learning pipelines have become increasingly more complex with the rise of big data and the increase in computational resources. While this has revolutionized the field of AI, it also made determining which data was used in which part of the process increasingly more difficult. This is a problem, as it adds to the 'black-box' behaviour of the resulting models. The recent push for eXplainable AI (XAI) aims to demistify this 'black-box' behaviour. This project fall under the larger umbrella of XAI, where the aim is to represent the data transformations within the machine learning pipeline such that the provenance of the used data is easily extracted. The final product is what we will refer to as a _'data journey'_. For an example, see [<a href='https://content.iospress.com/articles/semantic-web/sw233407'>Daga and Groth (2023)</a>]
+Abstract argumentation (Dung, 1995 and further extensions) aims at analyzing argumentation graph by analizing the attacking relations between arguments and using different types of semantics to understand what arguments can be rationally accepted.
 
 #### Description
-*Give a discription of the actual (potential) project(s)*
 
-In theses around this topic, students can explore various provenance representation frameworks and extraction techniques. The goal is to create a provide a provenance overview that is easily understandable for humans, but also alows for complex query answering. Individual students can decide to work on:
-- Adapting the [<a href="https://www.w3.org/TR/2013/NOTE-prov-overview-20130430/">PROV data model</a>] to fit within the context of machine learning.
-- Exploring alternative ways of automating the provenance extracting process.
-- Usability validation of the resulting data journeys.
+In this topic, students could explore (a part of) the CS-KG in order to identify contrasting statements and papers and how they are connected.
+
+An initial approach would involve extracting 'argumentation graphs' of statements and related papers, and analyzing what the different argumentation semantics represent when considering discussing relations as attacks.
+
+Two direct extensions are possible:
+ - using NLP-based or LLM-based techniques to further refine which statements are effectively attacking each other by directly processing the paper's text.
+ - expanding the complexity of the argumentation framework involved, either by adding 'weights' or support relations.
 
 #### Literature
-*Give sources to additional literature*
 
 Mandatory reading:
-- "Data journeys: Explaining AI workflows through abstraction" [<a href="https://content.iospress.com/articles/semantic-web/sw233407">PDF</a>]
+Phan Minh Dung; <i>On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games</i>; Artificial Intelligence, Volume 77, Issue 2, 1995
