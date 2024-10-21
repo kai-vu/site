@@ -1,7 +1,7 @@
 ---
 title: '-- Title of the Project --'
 layout: default
-description: '-- Give a short description of the project (max 50 words) --'
+description: '-- Give a short description of the project (max 50 words, everything over it will be truncated) --'
 topic: '-- Pick one (and only one) of the predifined topics in `_data/topics.yaml`. DO NOT ADD YOUR OWN TOPIC without discussing it within the group. This is to avoid headers with only a single project. TIP: copy-paste the topic from `_data/topics.yaml` as any typo will result in your project not being shown on the website. --' 
 keywords: 
     - 'Here'
