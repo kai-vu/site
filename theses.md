@@ -17,8 +17,9 @@ to these links.
 {% endcomment %}
 </nav>
 
-<!-- The code below is for easy parting of thesis data. Very ugly, but it works. -->
-<p><!-- 
+<!-- The code below is for easy parsing of thesis data. Very ugly, but it works. -->
+<!--
+<p>
 Topic list
 </p>
 <ul>
