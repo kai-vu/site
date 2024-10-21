@@ -11,7 +11,7 @@ keywords:
 supervisor: 'Atefeh Keshavarzi'
 contact: 'a.keshavarzi.zafarghandi@vu.nl'
 degree: 'M.Sc.'
-description_link: '/theses/AK_argOrg'
+description_link: '/theses_dir/AK_argOrg'
 ---
 
 ## Thesis title:  Discussion Games for Abstract Dialectical Frameworks
