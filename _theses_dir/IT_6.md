@@ -11,7 +11,7 @@ supervisor: 'Ilaria Tiddi'
 contact: 'i.tiddi@vu.nl'
 degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/IT_6'
-taken: True
+taken: 'True'
 ---
 
 <!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
