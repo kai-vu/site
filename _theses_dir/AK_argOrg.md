@@ -2,7 +2,7 @@
 title: ' Discussion Games for Abstract Dialectical Frameworks'
 layout: default
 description: 'The initial aim of this project is to implement an efficient two-player discussion game for abstract dialectical frameworks, recently developed for preferred semantics.'
-topic: 'Discussion Games' 
+topic: 'Explanations and Narratives' 
 keywords: 
     - 'Computational argumentation'
     - 'Discussion Games'
@@ -10,7 +10,7 @@ keywords:
     - 'Implementation'
 supervisor: 'Atefeh Keshavarzi'
 contact: 'a.keshavarzi.zafarghandi@vu.nl'
-degree: 'M.Sc.'
+degree: 'M.Sc., B.Sc.'
 description_link: '/theses_dir/AK_argOrg'
 ---
 
