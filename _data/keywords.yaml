@@ -24,10 +24,6 @@
     count: 2
 -   keyword: Argument Mining
     count: 1
--   keyword: Argument classification
-    count: 1
--   keyword: Argumentation Framework
-    count: 1
 -   keyword: Deep Learning/Language Model
     count: 1
 -   keyword: Discussion Games
@@ -37,8 +33,6 @@
 -   keyword: Interaction
     count: 1
 -   keyword: Knowledge Engineering
-    count: 1
--   keyword: LLM
     count: 1
 -   keyword: Language Model
     count: 1
@@ -51,10 +45,6 @@
 -   keyword: Qualitative Surveys
     count: 1
 -   keyword: Quality Assessment
-    count: 1
--   keyword: Scholarly Knowledge Graph
-    count: 1
--   keyword: Scientific Assistants
     count: 1
 -   keyword: Semantics
     count: 1
