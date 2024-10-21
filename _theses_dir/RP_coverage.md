@@ -36,8 +36,8 @@ In the case of Clinical Trial Outcomes, the text against which this evaluation i
 In the case of Companion Planting, the texts against which this evaluation could be conducted are general literature on companion planting or websites. For this, first a collection of documents would need to be done, before one can apply OntoEval.
 
 In the case of a MSc thesis, this project can be extended into different directions.
-* One could instead focus on doing this evaluation at scale and for multiple ontologies. In this case, I propose a more general biomedical domain.
-* Additionally to the assessment, the pipeline could be extended to detect where the ontology requires changes to cover the domain better (to increase the score). This extension would then also needed to be applied to test how feasible such an approach would be (potentially in a human-in-the-loop framework).
+- One could instead focus on doing this evaluation at scale and for multiple ontologies. In this case, I propose a more general biomedical domain.
+- Additionally to the assessment, the pipeline could be extended to detect where the ontology requires changes to cover the domain better (to increase the score). This extension would then also needed to be applied to test how feasible such an approach would be (potentially in a human-in-the-loop framework).
 
 #### Literature
 - "OntoEval: an Autoamted Ontology Evaluation System" [<a href="https://dl.acm.org/doi/fullHtml/10.1145/3543873.3587318">link</a>]
