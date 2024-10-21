@@ -1,7 +1,7 @@
 ---
 title: 'Exploring attacking arguments on the Computer Science Knowledge Graphs (CSKG)'
 layout: default
-description: 'To build an interactive scientific assistant, we want it to be able to provide sensible argument to the user. To this aim, we plan to use an automatically generated KG to understand which related papers could provide contrasting informations '
+description: 'To build an interactive scientific assistant, we want it to be able to provide sensible argument to the user. To this aim, we plan to use an automatically generated KG to understand which related papers could provide contrasting informations'
 topic: 'Argument and Rule Mining' 
 keywords: 
     - 'Scientific Assistants'
