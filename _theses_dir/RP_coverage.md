@@ -11,7 +11,7 @@ keywords:
     - 'Reproducibility'
 supervisor: 'Romana Pernisch'
 contact: 'r.pernisch@vu.nl'
-degree: 'B.Sc/M.Sc.'
+degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/RP_coverage'
 ---
 
@@ -29,7 +29,6 @@ This will challenge the reproducibility of OntoEval.
 
 #### Description
 
-
 In this project you will make use of an existing pipeline to investigate the coverage of a specific domain ontology against a corpus of text. You will specifically use the OntoEval pipeline, but you will have to adjust it to the specific domain that you will be investigating. Two domains that could potentially be used is the domain of Clinical Trial Outcomes or Companion Planting, as for both of them we have ontologies readily available. This project involves pre-training/finetuning an already existing (L)LM.
 
 In the case of Clinical Trial Outcomes, the text against which this evaluation is conducted at the clinical trials themselves, which do not consist of larg amounts of text. Therefore, the technical challenge is to be able to adjust the pipeline to the special conditions of the domain.
@@ -42,5 +41,4 @@ In the case of a MSc thesis, this project can be extended into different directi
 
 #### Literature
 
-Mandatory reading:
-- "OntoEval: an Automated Ontology Evaluation System" [<a href="https://dl.acm.org/doi/fullHtml/10.1145/3543873.3587318">link</a>]
+"OntoEval: an Automated Ontology Evaluation System" [<a href="https://dl.acm.org/doi/fullHtml/10.1145/3543873.3587318">link</a>]
