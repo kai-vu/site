@@ -6,7 +6,7 @@ topic: 'Knowledge-based Robotics'
 keywords: 
     - 'Knowledge Representation'
     - 'Knowledge-based Robotics'
-	- 'Computer Vision'
+    - 'Computer Vision'
 supervisor: 'Ilaria Tiddi'
 contact: 'i.tiddi@vu.nl'
 degree: 'B.Sc./M.Sc.'
