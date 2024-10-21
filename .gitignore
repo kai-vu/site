@@ -10,9 +10,6 @@ _site/
 .bundle/
 vendor/
 
-#ignore keyword file that is automatically processed by the script
-_data/keywords.yaml
-
 # Ruby gems
 Gemfile.lock
 
