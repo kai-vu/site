@@ -23,6 +23,7 @@
                         {% endif %})
                     </span>
                 </span>
+                {% if project.taken == 'True' %} (taken) {% endif %}
             </h4>
             <!-- This hidden 'contact' class is used to determine the unique supervisors of the topic to which this project belongs. -->
             <span class='contact hidden'>{{project.supervisor}} ({{project.contact}})</span>
