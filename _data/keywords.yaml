@@ -1,4 +1,12 @@
+-   keyword: Knowledge Representation
+    count: 4
+-   keyword: Knowledge-based Robotics
+    count: 4
+-   keyword: Hybrid Intelligence
+    count: 3
 -   keyword: Computational argumentation
+    count: 2
+-   keyword: Computer Vision
     count: 2
 -   keyword: Domain Coverage
     count: 2
@@ -6,12 +14,16 @@
     count: 2
 -   keyword: Implementation
     count: 2
+-   keyword: Knowledge Graphs
+    count: 2
 -   keyword: Ontology/KG
     count: 2
 -   keyword: Ontology/KG update
     count: 2
 -   keyword: Reproducibility
     count: 2
+-   keyword: Argument Mining
+    count: 1
 -   keyword: Argument classification
     count: 1
 -   keyword: Argumentation Framework
@@ -24,6 +36,8 @@
     count: 1
 -   keyword: Interaction
     count: 1
+-   keyword: Knowledge Engineering
+    count: 1
 -   keyword: LLM
     count: 1
 -   keyword: Language Model
@@ -33,6 +47,8 @@
 -   keyword: Preferred Semantics
     count: 1
 -   keyword: Proof of Concept
+    count: 1
+-   keyword: Qualitative Surveys
     count: 1
 -   keyword: Quality Assessment
     count: 1
