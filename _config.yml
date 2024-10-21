@@ -22,6 +22,7 @@ collections:
     degree: true
     description_link: true
     output: true
+    taken: true
 
 theses_keywords:
   shortlist_size: 15
