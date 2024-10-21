@@ -2,7 +2,7 @@
 title: 'Assessing Domain Coverage of an Ontology'
 layout: default
 description: 'In this project you will make use of an existing pipeline to investigate the coverage of a specific domain ontology against a corpus of text.'
-topic: 'Knowledge Graphs and Deep Learning','Kowledge Extraction','Knowledge Graph Construction' 
+topic: 'Kowledge Extraction'
 keywords: 
     - 'Domain Coverage'
     - 'Ontology/KG'
