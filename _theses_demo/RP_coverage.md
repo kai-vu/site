@@ -12,7 +12,7 @@ keywords:
 supervisor: 'Romana Pernisch'
 contact: 'r.pernisch@vu.nl'
 degree: 'B.Sc./M.Sc.'
-description_link: '/theses_dir/RP_coverage'
+description_link: '/theses_demo/RP_coverage'
 ---
 
 
