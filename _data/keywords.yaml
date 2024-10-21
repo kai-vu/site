@@ -1,10 +1,12 @@
 -   keyword: Argument classification
-    count: 1
+    count: 2
 -   keyword: Argumentation Framework
-    count: 1
--   keyword: Domain Coverage
-    count: 1
+    count: 2
 -   keyword: LLM
+    count: 2
+-   keyword: Scholarly Knowledge Graph
+    count: 2
+-   keyword: Domain Coverage
     count: 1
 -   keyword: Language Model
     count: 1
@@ -13,6 +15,4 @@
 -   keyword: Quality Assessment
     count: 1
 -   keyword: Reproducibility
-    count: 1
--   keyword: Scholarly Knowledge Graph
     count: 1
