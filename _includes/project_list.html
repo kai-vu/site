@@ -13,14 +13,16 @@
     {% for project in projects %}
         <li>
             <h4>
-            {{project.title}}       
-            <span class='supervisor'>
-                ({% assign supervisor_name = project.supervisor | split: ' '%}    
-                {{ supervisor_name.first }}, 
-                {% if project.degree != '' %}
-                    {{project.degree}}  
-                {% endif %})
-            </span>
+                <span {% if project.taken == 'True' %} style='text-decoration: line-through' {% endif %}>
+                    {{project.title}}       
+                    <span class='supervisor'>
+                        ({% assign supervisor_name = project.supervisor | split: ' '%}    
+                        {{ supervisor_name.first }}, 
+                        {% if project.degree != '' %}
+                            {{project.degree}}  
+                        {% endif %})
+                    </span>
+                </span>
             </h4>
             <!-- This hidden 'contact' class is used to determine the unique supervisors of the topic to which this project belongs. -->
             <span class='contact hidden'>{{project.supervisor}} ({{project.contact}})</span>
