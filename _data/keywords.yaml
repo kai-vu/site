@@ -2,10 +2,10 @@
     count: 4
 -   keyword: Knowledge-based Robotics
     count: 4
+-   keyword: Computational argumentation
+    count: 3
 -   keyword: Hybrid Intelligence
     count: 3
--   keyword: Computational argumentation
-    count: 2
 -   keyword: Computer Vision
     count: 2
 -   keyword: Domain Coverage
@@ -34,11 +34,15 @@
     count: 1
 -   keyword: Knowledge Engineering
     count: 1
+-   keyword: LLMs
+    count: 1
 -   keyword: Language Model
     count: 1
 -   keyword: Ontology
     count: 1
 -   keyword: Preferred Semantics
+    count: 1
+-   keyword: Prompting
     count: 1
 -   keyword: Proof of Concept
     count: 1
