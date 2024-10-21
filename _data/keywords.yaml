@@ -2,7 +2,13 @@
     count: 2
 -   keyword: Domain Coverage
     count: 2
+-   keyword: Human-in-the-Loop
+    count: 2
 -   keyword: Implementation
+    count: 2
+-   keyword: Ontology/KG
+    count: 2
+-   keyword: Ontology/KG update
     count: 2
 -   keyword: Reproducibility
     count: 2
@@ -14,7 +20,9 @@
     count: 1
 -   keyword: Discussion Games
     count: 1
--   keyword: Human-in-the-Loop
+-   keyword: Framework
+    count: 1
+-   keyword: Interaction
     count: 1
 -   keyword: LLM
     count: 1
@@ -22,11 +30,9 @@
     count: 1
 -   keyword: Ontology
     count: 1
--   keyword: Ontology/KG
-    count: 1
--   keyword: Ontology/KG update
-    count: 1
 -   keyword: Preferred Semantics
+    count: 1
+-   keyword: Proof of Concept
     count: 1
 -   keyword: Quality Assessment
     count: 1
