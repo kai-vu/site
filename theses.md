@@ -4,7 +4,7 @@ title: Theses
 
 # KAI Thesis Topics
 
-You can find the slides presented at the MSc AI Thesis event [here](https://docs.google.com/presentation/d/1nIqQ2tGM_7CbharUIjWSnbjogkp8MYClRp61zjeMG5s/edit#slide=id.p). Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic.
+You can find the slides presented at the MSc AI Thesis event [here](https://docs.google.com/presentation/d/19dcjW2oPdf5c5ExlepUC0mzfpqJw3iBIMDkazdwkARs/edit?usp=drive_link). Most of the topics below can be investigated by either BSc or MSc AI students. We also welcome groups of students working on the same or similar topic.
 
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available, have a look at the detailed description first. Also, keep in mind that all theses can be shaped to accomodate your interests. Do note however that the KAI group has clear expectations of their students. We want to make sure students know what to expect from us as their supervisors. We have prepared a [short document](/supervision_guidelines) which touches upon some important points like meetings, planning and writing of your thesis.
 
