@@ -1,6 +1,6 @@
 # topics to be reviewed
 - name: Combining KR with LLMs
-  description: 'Projects focus on how to combine KR with Large language Models, including BERT models and generative LLMs like LLaMA and GPT serious.'
+  description: 'Projects focus on how to combine KR with Large language Models, including BERT models and generative LLMs like LLaMA and GPT series.'
 - name: Bias detection in LLM
   description: 'These projects focus on how to detect bias in LLMs to ensure fairness in society.'
 
