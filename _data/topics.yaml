@@ -1,3 +1,10 @@
+# topics to be reviewed
+- name: Combining KR with LLMs
+  description: 'Projects focus on how to combine KR with Large language Models, including BERT models and generative LLMs like LLaMA and GPT serious.'
+- name: Bias detection in LLM
+  description: 'These projects focus on how to detect bias in LLMs to ensure fairness in society.'
+
+# topics from 2023-2024
 - name: Knowledge Extraction
   description: 'Knowledge Extraction aims at generating structured knowledge (knowledge graphs) from unstructured data (usually, text). These projects focus on the methods to extract knoweldge.'
 - name: Knowledge Graph Construction   
