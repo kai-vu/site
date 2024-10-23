@@ -11,7 +11,7 @@ keywords:
 supervisor: 'JAmeneh Naghdi Pour'
 contact: 'a.naghdipour@vu.nl'
 degree: 'B.Sc.'
-description_link: ''
+description_link: '/theses_dir/AN_reasoning_with_SWARL'
 ---
 
 
