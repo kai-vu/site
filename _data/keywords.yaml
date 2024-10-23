@@ -20,6 +20,8 @@
     count: 2
 -   keyword: Large Language Models
     count: 2
+-   keyword: Ontology
+    count: 2
 -   keyword: Ontology/KG
     count: 2
 -   keyword: Ontology/KG update
@@ -30,11 +32,15 @@
     count: 1
 -   keyword: Deep Learning/Language Model
     count: 1
+-   keyword: Desicion-making
+    count: 1
 -   keyword: Discussion Games
     count: 1
 -   keyword: Fairness
     count: 1
 -   keyword: Framework
+    count: 1
+-   keyword: Inference
     count: 1
 -   keyword: Interaction
     count: 1
@@ -45,8 +51,6 @@
 -   keyword: Language Model
     count: 1
 -   keyword: Nature Langue Processing
-    count: 1
--   keyword: Ontology
     count: 1
 -   keyword: Ontology Engineering
     count: 1
@@ -61,6 +65,8 @@
 -   keyword: Quality Assessment
     count: 1
 -   keyword: RAG
+    count: 1
+-   keyword: SWARL rule
     count: 1
 -   keyword: Semantics
     count: 1
