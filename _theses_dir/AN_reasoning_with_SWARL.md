@@ -8,7 +8,7 @@ keywords:
  - SWARL rule
  - Inference
  - Desicion-making
-supervisor: 'JAmeneh Naghdi Pour'
+supervisor: 'Ameneh Naghdi Pour'
 contact: 'a.naghdipour@vu.nl'
 degree: 'B.Sc.'
 description_link: '/theses_dir/AN_reasoning_with_SWARL'
