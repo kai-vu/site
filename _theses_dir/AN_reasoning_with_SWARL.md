@@ -9,7 +9,7 @@ keywords:
  - Inference
  - Desicion-making
 supervisor: 'Ameneh Naghdi Pour'
-contact: 'a.naghdipour@vu.nl'
+contact: 'a.naghdipour@vu.nl', 'j.y.chen@vu.nl'
 degree: 'B.Sc.'
 description_link: '/theses_dir/AN_reasoning_with_SWARL'
 ---
