@@ -16,6 +16,8 @@
     count: 3
 -   keyword: BERT models
     count: 2
+-   keyword: Belief functions
+    count: 2
 -   keyword: Computer Vision
     count: 2
 -   keyword: Domain Coverage
@@ -25,6 +27,8 @@
 -   keyword: Human-in-the-Loop
     count: 2
 -   keyword: Implementation
+    count: 2
+-   keyword: Information fusion
     count: 2
 -   keyword: Knowledge Graphs
     count: 2
@@ -37,6 +41,8 @@
 -   keyword: Ontology/KG update
     count: 2
 -   keyword: Reproducibility
+    count: 2
+-   keyword: Uncertainty
     count: 2
 -   keyword: Argument Mining
     count: 1
@@ -53,6 +59,8 @@
 -   keyword: Inference
     count: 1
 -   keyword: Interaction
+    count: 1
+-   keyword: Knowledge Compilation
     count: 1
 -   keyword: Knowledge Engineering
     count: 1
