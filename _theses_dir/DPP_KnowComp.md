@@ -11,6 +11,7 @@ keywords:
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@uva.nl'
 degree: 'M.Sc.'
+description_link: '/theses_dir/DPP_KnowComp'
 ---
 
 
