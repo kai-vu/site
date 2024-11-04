@@ -1,20 +1,34 @@
+-   keyword: Logics
+    count: 6
+-   keyword: Ontologies
+    count: 6
 -   keyword: Knowledge Representation
     count: 4
 -   keyword: Knowledge-based Robotics
     count: 4
+-   keyword: Reasoning
+    count: 4
 -   keyword: Computational argumentation
+    count: 3
+-   keyword: Description Logics
     count: 3
 -   keyword: Hybrid Intelligence
     count: 3
 -   keyword: BERT models
     count: 2
+-   keyword: Belief functions
+    count: 2
 -   keyword: Computer Vision
     count: 2
 -   keyword: Domain Coverage
     count: 2
+-   keyword: Explainability
+    count: 2
 -   keyword: Human-in-the-Loop
     count: 2
 -   keyword: Implementation
+    count: 2
+-   keyword: Information fusion
     count: 2
 -   keyword: Knowledge Graphs
     count: 2
@@ -27,6 +41,8 @@
 -   keyword: Ontology/KG update
     count: 2
 -   keyword: Reproducibility
+    count: 2
+-   keyword: Uncertainty
     count: 2
 -   keyword: Argument Mining
     count: 1
@@ -44,11 +60,15 @@
     count: 1
 -   keyword: Interaction
     count: 1
+-   keyword: Knowledge Compilation
+    count: 1
 -   keyword: Knowledge Engineering
     count: 1
 -   keyword: LLMs
     count: 1
 -   keyword: Language Model
+    count: 1
+-   keyword: Learning
     count: 1
 -   keyword: Nature Langue Processing
     count: 1
