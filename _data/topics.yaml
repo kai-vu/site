@@ -3,6 +3,8 @@
   description: 'Projects focus on how to combine KR with Large language Models, including BERT models and generative LLMs like LLaMA and GPT series.'
 - name: Bias detection in LLMs
   description: 'These projects focus on how to detect bias in LLMs to ensure fairness in society.'
+- name: Uncertainty representation
+  description: 'TBD -- would be something for Daira to think about'
 
 # topics from 2023-2024
 - name: Knowledge Extraction
