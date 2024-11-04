@@ -22,7 +22,7 @@
 - name: Knowledge Graphs and Deep Learning
   description: 'These projects study how to deep learning models can capture different types of semantics represented in the data.'
 - name: Formal Logics, Modal Logics
-  description: 'Projects looking into the application of differe kind of logics in AI (multi-agent) systems.'
+  description: 'Projects looking into the application of different kinds of logics in AI (multi-agent) systems.'
 - name: Ontologies and Reasoning
   description: 'These projects focus on reasoning over OWL or description logic-based ontologies.'
 
