@@ -13,9 +13,6 @@ degree: 'B.Sc.'
 description_link: '/theses_dir/DPP_UncerEv'
 ---
 
-
-# Easy (potential) template
-<!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
 ## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
