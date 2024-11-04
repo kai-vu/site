@@ -14,9 +14,6 @@ degree: 'M.Sc.'
 description_link: '/theses_dir/DPP_KnowComp'
 ---
 
-
-# Easy (potential) template
-<!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
 ## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
@@ -35,12 +32,5 @@ Knowledge compilation is a collection of computational approaches that allows to
 - Daira Pinto Prieto. Combining Uncertain Evidence: Logic and Complexity. Chapter 6. PhD thesis, University of Amsterdam, 2024. ISBN 978-94-6473-618-2.
 - Daira Pinto Prieto, Ronald de Haan, and Sébastien Destercke. 2024. How to efficiently decombine belief functions? In Proceedings of the 20th International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems (IPMU 2024).
 
-
-Title: 
-Short description (35 words):  
-Keywords: , Information fusion, Belief functions, Uncertainty
-Contact: My VU email address. I will tell you when I get it. 
-Degree: M.Sc.
-Background: 
 
 
