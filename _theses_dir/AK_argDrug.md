@@ -2,7 +2,7 @@
 title: 'Using LLMs and Argumentation Formalisms to Detect Drug-Drug Interactions for Multimorbid Patients'
 layout: default
 description: 'This project aims to provide an AI system that recommends interaction-free drugs for multimorbidities using large language models (LLMs) and formal argumentation.'  
-topic: 'Systems of artificial intelligent agents' 
+topic: 'Knowledge Representation and Knowledge Extraction' 
 keywords: 
     - 'Computational argumentation'
     - 'Prompting'
