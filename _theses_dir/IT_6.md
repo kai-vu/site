@@ -2,7 +2,7 @@
 title: 'Building a system to recognise item owners'
 layout: default
 description: 'This project will research methods for object identification and classification in robotics to distinguish ownership of objects.'
-topic: 'Knowledge-based Robotics'
+topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
     - 'Knowledge Representation'
     - 'Knowledge-based Robotics'
