@@ -2,7 +2,7 @@
 title: 'Framework/Proof of Concept for Automatic Ontology Updates'
 layout: default
 description: 'In this project you will develop a (human-in-the-loop) theoretical framework and engineer a proof of concept for automatic ontology updates. The updates are suggested using an agent (bot) and the human needs to make decisions on the update and adjust if necessary.'
-topic: 'Knowledge and Ontology Engineering'
+topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 
     - 'Ontology/KG update'
     - 'Ontology/KG'
