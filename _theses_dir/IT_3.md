@@ -2,7 +2,7 @@
 title: 'Simulation of a micro-surgery knowledge-based robot.'
 layout: default
 description: 'Implementing a simulation of a micro-surgery knowledge-based robot.'
-topic: 'Knowledge and Ontology Engineering'
+topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
     - 'Hybrid Intelligence'
     - 'Knowledge Representation'
