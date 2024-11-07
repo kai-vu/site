@@ -2,7 +2,7 @@
 title: 'Extracting Sub-Ontologies'
 layout: default
 description: 'The aim of this project is to develop new heuristics to use existing tools that extract small parts from large ontologies.'  
-topic: 'Formal Logic and Reasoning' 
+topic: 'Knowledge Representation and Knowledge Extraction' 
 keywords: 
     - 'Ontologies'
     - 'Logics'
