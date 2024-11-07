@@ -2,7 +2,7 @@
 title: 'Detecting the Need for Ontology Change'
 layout: default
 description: 'In this project you will develop a (potentially human-in-the-loop) pipeline to detect the need for change to an ontology based on domain documents (text). This can potentially by done using the existing coverage evaluation approach OntoEval with some additional steps.'
-topic: 'Knowledge and Ontology Engineering'
+topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 
     - 'Ontology/KG update'
     - 'Domain Coverage'
