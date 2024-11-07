@@ -2,7 +2,7 @@
 title: ' Discussion Games for Abstract Dialectical Frameworks'
 layout: default
 description: 'The initial aim of this project is to implement an efficient two-player discussion game for abstract dialectical frameworks, recently developed for preferred semantics.'
-topic: 'Explanations and Narratives' 
+topic: 'Ontologies and eXplainable AI' 
 keywords: 
     - 'Computational argumentation'
     - 'Discussion Games'
