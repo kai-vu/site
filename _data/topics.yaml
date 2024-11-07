@@ -1,7 +1,7 @@
 # topics to be reviewed
-- name: 'Knowledge representation and Knowledge Extraction'
+- name: 'Knowledge Representation and Knowledge Extraction'
   description: 'These projects focus on designing, extracting and building ontologies using a variety of methods, from classical knowledge engineering to using deep-learning methods such as LLMs'
-- name: 'Formal logic and reasoning'
+- name: 'Formal Logic and Reasoning'
   description: 'These projects focus on reasoning using formalized frameworks such as OWL, description logics, modal logics, and belief function theory'
 - name: 'Hybrid Intelligence and Knowledge-based Robotics'
   description: 'These projects focus on applying knowledge engineering methods in multimodal scenarios, including physical (robots) or hybrid (human-machine collaboration)'
