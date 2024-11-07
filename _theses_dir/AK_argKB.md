@@ -2,7 +2,7 @@
 title: 'Using Abstract Dialectical Frameworks for Inconsistency-Tolerant Query'
 layout: default
 description: 'The initial aim of this project is to provide a solver for the newly introduced abstract dialectical framework (ADF) semantics and efficiently implement the recently introduced transformation from a dataset to an ADF.'
-topic: 'Explanations for Ontologies' 
+topic: 'Ontologies and eXplainable AI' 
 keywords: 
     - 'Computational argumentation'
     - 'nconsistency-Tolerant Reasoning'
