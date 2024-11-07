@@ -2,7 +2,7 @@
 title: 'Explaining Missing Entailments from Ontologies'
 layout: default
 description: 'In this project, you will develop methods for explaining missing entailments from ontologies.'
-topic: 'Ontologies and Reasoning' 
+topic: 'Ontologies and eXplainable AI' 
 keywords: 
     - 'Ontologies'
     - 'Explainability'
