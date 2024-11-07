@@ -2,7 +2,7 @@
 title: 'Identifying ancestor disciplines of Hybrid Intelligence'
 layout: default
 description: 'This is a qualitative study where the goal is to look into common theories and disciplines that might influence novel Hybrid Intelligence methods.'
-topic: 'Knowledge and Ontology Engineering'
+topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
     - 'Hybrid Intelligence'
     - 'Knowledge Engineering'
