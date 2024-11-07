@@ -2,7 +2,7 @@
 title: 'Explaining Entailments from Ontologies'
 layout: default
 description: 'In this project, you will investigate and develop alternative ways of explaining reasoning with ontologies.'
-topic: 'Ontologies and Reasoning'
+topic: 'Ontologies and eXplainable AI'
 keywords: 
     - 'Ontologies'
     - 'Explainability'
