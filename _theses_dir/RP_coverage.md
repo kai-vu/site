@@ -2,7 +2,7 @@
 title: 'Assessing Domain Coverage of an Ontology'
 layout: default
 description: 'In this project you will make use of an existing pipeline to investigate the coverage of a specific domain ontology against a corpus of text.'
-topic: 'Knowledge and Ontology Engineering'
+topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 
     - 'Domain Coverage'
     - 'Ontology'
