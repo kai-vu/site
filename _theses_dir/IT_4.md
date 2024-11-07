@@ -2,7 +2,7 @@
 title: 'Improving Gaze Detection for Robotics'
 layout: default
 description: "Improving the robot's gaze detection abilities."
-topic: 'Knowledge-based Robotics'
+topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
     - 'Knowledge Representation'
     - 'Knowledge-based Robotics'
