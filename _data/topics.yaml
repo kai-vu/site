@@ -1,4 +1,13 @@
 # topics to be reviewed
+- name: 'Knowledge representation and Knowledge Extraction'
+  description: 'These projects focus on designing, extracting and building ontologies using a variety of methods, from classical knowledge engineering to using deep-learning methods such as LLMs'
+- name: 'Formal logic and reasoning'
+  description: 'These projects focus on reasoning using formalized frameworks such as OWL, description logics, modal logics, and belief function theory'
+- name: 'Hybrid Intelligence and Knowledge-based Robotics'
+  description: 'These projects focus on applying knowledge engineering methods in multimodal scenarios, including physical (robots) or hybrid (human-machine collaboration)'
+- name: 'Ontologies and eXplainable AI'
+  description: 'These projects focus on integrating ontological reasoning to improve explainable AI methods'
+
 - name: Combining KR with LLMs
   description: 'Projects focus on how to combine KR with Large language Models, including BERT models and generative LLMs like LLaMA and GPT series.'
 - name: Bias detection in LLMs
