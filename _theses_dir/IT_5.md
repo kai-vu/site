@@ -2,7 +2,7 @@
 title: 'Building a common-sense object dataset for Robots'
 layout: default
 description: 'Building a common-sense Knowledge Graph for Robotics applications.'
-topic: 'Knowledge-based Robotics'
+topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
     - 'Knowledge Representation'
     - 'Knowledge-based Robotics'
