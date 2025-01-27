@@ -24,7 +24,11 @@ We combine foundational theory and applied methods such as computational logic, 
     {% for news_item in items %}
   <li>({{ news_item.date | date: "%-d %B %Y" }}) - {{ news_item.summary }}
     {% if news_item.extra_content == "true" %}
-    (<a href="{{news_item.url}}">continue reading</a>)
+      {% if news_item.external_link %}
+          (<a href="{{ news_item.external_link }}">Link to the page</a>)
+      {% else %}
+          (<a href="{{news_item.url}}">continue reading</a>)
+      {% endif %}
     {% endif %}
   </li>
     {% endfor %}
