@@ -13,8 +13,8 @@
     {% for project in projects %}
         <li>
             <h4>
-                {% if project.taken == 'True' %} (taken) {% endif %}
-                <span {% if project.taken == 'True' %} style='text-decoration: line-through' {% endif %}>
+                {% if project.taken %} (taken) {% endif %}
+                <span {% if project.taken %} style='text-decoration: line-through' {% endif %}>
                     {{project.title}}       
                     <span class='supervisor'>
                         ({% assign supervisor_name = project.supervisor | split: ' '%}    
