@@ -23,6 +23,13 @@ collections:
     description_link: true
     output: true
     taken: true
+  artifact_dir:
+    title: true
+    layout: default
+    topic: true
+    keywords: true
+    external_link: true
+    output: true
 
 theses_keywords:
   shortlist_size: 15
