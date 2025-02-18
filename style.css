@@ -361,53 +361,53 @@ li.topic h3 {
 	flex: 0 0 auto;
 }
 
-ul.artifacts {
+ul.artefacts {
 	list-style: circle;
 }
 
-ul.artifacts li {
+ul.artefacts li {
     position: relative;
 }
 
-ul.artifacts li::before {
+ul.artefacts li::before {
     content: none;
 }
 
-ul.artifacts li a {
+ul.artefacts li a {
     font-style: italic;
 }
 
-.artifacts ul.keywords, ul.keywords li {
+.artefacts ul.keywords, ul.keywords li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.artifacts ul.keywords {
+.artefacts ul.keywords {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
-.artifacts ul.keywords li {
+.artefacts ul.keywords li {
     display: inline;
 
     font-size: 14px;
     line-height: 27px;
 }
 
-.artifacts ul.keywords li::before {
+.artefacts ul.keywords li::before {
     padding: 0;
     margin: 0;
     display: inline;
     color: black;
 }
 
-.artifacts ul.keywords li::after {
+.artefacts ul.keywords li::after {
     content: ', ';
     margin-right: 0.4em;
 }
 
-.artifacts ul.keywords li:last-child::after {
+.artefacts ul.keywords li:last-child::after {
     content: none;
 }

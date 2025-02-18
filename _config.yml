@@ -23,7 +23,7 @@ collections:
     description_link: true
     output: true
     taken: true
-  artifact_dir:
+  artefact_dir:
     title: true
     layout: default
     topic: true
