@@ -11,5 +11,5 @@ keywords:
 - 'Automated Planning'
 - 'Robotics'
 
-external_link: https://github.com/PKoopmann/ontology-mediated-planning
+external_link: https://github.com/PKoopmann/om-pmc-planning
 ---
