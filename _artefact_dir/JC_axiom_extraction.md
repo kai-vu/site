@@ -2,17 +2,13 @@
 title: Extraction of Relevant Axioms Using Ontology Embedding
 layout: default
 description: "This project tackles the challenge of navigating large ontologies by extracting axioms most relevant to user interests. It aims to enhance usability and comprehension, making complex knowledge structures more accessible and digestible for human users, thereby improving interaction with vast knowledge domains."
-topic: 'Knowledge Graphs and Deep Learning' 
+category: 'Prototypes' # Pick one out of "Prototypes", "Tools", "Datasets" or "Other"
 keywords: 
  - Ontology Navigation
  - Axiom Extraction
  - Usability Enhancement
  - Knowledge Accessibility
  - Human-Computer Interaction
-supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
-degree: 'B.Sc./M.Sc.'
-description_link: '/theses_dir/JC_axiom_extraction'
 ---
 <center>
 <div style="text-align: center; width:400px; display:inline-block; vertical-align:top;"><img src="/images/artefacts/FCP4u0GWUAEbrQW.png" width="400" height="400"><br>You can add an image!<br><span style="font-size:14pt">PhD Student</span></div>

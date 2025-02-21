@@ -2,17 +2,13 @@
 title: 'Explaining Entailments from Ontologies'
 layout: default
 description: 'In this project, you will investigate and develop alternative ways of explaining reasoning with ontologies.'
-topic: 'Ontologies and eXplainable AI'
+category: 'Other' # Pick one out of "Prototypes", "Tools", "Datasets" or "Other"
 keywords: 
     - 'Ontologies'
     - 'Explainability'
     - 'Reasoning'
     - 'Logics'
     - 'Description Logics'
-supervisor: 'Patrick Koopmann'
-contact: 'p.k.koopmann@vu.nl'
-degree: 'M.Sc./B.Sc.'
-description_link: '/theses_dir/PK_Explain_Positive'
 ---
 <center>
 <div style="text-align: center; width:800px; display:inline-block; vertical-align:top;"><img src="/images/artefacts/FCP4u0GWUAEbrQW.png" width="400" height="400"><br>You can add an image!<br><span style="font-size:14pt">PhD Student</span></div>

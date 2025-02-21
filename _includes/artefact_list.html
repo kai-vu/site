@@ -1,12 +1,7 @@
 <li class="topic">
     
-    <h3> {{include.topic.name}}</h3>
-
-    <!-- The supervisor list is populated by the 'redrawTopics() function in theses.js. What is does is look at the projects that are currently not hidden, adds the supervisors of these projects in a set, and adds a <li> elements for each unique supervisor.' -->
-    <p>
-    {{include.topic.description}}
-    </p>
-    {% assign artefacts = site.artefact_dir | where:"topic", include.topic.name %}
+    <h3> {{include.cat}}</h3>
+    {% assign artefacts = site.artefact_dir | where:"category", include.cat %}
     <ul class="artefacts">
     {% for artefact in artefacts %}
         <li>

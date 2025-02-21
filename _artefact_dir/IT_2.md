@@ -2,15 +2,11 @@
 title: 'Exploring attacking arguments in the Computer Science Knowledge Graph (CS-KG)'
 layout: default
 description: 'The goal of the project is to extract argumentation graphs from the Computer Science Knowledge Graph.'
-topic: 'Hybrid Intelligence and Knowledge-based Robotics'
+category: 'Tools' # Pick one out of "Prototypes", "Tools", "Datasets" or "Other"
 keywords: 
     - 'Hybrid Intelligence'
     - 'Argument Mining'
     - 'Knowledge Graphs'
-supervisor: 'Ilaria Tiddi'
-contact: 'i.tiddi@vu.nl'
-degree: 'B.Sc./M.Sc.'
-description_link: '/theses_dir/IT_2'
 ---
 <center>
 <div style="text-align: center; width:400px; display:inline-block; vertical-align:top;"><img src="/images/artefacts/FCP4u0GWUAEbrQW.png" width="400" height="400"><br>You can add an image!<br><span style="font-size:14pt">PhD Student</span></div>
