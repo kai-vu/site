@@ -27,10 +27,10 @@ collections:
     title: true
     layout: default
     description: true
-    topic: true
+    category: true
     keywords: true
     external_link: true
-    output: true
+    output: false
 
 theses_keywords:
   shortlist_size: 15
