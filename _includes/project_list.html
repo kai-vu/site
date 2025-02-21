@@ -1,0 +1,41 @@
+<li class="topic">
+    
+    <h3> {{include.topic.name}}</h3>
+
+    <!-- The supervisor list is populated by the 'redrawTopics() function in theses.js. What is does is look at the projects that are currently not hidden, adds the supervisors of these projects in a set, and adds a <li> elements for each unique supervisor.' -->
+    <ul class="supervisors"> </ul> 
+    <p>
+    {{include.topic.description}}
+    </p>
+    {% assign projects = site.theses_dir | where:"topic", include.topic.name %}
+    <p> {{site.theses}} </p>
+    <ul class="projects">
+    {% for project in projects %}
+        <li>
+            <h4>
+                {% if project.taken == 'True' %} (taken) {% endif %}
+                <span {% if project.taken == 'True' %} style='text-decoration: line-through' {% endif %}>
+                    {{project.title}}       
+                    <span class='supervisor'>
+                        ({% assign supervisor_name = project.supervisor | split: ' '%}    
+                        {{ supervisor_name.first }}, 
+                        {% if project.degree != '' %}
+                            {{project.degree}}  
+                        {% endif %})
+                    </span>
+                </span>
+            </h4>
+            <!-- This hidden 'contact' class is used to determine the unique supervisors of the topic to which this project belongs. -->
+            <span class='contact hidden'>{{project.supervisor}} ({{project.contact}})</span>
+
+            {{ project.description | truncatewords: 50, '...'}} <span> (<a href="{{ project.description_link }}">continue reading</a>) </span>
+            {% if project.keywords %}
+            <ul class="keywords">
+                {% assign keys = project.keywords %}
+                {% for key in keys %}<li>{{key}}</li>{% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</li>
