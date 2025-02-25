@@ -46,6 +46,10 @@ body, html {
 	img {
 		max-width: 100%;
 	}
+
+	.list-image {
+		display: block;
+	}
 }
 
 @media (max-width: 991px) {
@@ -71,8 +75,8 @@ body, html {
 	body nav ul {
 		width: 100%;
 	}
-
 }
+
 
 
 
@@ -156,6 +160,9 @@ h4 {
 		align-items: end;	
 
 	}
+	.list-image {
+		display: block ; 
+	}
 }
 @media (max-width: 767px) { 
 .dropdown-menu {
@@ -183,6 +190,9 @@ h4 {
   .dropdown-menu {
   	background-color: inherit;
   }
+  .list-image {
+	display: none !important; 
+  }	
 }
 
 button.link {
@@ -366,48 +376,77 @@ ul.artefacts {
 }
 
 ul.artefacts li {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Adjust as needed */
 }
 
 ul.artefacts li::before {
     content: none;
 }
 
-ul.artefacts li a {
-    font-style: italic;
+ul.artefacts li .title {
+    width: 100%;
 }
 
-.artefacts ul.keywords, ul.keywords li {
+
+ul.artefacts li .content {
+    align-items: flex-start;
+    margin-bottom: 10px; /* Adjust as needed */
+	float: left; 
+}
+
+
+ul.artefacts li p {
+    margin: 0;
+}
+
+ul.keywords, ul.keywords li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.artefacts ul.keywords {
+ul.keywords {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
-.artefacts ul.keywords li {
+ul.keywords li {
     display: inline;
 
     font-size: 14px;
     line-height: 27px;
 }
 
-.artefacts ul.keywords li::before {
+ul.keywords li::before {
     padding: 0;
     margin: 0;
     display: inline;
     color: black;
 }
 
-.artefacts ul.keywords li::after {
+ul.keywords li::after {
     content: ', ';
     margin-right: 0.4em;
 }
 
-.artefacts ul.keywords li:last-child::after {
+ul.keywords li:last-child::after {
     content: none;
 }
+
+.list-image {
+    max-width: 200px; /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+	/* width: auto;
+    height: auto; */
+    flex-shrink: 0;
+    margin-left: 10px; /* Adjust as needed */
+	display: block;
+	object-fit: contain;
+}
+
+.flex-parent-element {
+	display: flex;
+  }
