@@ -19,7 +19,7 @@ layout: default
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/giacomo.jpeg" width="200" height="200"><br>Giacomo Zamprogno<br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/kai.jpg" width="200" height="200"><br>Kai Obendrauf<br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/AmenehN.jpg" width="200" height="200"><br><a href="https://Ameneh71.github.io"> Ameneh Naghdi Pour</a><br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tom.jpg" width="200" height="200"><br> Tom Pelletreau Duris</a><br><span style="font-size:14pt">PhD Student</span></div>
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tom.jpg" width="200" height="200"><br>Tom Pelletreau Duris<br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/unmesh.png" width="200" height="200"><br>Unmesh Joshi<br><span style="font-size:14pt">Guest</span></div>
 </div>
 
