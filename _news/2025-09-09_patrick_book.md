@@ -1,6 +1,6 @@
 ---
 date: '09 sep 2025'
-summary: 'The upcoming volume "Theory and Applications of Craig Interpolation", editored by Balder ten Cate, Jean Christoph Jung, Patrick Koopmann, Christoph Wernhard and Frank Wolter, has now a website on which drafts of various chapters can be accessed: <a href="https://cibd.bitbucket.io/taci/">https://cibd.bitbucket.io/taci</a>. There you can for instance already access the draft version of the first chapter on Interpolation in Classical Propositional Logic authored by Patrick Koopmann, Christoph Wernhard and Frank Wolter. More chapters will follow in the coming weeks.
+summary: 'The upcoming volume "Theory and Applications of Craig Interpolation", editored by Balder ten Cate, Jean Christoph Jung, Patrick Koopmann, Christoph Wernhard and Frank Wolter, has now a website on which drafts of various chapters can be accessed: <a href="https://cibd.bitbucket.io/taci/">https://cibd.bitbucket.io/taci</a>. There you can for instance already access the draft version of the first chapter on Interpolation in Classical Propositional Logic authored by Patrick Koopmann, Christoph Wernhard and Frank Wolter. More chapters will follow in the coming weeks.'
 
 layout: default
 extra_content: "true"
