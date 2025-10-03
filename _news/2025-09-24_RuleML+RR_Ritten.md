@@ -1,6 +1,6 @@
 ---
 date: '24 sep 2025'
-summary: 'Ritten presented his ideas on representing uncertainty within the <a href="https://w3id.org/tido">TIDO ontology<\a> at the Doctoral Consortium track of the RuleML+RR 2025 conference!'
+summary: 'Ritten presented his ideas on representing uncertainty within the <a href="https://w3id.org/tido">TIDO ontology</a> at the Doctoral Consortium track of the RuleML+RR 2025 conference!'
 
 layout: default
 extra_content: "true"
