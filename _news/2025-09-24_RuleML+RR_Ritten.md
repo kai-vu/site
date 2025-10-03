@@ -9,4 +9,4 @@ extra_content: "true"
 <img src="../images/news/Ritten_RuleML_RR2025.jpg" max-width="400"><br><span style="font-size:14pt">Ritten presenting at RuleML+RR 2025</span>
 </center>
 
-During the RuleML+RR doctoral consortium track, Ritten presented his proposed research plan for finding a suitable representation of uncertainties within the Threat Intelligence domain. The full doctoral consortium paper will be published as CEUR proceedings of the <a href=""></a>[https://link.springer.com/book/9783032088864](RuleML+RR 2025 conference proceedings).
+During the RuleML+RR doctoral consortium track, Ritten presented his proposed research plan for finding a suitable representation of uncertainties within the Threat Intelligence domain. The full doctoral consortium paper will be published as CEUR proceedings of the </a>[RuleML+RR 2025 conference proceedings](https://link.springer.com/book/9783032088864).
