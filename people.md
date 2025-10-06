@@ -19,7 +19,7 @@ layout: default
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tom.jpg" width="200" height="200"><br>Tom Pelletreau Duris<br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/xiaoshuang.png" width="200" height="200"><br>Xiaoshuang Yang 
     <br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Portrait_Placeholder.png" width="200" height="200"><br>Tommaso Zendron 
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tommaso.jpg" width="200" height="200"><br>Tommaso Zendron 
     <br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/unmesh.png" width="200" height="200"><br>Unmesh Joshi<br><span style="font-size:14pt">Guest</span></div>
 </div>
