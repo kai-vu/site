@@ -5,7 +5,7 @@ layout: default
 
 ## Members
 <div class="people">
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br><a href="https://www.few.vu.nl/~schlobac/">Stefan Schlobach</a><br><span style="font-size:14pt">Associate Professor</span><br></div>
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/stefan.png" width="200" height="200"><br><a href="https://www.few.vu.nl/~schlobac/">Stefan Schlobach</a><br><span style="font-size:14pt">Full Professor</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/ilaria.png" width="200" height="200"><br><a href="https://kmitd.github.io/ilaria/">Ilaria Tiddi</a><br><span style="font-size:14pt">Assistant Professor</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/patrick.jpg" width="200" height="200"><br><a href="https://pkoopmann.github.io">Patrick Koopmann</a><br><span style="font-size:14pt">Assistant Professor</span><br></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/jieying.jpg" width="200" height="200"><br><a href="https://jieyingchenchen.github.io/">Jieying Chen<br></a><span style="font-size:14pt">Assistant Professor</span><br></div>
