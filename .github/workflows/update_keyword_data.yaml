@@ -1,0 +1,79 @@
+# workflow to update the keyword usage of the theses projects
+
+name: Check for updates the keywords used in the project descriptions
+
+on:
+  # push:
+  #   branches:
+  #     - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  # allow calling from another workflow (jekyll.yaml)
+  workflow_call:
+
+permissions:
+  contents: write
+  # The following permissions are needed by the pages call if a change occured.
+  pages: write
+  id-token: write
+
+jobs:
+  changed_files:
+    runs-on: ubuntu-latest  # windows-latest || macos-latest
+    name: Test changed-files
+    outputs:
+        project_changes: ${{ env.PROJECT_CHANGES }} # store how many files in the _theses_dir have changed.
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+      - name: Get changed files in the theses directory
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v45
+        with:
+          files: _theses_dir/** 
+      - name: Run step if any file(s) in the docs folder change
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          echo "One or more files in the _theses_dir folder has changed."
+          echo "List all the files that have changed: $ALL_CHANGED_FILES"
+          echo "PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}" >> $GITHUB_ENV
+          PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}
+          echo "number of changed projects: ${#ALL_CHANGED_FILES[@]}"
+          echo "number of changed projects: $PROJECT_CHANGES"
+  update_wordlist:
+    needs: changed_files
+    if: needs.changed_files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 
+    runs-on: ubuntu-latest
+    outputs:
+      keyword_changes: env.KEYWORD_CHANGES
+    steps:
+      - name: clone
+        uses: actions/checkout@v1
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: run keyword counting script
+        id: count_and_sort
+        # run the python script and check if there are any lines that changed.
+        run: |
+          pip install python-frontmatter==1.1.0 PyYAML==6.0
+          python assets/python/update_keywords.py
+          echo "KEYWORD_CHANGES=$(git diff --name-only | wc -l)" >> $GITHUB_ENV 
+      - name: print_env
+        run: |
+          env
+      - name: push_if_updated
+        if: env.KEYWORD_CHANGES != '0' # if there are lines that changed (i.e. _/data/keywords.yaml has been update), commit&push the changes.
+        run: |
+          git add _data/keywords.yaml
+          git config --local user.email "keyword_change@github.org"
+          git config --local user.name "GitHub Action"
+          git commit -m "Updated keyword list"
+      - name: Push changes
+        if: env.KEYWORD_CHANGES != '0'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

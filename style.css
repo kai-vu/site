@@ -1,0 +1,452 @@
+
+/* Global variables */
+:root {
+
+  /* Phones */
+  --max-size-xs: 767px;
+  
+  /* Tablets */
+  --min-size-sm: 786px;
+  --max-size-sm: 991px;
+  
+  /* Small laptops */
+  --min-size-md: 992px;
+  --max-size-md: 1199px;
+
+  /* Laptops/desktops */
+  --min-size-lg: 1200px;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	
+	font-family: ububtu, sans-serif;
+	font-size: 20px;
+	line-height: 1.52em;
+}
+
+
+.navbar {
+		background: #eee;
+		border-bottom: 3px solid #00adefff;
+		z-index: 9999;
+	}
+
+
+@media (min-width: 992px) {
+	.content, .nav-wrapper, .navbar ul{
+		width: calc(var(--min-size-md) - 2em);
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.list-image {
+		display: block;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.content{
+		
+		margin-left: auto;
+		margin-right: auto;
+
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.people img {
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+	
+	body nav ul {
+		width: 100%;
+	}
+}
+
+
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + * {
+  padding-top: 165px;
+}
+
+
+.dropdown-menu a {
+	font-size: 19px;
+}
+
+.navbar ul {
+	font-family: Verdana, sans-serif;
+	margin: auto auto auto auto;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar ul li {
+	display: block;
+	padding: 0 1em 0 1em;
+	background-color: #eee;	
+}
+
+.navbar ul li a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+.navbar ul li.home a {
+	color: #4b4b4b;
+}
+
+.navbar ul li.home a:hover {
+	color: #0089CF;
+}
+
+.nav-link{
+	color: inherit;
+}
+
+h1, h2, h2, h4 {
+	font-weight: 600;
+	font-family: Verdana, sans-serif;
+	padding: 0.5em;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) { 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    background-color: inherit; 
+ }
+ .navbar ul {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+
+		align-items: end;	
+
+	}
+	.list-image {
+		display: block ; 
+	}
+}
+@media (max-width: 767px) { 
+.dropdown-menu {
+    display: block;
+    margin-top: auto;
+    padding: 0; 
+    border: 0px;
+  }
+
+  .navbar ul {
+
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+
+
+	}
+  .navbar-collapse {
+
+	    background-color: #eee;
+		padding: 0 0.5em 0 0.5em ;
+    	border-radius: 0.25em;
+  }
+
+  .dropdown-menu {
+  	background-color: inherit;
+  }
+  .list-image {
+	display: none !important; 
+  }	
+}
+
+button.link {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/*
+Everything related to the 'projects' navigation menu of the theses page
+*/
+
+ul.projects {
+	list-style: circle;
+}
+
+ul.projects li {
+    position: relative;
+}
+
+ul.projects li::before {
+    content: none;
+}
+
+ul.projects li a {
+    font-style: italic;
+}
+
+.projects ul.keywords, ul.keywords li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects ul.keywords {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.projects ul.keywords li {
+    display: inline;
+
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.projects ul.keywords li::before {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: black;
+}
+
+.projects ul.keywords li::after {
+    content: ', ';
+    margin-right: 0.4em;
+}
+
+.projects ul.keywords li:last-child::after {
+    content: none;
+}
+
+nav.project_nav {
+    min-height: 27px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    margin-bottom: 27px;
+}
+
+nav.project_nav, nav.project_nav button.link{
+    font-size: 14px;
+
+}
+
+nav.project_nav span {
+    display: block;
+    margin-right: 0.4em;
+}
+
+nav.project_nav ul, nav.project_nav ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.project_nav ul li::before {
+    content: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: black;
+}
+
+nav.project_nav ul {
+    flex-grow: 1;
+}
+
+nav.project_nav li {
+    display: inline;
+}
+
+nav.project_nav li + li::before {
+    content: ' | ';
+    font-weight: normal;
+}
+
+span.supervisor {
+	font-weight: normal;
+	font-style: italic;
+}
+
+ul.topics {
+	list-style: none;
+	padding-inline-start: 0px;
+	box-sizing: border-box;
+}
+
+ul.supervisors li {
+  display:inline;
+}
+
+ul.supervisors {
+	padding: 0;
+	font-style: italic;
+}
+
+ul.supervisors li + li::before {
+  content: ', ';
+}
+
+li.topic h3 {
+	border-bottom: 3px solid #00adefff;
+	padding-top: 0.5em;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+/* related to the group projects-collaborations page */
+.container{
+	/* max-width: 1335px; */
+	margin: 0 auto;
+	
+}
+
+.grid-row {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.grid-item {
+	
+	flex-basis: 220px;
+	width: 220px;
+	aspect-ratio: 2.5/1;
+	
+	-ms-flex: auto;
+	position: relative;
+	padding: 10px;
+	background-color: whitesmoke;
+	border: solid 1px;
+	margin: 1em;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	align-self: center;
+	flex: 0 0 auto;
+}
+
+ul.artefacts {
+	list-style: circle;
+}
+
+ul.artefacts li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+ul.artefacts li::before {
+    content: none;
+}
+
+ul.artefacts li .title {
+    width: 100%;
+}
+
+
+ul.artefacts li .content {
+    align-items: flex-start;
+    margin-bottom: 10px; /* Adjust as needed */
+	float: left; 
+}
+
+
+ul.artefacts li p {
+    margin: 0;
+}
+
+ul.keywords, ul.keywords li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.keywords {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+ul.keywords li {
+    display: inline;
+
+    font-size: 14px;
+    line-height: 27px;
+}
+
+ul.keywords li::before {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: black;
+}
+
+ul.keywords li::after {
+    content: ', ';
+    margin-right: 0.4em;
+}
+
+ul.keywords li:last-child::after {
+    content: none;
+}
+
+.list-image {
+    max-width: 200px; /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+	/* width: auto;
+    height: auto; */
+    flex-shrink: 0;
+    margin-left: 10px; /* Adjust as needed */
+	display: block;
+	object-fit: contain;
+}
+
+.flex-parent-element {
+	display: flex;
+  }

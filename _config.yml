@@ -1,0 +1,45 @@
+title_image: "kai.cs.vu.nl/images/ceiling.jpg"
+description: Knowledge and AI research group at Vrije Universiteit Amsterdam
+plugins:
+  - jekyll-redirect-from
+
+markdown: kramdown
+
+collections:
+  news:
+    date: true
+    summary: true
+    extra_content: true
+    output: true
+  theses_dir:
+    title: true
+    description: true
+    layout: default
+    topic: true
+    keywords: true
+    supervisor: true
+    contact: true
+    degree: true
+    description_link: true
+    output: true
+    taken: true
+  artefact_dir:
+    title: true
+    layout: default
+    description: true
+    category: true
+    keywords: true
+    external_link: true
+    output: false
+
+theses_keywords:
+  shortlist_size: 15
+  extended_list_min_occurences: 2
+
+artefact_cat:
+- Tools
+- Prototypes
+- Datasets
+- Other
+
+baseurl: /

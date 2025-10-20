@@ -1,0 +1,30 @@
+<li class="topic">
+    
+    <h3> {{include.cat}}</h3>
+    {% assign artefacts = site.artefact_dir | where:"category", include.cat %}
+    <ul class="artefacts">
+    {% for artefact in artefacts %}
+        <li>
+            <h4 class="title">
+                {{artefact.title}}       
+            </h4>
+            <div class="flex-parent-element">
+            <div class="content">
+                <p>
+                    {{ artefact.description | truncatewords: 50, '...'}} {% if artefact.external_link %} <span>  (<a href="{{ artefact.external_link }}">continue reading</a>) </span> {% endif %}
+                </p>
+                {% if artefact.keywords %}
+                <ul class="keywords">
+                    {% assign keys = artefact.keywords %}
+                    {% for key in keys %}<li>{{key}}</li>{% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            {% if artefact.image %}
+            <img src="{{ artefact.image }}" alt="Image 2" class="list-image">
+            {% endif %}
+        </div>
+        </li>
+    {% endfor %}
+    </ul>
+</li>
