@@ -18,8 +18,8 @@ to these links.
 </nav>
 
 <!-- The code below is for easy parsing of thesis data. Very ugly, but it works. -->
-<!--
-<p>
+
+<!-- <p>
 Topic list
 </p>
 <ul>
@@ -40,12 +40,12 @@ Keyword list
             </li>
             {% endfor %}
 {% endfor %}
-</ul>
- -->
+</ul> -->
+
 
 <ul class="topics">
-{% for topic in site.data.topics %}
-    {% include project_list.html topic=topic %}
+{% for supervisor in site.data.members %}
+    {% include project_list.html supervisor=supervisor %}
 {% endfor %}
 </ul>
 

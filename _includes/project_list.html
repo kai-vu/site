@@ -1,40 +1,47 @@
 <li class="topic">
-    
-    <h3> {{include.topic.name}}</h3>
-
-    <!-- The supervisor list is populated by the 'redrawTopics() function in theses.js. What is does is look at the projects that are currently not hidden, adds the supervisors of these projects in a set, and adds a <li> elements for each unique supervisor.' -->
-    <ul class="supervisors"> </ul> 
+    <div class="supervisor-header" style="display:flex;align-items:center;gap:0.75rem;">
+        <img src="{{ include.supervisor.picture }}" alt="{{ include.supervisor.name }}" class="list-image" style="width:72px;height:72px;object-fit:cover;border-radius:4px;">
+        <div>
+            <h3 style="margin:0;">{{ include.supervisor.name }}</h3>
+            {% assign supervisor_name = include.supervisor.mail | split: '@'%}  
+            <!-- The supervisor list is populated by the 'redrawTopics() function in theses.js. What it does is look at the projects that are currently not hidden, adds the supervisors of these projects in a set, and adds <li> elements for each unique supervisor. -->
+            <ul class="supervisors" style="margin:0;padding:0;list-style:none;"> <a class="email {{ supervisor_name.first }}"><i class="fa fa-envelope icon"></i></a></ul>
+        </div>
+    </div>
     <p>
-    {{include.topic.description}}
+    {{include.supervisor.description}}
     </p>
-    {% assign projects = site.theses_dir | where:"topic", include.topic.name %}
+    {% assign projects = site.theses_dir | where:"supervisor", include.supervisor.name %}
     <!-- <p> {{site.theses}} </p> -->
     <ul class="projects">
     {% for project in projects %}
         <li>
-            <h4>
-                {% if project.taken %} (taken) {% endif %}
-                <span {% if project.taken %} style='text-decoration: line-through' {% endif %}>
-                    {{project.title}}       
-                    <span class='supervisor'>
-                        ({% assign supervisor_name = project.supervisor | split: ' '%}    
-                        {{ supervisor_name.first }}, 
-                        {% if project.degree != '' %}
-                            {{project.degree}}  
-                        {% endif %})
+            <a href="{{ project.description_link }}" class="project-link" style="display:block;color:inherit;text-decoration:none;">
+                <h4>
+                    {% if project.taken %} (taken) {% endif %}
+                    <span {% if project.taken %} style='text-decoration: line-through' {% endif %}>
+                        {{project.title}}       
+                        <span class='supervisor'>
+                            (<!-- {% assign supervisor_name = project.supervisor | split: ' '%}    
+                            {{ supervisor_name.first }},  -->
+                            {% if project.degree != '' %}
+                                {{project.degree}}  
+                            {% endif %})
+                        </span>
                     </span>
-                </span>
-            </h4>
-            <!-- This hidden 'contact' class is used to determine the unique supervisors of the topic to which this project belongs. -->
-            <span class='contact hidden'>{{project.supervisor}} ({{project.contact}})</span>
+                </h4>
 
-            {{ project.description | truncatewords: 50, '...'}} <span> (<a href="{{ project.description_link }}">continue reading</a>) </span>
-            {% if project.keywords %}
-            <ul class="keywords">
-                {% assign keys = project.keywords %}
-                {% for key in keys %}<li>{{key}}</li>{% endfor %}
-            </ul>
-            {% endif %}
+                <!-- This hidden 'contact' class is used to determine the unique supervisors of the topic to which this project belongs. -->
+                <span class='contact hidden'>{{project.contact}}</span>
+
+                <!-- {{ project.description | truncatewords: 50, '...'}} -->
+                {% if project.keywords %}
+                <ul class="keywords">
+                    {% assign keys = project.keywords %}
+                    {% for key in keys %}<li>{{key}}</li>{% endfor %}
+                </ul>
+                {% endif %}
+            </a>
         </li>
     {% endfor %}
     </ul>

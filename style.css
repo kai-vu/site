@@ -122,6 +122,11 @@ body, html {
 	text-decoration: none;
 }
 
+.nav-item:hover {
+	color: #1e2125;
+	background-color: #e9ecef;
+}
+
 
 .navbar ul li.home a {
 	color: #4b4b4b;
@@ -205,20 +210,23 @@ button.link {
 Everything related to the 'projects' navigation menu of the theses page
 */
 
+ul.projects li a:hover{
+	color: #000;
+	background-color: #eee;
+	text-decoration: none;
+}
+
 ul.projects {
 	list-style: circle;
 }
 
 ul.projects li {
     position: relative;
+	list-style-image:   url(/images/webpage_elements/right_arrow.svg);
 }
 
 ul.projects li::before {
     content: none;
-}
-
-ul.projects li a {
-    font-style: italic;
 }
 
 .projects ul.keywords, ul.keywords li {
@@ -230,7 +238,7 @@ ul.projects li a {
 .projects ul.keywords {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 .projects ul.keywords li {
@@ -305,6 +313,7 @@ nav.project_nav li + li::before {
 span.supervisor {
 	font-weight: normal;
 	font-style: italic;
+	white-space: nowrap;
 }
 
 ul.topics {
@@ -326,8 +335,9 @@ ul.supervisors li + li::before {
   content: ', ';
 }
 
-li.topic h3 {
-	border-bottom: 3px solid #00adefff;
+li.topic {
+	border-top: 3px solid #00adefff;
+	margin-top: 2em;
 	padding-top: 0.5em;
 }
 
@@ -410,7 +420,7 @@ ul.keywords, ul.keywords li {
 ul.keywords {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 ul.keywords li {
