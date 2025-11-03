@@ -1,13 +1,3 @@
-- name: Ritten Roothaert
-  mail: h.m.roothaert@vu.nl
-  picture: /images/ritten.jpeg
-  description: "I'm a lot of fun"
-  interests: >
-    "something",
-    "I",
-    "Really",
-    "Like"
-
 - name: Stefan Schlobach
   mail: k.s.schlobach@vu.nl
   picture: /images/stefan.png
@@ -15,6 +5,15 @@
   interests: >
     "Something",
     "else"
+
+
+- name: Ilaria Tiddi
+  mail: i.tiddi@vu.nl
+  picture: /images/ilaria.png
+  description: ""
+  interests: >
+    "Something",
+    "different"
 
 - name: Patrick Koopmann
   mail: p.k.koopmann@vu.nl
@@ -24,13 +23,15 @@
     "Something",
     "else"
 
-- name: Ilaria Tiddi
-  mail: i.tiddi@vu.nl
-  picture: /images/ilaria.png
-  description: ""
+- name: Ritten Roothaert
+  mail: h.m.roothaert@vu.nl
+  picture: /images/ritten.jpeg
+  description: "I'm a lot of fun"
   interests: >
-    "Something",
-    "different"
+    "something",
+    "I",
+    "Really",
+    "Like"
 
 - name: Jieying Chen
   mail: j.chen2@vu.nl
