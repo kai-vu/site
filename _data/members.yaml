@@ -19,7 +19,7 @@
 - name: Patrick Koopmann
   mail: p.k.koopmann@vu.nl
   picture: /images/patrick.jpg
-  description: "I'm the most fun"
+  description: ""
   interests: >
     "Something",
     "else"
@@ -27,7 +27,7 @@
 - name: Ilaria Tiddi
   mail: i.tiddi@vu.nl
   picture: /images/ilaria.png
-  description: "I'm fun too"
+  description: ""
   interests: >
     "Something",
     "different"
@@ -35,15 +35,15 @@
 - name: Jieying Chen
   mail: j.chen2@vu.nl
   picture: /images/jieying.jpg
-  description: "I'm even more fun"
+  description: ""
   interests: >
     "Something",
     "else"
 
 - name: Ameneh Naghdi Pour
   mail: a.naghdipour@vu.nl
-  picture: /images/ameneh.jpg
-  description: "I'm even more fun"
+  picture: /images/AmenehN.jpg
+  description: ""
   interests: >
     "Something",
     "else"
@@ -51,7 +51,7 @@
 - name: 'Daira Pinto Prieto'
   mail: d.pintoprieto@uva.nl
   picture: /images/daira.jpg
-  description: "I'm even more fun"
+  description: ""
   interests: >
     "Something",
     "else"
