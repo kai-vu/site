@@ -1,4 +1,7 @@
-# topics to be reviewed
+### Document is no longer needed. Instead of a topic-centered aggregation of projects, projects are now grouped by their supervisors. 
+
+
+# topics from 2024-2025 
 - name: 'Knowledge Representation and Knowledge Extraction'
   description: 'These projects focus on designing, extracting and building ontologies using a variety of methods, from classical knowledge engineering to using deep-learning methods such as LLMs'
 - name: 'Formal Logic and Reasoning'

@@ -152,9 +152,11 @@ a[href] {
 a[href]:hover, a[href]:focus {
 	color: inherit;
 	background-color: #e9ecef;
-	text-decoration-color: #00adefff;
+	/* text-decoration-color: #00adefff; */
 }
 
+
+/* Special case for the banner link in the navigation bar. Here, we don't want the background to change color when hovering it */
 .banner-container a[href]:hover{
 	background-color: inherit;
 }
