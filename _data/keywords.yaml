@@ -8,8 +8,6 @@
     count: 4
 -   keyword: Reasoning
     count: 4
--   keyword: Computational argumentation
-    count: 3
 -   keyword: Description Logics
     count: 3
 -   keyword: Hybrid Intelligence
@@ -24,13 +22,7 @@
     count: 2
 -   keyword: Computer Vision
     count: 2
--   keyword: Domain Coverage
-    count: 2
 -   keyword: Explainability
-    count: 2
--   keyword: Human-in-the-Loop
-    count: 2
--   keyword: Implementation
     count: 2
 -   keyword: Information fusion
     count: 2
@@ -38,15 +30,7 @@
     count: 2
 -   keyword: Large Language Models
     count: 2
--   keyword: Ontology
-    count: 2
 -   keyword: Ontology Engineering
-    count: 2
--   keyword: Ontology/KG
-    count: 2
--   keyword: Ontology/KG update
-    count: 2
--   keyword: Reproducibility
     count: 2
 -   keyword: Uncertainty
     count: 2
@@ -64,15 +48,9 @@
     count: 1
 -   keyword: Data validation
     count: 1
--   keyword: Deep Learning/Language Model
-    count: 1
 -   keyword: Desicion-making
     count: 1
--   keyword: Discussion Games
-    count: 1
 -   keyword: Fairness
-    count: 1
--   keyword: Framework
     count: 1
 -   keyword: Human-Computer Interaction
     count: 1
@@ -80,23 +58,19 @@
     count: 1
 -   keyword: Inference Enhancement
     count: 1
--   keyword: Interaction
-    count: 1
 -   keyword: Knowledge Accessibility
     count: 1
 -   keyword: Knowledge Compilation
     count: 1
 -   keyword: Knowledge Engineering
     count: 1
--   keyword: LLMs
-    count: 1
--   keyword: Language Model
-    count: 1
 -   keyword: Language Models
     count: 1
 -   keyword: Learning
     count: 1
 -   keyword: Nature Langue Processing
+    count: 1
+-   keyword: Ontology
     count: 1
 -   keyword: Ontology Embeddings
     count: 1
@@ -108,17 +82,9 @@
     count: 1
 -   keyword: Ontology Subsumption
     count: 1
--   keyword: Preferred Semantics
-    count: 1
--   keyword: Prompting
-    count: 1
--   keyword: Proof of Concept
-    count: 1
 -   keyword: QA Systems
     count: 1
 -   keyword: Qualitative Surveys
-    count: 1
--   keyword: Quality Assessment
     count: 1
 -   keyword: RAG
     count: 1
@@ -126,13 +92,9 @@
     count: 1
 -   keyword: SWARL rule
     count: 1
--   keyword: Semantics
-    count: 1
 -   keyword: Social AI
     count: 1
 -   keyword: Sub-symbolic AI
     count: 1
 -   keyword: Tool Development
-    count: 1
--   keyword: Usability Enhancement
     count: 1
