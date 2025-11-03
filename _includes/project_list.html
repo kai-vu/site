@@ -5,7 +5,7 @@
             <h3 style="margin:0;">{{ include.supervisor.name }}</h3>
             {% assign supervisor_name = include.supervisor.mail | split: '@'%}  
             <!-- The supervisor list is populated by the 'redrawTopics() function in theses.js. What it does is look at the projects that are currently not hidden, adds the supervisors of these projects in a set, and adds <li> elements for each unique supervisor. -->
-            <ul class="supervisors" style="margin:0;padding:0;list-style:none;"> <a class="email {{ supervisor_name.first }}"><i class="fa fa-envelope icon"></i></a></ul>
+            <ul class="supervisors" style="margin:0;padding:0;list-style:none;"> <a class="email {{ supervisor_name.first }}"><i class="fa fa-envelope icon"></i> {{ include.supervisor.mail }}</a></ul>
         </div>
     </div>
     <p>

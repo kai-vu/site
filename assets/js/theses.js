@@ -88,18 +88,18 @@ addEventListener('DOMContentLoaded', (event) =>
 
     showLess();
     redrawTopics();
-    drawEmailLinks();
+    addEmailLinks();
 });
 
-function drawEmailLinks() {
+function addEmailLinks() {
     // JavaScript function to create email link dynamically. It helps to avoid spam bots harvesting the email address.
-    let test = document.getElementsByClassName("email");
-    for (let el of test) {
+    let email_obj = document.getElementsByClassName("email");
+    for (let el of email_obj) {
         var user_name = el.classList.value;
         user_name = user_name.replace('email ', ''); // remove 'email ' from class list
         console.log(user_name)
         // Define email components to obfuscate the address
-        const user = el.classList.value;
+        // const user = el.classList.value;
         const domain = "vu.nl";
         const linkText = "Contact me";
         // Combine components to form the email address
@@ -107,7 +107,7 @@ function drawEmailLinks() {
         // Create an anchor element and set attributes
         // const anchor = document.createElement("a");
         el.href = "mailto:" + email;
-        // el.textContent = linkText;
+        // el.textContent = el.textContent + linkText;
         // Append the link to the desired container
         // el.appendChild(anchor);
     }

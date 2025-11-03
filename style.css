@@ -140,6 +140,25 @@ body, html {
 	color: inherit;
 }
 
+/* Restyle normal anchor links: keep text color, but underline with the site accent color */
+a[href] {
+	color: inherit; /* use surrounding text color */
+	text-decoration: underline;
+	text-decoration-color: #00adefff;
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 2px;
+}
+
+a[href]:hover, a[href]:focus {
+	color: inherit;
+	background-color: #e9ecef;
+	text-decoration-color: #00adefff;
+}
+
+.banner-container a[href]:hover{
+	background-color: inherit;
+}
+
 h1, h2, h2, h4 {
 	font-weight: 600;
 	font-family: Verdana, sans-serif;

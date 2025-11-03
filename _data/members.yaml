@@ -1,0 +1,57 @@
+- name: Ritten Roothaert
+  mail: h.m.roothaert@vu.nl
+  picture: /images/ritten.jpeg
+  description: "I'm a lot of fun"
+  interests: >
+    "something",
+    "I",
+    "Really",
+    "Like"
+
+- name: Stefan Schlobach
+  mail: k.s.schlobach@vu.nl
+  picture: /images/stefan.png
+  description: "I'm even more fun"
+  interests: >
+    "Something",
+    "else"
+
+- name: Patrick Koopmann
+  mail: p.k.koopmann@vu.nl
+  picture: /images/patrick.jpg
+  description: "I'm the most fun"
+  interests: >
+    "Something",
+    "else"
+
+- name: Ilaria Tiddi
+  mail: i.tiddi@vu.nl
+  picture: /images/ilaria.png
+  description: "I'm fun too"
+  interests: >
+    "Something",
+    "different"
+
+- name: Jieying Chen
+  mail: j.chen2@vu.nl
+  picture: /images/jieying.jpg
+  description: "I'm even more fun"
+  interests: >
+    "Something",
+    "else"
+
+- name: Ameneh Naghdi Pour
+  mail: a.naghdipour@vu.nl
+  picture: /images/ameneh.jpg
+  description: "I'm even more fun"
+  interests: >
+    "Something",
+    "else"
+
+- name: 'Daira Pinto Prieto'
+  mail: d.pintoprieto@uva.nl
+  picture: /images/daira.jpg
+  description: "I'm even more fun"
+  interests: >
+    "Something",
+    "else"
