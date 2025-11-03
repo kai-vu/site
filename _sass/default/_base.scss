@@ -1,0 +1,187 @@
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, system-ui;
+}
+
+main > div {
+  height: 10rem;
+  margin: 2rem;
+  border: darkgrey 1px solid;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: gray;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 23px;
+  line-height: 1.72em;
+}
+
+nav ul.mainMenu{
+  
+  padding: 0;
+  overflow: hidden;
+  display:flex;
+  flex-direction:row;
+}
+
+ul.dropdwn{
+  width: 100%;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.dropdwn {
+    display: block;
+    width: 190px;
+    padding: 0 60px 0 60px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 85px;
+    font-size: 18px;
+}
+
+.dropdwnSub {
+    display: block;
+    padding: 12px 14px 12px 14px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+input#home {
+}
+
+input:checked + ul.dropdwn {
+    background: #000;
+}
+
+input:checked ~ ul.dropdwn {
+    background: #eee;
+}
+
+input:checked ~ ul.dropdwn {
+    max-height: 100%;
+}
+
+@media (min-width: 900px) {
+  p, h1, h2, h2, h4, ul, ol, table, .people {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav {
+    height: 5em;
+    width: 100%;
+    background: #eee;
+    border-bottom: 3px solid #00adefff;
+  
+  }
+  nav ul {
+    
+    width: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+    align-items: end; 
+  }
+}
+
+@media (max-width: 899px) {
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+  
+    font-family: Georgia, serif;
+    font-size: 4vw;
+  }
+  
+  p, h1, h2, h3, h4, ul, ol, table, .people {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+  body nav ul {
+    margin-left: 1em;
+  }
+}
+
+/* #div {
+  vertical-align:top;
+} */
+
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+nav ul {
+  font-family: Verdana, sans-serif;
+  margin: auto auto 0 auto;
+  height: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: block;
+  padding: 0;
+  margin: 0 2em 0.5em 0;  
+}
+
+nav ul li a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li.home a {
+  color: #4b4b4b;
+}
+
+nav ul li.home a:hover {
+  color: #0089CF;
+}
+
+h1, h2, h2, h4 {
+  font-family: Verdana, sans-serif;
+}
+
+div.page_content {
+    grid-column-start: 3;
+    padding: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    counter-reset: figure 0 table;
+}
