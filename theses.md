@@ -9,7 +9,10 @@ You can find the slides presented at the MSc AI Thesis event [here](https://docs
 If you are interested in one of the projects below, please contact the supervisor(s) listed to receive more information about the topics. Where available, have a look at the detailed description first. Also, keep in mind that all theses can be shaped to accomodate your interests. Do note however that the KAI group has clear expectations of their students. We want to make sure students know what to expect from us as their supervisors. We have prepared a [short document](/supervision_guidelines) which touches upon some important points like meetings, planning and writing of your thesis.
 
 
-_The filter menu below can be used to limit the amount of projects on display. If you click on the keyword, only projects with that particular keyword are displayed. The number indicates the number of projects we have to offer with that keyword._
+<a id=theses_nav style="scroll-margin-top: 0em;">
+<i>The filter menu below can be used to limit the amount of projects on display. If you click on the keyword, only projects with that particular keyword are displayed. The number indicates the number of projects we have to offer with that keyword.</i> 
+</a>
+
 <nav class="project_nav">
 {% comment %} 
 Javascript is used to add filter links to this document. The JS file also contains the list of keywords that are converted
