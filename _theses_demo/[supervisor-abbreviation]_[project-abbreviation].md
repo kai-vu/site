@@ -1,8 +1,6 @@
 ---
 title: '-- Title of the Project --'
 layout: default
-description: '-- Give a short description of the project (max 50 words) --'
-topic: 'Template' 
 keywords: 
     - 'Here'
     - 'You'

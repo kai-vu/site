@@ -16,7 +16,6 @@ def fetch_publications_range(author, start_year, end_year):
     
     for year in range(int(start_year), int(end_year)):
         result += fetch_publications(author,year)
-
     return result
         
 def fetch_publications(author,year):
