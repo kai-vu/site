@@ -11,7 +11,7 @@
             <div class="flex-parent-element">
             <div class="content">
                 <p>
-                    {{ artefact.description | truncatewords: 50, '...'}} {% if artefact.external_link %} <span>  (<a href="{{ artefact.external_link }}">continue reading</a>) </span> {% endif %}
+                    {{ artefact.description | truncatewords: 50, '...'}} {% if artefact.external_link %} <span>  (<a href="{{ artefact.external_link }}">more information</a>) </span> {% endif %}
                 </p>
                 {% if artefact.keywords %}
                 <ul class="keywords">
