@@ -9,7 +9,7 @@ keywords:
     - 'Social AI'
     - 'BERT models'
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
+contact: 'j.y.chen@vu.nl'
 degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/JC_AIBias'
 ---
