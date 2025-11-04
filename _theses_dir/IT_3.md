@@ -1,6 +1,6 @@
 ---
 title: 'Simulation of a micro-surgery knowledge-based robot.'
-layout: default
+layout: sub-page
 description: 'Implementing a simulation of a micro-surgery knowledge-based robot.'
 topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 

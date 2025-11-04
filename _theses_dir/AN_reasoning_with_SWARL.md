@@ -1,6 +1,6 @@
 ---
 title: 'Enhancing Ontological Reasoning with SWRL Rules: A Semantic Approach' 
-layout: default
+layout: sub-page
 description: "This project focuses on how SWARL rules can support inferencing of new knowledge and improve decision-making situations."
 topic: 'Knowledge Representation and Knowledge Extraction' 
 keywords: 

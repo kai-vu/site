@@ -1,6 +1,6 @@
 ---
 title: 'Ethnic AI: Bias Detection and Mitigation in Large Language Models'
-layout: default
+layout: sub-page
 description: "Large Language Models (LLMs) are crucial for applications from information retrieval to content creation. The aim of this project is to use ontologies to benchmark LLM outputs against a standardized knowledge base, ensuring reliability, neutrality, and rectifying biases, enhancing LLM's ethical use and credibility." 
 topic: 'Knowledge Graphs and Deep Learning'
 keywords: 

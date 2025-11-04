@@ -1,6 +1,6 @@
 ---
 title: 'Bias in AI: Bias Detection and Mitigation in Large Language Models'
-layout: default
+layout: sub-page
 description: 'This is a qualitative study where the goal is to look into common theories and disciplines that might influence novel Hybrid Intelligence methods.'
 topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 

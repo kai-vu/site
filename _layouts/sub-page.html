@@ -1,0 +1,9 @@
+---
+layout: default 
+---
+<!-- This layout simply adds a return botton to the bottom of the page to make navigation easier -->
+{{ content }}
+
+<div class="back-container">
+	<button class="back-button" type="button" onclick="(function(){ if(history.length>1){ history.back(); } else { window.location='/theses.html'; } })()">← Return</button>
+</div>

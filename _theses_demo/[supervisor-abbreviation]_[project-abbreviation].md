@@ -1,6 +1,6 @@
 ---
 title: '-- Title of the Project --'
-layout: default
+layout: sub_page
 keywords: 
     - 'Here'
     - 'You'

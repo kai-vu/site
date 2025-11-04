@@ -1,6 +1,6 @@
 ---
 title: 'Python-based Implementation of Ontology Modularity Tools'
-layout: default
+layout: sub-page
 description: "This project targets the development of swift, Python-based tools for ontology modularity. It focuses on creating accurate and efficient solutions for managing and updating large-scale knowledge representations."
 topic: 'Ontologies and Reasoning'
 keywords: 

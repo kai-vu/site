@@ -1,7 +1,7 @@
 - name: Stefan Schlobach
   mail: k.s.schlobach@vu.nl
   picture: /images/stefan.png
-  description: "I'm even more fun"
+  research_description: "I'm even more fun"
   interests: >
     "Something",
     "else"
@@ -10,7 +10,7 @@
 - name: Ilaria Tiddi
   mail: i.tiddi@vu.nl
   picture: /images/ilaria.png
-  description: ""
+  research_description: ""
   interests: >
     "Something",
     "different"
@@ -18,7 +18,7 @@
 - name: Patrick Koopmann
   mail: p.k.koopmann@vu.nl
   picture: /images/patrick.jpg
-  description: ""
+  research_description: ""
   interests: >
     "Something",
     "else"
@@ -26,7 +26,7 @@
 - name: Ritten Roothaert
   mail: h.m.roothaert@vu.nl
   picture: /images/ritten.jpeg
-  description: "I'm a lot of fun"
+  research_description: "I'm a lot of fun"
   interests: >
     "something",
     "I",
@@ -36,7 +36,7 @@
 - name: Jieying Chen
   mail: j.y.chen@vu.nl
   picture: /images/jieying.jpg
-  description: ""
+  research_description: ""
   interests: >
     "Something",
     "else"
@@ -44,7 +44,7 @@
 - name: Ameneh Naghdi Pour
   mail: a.naghdipour@vu.nl
   picture: /images/AmenehN.jpg
-  description: ""
+  research_description: ""
   interests: >
     "Something",
     "else"
@@ -52,7 +52,20 @@
 - name: Daira Pinto Prieto
   mail: d.pintoprieto@vu.nl
   picture: /images/daira.jpg
-  description: ""
+  research_description: ""
   interests: >
     "Something",
     "else"
+
+- name: Internships
+  mail: i.tiddi@vu.nl
+  picture: /images/internships_thumbnail.png
+  research_description: "Besides regular thesis projects, we also offer internships on various topics related to our research. If you are interested, please contact Ilaria Tiddi."
+  interests: >
+    "Something",
+    "else"
+
+
+# This should always be the last entry. For future members, please add above this line.
+# Comment: the purpose of this entry is show the available internships for students without having to substantially alter the 'theses.js' script.
+#          If this file will be used to draw the 'people' page, this entry should be filtered out.

@@ -1,7 +1,7 @@
 ---
 date: '11 nov 2024'
 summary: "Patrick paper: 'Explaining Reasoning Results for OWL Ontologies with EVEE' was accepted at the Knowledge Representation Conference. The paper was also accompained by a video."
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 

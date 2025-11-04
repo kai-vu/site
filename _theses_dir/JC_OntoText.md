@@ -1,6 +1,6 @@
 ---
 title: 'Ontology Text Alignment Using Large Language Models (BERT and Generative LLMS)'
-layout: default
+layout: sub-page
 description: 'This is a qualitative study where the goal is to look into common theories and disciplines that might influence novel Hybrid Intelligence methods.'
 topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 

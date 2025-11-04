@@ -1,6 +1,6 @@
 ---
 title: 'Benchmarking Ontology Modularity and QA Using Real-world Ontologies'
-layout: default
+layout: sub-page
 description: 'This project promotes modular ontologies for better maintenance and usability, alongside developing benchmarks for QA systems interacting with them. Incorporating real-world data is key to evaluating their practicality and scalability effectively.'
 topic: 'Knowledge Graph-based Question Answering'
 keywords: 

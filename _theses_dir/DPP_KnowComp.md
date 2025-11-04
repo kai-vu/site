@@ -1,6 +1,6 @@
 ---
 title: 'Knowledge Compilation for Forgetting Uncertain Evidence'
-layout: default
+layout: sub-page
 description: 'In this project, students will become familiar with some knowledge compilation techniques and rules for combining uncertain evidence. In particular, they will explore the advantages and disadvantages of using knowledge compilation for forgetting uncertain evidence.'
 topic: 'Formal Logic and Reasoning'
 keywords: 

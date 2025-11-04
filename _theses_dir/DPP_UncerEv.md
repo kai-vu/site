@@ -1,6 +1,6 @@
 ---
 title: 'Uncertain Evidence in Artificial Intelligence'
-layout: default
+layout: sub-page
 description: 'This project aims to address the problem of dealing with uncertain information in the context of artificial intelligence. Students can approach this question from a conceptual and/or experimental perspective.'
 topic: 'Formal Logic and Reasoning'
 keywords: 

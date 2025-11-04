@@ -1,6 +1,6 @@
 ---
 title: 'Improving Gaze Detection for Robotics'
-layout: default
+layout: sub-page
 description: "Improving the robot's gaze detection abilities."
 topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 

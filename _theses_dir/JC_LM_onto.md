@@ -1,6 +1,6 @@
 ---
 title: 'Enhancing Language Models with Ontology Subsumption Inference'
-layout: default
+layout: sub-page
 description: "This master's thesis aims to explore the potential of pre-trained language models for encoding and reasoning with complex ontology subsumptions, moving beyond simple relational knowledge bases to embrace sophisticated OWL ontologies. It seeks to enhance LMs' understanding and inference of concept subsumption relationships." 
 topic: 'Knowledge Graphs and Deep Learning'
 keywords: 

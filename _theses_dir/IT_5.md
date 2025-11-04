@@ -1,6 +1,6 @@
 ---
 title: 'Building a common-sense object dataset for Robots'
-layout: default
+layout: sub-page
 description: 'Building a common-sense Knowledge Graph for Robotics applications.'
 topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 

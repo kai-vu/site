@@ -2,7 +2,7 @@
 date: '01 oct 2025'
 summary: 'Two new members join the group: welcome to Tommaso Zendron and Xiaoshuang Yang! Both of them will be working with Patrick.'
 
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 **Tommaso Zendron**
