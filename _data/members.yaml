@@ -52,7 +52,7 @@
 - name: Daira Pinto Prieto
   mail: d.pintoprieto@vu.nl
   picture: /images/daira.jpg
-  research_description: ""
+  research_description: "My research focuses on reasoning for cyber-physical system diagnostics. I am especially interested in applying evidence logics and uncertainty representations that go beyond probabilities."
   interests: >
     "Something",
     "else"
