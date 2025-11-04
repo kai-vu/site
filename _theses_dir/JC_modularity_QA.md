@@ -10,7 +10,7 @@ keywords:
  - Real-World Data
  - Knowledge Representation
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
+contact: 'j.y.chen@vu.nl'
 degree: 'M.Sc.'
 description_link: '/theses_dir/JC_modularity_QA'
 ---

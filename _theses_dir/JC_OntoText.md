@@ -10,8 +10,8 @@ keywords:
     - 'BERT models' 
     - 'RAG'
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
-degree: 'B.Sc./M.Sc.'
+contact: 'j.y.chen@vu.nl'
+degree: 'M.Sc.'
 description_link: '/theses_dir/JC_OntoText'
 ---
 
