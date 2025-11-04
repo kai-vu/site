@@ -4,13 +4,17 @@
     count: 7
 -   keyword: Logics
     count: 6
+-   keyword: Hybrid Intelligence
+    count: 5
+-   keyword: Explainability
+    count: 4
+-   keyword: Knowledge Graphs
+    count: 4
 -   keyword: Knowledge-based Robotics
     count: 4
 -   keyword: Reasoning
     count: 4
 -   keyword: Description Logics
-    count: 3
--   keyword: Hybrid Intelligence
     count: 3
 -   keyword: LLM
     count: 3
@@ -22,11 +26,7 @@
     count: 2
 -   keyword: Computer Vision
     count: 2
--   keyword: Explainability
-    count: 2
 -   keyword: Information fusion
-    count: 2
--   keyword: Knowledge Graphs
     count: 2
 -   keyword: Large Language Models
     count: 2
