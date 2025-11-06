@@ -28,7 +28,4 @@ You would first conduct a validation experiment, repducing GraphRAG. Then, you c
 - Can we give the LLM a Graph structural understanding regardless of the entities through GNN embeddings ?
 
 #### Literature
-*Give sources to additional literature*
-
-Reading:
 - "Retrieval-Augmented Generation with Graphs (GraphRAG)" [<a href="https://arxiv.org/abs/2501.00309">PDF</a>]
