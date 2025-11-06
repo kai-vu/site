@@ -6,17 +6,17 @@
     count: 6
 -   keyword: Hybrid Intelligence
     count: 5
+-   keyword: Reasoning
+    count: 5
 -   keyword: Explainability
     count: 4
 -   keyword: Knowledge Graphs
     count: 4
 -   keyword: Knowledge-based Robotics
     count: 4
--   keyword: Reasoning
+-   keyword: LLM
     count: 4
 -   keyword: Description Logics
-    count: 3
--   keyword: LLM
     count: 3
 -   keyword: Semantic Web
     count: 3
@@ -31,6 +31,8 @@
 -   keyword: Large Language Models
     count: 2
 -   keyword: Ontology Engineering
+    count: 2
+-   keyword: RAG
     count: 2
 -   keyword: Uncertainty
     count: 2
@@ -51,8 +53,6 @@
 -   keyword: Desicion-making
     count: 1
 -   keyword: Fairness
-    count: 1
--   keyword: Here
     count: 1
 -   keyword: Human-Computer Interaction
     count: 1
@@ -84,29 +84,17 @@
     count: 1
 -   keyword: Ontology Subsumption
     count: 1
--   keyword: Or
-    count: 1
--   keyword: Put
-    count: 1
 -   keyword: QA Systems
     count: 1
 -   keyword: Qualitative Surveys
     count: 1
--   keyword: RAG
-    count: 1
 -   keyword: Real-World Data
     count: 1
--   keyword: Relevant
-    count: 1
 -   keyword: SWARL rule
-    count: 1
--   keyword: Skills
     count: 1
 -   keyword: Social AI
     count: 1
 -   keyword: Sub-symbolic AI
-    count: 1
--   keyword: Subjects
     count: 1
 -   keyword: Tool Development
     count: 1
