@@ -10,18 +10,14 @@ keywords:
 supervisor: '-- Pelletreau-Duris Tom --'
 contact: '-- t.a.p.pelletreau-durisd@vu.nl --'
 degree: '-- B.Sc.'
-description_link: '/theses_dir/TPD_GraphRAG.md'
+description_link: '/theses_dir/TPD_GraphRAG'
 ---
 
+## Navigating information through networks 
 
-# Easy (potential) template
-<!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
-## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Description
-*Give some background information*
-
 LLMs capture language through a causal next-token prediction fashion. Thanks to that bias, they manage to capture most of the abstract reasoning abilities carried by the semantics of modern languages and offer incredible flexibility. Due to that bias, they can struggle when handling domain-specific questions (niche research topic, private product catalogs, grounded knowledge) especially when requiring multi-hop reasoning. These difficult out-of-domain (OOD) reasoning tasks might be solved by adding the relevant information. But methods that aim at enriching the knowledge of LLMs (fine-tunning, prompting, RAG) also face similar issues such as overfitting, the limitation of the context-window or mitigated accuracy. All these methods share the bias of vector based search methods. 
 
 The question might not be which information to share but how to share information. Knowledge Graphs are explicit network representations of entities link together. They offer hierarchical, structural and inter-relational information that is not accesible in a vecotrialised serealised text. By grounding data as a knowledge graph and giving graph-retrieval abilities to an LLM, GraphRAG aims at offering orthogonal source of information that inherently lack in LLMs. 
