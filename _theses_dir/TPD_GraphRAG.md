@@ -7,9 +7,9 @@ keywords:
     - 'Reasoning'
     - 'RAG'
     - 'graphRAG'
-supervisor: '-- Pelletreau-Duris Tom --'
-contact: '-- t.a.p.pelletreau-durisd@vu.nl --'
-degree: '-- B.Sc.'
+supervisor: 'Pelletreau-Duris Tom'
+contact: 't.a.p.pelletreau-durisd@vu.nl'
+degree: 'B.Sc.'
 description_link: '/theses_dir/TPD_GraphRAG'
 ---
 
