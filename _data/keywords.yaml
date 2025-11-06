@@ -52,6 +52,8 @@
     count: 1
 -   keyword: Fairness
     count: 1
+-   keyword: Here
+    count: 1
 -   keyword: Human-Computer Interaction
     count: 1
 -   keyword: Inference
@@ -82,6 +84,10 @@
     count: 1
 -   keyword: Ontology Subsumption
     count: 1
+-   keyword: Or
+    count: 1
+-   keyword: Put
+    count: 1
 -   keyword: QA Systems
     count: 1
 -   keyword: Qualitative Surveys
@@ -90,11 +96,19 @@
     count: 1
 -   keyword: Real-World Data
     count: 1
+-   keyword: Relevant
+    count: 1
 -   keyword: SWARL rule
+    count: 1
+-   keyword: Skills
     count: 1
 -   keyword: Social AI
     count: 1
 -   keyword: Sub-symbolic AI
     count: 1
+-   keyword: Subjects
+    count: 1
 -   keyword: Tool Development
+    count: 1
+-   keyword: Usability Enhancement
     count: 1
