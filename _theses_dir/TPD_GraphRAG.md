@@ -1,18 +1,17 @@
 ---
-title: '-- Navigating information through networks --'
+title: 'Navigating information through networks'
 layout: sub_page
+description: "This bachelor's thesis aims to explore the effects of graph-powered retrieval-augmented generation (GraphRAG) for pre-trained large language models (LLMs). LLMs capture language through a causal next-token prediction fashion. Thanks to that bias, they manage to capture most of the abstract reasoning abilities carried by the semantics of modern languages and offer incredible flexibility. Due to that bias, they can struggle when handling domain-specific questions (niche research topic, private product catalogs, grounded knowledge) especially when requiring multi-hop reasoning. These difficult out-of-domain (OOD) reasoning tasks might be solved by adding the relevant information. But methods that aim at enriching the knowledge of LLMs (fine-tunning, prompting, RAG) also face similar issues such as overfitting, the limitation of the context-window or mitigated accuracy. All these methods share the bias of vector based search methods. The question might not be which information to share but how to share information. Knowledge Graphs are explicit network representations of entities link together. They offer hierarchical, structural and inter-relational information that is not accesible in a vecotrialised serealised text. Through grounding data as a knowledge graph and giving graph-retrieval abilities to an LLM, GraphRAG aims at offering orthogonal source of information that inherently lack in LLMs. 
+You would first conduct a validation experiment, repducing GraphRAG before trying to answer state of the art question. What factor allows GraphRAG to enhance an LLM the best, consistency, text description, modularity and structural complexity of the KG ? Can we give the LLM a Graph structural understanding regardless of the entities through GNN embeddings ?" 
 keywords: 
-    - 'Here'
-    - 'You'
-    - 'Put'
-    - 'Relevant'
-    - 'Subjects'
-    - 'Or'
-    - 'Skills'
+    - 'LLM'
+    - 'Reasoning'
+    - 'RAG'
+    - 'graphRAG'
 supervisor: '-- Pelletreau-Duris Tom --'
 contact: '-- t.a.p.pelletreau-durisd@vu.nl --'
 degree: '-- B.Sc.'
-description_link: 'either "/theses_dir/[file_name]", or a link to a google doc or other external resource.'
+description_link: '/theses_dir/TPD_GraphRAG.md'
 ---
 
 
