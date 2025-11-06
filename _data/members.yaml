@@ -49,6 +49,19 @@
     "Something",
     "else"
 
+- name: Pelletreau-Duris Tom
+  mail: t.a.p.pelletreau-duris@vu.nl
+  picture: /images/Tom.jpg
+  research_description: "Officially advancing explainability of neuro-symbolic AI. Tactically working on mechanistic interpretability for graph ml. Personally trying to bridge disciplinaries I love, networking philosophy of mind, social sciences, AI and neurosciences through the lens of graph theory and XAI. Systematizing rhizomes."
+  interests: >
+    "XAI",
+    "Mechanistic Interpretability",
+    "AI",
+    "Neuro-symbolic AI",
+    "Graph Theory",
+    "Knowledge Graph"
+    
+
 - name: Daira Pinto Prieto
   mail: d.pintoprieto@vu.nl
   picture: /images/daira.jpg
