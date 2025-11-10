@@ -15,8 +15,6 @@ degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.)'
 description_link: 'either "/theses_dir/[file_name]", or a link to a google doc or other external resource.'
 ---
 
-
-# Easy (potential) template
 <!-- The information below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
 ## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*

@@ -9,8 +9,6 @@ contact: 'v.n.stebletsova@vu.nl'
 degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/VS_1'
 ---
-
-# Easy (potential) template
 <!-- The information below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
 ## {{page.title}} 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
