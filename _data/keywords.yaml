@@ -30,6 +30,10 @@
     count: 2
 -   keyword: Large Language Models
     count: 2
+-   keyword: Modal Logics
+    count: 2
+-   keyword: Model Checking
+    count: 2
 -   keyword: Ontology Engineering
     count: 2
 -   keyword: RAG
