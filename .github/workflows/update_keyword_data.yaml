@@ -47,6 +47,11 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file"
           done
+          if [ -z "${ALL_CHANGED_FILES}" ]; then
+            echo "Array empty"
+          else
+            echo "Array non empty"
+          fi
           echo "PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}" >> $GITHUB_ENV
           PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}
           echo "number of changed projects: ${#ALL_CHANGED_FILES[@]}"
