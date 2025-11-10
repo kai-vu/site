@@ -42,7 +42,6 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          echo "One or more files in the _theses_dir folder has changed."
           if [ -z "${ALL_CHANGED_FILES}" ]; then
             echo "Change files array is empty"
           else
