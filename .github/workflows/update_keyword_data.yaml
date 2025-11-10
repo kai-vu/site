@@ -47,7 +47,7 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file"
           done
-          if [ -z "${#ALL_CHANGED_FILES[@]}" ]; then
+          if [ "${#ALL_CHANGED_FILES[@]}" ]; then
             echo "Array empty"
           else
             echo "Array non empty"
