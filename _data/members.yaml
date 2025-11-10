@@ -49,6 +49,22 @@
     "Something",
     "else"
 
+- name: Vera Stebletsova
+  mail: v.n.stebletsova@vu.nl
+  picture: /images/Vera.jpg
+  research_description: "My research focuses on knowledge representation and reasoning, with a particular interest in applying formal logic to model and analyze complex systems. I am passionate about exploring how logical frameworks can enhance our understanding of various domains, including artificial intelligence and data science."
+  interests: >
+    "Something",
+    "cool",
+
+- name: Daira Pinto Prieto
+  mail: d.pintoprieto@vu.nl
+  picture: /images/daira.jpg
+  research_description: "My research focuses on reasoning for cyber-physical system diagnostics. I am especially interested in applying evidence logics and uncertainty representations that go beyond probabilities."
+  interests: >
+    "Something",
+    "else"
+
 - name: Pelletreau-Duris Tom
   mail: t.a.p.pelletreau-duris@vu.nl
   picture: /images/Tom.jpg
@@ -60,15 +76,6 @@
     "Neuro-symbolic AI",
     "Graph Theory",
     "Knowledge Graph"
-    
-
-- name: Daira Pinto Prieto
-  mail: d.pintoprieto@vu.nl
-  picture: /images/daira.jpg
-  research_description: "My research focuses on reasoning for cyber-physical system diagnostics. I am especially interested in applying evidence logics and uncertainty representations that go beyond probabilities."
-  interests: >
-    "Something",
-    "else"
 
 - name: Internships
   mail: i.tiddi@vu.nl
