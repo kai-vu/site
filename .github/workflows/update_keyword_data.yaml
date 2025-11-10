@@ -44,9 +44,9 @@ jobs:
         run: |
           echo "One or more files in the _theses_dir folder has changed."
           if [ -z "${ALL_CHANGED_FILES}" ]; then
-            echo "Array empty"
+            echo "Change files array is empty"
           else
-            echo "Array non empty"
+            echo "Change files array is NOT empty"
             echo "List all the files that have changed:"
             for file in ${ALL_CHANGED_FILES}; do
               echo "$file"
