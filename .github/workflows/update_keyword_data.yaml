@@ -38,24 +38,21 @@ jobs:
         uses: tj-actions/changed-files@24d32ffd492484c1d75e0c0b894501ddb9d30d62
         with:
           files: _theses_dir/** 
-      - name: Run step if any file(s) in the docs folder change
+      - name: Run step if any file(s) in the theses_dir folder change
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           echo "One or more files in the _theses_dir folder has changed."
-          echo "List all the files that have changed:"
-          for file in ${ALL_CHANGED_FILES}; do
-            echo "$file"
-          done
           if [ "${#ALL_CHANGED_FILES[@]}" ]; then
             echo "Array empty"
           else
             echo "Array non empty"
+            echo "List all the files that have changed:"
+            for file in ${ALL_CHANGED_FILES}; do
+              echo "$file"
+            done
           fi
           echo "PROJECT_CHANGES=${ALL_CHANGED_FILES}" >> $GITHUB_ENV
-          PROJECT_CHANGES=${ALL_CHANGED_FILES}
-          echo "number of changed projects: ${ALL_CHANGED_FILES}"
-          echo "number of changed projects: $PROJECT_CHANGES"
   update_wordlist:
     needs: changed_files
     if: needs.changed_files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 

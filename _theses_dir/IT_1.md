@@ -6,7 +6,7 @@ topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
     - 'Hybrid Intelligence'
     - 'Knowledge Engineering'
-    - 'Qualitative Surveys'
+    # - 'Qualitative Surveys'
 supervisor: 'Ilaria Tiddi'
 contact: 'i.tiddi@vu.nl'
 degree: 'B.Sc./M.Sc.'
