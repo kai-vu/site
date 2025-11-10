@@ -52,9 +52,9 @@ jobs:
           else
             echo "Array non empty"
           fi
-          echo "PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}" >> $GITHUB_ENV
-          PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}
-          echo "number of changed projects: ${#ALL_CHANGED_FILES[@]}"
+          echo "PROJECT_CHANGES=${ALL_CHANGED_FILES}" >> $GITHUB_ENV
+          PROJECT_CHANGES=${ALL_CHANGED_FILES}
+          echo "number of changed projects: ${ALL_CHANGED_FILES}"
           echo "number of changed projects: $PROJECT_CHANGES"
   update_wordlist:
     needs: changed_files
