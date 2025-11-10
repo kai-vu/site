@@ -3,9 +3,9 @@
 name: Check for updates the keywords used in the project descriptions
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   # allow calling from another workflow (jekyll.yaml)
@@ -16,6 +16,12 @@ permissions:
   # The following permissions are needed by the pages call if a change occured.
   pages: write
   id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   changed_files:
