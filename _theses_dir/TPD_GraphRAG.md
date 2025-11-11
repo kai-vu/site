@@ -1,6 +1,6 @@
 ---
 title: 'Navigating information through networks'
-layout: sub_page
+layout: sub-page
 description: "This bachelor's thesis aims to explore the effects of graph-powered retrieval-augmented generation (GraphRAG) for pre-trained large language models (LLMs)." 
 keywords: 
     - 'LLM'
