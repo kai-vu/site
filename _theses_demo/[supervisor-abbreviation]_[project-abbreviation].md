@@ -1,6 +1,6 @@
 ---
 title: '-- Title of the Project --'
-layout: sub-page
+layout: sub-page  <--- DO NOT CHANGE THIS
 keywords: 
     - 'Here'
     - 'You'
@@ -11,7 +11,7 @@ keywords:
     - 'Skills'
 supervisor: '-- your name --'
 contact: '-- your email --'
-degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.)'
+degree: '-- level of the project (either, B.Sc., M.Sc., or B.Sc./M.Sc.) --'
 description_link: 'either "/theses_dir/[file_name]", or a link to a google doc or other external resource.'
 ---
 
