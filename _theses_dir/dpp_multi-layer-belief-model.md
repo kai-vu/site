@@ -17,12 +17,10 @@ description_link: "/theses_dir/dpp_multi-layer-belief-model"
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
-*Give some background information*
 
 Belief function theory is a framework to combine uncertain evidence and form rational belief based on such evidence. Over the years, this theory has been extended with multiple rules to combine evidence, which ensure rationality in a given context. In (Pinto Prieto et al., 2023), the authors proposed a framework that enables the definition of combination rules based on specific parameters, which allows for adopting combination rules from other frameworks as well as creating entirely new ones. While the source discusses the theoretical advantages of this approach, an experimental and systematic comparison among the rules remains an open issue.
 
 #### Description
-*Give a discription of the actual (potential) project(s)*
 
 This project aims to explore the systematic comparison of combination rules for belief functions, including traditional and new rules. Some milestones of this project are: 
 
@@ -35,7 +33,6 @@ Depending on the student’s interests, the proportion between the theoretical a
 
 
 #### Literature
-*Give sources to additional literature*
 
 Daira Pinto Prieto, Ronald de Haan, and Aybüke Özgün, A Belief Model for Conflicting and Uncertain Evidence: Connecting Dempster-Shafer Theory and the Topology of Evidence. In: Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning (KR 2023), 2023
 
