@@ -17,7 +17,6 @@ description_link: '/theses_dir/DPP_UncerEv'
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
-*Give some background information*
 
 Developing methods for aggregating uncertain information is a thriving area of research. Some of the questions we can investigate on this topic are: What are we uncertain about? How does uncertainty interact with other properties of information (such as consistency or relevance)? How do different aggregation methods behave in practice?
 
