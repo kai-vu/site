@@ -16,13 +16,11 @@ description_link: "/theses_dir/dpp_knowledge-compilation"
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
-*Give some background information*
 
 Knowledge compilation is a collection of computational approaches that allows to break down some (computationally) hard problems into an offline and an online phase. If the online part can be computed in polynomial time, the problem is said to be compilable to P. In belief function theory there are some rules of combination of evidence whose computation is compilable to P. Therefore, we can think of real-world scenarios where uncertain evidence can be combined and decombined using these rules, overcoming the challenge of their computational complexity.
 
 #### Description
-*Give a discription of the actual (potential) project(s)*
-
+<!-- -->
 This project aims to explore the application of knowledge compilation techniques for real reasoning scenarios under uncertainty. Some milestones of this project are: 
 
 -	Getting familiar with belief function theory and knowledge compilation techniques. 
@@ -34,7 +32,6 @@ Depending on the student’s interests, the proportion between the theoretical a
 
 
 #### Literature
-*Give sources to additional literature*
 
 Pierre Marquis. 2015. Compile! In Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI’15). AAAI Press, 4112-4118.
 
