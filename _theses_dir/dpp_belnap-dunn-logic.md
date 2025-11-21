@@ -15,7 +15,6 @@ description_link: "/theses_dir/dpp_belnap-dunn-logic"
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
-*Give some background information*
 
 We talk about fault diagnosis in the context of cyber-physical systems. When a cyber-physical systems goes down, it is a big challenge to identify the root-cause of what is failing. Typically, companies offer diagnosis applications that assist the service engineers with identifying such root-cause. 
 
@@ -23,7 +22,6 @@ In this context, some sort of reasoning must be encoded into the diagnosis appli
 
 
 #### Description
-*Give a discription of the actual (potential) project(s)*
 
 This project aims to explore the application of Belnap-Dunn logic  to the domain of fault diagnosis. Belnap-Dunn logic is a logic with four truth values: true, false, both true and false and neither true or false. This extra expressivity provides a reasoning system with a flexibility that resembles human reasoning better than classical solutions. In addition, this logic has been recently extended to include uncertainty theories, allowing for extra richness in our reasoning setting.  Therefore, we propose to investigate how to explain this doubt and guide the gather new clarifying information. Some milestones of this project are: 
 
@@ -36,6 +34,5 @@ There might be the opportunity to develop this project within an internship.
 
 
 #### Literature
-*Give sources to additional literature*
 
 Marta Bílková, Sabine Frittella, Daniil Kozhemiachenko, Ondrej Majer, Sajad Nazari. Reasoning with belief functions over Belnap–Dunn logic. Annals of Pure and Applied Logic, Volume 175, Issue 9,2024,103338,ISSN 0168-0072, [<a href="https://doi.org/10.1016/j.apal.2023.103338">PDF</a>].
