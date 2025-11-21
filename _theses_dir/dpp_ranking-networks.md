@@ -2,9 +2,9 @@
 title: 'Ranking networks for fault diagnosis'
 layout: sub-page
 keywords: 
-    - 'ranking functions'
-    - 'fault diagnosis'
-    - 'application'
+    - 'Ranking functions'
+    - 'Fault diagnosis'
+    - 'Application'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'B.Sc.'

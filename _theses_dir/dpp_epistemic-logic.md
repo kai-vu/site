@@ -2,9 +2,9 @@
 title: 'Epistemic modal logic for fault diagnosis'
 layout: sub-page 
 keywords: 
-    - 'epistemic modal logic'
-    - 'fault diagnosis'
-    - 'application'
+    - 'Epistemic modal logic'
+    - 'Fault diagnosis'
+    - 'Application'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'B.Sc.'

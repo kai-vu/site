@@ -2,9 +2,9 @@
 title: 'Possibilistic networks for fault diagnosis'
 layout: sub-page 
 keywords: 
-    - 'possibility functions'
-    - 'fault diagnosis'
-    - 'application'
+    - 'Possibility functions'
+    - 'Fault diagnosis'
+    - 'Application'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'B.Sc.'

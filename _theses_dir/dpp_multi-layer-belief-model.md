@@ -2,10 +2,10 @@
 title: 'Multi-layer belief model: systematic comparison of evidence rules of combination'
 layout: sub-page 
 keywords: 
-    - 'belief function'
-    - 'uncertainty'
-    - 'rule of combination'
-    - 'evidence models'
+    - 'Belief function'
+    - 'Uncertainty'
+    - 'Rule of combination'
+    - 'Evidence models'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'M.Sc.'

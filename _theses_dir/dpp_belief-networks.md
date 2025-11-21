@@ -2,9 +2,9 @@
 title: 'Belief function networks for fault diagnosis'
 layout: sub-page
 keywords: 
-    - 'belief functions'
-    - 'fault diagnosis'
-    - 'application'
+    - 'Belief functions'
+    - 'Fault diagnosis'
+    - 'Application'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'B.Sc.'

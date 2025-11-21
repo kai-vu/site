@@ -3,7 +3,7 @@ title: 'Belnap-Dunn logic for fault diagnosis: an end-to-end solution '
 layout: sub-page #<-- DO NOT CHANGE THIS!
 keywords: 
     - 'Belnap-Dunn logic'
-    - 'fault diagnosis'
+    - 'Fault diagnosis'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'M.Sc.'

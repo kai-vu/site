@@ -2,9 +2,9 @@
 title: 'Knowledge compilation for belief function: from theory to practice'
 layout: sub-page 
 keywords: 
-    - 'knowledge compilation'
-    - 'belief function'
-    - 'uncertainty'
+    - 'Knowledge compilation'
+    - 'Belief function'
+    - 'Uncertainty'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'M.Sc.'

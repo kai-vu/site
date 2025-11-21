@@ -2,10 +2,10 @@
 title: 'Credal networks for fault diagnosis: What we know about the unknowns'
 layout: sub-page 
 keywords: 
-    - 'imprecise probabilities'
-    - 'credal networks'
-    - 'fault diagnosis'
-    - 'information gain'
+    - 'Imprecise probabilities'
+    - 'Credal networks'
+    - 'Fault diagnosis'
+    - 'Information gain'
 supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'M.Sc.'
