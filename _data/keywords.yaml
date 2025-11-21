@@ -2,14 +2,16 @@
     count: 9
 -   keyword: Ontologies
     count: 7
--   keyword: Logics
+-   keyword: Fault diagnosis
     count: 6
--   keyword: fault diagnosis
+-   keyword: Logics
     count: 6
 -   keyword: Hybrid Intelligence
     count: 5
 -   keyword: Reasoning
     count: 5
+-   keyword: Application
+    count: 4
 -   keyword: Explainability
     count: 4
 -   keyword: Knowledge Graphs
@@ -18,15 +20,17 @@
     count: 4
 -   keyword: LLM
     count: 4
--   keyword: application
+-   keyword: Uncertainty
     count: 4
+-   keyword: Belief functions
+    count: 3
 -   keyword: Description Logics
     count: 3
 -   keyword: Semantic Web
     count: 3
 -   keyword: BERT models
     count: 2
--   keyword: Belief functions
+-   keyword: Belief function
     count: 2
 -   keyword: Computer Vision
     count: 2
@@ -42,10 +46,6 @@
     count: 2
 -   keyword: RAG
     count: 2
--   keyword: Uncertainty
-    count: 2
--   keyword: belief function
-    count: 2
 -   keyword: Algorithm Optimization
     count: 1
 -   keyword: Argument Mining
@@ -60,23 +60,35 @@
     count: 1
 -   keyword: Computational Efficiency
     count: 1
+-   keyword: Credal networks
+    count: 1
 -   keyword: Data validation
     count: 1
 -   keyword: Desicion-making
+    count: 1
+-   keyword: Epistemic modal logic
+    count: 1
+-   keyword: Evidence models
     count: 1
 -   keyword: Fairness
     count: 1
 -   keyword: Human-Computer Interaction
     count: 1
+-   keyword: Imprecise probabilities
+    count: 1
 -   keyword: Inference
     count: 1
 -   keyword: Inference Enhancement
+    count: 1
+-   keyword: Information gain
     count: 1
 -   keyword: Knowledge Accessibility
     count: 1
 -   keyword: Knowledge Compilation
     count: 1
 -   keyword: Knowledge Engineering
+    count: 1
+-   keyword: Knowledge compilation
     count: 1
 -   keyword: Language Models
     count: 1
@@ -96,11 +108,17 @@
     count: 1
 -   keyword: Ontology Subsumption
     count: 1
+-   keyword: Possibility functions
+    count: 1
 -   keyword: QA Systems
     count: 1
 -   keyword: Qualitative Surveys
     count: 1
+-   keyword: Ranking functions
+    count: 1
 -   keyword: Real-World Data
+    count: 1
+-   keyword: Rule of combination
     count: 1
 -   keyword: SWARL rule
     count: 1
@@ -111,26 +129,4 @@
 -   keyword: Tool Development
     count: 1
 -   keyword: Usability Enhancement
-    count: 1
--   keyword: belief functions
-    count: 1
--   keyword: credal networks
-    count: 1
--   keyword: epistemic modal logic
-    count: 1
--   keyword: evidence models
-    count: 1
--   keyword: graphRAG
-    count: 1
--   keyword: imprecise probabilities
-    count: 1
--   keyword: information gain
-    count: 1
--   keyword: knowledge compilation
-    count: 1
--   keyword: possibility functions
-    count: 1
--   keyword: ranking functions
-    count: 1
--   keyword: rule of combination
     count: 1
