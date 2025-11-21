@@ -5,7 +5,7 @@ keywords:
     - 'epistemic modal logic'
     - 'fault diagnosis'
     - 'application'
-supervisor: 'Daira Pinto Prieto '
+supervisor: 'Daira Pinto Prieto'
 contact: 'd.pintoprieto@vu.nl'
 degree: 'B.Sc.'
 description_link: "/theses_dir/dpp_epistemic-logic"
