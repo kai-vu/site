@@ -15,7 +15,7 @@ description_link: "/theses_dir/dpp_ranking-networks"
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
-*Give some background information*
+<!-- Give some background information*
 
 MWe talk about fault diagnosis in the context of cyber-physical systems. When a cyber-physical systems goes down, it is a big challenge to identify the root-cause of what is failing. Typically, companies offer diagnosis applications that assist the service engineers with identifying such root-cause. 
 
@@ -23,7 +23,7 @@ In this context, some sort of reasoning must be encoded into the diagnosis appli
 
 
 #### Description
-*Give a discription of the actual (potential) project(s)*
+<!-- Give a discription of the actual (potential) project(s)*
 
 This project aims to explore the application of possibility function networks to the domain of fault diagnosis. To this end, the student will work with other students on the creation of a small dataset for fault diagnosis and a Bayesian networks that will be used as a baseline model. Afterwards, the student will propose an end-to-end solution for fault diagnosis by applying ranking networks. Some milestones of this project are: 
 
@@ -37,6 +37,6 @@ Notice that this project has a collaborative part with other BSc students.
 
 
 #### Literature
-*Give sources to additional literature*
+<!-- Give sources to additional literature*
 
 Rienstra, T. (2019, July). Ranked programming. In Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence (IJCAI-19) (pp. 5758–5764). International Joint Conferences on Artificial Intelligence Organization.  [<a href="https://doi.org/10.24963/ijcai.2019/798">PDF</a>]
