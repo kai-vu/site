@@ -1,6 +1,6 @@
 ---
 title: '-- Title of the Project --'
-layout: sub-page  <--- DO NOT CHANGE THIS
+layout: sub-page # <--- DO NOT CHANGE THIS
 keywords: 
     - 'Here'
     - 'You'
