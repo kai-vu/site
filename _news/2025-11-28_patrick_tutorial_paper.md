@@ -1,6 +1,7 @@
 ---
 date: '28 nov 2025'
-summary: 'In September, Patrick gave a tutorial at the Reasoning Web summer school on the different approaches to explain reasoning with ontologies. The accompanying paper, which covers the tutorial content and should be a nice introduction to the topic, has now been published as part of the proceedings of the summer school:'
+summary: 'The paper "Explaining Reasoning Results for Description Logic Ontologies" by Patrick Koopmann has been published in the Dagstuhl Open Access Series in Informatics (OASICs), as part of the proceedings for the Reasoning Web School 2025. The paper gives and overview over the different relevant methods for explaining results of reasoning with description logics. The paper is available <a href="https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.RW.2024/2025.6">here</a>.
+
 
 layout: sub-page
 extra_content: "true"
