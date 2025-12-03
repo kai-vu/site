@@ -1,6 +1,6 @@
 ---
 title: 'Ontology Text Alignment Using Large Language Models (BERT and Generative LLMS)'
-layout: default
+layout: sub-page
 description: 'This is a qualitative study where the goal is to look into common theories and disciplines that might influence novel Hybrid Intelligence methods.'
 topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 
@@ -10,8 +10,8 @@ keywords:
     - 'BERT models' 
     - 'RAG'
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
-degree: 'B.Sc./M.Sc.'
+contact: 'j.y.chen@vu.nl'
+degree: 'M.Sc.'
 description_link: '/theses_dir/JC_OntoText'
 ---
 

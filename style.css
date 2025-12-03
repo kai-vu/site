@@ -46,6 +46,10 @@ body, html {
 	img {
 		max-width: 100%;
 	}
+
+	.list-image {
+		display: block;
+	}
 }
 
 @media (max-width: 991px) {
@@ -71,8 +75,8 @@ body, html {
 	body nav ul {
 		width: 100%;
 	}
-
 }
+
 
 
 
@@ -118,6 +122,11 @@ body, html {
 	text-decoration: none;
 }
 
+.nav-item:hover {
+	color: #1e2125;
+	background-color: #e9ecef;
+}
+
 
 .navbar ul li.home a {
 	color: #4b4b4b;
@@ -129,6 +138,27 @@ body, html {
 
 .nav-link{
 	color: inherit;
+}
+
+/* Restyle normal anchor links: keep text color, but underline with the site accent color */
+a[href] {
+	color: inherit; /* use surrounding text color */
+	text-decoration: underline;
+	text-decoration-color: #00adefff;
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 2px;
+}
+
+a[href]:hover, a[href]:focus {
+	color: inherit;
+	background-color: #e9ecef;
+	/* text-decoration-color: #00adefff; */
+}
+
+
+/* Special case for the banner link in the navigation bar. Here, we don't want the background to change color when hovering it */
+.banner-container a[href]:hover{
+	background-color: inherit;
 }
 
 h1, h2, h2, h4 {
@@ -155,6 +185,9 @@ h4 {
 
 		align-items: end;	
 
+	}
+	.list-image {
+		display: block ; 
 	}
 }
 @media (max-width: 767px) { 
@@ -183,6 +216,9 @@ h4 {
   .dropdown-menu {
   	background-color: inherit;
   }
+  .list-image {
+	display: none !important; 
+  }	
 }
 
 button.link {
@@ -195,20 +231,23 @@ button.link {
 Everything related to the 'projects' navigation menu of the theses page
 */
 
+ul.projects li a:hover{
+	color: #000;
+	background-color: #eee;
+	text-decoration: none;
+}
+
 ul.projects {
 	list-style: circle;
 }
 
 ul.projects li {
     position: relative;
+	list-style-image:   url(/images/webpage_elements/right_arrow.svg);
 }
 
 ul.projects li::before {
     content: none;
-}
-
-ul.projects li a {
-    font-style: italic;
 }
 
 .projects ul.keywords, ul.keywords li {
@@ -220,7 +259,7 @@ ul.projects li a {
 .projects ul.keywords {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 .projects ul.keywords li {
@@ -295,6 +334,7 @@ nav.project_nav li + li::before {
 span.supervisor {
 	font-weight: normal;
 	font-style: italic;
+	white-space: nowrap;
 }
 
 ul.topics {
@@ -316,8 +356,9 @@ ul.supervisors li + li::before {
   content: ', ';
 }
 
-li.topic h3 {
-	border-bottom: 3px solid #00adefff;
+li.topic {
+	border-top: 3px solid #00adefff;
+	margin-top: 2em;
 	padding-top: 0.5em;
 }
 
@@ -360,3 +401,113 @@ li.topic h3 {
 	align-self: center;
 	flex: 0 0 auto;
 }
+
+ul.artefacts {
+	list-style: circle;
+}
+
+ul.artefacts li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+ul.artefacts li::before {
+    content: none;
+}
+
+ul.artefacts li .title {
+    width: 100%;
+}
+
+
+ul.artefacts li .content {
+    align-items: flex-start;
+    margin-bottom: 10px; /* Adjust as needed */
+	float: left; 
+}
+
+
+ul.artefacts li p {
+    margin: 0;
+}
+
+ul.keywords, ul.keywords li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.keywords {
+    display: flex;
+    flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+ul.keywords li {
+    display: inline;
+
+    font-size: 14px;
+    line-height: 27px;
+}
+
+ul.keywords li::before {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color: black;
+}
+
+ul.keywords li::after {
+    content: ', ';
+    margin-right: 0.4em;
+}
+
+ul.keywords li:last-child::after {
+    content: none;
+}
+
+.list-image {
+    max-width: 200px; /* Adjust as needed */
+    max-height: 200px; /* Adjust as needed */
+	/* width: auto;
+    height: auto; */
+    flex-shrink: 0;
+    margin-left: 10px; /* Adjust as needed */
+	display: block;
+	object-fit: contain;
+}
+
+.flex-parent-element {
+	display: flex;
+  }
+
+/* Back/Return button used on project pages */
+.back-button {
+	background: none;
+	border: 1px solid rgba(0, 138, 207, 0.1);
+	padding: 0.35rem 0.6rem;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.95rem;
+	color: inherit;
+}
+.back-button:hover {
+	background: rgba(0, 138, 207, 0.06);
+}
+
+/* Position the return button responsively:
+   - default (small screens): button is in the document flow and appears after the content (bottom)
+   - large screens (>992px): position the button to the left of the .content box (absolute positioning)
+*/
+.content {
+	position: relative; /* positioning context for absolute placement on large screens */
+}
+
+/* default: keep button in flow so it appears after content */
+.content .back-container {
+	position: static;
+	margin-top: 1rem;
+}
+
+

@@ -1,6 +1,6 @@
 ---
 title: 'Learning Concept Descriptions from Examples'
-layout: default
+layout: sub-page
 description: 'In this project, you will use recent advancements on ontology reasoning to develop and evaluate a new method for learning conceptual (logic-based descriptions of groups of objects based on examples.'  
 topic: 'Formal Logic and Reasoning' 
 keywords: 

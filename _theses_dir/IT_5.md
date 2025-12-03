@@ -1,6 +1,6 @@
 ---
 title: 'Building a common-sense object dataset for Robots'
-layout: default
+layout: sub-page
 description: 'Building a common-sense Knowledge Graph for Robotics applications.'
 topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 
@@ -11,6 +11,7 @@ supervisor: 'Ilaria Tiddi'
 contact: 'i.tiddi@vu.nl'
 degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/IT_5'
+taken: False
 ---
 
 <!-- The informtation below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->

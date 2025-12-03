@@ -1,0 +1,91 @@
+- name: Stefan Schlobach
+  mail: k.s.schlobach@vu.nl
+  picture: /images/stefan.png
+  research_description: "I'm even more fun"
+  interests: >
+    "Something",
+    "else"
+
+
+- name: Ilaria Tiddi
+  mail: i.tiddi@vu.nl
+  picture: /images/ilaria.png
+  research_description: ""
+  interests: >
+    "Something",
+    "different"
+
+- name: Patrick Koopmann
+  mail: p.k.koopmann@vu.nl
+  picture: /images/patrick.jpg
+  research_description: ""
+  interests: >
+    "Something",
+    "else"
+
+- name: Ritten Roothaert
+  mail: h.m.roothaert@vu.nl
+  picture: /images/ritten.jpeg
+  research_description: "I'm a lot of fun"
+  interests: >
+    "something",
+    "I",
+    "Really",
+    "Like"
+
+- name: Jieying Chen
+  mail: j.y.chen@vu.nl
+  picture: /images/jieying.jpg
+  research_description: ""
+  interests: >
+    "Something",
+    "else"
+
+- name: Ameneh Naghdi Pour
+  mail: a.naghdipour@vu.nl
+  picture: /images/AmenehN.jpg
+  research_description: ""
+  interests: >
+    "Something",
+    "else"
+
+- name: Vera Stebletsova
+  mail: v.n.stebletsova@vu.nl
+  picture: /images/Vera.jpg
+  research_description: ""
+  interests: >
+    "Something",
+    "cool",
+
+- name: Daira Pinto Prieto
+  mail: d.pintoprieto@vu.nl
+  picture: /images/daira.jpg
+  research_description: "My research focuses on reasoning for cyber-physical system diagnostics. I am especially interested in applying evidence logics and uncertainty representations that go beyond probabilities."
+  interests: >
+    "Something",
+    "else"
+
+- name: Pelletreau-Duris Tom
+  mail: t.a.p.pelletreau-duris@vu.nl
+  picture: /images/Tom.jpg
+  research_description: "Officially advancing explainability of neuro-symbolic AI. Tactically working on mechanistic interpretability for graph ml. Personally trying to bridge disciplinaries I love, networking philosophy of mind, social sciences, AI and neurosciences through the lens of graph theory and XAI."
+  interests: >
+    "XAI",
+    "Mechanistic Interpretability",
+    "AI",
+    "Neuro-symbolic AI",
+    "Graph Theory",
+    "Knowledge Graph"
+
+- name: Internships
+  mail: i.tiddi@vu.nl
+  picture: /images/internships_thumbnail.png
+  research_description: "Besides regular thesis projects, we also offer internships on various topics related to our research. If you are interested, please contact Ilaria Tiddi."
+  interests: >
+    "Something",
+    "else"
+
+
+# This should always be the last entry. For future members, please add above this line.
+# Comment: the purpose of this entry is show the available internships for students without having to substantially alter the 'theses.js' script.
+#          If this file will be used to draw the 'people' page, this entry should be filtered out.

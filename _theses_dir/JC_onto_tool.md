@@ -1,6 +1,6 @@
 ---
 title: 'Python-based Implementation of Ontology Modularity Tools'
-layout: default
+layout: sub-page
 description: "This project targets the development of swift, Python-based tools for ontology modularity. It focuses on creating accurate and efficient solutions for managing and updating large-scale knowledge representations."
 topic: 'Ontologies and Reasoning'
 keywords: 
@@ -9,8 +9,8 @@ keywords:
  - 'Computational Efficiency'
  - 'Algorithm Optimization'
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
-degree: 'B.Sc./M.Sc.'
+contact: 'j.y.chen@vu.nl'
+degree: 'M.Sc.'
 description_link: '/theses_dir/JC_onto_tool'
 ---
 

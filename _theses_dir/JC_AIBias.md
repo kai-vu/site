@@ -1,6 +1,6 @@
 ---
-title: 'Bias in AI: Bias Detection and Mitigation in Large Language Models (Collaboration with UWV)'
-layout: default
+title: 'Bias in AI: Bias Detection and Mitigation in Large Language Models'
+layout: sub-page
 description: 'This is a qualitative study where the goal is to look into common theories and disciplines that might influence novel Hybrid Intelligence methods.'
 topic: 'Knowledge Representation and Knowledge Extraction'
 keywords: 
@@ -9,7 +9,7 @@ keywords:
     - 'Social AI'
     - 'BERT models'
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
+contact: 'j.y.chen@vu.nl'
 degree: 'B.Sc./M.Sc.'
 description_link: '/theses_dir/JC_AIBias'
 ---

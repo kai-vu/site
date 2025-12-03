@@ -1,7 +1,7 @@
 ---
 date: '8 dec 2023'
 summary: 'Best paper award at KCAP2023 for Ilaria and Stefan!'
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: '8 dec 2023'
 summary: 'The first issue of the TGDK journal is out with 2 articles where KAI members contributed!'
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 

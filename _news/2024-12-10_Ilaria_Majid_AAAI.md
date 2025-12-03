@@ -1,7 +1,7 @@
 ---
 date: '12 dec 2024'
 summary: "Two papers from Ilaria were accepted for AAAI25. Also congrats to Majid and Annette (from our sibling group at the VU)"
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 

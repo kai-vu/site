@@ -1,6 +1,6 @@
 ---
 title: 'Benchmarking Ontology Modularity and QA Using Real-world Ontologies'
-layout: default
+layout: sub-page
 description: 'This project promotes modular ontologies for better maintenance and usability, alongside developing benchmarks for QA systems interacting with them. Incorporating real-world data is key to evaluating their practicality and scalability effectively.'
 topic: 'Knowledge Graph-based Question Answering'
 keywords: 
@@ -10,7 +10,7 @@ keywords:
  - Real-World Data
  - Knowledge Representation
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
+contact: 'j.y.chen@vu.nl'
 degree: 'M.Sc.'
 description_link: '/theses_dir/JC_modularity_QA'
 ---

@@ -1,7 +1,7 @@
 ---
 date: '17 sep 2024'
 summary: "Various papers from Atefeh were accepted and presented during the autumn! Congrats to all the authors."
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 The papers are the following:

@@ -23,9 +23,23 @@ collections:
     description_link: true
     output: true
     taken: true
+  artefact_dir:
+    title: true
+    layout: default
+    description: true
+    category: true
+    keywords: true
+    external_link: true
+    output: false
 
 theses_keywords:
   shortlist_size: 15
   extended_list_min_occurences: 2
+
+artefact_cat:
+- Tools
+- Prototypes
+- Datasets
+- Other
 
 baseurl: /

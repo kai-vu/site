@@ -1,6 +1,6 @@
 ---
 title: 'Automated Hypothesis Generation using ABox Abduction'
-layout: default
+layout: sub-page
 description: 'This project is about generating, with the help of ontologies, hypotheses for unexpected observations.'  
 topic: 'Ontologies and eXplainable AI' 
 keywords: 

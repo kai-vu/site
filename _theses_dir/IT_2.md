@@ -1,6 +1,6 @@
 ---
 title: 'Exploring attacking arguments in the Computer Science Knowledge Graph (CS-KG)'
-layout: default
+layout: sub-page
 description: 'The goal of the project is to extract argumentation graphs from the Computer Science Knowledge Graph.'
 topic: 'Hybrid Intelligence and Knowledge-based Robotics'
 keywords: 

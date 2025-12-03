@@ -1,6 +1,6 @@
 ---
 title: 'Optimizing Concept Expressions'
-layout: default
+layout: sub-page
 description: 'In this project, you will investigate how to automatically improve expressions found in an ontology.'  
 topic: 'Knowledge Representation and Knowledge Extraction' 
 keywords: 

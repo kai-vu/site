@@ -1,7 +1,7 @@
 ---
 date: '1 mar 2023'
 summary: 'We have two new additions to our group: welcome Atefeh and Ritten!'
-layout: default
+layout: sub-page
 extra_content: "true"
 ---
 

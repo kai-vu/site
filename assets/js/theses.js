@@ -86,10 +86,33 @@ addEventListener('DOMContentLoaded', (event) =>
     li_less.append(button_less);
     ul.append(li_less);
 
-    showLess()
-    redrawTopics()
-
+    showLess();
+    redrawTopics();
+    addEmailLinks();
 });
+
+function addEmailLinks() {
+    // JavaScript function to create email link dynamically. It helps to avoid spam bots harvesting the email address.
+    let email_obj = document.getElementsByClassName("email");
+    for (let el of email_obj) {
+        var user_name = el.classList.value;
+        user_name = user_name.replace('email ', ''); // remove 'email ' from class list
+        console.log(user_name)
+        // Define email components to obfuscate the address
+        // const user = el.classList.value;
+        const domain = "vu.nl";
+        const linkText = "Contact me";
+        // Combine components to form the email address
+        const email = user_name + "@" + domain;
+        // Create an anchor element and set attributes
+        // const anchor = document.createElement("a");
+        el.href = "mailto:" + email;
+        // el.textContent = el.textContent + linkText;
+        // Append the link to the desired container
+        // el.appendChild(anchor);
+    }
+    
+}
 
 function showMore() {
     let keywords = document.querySelectorAll('nav.project_nav ul li')
@@ -125,32 +148,31 @@ function isIn(term, list) {
     return false;
 }
 
+// * 
+
 function redrawTopics() {
-    // * Go over all topics. If all projects in the topic are hiiden, hide the entire topic
+    // * Go over all topics. If all projects in the topic are hiden, hide the entire topic
     let topics = document.querySelectorAll('ul.topics > li')
 
     // * loop over all non-hidden projects
     topics.forEach(topic => {
         topic.classList.add('hidden')
         let projects = topic.querySelectorAll('ul.projects > li');
-        let supervisors = [];
         projects.forEach(project => {
             if ( ! project.classList.contains('hidden'))
             {   
-                let supervisor = project.querySelector('span.contact');
-                supervisors.push(supervisor.innerHTML);
                 topic.classList.remove('hidden');
             }
         });
         // * clearing the previous supervisor list and only adding those that have projects that are currently presented
-        let sup_list = topic.querySelector('ul.supervisors');
-        sup_list.innerHTML = '';
-        let unique_supervisor = new Set(supervisors)
-        unique_supervisor.forEach(value => {
-            let li = document.createElement('li');
-            li.innerHTML = value
-            sup_list.append(li)
-        });
+        // let sup_list = topic.querySelector('ul.supervisors');
+        // sup_list.innerHTML = '';
+        // let unique_supervisor = new Set(supervisors)
+        // unique_supervisor.forEach(value => {
+        //     let li = document.createElement('li');
+        //     li.innerHTML = value
+        //     sup_list.append(li)
+        // });
     });
 }
 

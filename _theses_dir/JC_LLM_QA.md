@@ -1,6 +1,6 @@
 ---
 title: Leveraging Large Language Models for Ontology Extraction through Question-Answering
-layout: default
+layout: sub-page
 description: "This thesis explores automating ontology extraction using Large Language Models (LLMs). By leveraging LLMs' capabilities in context understanding and information extraction, this project aims to enable agile, real-time ontology development through a QA mechanism." 
 topic: 'Knowledge Graph-based Question Answering'
 keywords: 
@@ -9,8 +9,8 @@ keywords:
  - Semantic Web
  - Knowledge Representation
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
-degree: 'B.Sc./M.Sc.'
+contact: 'j.y.chen@vu.nl'
+degree: 'M.Sc.'
 description_link: '/theses_dir/JC_LLM_QA'
 ---
 

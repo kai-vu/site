@@ -3,9 +3,9 @@
 name: Check for updates the keywords used in the project descriptions
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   # allow calling from another workflow (jekyll.yaml)
@@ -16,6 +16,12 @@ permissions:
   # The following permissions are needed by the pages call if a change occured.
   pages: write
   id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   changed_files:
@@ -28,20 +34,24 @@ jobs:
         with:
           fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
       - name: Get changed files in the theses directory
-        id: changed-files-specific
-        uses: tj-actions/changed-files@v45
+        id: changed-files
+        uses: tj-actions/changed-files@24d32ffd492484c1d75e0c0b894501ddb9d30d62
         with:
           files: _theses_dir/** 
-      - name: Run step if any file(s) in the docs folder change
+      - name: Run step if any file(s) in the theses_dir folder change
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          echo "One or more files in the _theses_dir folder has changed."
-          echo "List all the files that have changed: $ALL_CHANGED_FILES"
-          echo "PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}" >> $GITHUB_ENV
-          PROJECT_CHANGES=${#ALL_CHANGED_FILES[@]}
-          echo "number of changed projects: ${#ALL_CHANGED_FILES[@]}"
-          echo "number of changed projects: $PROJECT_CHANGES"
+          if [ -z "${ALL_CHANGED_FILES}" ]; then
+            echo "Change files array is empty"
+          else
+            echo "Change files array is NOT empty"
+            echo "List all the files that have changed:"
+            for file in ${ALL_CHANGED_FILES}; do
+              echo "$file"
+            done
+          fi
+          echo "PROJECT_CHANGES=${ALL_CHANGED_FILES}" >> $GITHUB_ENV
   update_wordlist:
     needs: changed_files
     if: needs.changed_files.outputs.project_changes != '0' # if one ore more files have changed, recalculate the keyword useage. 

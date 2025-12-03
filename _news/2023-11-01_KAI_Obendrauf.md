@@ -1,7 +1,7 @@
 ---
 date: '1 nov 2023'
 summary: 'Kai has joined the group! Welcome!'
-layout: default
+layout: sub-page
 extra_content: "false"
 ---
 

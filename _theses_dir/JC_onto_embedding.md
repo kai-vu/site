@@ -1,6 +1,6 @@
 ---
 title: 'Ontology Embedding using the BERT Model'
-layout: default
+layout: sub-page
 description: "This project explores embedding ontologies with the BERT model to enhance semantic web and intelligent systems, bridging symbolic and vector space representations. It aims to capture latent semantics, improving similarity computations and enabling richer downstream applications."
 topic: 'Knowledge Graphs and Deep Learning'
 keywords: 
@@ -9,8 +9,8 @@ keywords:
  - Semantic Web
  - Sub-symbolic AI
 supervisor: 'Jieying Chen'
-contact: 'j.chen2@vu.nl'
-degree: 'B.Sc./M.Sc.'
+contact: 'j.y.chen@vu.nl'
+degree: 'M.Sc.'
 description_link: '/theses_dir/JC_onto_embedding'
 ---
 
