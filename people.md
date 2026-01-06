@@ -15,8 +15,8 @@ layout: default
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/loan.png" width="200" height="200"><br>Loan Ho<br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/ritten.jpeg" width="200" height="200"><br>Ritten Roothaert<br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/giacomo.jpeg" width="200" height="200"><br>Giacomo Zamprogno<br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/AmenehN.jpg" width="200" height="200"><br><a href="https://Ameneh71.github.io"> Ameneh Naghdi Pour</a><br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tom.jpg" width="200" height="200"><br>Tom Pelletreau Duris<br><span style="font-size:14pt">PhD Student</span></div>
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/AmenehN.jpg" width="200" height="200"><br><a href="https://Ameneh71.github.io">Ameneh Naghdi Pour</a><br><span style="font-size:14pt">PhD Student</span></div>
+    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tom.jpg" width="200" height="200"><br><a href="https://tompelletreauduris.com">Tom Pelletreau Duris</a><br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/xiaoshuang.png" width="200" height="200"><br>Xiaoshuang Yang 
     <br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Tommaso.jpg" width="200" height="200"><br>Tommaso Zendron 
