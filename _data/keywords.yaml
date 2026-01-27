@@ -4,6 +4,8 @@
     count: 7
 -   keyword: Fault diagnosis
     count: 6
+-   keyword: Knowledge Graphs
+    count: 6
 -   keyword: Logics
     count: 6
 -   keyword: Hybrid Intelligence
@@ -14,16 +16,10 @@
     count: 4
 -   keyword: Explainability
     count: 4
--   keyword: Knowledge Graphs
-    count: 4
 -   keyword: Knowledge-based Robotics
     count: 4
 -   keyword: LLM
     count: 4
--   keyword: Uncertainty
-    count: 4
--   keyword: Belief functions
-    count: 3
 -   keyword: Description Logics
     count: 3
 -   keyword: Semantic Web
@@ -34,7 +30,7 @@
     count: 2
 -   keyword: Computer Vision
     count: 2
--   keyword: Information fusion
+-   keyword: Explainable AI
     count: 2
 -   keyword: Large Language Models
     count: 2
@@ -46,11 +42,17 @@
     count: 2
 -   keyword: RAG
     count: 2
+-   keyword: Robots
+    count: 2
+-   keyword: Uncertainty
+    count: 2
 -   keyword: Algorithm Optimization
     count: 1
 -   keyword: Argument Mining
     count: 1
 -   keyword: Axiom Extraction
+    count: 1
+-   keyword: Belief functions
     count: 1
 -   keyword: Belnap-Dunn logic
     count: 1
@@ -83,8 +85,6 @@
 -   keyword: Information gain
     count: 1
 -   keyword: Knowledge Accessibility
-    count: 1
--   keyword: Knowledge Compilation
     count: 1
 -   keyword: Knowledge Engineering
     count: 1
