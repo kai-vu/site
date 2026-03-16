@@ -1,7 +1,6 @@
 ---
 date: '01 dec 2025'
 summary: 'Our group welcomes Sien Jansen! Supervised Patrick, she will develop a new logical formalism for ensuring ethical AI systems.'
-
 layout: sub-page
 extra_content: "true"
 ---
