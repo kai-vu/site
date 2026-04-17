@@ -5,7 +5,7 @@ description: "OntoBOT is a modular OWL ontology that formally represents the ele
 
 image: /images/artefacts/ontobot.png 
 
-category: 'Other' # At the moment, the categories are: tools, prototypes, datasets, or other. Please pick one 
+category: 'Datasets and Ontologies' # At the moment, the categories are: tools, prototypes, Datasets and Ontologies, or other. Please pick one 
 
 keywords: # Please add two to four relevant keywords
 - 'Ontology'
