@@ -5,7 +5,7 @@ description: "The TIDO ontology is designed to support a Threat Intelligence ana
 
 image: /images/artefacts/example_tido.svg
 
-category: 'Other'
+category: 'Datasets and Ontologies'
 
 keywords:
 - 'Ontology'
