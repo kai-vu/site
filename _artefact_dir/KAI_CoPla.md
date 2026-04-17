@@ -5,7 +5,7 @@ description: "This repository contains the Companion Planting Ontology, a resour
 
 # image: /images/artefacts/dl-lib-screenshot.png
 
-category: 'Datasets'
+category: 'Datasets and Ontologies'
 
 keywords:
 - 'Ontology'
