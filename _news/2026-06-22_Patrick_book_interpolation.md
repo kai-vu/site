@@ -4,7 +4,7 @@ summary: 'The volume “Theory and Applications of Craig Interpolation”, edite
 layout: sub-page
 extra_content: "true"
 ---
-The volume ['Theory and Applications of Craig Interpolation'](https://ubiquitypress.com/books/e/128), edited by Balder ten Cate, Jean Cristoph Jung, Patrick Koopmann, Christoph Wernhard and Frank Wolter, will be published this year as Open Access by Ubiquity Press
+The volume ['Theory and Applications of Craig Interpolation'](https://ubiquitypress.com/books/e/128), edited by Balder ten Cate, Jean Cristoph Jung, Patrick Koopmann, Christoph Wernhard and Frank Wolter, will be published this year as Open Access by Ubiquity Press.
 
 <center>
 <div style="text-align: center; width:266px; display:inline-block; vertical-align:top;"><img src="/images/news/Patrick_book.png" width="266" height="400" alt=""></div>
