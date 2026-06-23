@@ -16,10 +16,6 @@ layout: default
 <div class="container">
   <div class="grid-row">
       <div class="grid-item">
-        <a href="https://muhai.org/" target="_blank" rel="noreferrer" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
-        <img src="https://muhai.org/images/banners/muhai.svg" style="width: 100%;  height: 100%;"></a>
-      </div>
-      <div class="grid-item">
         <a href="https://discoverylab.ai/" target="_blank" rel="noreferrer" style="width: 100%; height: 100%;  align-items: center; justify-content: center;">
         <img src="images/discovery.png" style="width: 100%;  height: 100%;">
         </a>
@@ -46,6 +42,20 @@ layout: default
       </div>
   </div>
 </div>
+
+# Terminated Projects
+<!-- <div class="grid-itemgrid">
+  <div><a href="https://muhai.org/"><img src="images/logos/MUHAI_logo.jpg" height="100" width ="300"></a></div>
+</div>  -->
+<div class="container">
+  <div class="grid-row">
+      <div class="grid-item">
+        <a href="https://muhai.org/" target="_blank" rel="noreferrer" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <img src="images/logos/MUHAI_logo.jpg" style="width: 100%;  height: 100%;"></a>
+      </div>
+  </div>
+</div>
+
        
 
 
