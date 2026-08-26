@@ -24,8 +24,6 @@ layout: default
     <br><span style="font-size:14pt">PhD Student</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Sien.jpg" width="200" height="200"><br>Sien Jansen 
     <br><span style="font-size:14pt">PhD Student</span></div>
-    <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/Nicola.jpg" width="200" height="200"><br>Nicola Scarano 
-    <br><span style="font-size:14pt">Guest</span></div>
     <div style="text-align: center; width:200px; display:inline-block; vertical-align:top;"><img src="images/unmesh.png" width="200" height="200"><br>Unmesh Joshi<br><span style="font-size:14pt">Guest</span></div>
 </div>
 
@@ -46,4 +44,5 @@ layout: default
   <li>Atefeh Keshavarzi Zafarghandi</li>
   <li>Kai Obendrauf</li>
   <li>Laura Capella</li>
+  <li>Nicola Scarano</li>
 </ul>
