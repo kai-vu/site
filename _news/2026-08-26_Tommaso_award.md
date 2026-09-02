@@ -1,6 +1,6 @@
 ---
 date: '26 aug 2026'
-summary: 'Tommaso\'s paper “Interactive Dialogs with Logic-Based AI Systems” won the Best Doctoral Consortium Paper Award at RuleML+RR 2026'
+summary: "Tommaso's paper 'Interactive Dialogs with Logic-Based AI Systems' won the Best Doctoral Consortium Paper Award at RuleML+RR 2026"
 layout: sub-page
 extra_content: "true"
 ---
