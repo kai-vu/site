@@ -8,5 +8,5 @@ The paper 'Interactive Dialogs with Logic-Based AI Systems', authored by Tommaso
 answer queries efficiently, but are not able to deal with situations where additional input from the user is needed. To overcome this limitation, Tommaso presented interactive abduction: a new reasoning task that works as a generic method for interacting with ontologies in a dialog-like manner. 
 
 <center>
-<div style="text-align: center; width:364px; display:inline-block; vertical-align:top;"><img src="/images/Tommaso_DC_Award.jpg" width="364" height="295" alt=""></div>
+<div style="text-align: center; width:364px; display:inline-block; vertical-align:top;"><img src="/images/Tommaso DC Award.jpg" width="364" height="295" alt=""></div>
 </center>
