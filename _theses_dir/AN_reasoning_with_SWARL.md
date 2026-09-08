@@ -1,13 +1,13 @@
 ---
-title: 'Enhancing Ontological Reasoning with SWRL Rules: A Semantic Approach' 
+title: 'Module Extraction from Uncertain Knowledge Graphs' 
 layout: sub-page
-description: "This project focuses on how SWARL rules can support inferencing of new knowledge and improve decision-making situations."
+description: "This project focuses on extracting a small and bounded subset of a large knowledge graph, given several entities of interest."
 topic: 'Knowledge Representation and Knowledge Extraction' 
 keywords: 
- - Ontology
- - SWARL rule
+ - Knowledge graph
+ - Module
  - Inference
- - Desicion-making
+ - entities of interest
 supervisor: 'Ameneh Naghdi Pour'
 contact: 'a.naghdipour@vu.nl, j.y.chen@vu.nl'
 degree: 'B.Sc.'
@@ -15,15 +15,15 @@ description_link: '/theses_dir/AN_reasoning_with_SWARL'
 ---
 
 
-## Enhancing Ontological Reasoning with SWRL Rules: A Semantic Approach
+## Module Extraction from Uncertain Knowledge Graphs
 
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Project Description 
-In the realm of fault diagnosis for complex machines, the ability to reason over explicit knowledge is crucial for identifying the main part of the machine that causes the failures. Ontologies serve as a powerful framework for integrating and representing this knowledge from various sources. In this project, we aim to enhance reasoning capabilities by implementing SWRL (Semantic Web Rule Language) rules within an ontology framework to facilitate effective fault diagnosis.
+Knowledge graphs have been increasingly applied in many domains, including manufacturing and production systems, robotics and autonomous systems, healthcare and biomedical engineering and many others. One of the main benefits and reasons for exploiting knowledge graph is that they enable efficient information retrieval, allowing users to extract a targeted subset of the knowledge graph that satisfies their information needs. In many real-world and industrial applications, however, domain knowledge is inherently uncertain. Assigning weights to facts makes it possible to express their relative confidence, likelihood, or evidential strength, enabling reasoning and diagnosis methods to rank competing hypotheses and prioritise the conclusions best supported by the available knowledge. The goal of this project is to extract the most plausible subset of such uncertain knowledge graphs, given a set of entities of interest.
 
 #### Task
-This project will involve researching existing SWARL rules for reasoning over the fault diagnosis ontology. We will formulate comprehensive SWRL rules to augment reasoning processes, enabling the inference of new information from existing knowledge. The focus will be on how these rules can be formulated to improve knowledge representation and enhance the inference of causes related to machine failures. We will analyze the impact of these SWRL rules on query performance and accuracy through experiments on real-world scenarios, providing insights into their practical applications in the field of fault diagnosis.
+This project will involve researching existing module extraction methods in RDF knowledge graph, developing an algorithm that extract module from an uncertain knowledge graph, given multiple entities of interest, and finally evaluating the proposed algorithm on an aircraft knowledge graph. 
 #### Research question
-How can SWRL rules be effectively implemented within ontologies to enhance reasoning capabilities for fault diagnosis in complex machines?
+What is the most plausible module in an uncertain RDF knowledge graph given multiple entities of interest?
 
