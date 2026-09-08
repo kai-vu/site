@@ -1,34 +1,30 @@
--   keyword: Knowledge Representation
-    count: 9
 -   keyword: Ontologies
     count: 7
 -   keyword: Fault diagnosis
     count: 6
 -   keyword: Knowledge Graphs
     count: 6
+-   keyword: Knowledge Representation
+    count: 6
 -   keyword: Logics
     count: 6
--   keyword: Hybrid Intelligence
-    count: 5
 -   keyword: Reasoning
     count: 5
 -   keyword: Application
     count: 4
 -   keyword: Explainability
     count: 4
--   keyword: Knowledge-based Robotics
-    count: 4
 -   keyword: LLM
     count: 4
 -   keyword: Description Logics
+    count: 3
+-   keyword: Hybrid Intelligence
     count: 3
 -   keyword: Semantic Web
     count: 3
 -   keyword: BERT models
     count: 2
 -   keyword: Belief function
-    count: 2
--   keyword: Computer Vision
     count: 2
 -   keyword: Explainable AI
     count: 2
@@ -66,8 +62,6 @@
     count: 1
 -   keyword: Data validation
     count: 1
--   keyword: Desicion-making
-    count: 1
 -   keyword: Epistemic modal logic
     count: 1
 -   keyword: Evidence models
@@ -86,17 +80,19 @@
     count: 1
 -   keyword: Knowledge Accessibility
     count: 1
--   keyword: Knowledge Engineering
-    count: 1
 -   keyword: Knowledge compilation
+    count: 1
+-   keyword: Knowledge graph
+    count: 1
+-   keyword: Knowledge-based Robotics
     count: 1
 -   keyword: Language Models
     count: 1
 -   keyword: Learning
     count: 1
--   keyword: Nature Langue Processing
+-   keyword: Module
     count: 1
--   keyword: Ontology
+-   keyword: Nature Langue Processing
     count: 1
 -   keyword: Ontology Embeddings
     count: 1
@@ -112,15 +108,11 @@
     count: 1
 -   keyword: QA Systems
     count: 1
--   keyword: Qualitative Surveys
-    count: 1
 -   keyword: Ranking functions
     count: 1
 -   keyword: Real-World Data
     count: 1
 -   keyword: Rule of combination
-    count: 1
--   keyword: SWARL rule
     count: 1
 -   keyword: Social AI
     count: 1
@@ -129,4 +121,6 @@
 -   keyword: Tool Development
     count: 1
 -   keyword: Usability Enhancement
+    count: 1
+-   keyword: entities of interest
     count: 1
