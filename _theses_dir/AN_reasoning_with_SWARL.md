@@ -18,10 +18,13 @@ description_link: '/theses_dir/AN_reasoning_with_SWARL'
 ## Module Extraction from Uncertain Knowledge Graphs
 
 *Topic: {{page.topic}}*
-Keywords: <ul class="keywords">
-                    {% assign keys = page.keywords %}
-                    {% for key in keys %}<li>{{key}}</li>{% endfor %}
-            </ul>
+
+Keywords: 
+<ul class="keywords">
+    {% assign keys = page.keywords %}
+    {% for key in keys %}<li>{{key}}</li>{% endfor %}
+</ul>
+
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Project Description 
