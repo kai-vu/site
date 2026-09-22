@@ -17,6 +17,11 @@ description_link: '/theses_dir/AN_reasoning_with_SWARL'
 
 ## Module Extraction from Uncertain Knowledge Graphs
 
+*Topic: {{topic}}*
+Keywords: 
+{% for item in page.keywords %}
+  {{ item }} - 
+{% endfor %}
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Project Description 
