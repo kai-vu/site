@@ -19,7 +19,7 @@ description_link: '/theses_dir/AN_reasoning_with_SWARL'
 
 *Topic: {{page.topic}}*
 Keywords: <ul class="keywords">
-                    {% assign keys = project.keywords %}
+                    {% assign keys = page.keywords %}
                     {% for key in keys %}<li>{{key}}</li>{% endfor %}
             </ul>
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
