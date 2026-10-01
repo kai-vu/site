@@ -18,14 +18,6 @@ description_link: 'either "/theses_dir/[file_name]", or a link to a google doc o
 <!-- The information below doesn´t need to be adjusted. It is automatically pulled from the frontmatter-->
 ## {{page.title}} 
 
-*Topic: {{page.topic}}*
-
-Keywords: 
-<ul class="keywords">
-    {% assign keys = page.keywords %}
-    {% for key in keys %}<li>{{key}}</li>{% endfor %}
-</ul>
-
 *Supervisor: {{page.supervisor}} ({{page.contact}})*
 
 #### Background
